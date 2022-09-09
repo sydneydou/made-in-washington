@@ -1,4 +1,86 @@
 {
   "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "enable": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "notification-bar--background-color": "#2D2D2D",
+          "notification-bar--text-color": "#ffffff",
+          "social-enable": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "sticky_header": "enable",
+          "overlay_header": false,
+          "show_border": true,
+          "logo_max_width": 200,
+          "logo-placement": "center",
+          "sticky_header_logo": true,
+          "search-expand": false,
+          "search-message": "Search our store...",
+          "icon-enable": true,
+          "cart-number": "quantity",
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "main_linklist": "redesign-main-menu",
+          "top_bar_linklist": "",
+          "show-sticky-top-bar": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "Contact us",
+              "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "footer_linklist": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "menu_title": "Join our mailing list",
+              "footer_newsletter_description": ""
+            }
+          },
+          "footer-3": {
+            "type": "social",
+            "settings": {
+              "menu_title": "Get connected"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "footer-2",
+          "footer-3"
+        ],
+        "settings": {
+          "show_back_to_top": true,
+          "back_to_top_text": "Back to top",
+          "show_borders": true,
+          "show_methods_of_payment": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
   }
 }
