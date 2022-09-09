@@ -1,6 +1,58 @@
 {
   "wrapper": "div.index-sections",
   "sections": {
+    "166270518089e3ae56": {
+      "type": "image--slideshow",
+      "blocks": {
+        "1662705180984bcaa0-0": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Change in Shopify",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "1662705180984bcaa0-1": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "1662705180984bcaa0-0",
+        "1662705180984bcaa0-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true
+      }
+    },
     "collection-list": {
       "type": "collection--collection-list",
       "blocks": {
@@ -39,31 +91,37 @@
         "image--logo-list-0": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "image--logo-list-1": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "image--logo-list-2": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "image--logo-list-3": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "image--logo-list-4": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         },
         "image--logo-list-5": {
           "type": "logo_image",
           "settings": {
+            "link": ""
           }
         }
       },
@@ -76,6 +134,9 @@
         "image--logo-list-5"
       ],
       "settings": {
+        "width": 150,
+        "subheading": "",
+        "title": "As seen in"
       }
     },
     "image-image-with-text-block": {
@@ -95,7 +156,11 @@
       "type": "text--rich-text",
       "settings": {
         "width": "medium",
-        "subheading": "Subheading"
+        "subheading": "Subheading",
+        "title": "Welcome to our store",
+        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
+        "button_link": "",
+        "button_label": ""
       }
     },
     "text-text-adverts": {
@@ -140,7 +205,7 @@
       "settings": {
         "icon-color": "#444444",
         "text-color": "#3a3a3a",
-        "background-color": "#DCDCDC"
+        "background-color": "#dcdcdc"
       }
     },
     "image-gallery": {
@@ -149,22 +214,25 @@
         "image--gallery-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7da5829cb87067f046ce3cf585fb795a.jpg",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/all",
+            "title": "",
+            "description": ""
           }
         },
         "image--gallery-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/68dc39629d089dbd16b2af8d3a306397.jpg",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/all",
+            "title": "",
+            "description": ""
           }
         },
         "image--gallery-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/e7670132a82a7fd26709d1714643efc9.jpg",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/all",
+            "title": "",
+            "description": ""
           }
         }
       },
@@ -182,34 +250,44 @@
         "text--service-list-0": {
           "type": "text",
           "settings": {
+            "service-list--title": "Title"
           }
         },
         "text--service-list-2": {
           "type": "content-list",
           "settings": {
+            "content-list-title": "Item",
+            "content-list-price": "4.99",
             "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
           }
         },
         "text--service-list-1": {
           "type": "content-list",
           "settings": {
+            "content-list-title": "Item",
+            "content-list-price": "4.99",
             "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
           }
         },
         "text--service-list-3": {
           "type": "text",
           "settings": {
+            "service-list--title": "Title"
           }
         },
         "text--service-list-4": {
           "type": "content-list",
           "settings": {
+            "content-list-title": "Item",
+            "content-list-price": "4.99",
             "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
           }
         },
         "text--service-list-5": {
           "type": "content-list",
           "settings": {
+            "content-list-title": "Item",
+            "content-list-price": "4.99",
             "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
           }
         }
@@ -223,6 +301,8 @@
         "text--service-list-5"
       ],
       "settings": {
+        "service-list--subheading": "Subheading",
+        "service-list--heading": "Delivery charges"
       }
     },
     "store-information-delivery-partners": {
@@ -267,23 +347,48 @@
         "background-color": "#ffffff",
         "text-color": "#3a3a3a",
         "partner-text-color": true,
+        "horizontal-alignment": "center",
+        "title": "Delivery partners",
         "text": ""
       }
     },
     "blog-blog-posts": {
       "type": "blog--blog-posts",
       "settings": {
-        "show_author_name": true
+        "subheading": "",
+        "title": "From the blog",
+        "show_author_name": true,
+        "show_dates": true,
+        "show_blog_images": true,
+        "imageSize": "square"
       }
     },
     "search-block": {
       "type": "search-block",
       "settings": {
+        "heading": "Search",
+        "text": "<p>Add a powerful site search directly onto your home page<\/p>",
+        "text_color": "#000000",
+        "placeholder": "Search our store",
+        "background_color": "#ffffff",
+        "enable_overlay": false
       }
     },
     "product-featured-product": {
       "type": "product--featured-product",
       "settings": {
+        "subheading": "",
+        "title": "Featured product",
+        "featured_product": "",
+        "tax_included": true,
+        "shipping_policy": true,
+        "show_discount": "hide",
+        "show_SKU": false,
+        "show_quantity_selector": true,
+        "show_smart_checkout": true,
+        "show_product_description": true,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false
       }
     },
     "image-image-with-text-overlay": {
@@ -310,6 +415,7 @@
     }
   },
   "order": [
+    "166270518089e3ae56",
     "collection-list",
     "image-logo-list",
     "image-image-with-text-block",
