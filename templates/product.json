@@ -1,0 +1,204 @@
+{
+  "wrapper": "div",
+  "sections": {
+    "main": {
+      "type": "template--product",
+      "blocks": {
+        "product-title": {
+          "type": "product-title",
+          "settings": {
+          }
+        },
+        "product-price": {
+          "type": "product-price",
+          "settings": {
+            "show_discount": "value",
+            "tax_included": false,
+            "shipping_policy": false
+          }
+        },
+        "product-options": {
+          "type": "product-options",
+          "settings": {
+          }
+        },
+        "quantity-selector": {
+          "type": "quantity-selector",
+          "settings": {
+          }
+        },
+        "payment-buttons": {
+          "type": "payment-buttons",
+          "settings": {
+            "show_smart_checkout": true
+          }
+        },
+        "shop-pay": {
+          "type": "shop-pay",
+          "settings": {
+          }
+        },
+        "social-sharing": {
+          "type": "social-sharing",
+          "settings": {
+            "social_align": "right",
+            "social_sharing_facebook": true,
+            "social_sharing_twitter": true,
+            "social_sharing_pinterest": true
+          }
+        },
+        "cross-sells": {
+          "type": "cross-sells",
+          "settings": {
+            "title": "Don't forget these...",
+            "cross_sell_product_1": "",
+            "cross_sell_product_2": "",
+            "cross_sell_product_3": "",
+            "cross_sell_bg": "#f8f8f8"
+          }
+        }
+      },
+      "block_order": [
+        "product-title",
+        "product-price",
+        "product-options",
+        "quantity-selector",
+        "payment-buttons",
+        "shop-pay",
+        "social-sharing",
+        "cross-sells"
+      ],
+      "settings": {
+        "show_out_of_stock_email": true,
+        "out_of_stock_email_position": "below-details",
+        "hide_out_of_stock": false,
+        "thumbnail_changes_variant": false,
+        "image_display": "full-size",
+        "enable_zoom": true,
+        "enable_video_loop": false
+      }
+    },
+    "product-description": {
+      "type": "template--product-description",
+      "blocks": {
+        "e43fcbb0-e783-45ee-9e04-946ededa9f33": {
+          "type": "custom_pages",
+          "settings": {
+          }
+        },
+        "aaa0f64d-b66d-4422-8117-eb06f719c179": {
+          "type": "custom_pages",
+          "settings": {
+          }
+        },
+        "be0fa6ac-67d6-47cc-b05e-5246bfdfc55d": {
+          "type": "custom_pages",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e43fcbb0-e783-45ee-9e04-946ededa9f33",
+        "aaa0f64d-b66d-4422-8117-eb06f719c179",
+        "be0fa6ac-67d6-47cc-b05e-5246bfdfc55d"
+      ],
+      "settings": {
+        "content_display": "collapse_except_description",
+        "show_tags": false,
+        "show_collections": false,
+        "show_type": false
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "show_product_recommendations": false,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "delivery-partners": {
+      "type": "store-information--delivery-partners",
+      "blocks": {
+        "featured-collection-0": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "ubereats",
+            "link": ""
+          }
+        },
+        "featured-collection-1": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "grubhub",
+            "link": ""
+          }
+        },
+        "featured-collection-2": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "justeat",
+            "link": ""
+          }
+        },
+        "featured-collection-3": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "deliveroo",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0",
+        "featured-collection-1",
+        "featured-collection-2",
+        "featured-collection-3"
+      ],
+      "settings": {
+        "background-color": "#fafafa",
+        "text-color": "#292929",
+        "partner-text-color": true,
+        "horizontal-alignment": "center",
+        "text": ""
+      }
+    },
+    "featured-collection": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "featured-collection-0": {
+          "type": "product-card-vendor",
+          "settings": {
+          }
+        },
+        "featured-collection-1": {
+          "type": "product-card-title",
+          "settings": {
+          }
+        },
+        "featured-collection-2": {
+          "type": "product-card-price",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0",
+        "featured-collection-1",
+        "featured-collection-2"
+      ],
+      "settings": {
+        "grid": 3,
+        "rows": 1,
+        "hide_add_to_cart": false,
+        "show_view_all": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-description",
+    "product-recommendations",
+    "delivery-partners",
+    "featured-collection"
+  ]
+}

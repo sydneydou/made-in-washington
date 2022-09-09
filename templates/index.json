@@ -1,0 +1,327 @@
+{
+  "wrapper": "div.index-sections",
+  "sections": {
+    "collection-list": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "collection-list-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-list-0",
+        "collection-list-1",
+        "collection-list-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
+    },
+    "image-logo-list": {
+      "type": "image--logo-list",
+      "blocks": {
+        "image--logo-list-0": {
+          "type": "logo_image",
+          "settings": {
+          }
+        },
+        "image--logo-list-1": {
+          "type": "logo_image",
+          "settings": {
+          }
+        },
+        "image--logo-list-2": {
+          "type": "logo_image",
+          "settings": {
+          }
+        },
+        "image--logo-list-3": {
+          "type": "logo_image",
+          "settings": {
+          }
+        },
+        "image--logo-list-4": {
+          "type": "logo_image",
+          "settings": {
+          }
+        },
+        "image--logo-list-5": {
+          "type": "logo_image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "image--logo-list-0",
+        "image--logo-list-1",
+        "image--logo-list-2",
+        "image--logo-list-3",
+        "image--logo-list-4",
+        "image--logo-list-5"
+      ],
+      "settings": {
+      }
+    },
+    "image-image-with-text-block": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#000000",
+        "background-color": "rgba(0,0,0,0)",
+        "horizontal-alignment": "right",
+        "subheading": "Subheading",
+        "title": "Share your story",
+        "text": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Shop now"
+      }
+    },
+    "text-rich-text": {
+      "type": "text--rich-text",
+      "settings": {
+        "width": "medium",
+        "subheading": "Subheading"
+      }
+    },
+    "text-text-adverts": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "text--text-adverts-0": {
+          "type": "text",
+          "settings": {
+            "icon": "takeaway",
+            "heading": "Free shipping",
+            "subheading": "Shout about your unique selling points",
+            "buttonLabel": "",
+            "link": ""
+          }
+        },
+        "text--text-adverts-1": {
+          "type": "text",
+          "settings": {
+            "icon": "exchange",
+            "heading": "Hassle free returns",
+            "subheading": "Shout about your unique selling points",
+            "buttonLabel": "",
+            "link": ""
+          }
+        },
+        "text--text-adverts-2": {
+          "type": "text",
+          "settings": {
+            "icon": "recycle",
+            "heading": "Eco friendly packaging",
+            "subheading": "Shout about your unique selling points",
+            "buttonLabel": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text--text-adverts-0",
+        "text--text-adverts-1",
+        "text--text-adverts-2"
+      ],
+      "settings": {
+        "icon-color": "#444444",
+        "text-color": "#3a3a3a",
+        "background-color": "#DCDCDC"
+      }
+    },
+    "image-gallery": {
+      "type": "image--gallery",
+      "blocks": {
+        "image--gallery-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7da5829cb87067f046ce3cf585fb795a.jpg",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image--gallery-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/68dc39629d089dbd16b2af8d3a306397.jpg",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "image--gallery-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e7670132a82a7fd26709d1714643efc9.jpg",
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "image--gallery-1",
+        "image--gallery-0",
+        "image--gallery-2"
+      ],
+      "settings": {
+      }
+    },
+    "text-service-list": {
+      "type": "text--service-list",
+      "blocks": {
+        "text--service-list-0": {
+          "type": "text",
+          "settings": {
+          }
+        },
+        "text--service-list-2": {
+          "type": "content-list",
+          "settings": {
+            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
+          }
+        },
+        "text--service-list-1": {
+          "type": "content-list",
+          "settings": {
+            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
+          }
+        },
+        "text--service-list-3": {
+          "type": "text",
+          "settings": {
+          }
+        },
+        "text--service-list-4": {
+          "type": "content-list",
+          "settings": {
+            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
+          }
+        },
+        "text--service-list-5": {
+          "type": "content-list",
+          "settings": {
+            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text--service-list-0",
+        "text--service-list-2",
+        "text--service-list-1",
+        "text--service-list-3",
+        "text--service-list-4",
+        "text--service-list-5"
+      ],
+      "settings": {
+      }
+    },
+    "store-information-delivery-partners": {
+      "type": "store-information--delivery-partners",
+      "blocks": {
+        "store-information--delivery-partners-0": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "ubereats",
+            "link": ""
+          }
+        },
+        "store-information--delivery-partners-1": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "grubhub",
+            "link": ""
+          }
+        },
+        "store-information--delivery-partners-2": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "justeat",
+            "link": ""
+          }
+        },
+        "store-information--delivery-partners-3": {
+          "type": "partner_logo",
+          "settings": {
+            "delivery_partner": "deliveroo",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "store-information--delivery-partners-0",
+        "store-information--delivery-partners-1",
+        "store-information--delivery-partners-2",
+        "store-information--delivery-partners-3"
+      ],
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#3a3a3a",
+        "partner-text-color": true,
+        "text": ""
+      }
+    },
+    "blog-blog-posts": {
+      "type": "blog--blog-posts",
+      "settings": {
+        "show_author_name": true
+      }
+    },
+    "search-block": {
+      "type": "search-block",
+      "settings": {
+      }
+    },
+    "product-featured-product": {
+      "type": "product--featured-product",
+      "settings": {
+      }
+    },
+    "image-image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Share your story",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "x-large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "newsletter-newsletter": {
+      "type": "newsletter--newsletter",
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Join our mailing list",
+        "newsletter_description": ""
+      }
+    }
+  },
+  "order": [
+    "collection-list",
+    "image-logo-list",
+    "image-image-with-text-block",
+    "text-rich-text",
+    "text-text-adverts",
+    "image-gallery",
+    "text-service-list",
+    "store-information-delivery-partners",
+    "blog-blog-posts",
+    "search-block",
+    "product-featured-product",
+    "image-image-with-text-overlay",
+    "newsletter-newsletter"
+  ]
+}

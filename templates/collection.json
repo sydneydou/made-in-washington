@@ -1,0 +1,111 @@
+{
+  "wrapper": "div.collection-wrapper",
+  "sections": {
+    "collection_header": {
+      "type": "template--collection-header",
+      "blocks": {
+        "collection_title": {
+          "type": "collection-title",
+          "settings": {
+          }
+        },
+        "collection_description": {
+          "type": "collection-description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection_title",
+        "collection_description"
+      ],
+      "settings": {
+        "collection_image_enable": false
+      }
+    },
+    "product_filtering": {
+      "type": "main-collection-filtering",
+      "settings": {
+        "desktop_position": "sidebar"
+      }
+    },
+    "main": {
+      "type": "template--collection",
+      "blocks": {
+        "product_title": {
+          "type": "product-card-title",
+          "settings": {
+          }
+        },
+        "product_price": {
+          "type": "product-card-price",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_title",
+        "product_price"
+      ],
+      "settings": {
+        "pagination_type": "load_more"
+      }
+    },
+    "image": {
+      "type": "image--image",
+      "settings": {
+        "hero_size": "small"
+      }
+    },
+    "text-adverts": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "text-adverts-0": {
+          "type": "text",
+          "settings": {
+            "icon": "takeaway",
+            "heading": "Free shipping",
+            "subheading": "Shout about your unique selling points"
+          }
+        },
+        "text-adverts-1": {
+          "type": "text",
+          "settings": {
+            "icon": "exchange",
+            "heading": "Hassle free returns",
+            "subheading": "Shout about your unique selling points"
+          }
+        },
+        "text-adverts-2": {
+          "type": "text",
+          "settings": {
+            "icon": "recycle",
+            "heading": "Eco friendly packaging",
+            "subheading": "Shout about your unique selling points"
+          }
+        }
+      },
+      "block_order": [
+        "text-adverts-0",
+        "text-adverts-1",
+        "text-adverts-2"
+      ],
+      "settings": {
+      }
+    },
+    "image-1": {
+      "type": "image--image",
+      "settings": {
+        "hero_size": "small"
+      }
+    }
+  },
+  "order": [
+    "collection_header",
+    "product_filtering",
+    "main",
+    "image",
+    "text-adverts",
+    "image-1"
+  ]
+}

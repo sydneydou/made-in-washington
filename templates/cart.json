@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "image-with-text-block": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#3a3a3a",
+        "background-color": "rgba(0,0,0,0)",
+        "text": ""
+      }
+    },
+    "main": {
+      "type": "template--cart",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image-with-text-block",
+    "main"
+  ]
+}

@@ -1,0 +1,43 @@
+
+<section class="meet-the-artisans">
+    <ul class="meet-the-artisans__list">
+        {% for block in section.blocks %}
+            <li class="meet-the-artisans__item">
+                {% render 'card--category', collection: collections[block.settings.collection], id: forloop.index, custom_title: block.settings.title %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% schema %}
+{
+  "name": "Makers List",
+  "settings": [
+   
+  ],
+  "blocks": [
+        {
+            "type": "artisan",
+            "name": "Artisan",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection Card to Display"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title of Artisan",
+                    "info": "Optional, the card will pull the collection title if this is not set. To force a line break use <br>"
+                }
+            ]
+        }   
+    ],
+  "presets": [
+    {
+      "name": "Makers List"
+    }
+  ]
+}
+{% endschema %}

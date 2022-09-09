@@ -1,0 +1,23 @@
+{%- comment -%}
+Category Card Used throughout site
+
+{%- endcomment -%}
+
+<style>
+    .card--category--{{id}} {
+        background-image: URL("{{ collection.image | img_url: '800x' }}");
+    }
+</style>
+
+<a href="{{collection.url}}" class="card--category card--category--{{id}}">
+    <div class="card--category__content-wrap">
+        <p class="card--category__title">
+            {% if custom_title != blank %}
+                {{custom_title}}
+            {% else %}
+                {{ collection.title }}
+            {% endif %}
+        </p>
+        <button class="card--category__btn btn">SHOP NOW</button>
+    </div>
+</a>
