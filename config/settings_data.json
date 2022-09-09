@@ -7,7 +7,7 @@
           "enable": true,
           "message_text": "Announce something here",
           "message_link": "",
-          "notification-bar--background-color": "#2D2D2D",
+          "notification-bar--background-color": "#2d2d2d",
           "notification-bar--text-color": "#ffffff",
           "social-enable": true
         }
@@ -38,19 +38,13 @@
           "footer-0": {
             "type": "text",
             "settings": {
-              "title": "Contact us",
+              "title": "Designed. Crafted. Made. Local.",
               "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "footer-1": {
-            "type": "menu",
-            "settings": {
-              "menu_title": "Links",
-              "footer_linklist": "footer"
             }
           },
           "footer-2": {
             "type": "newsletter",
+            "disabled": true,
             "settings": {
               "menu_title": "Join our mailing list",
               "footer_newsletter_description": ""
@@ -61,13 +55,20 @@
             "settings": {
               "menu_title": "Get connected"
             }
+          },
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "footer_linklist": "footer"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2",
-          "footer-3"
+          "footer-3",
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
         ],
         "settings": {
           "show_back_to_top": true,
