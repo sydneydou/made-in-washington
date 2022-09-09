@@ -45,7 +45,7 @@
           "show_currency_selector": true,
           "show_locale_selector": true,
           "main_linklist": "redesign-main-menu",
-          "top_bar_linklist": "",
+          "top_bar_linklist": "redesign-top-bar",
           "show-sticky-top-bar": true
         }
       },
