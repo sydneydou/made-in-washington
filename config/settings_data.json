@@ -14,6 +14,23 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "ec435c30-fa27-42a7-a00d-812dd1a684af": {
+            "type": "content",
+            "settings": {
+              "mega-menu": "Shop",
+              "mega_image_header_1": "",
+              "mega_image_subheader_1": "",
+              "mega_image_link_1": "",
+              "mega_image_header_2": "",
+              "mega_image_subheader_2": "",
+              "mega_image_link_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "ec435c30-fa27-42a7-a00d-812dd1a684af"
+        ],
         "settings": {
           "sticky_header": "enable",
           "overlay_header": false,
