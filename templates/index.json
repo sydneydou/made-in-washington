@@ -8,20 +8,21 @@
           "type": "slide",
           "settings": {
             "subheading": "",
-            "title": "testing testing",
-            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "title": "Discover the best of Washington, all in one place.",
+            "text": "",
             "button_text": "",
             "link": "",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
           }
         },
         "1662705180984bcaa0-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "title": "Share your story",
