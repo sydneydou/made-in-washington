@@ -1,9 +1,8 @@
-/* header & navigation */
+/*
 
-.header-link, .nav-label {
-    font-family: var(--font-family-regular);
-    text-transform:capitalize;
-}
+Please add any custom CSS code in here, it will be easier to transfer if updating themes.
 
+We highly recommend labelling changes, or App installs, so these can also be updated or removed as needed.
 
-/* homepage */
+*/
+

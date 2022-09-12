@@ -25,7 +25,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
        }
 */
 @font-face {
-    font-family: 'Crater';
+    font-family: 'Crafter';
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
@@ -83,7 +83,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
    
 
    :root {
-    --font-family-subheader: 'Crater';
+    --font-family-subheader: 'Crafter';
     --font-family-book-italic: 'FontName';
     --font-family-light: 'Averia Light';
     --font-family-regular: 'Averia Regular';
