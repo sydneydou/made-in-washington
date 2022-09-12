@@ -1,4 +1,104 @@
 {
   "current": {
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "enable": true,
+          "message_text": "Shop our holiday gift guide now",
+          "message_link": "",
+          "notification-bar--background-color": "#2d2d2d",
+          "notification-bar--text-color": "#ffffff",
+          "social-enable": true
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "ec435c30-fa27-42a7-a00d-812dd1a684af": {
+            "type": "content",
+            "settings": {
+              "mega-menu": "Shop",
+              "mega_image_header_1": "",
+              "mega_image_subheader_1": "",
+              "mega_image_link_1": "",
+              "mega_image_header_2": "",
+              "mega_image_subheader_2": "",
+              "mega_image_link_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "ec435c30-fa27-42a7-a00d-812dd1a684af"
+        ],
+        "settings": {
+          "sticky_header": "enable",
+          "overlay_header": false,
+          "show_border": true,
+          "logo_max_width": 200,
+          "logo-placement": "center",
+          "sticky_header_logo": true,
+          "search-expand": false,
+          "search-message": "Search our store...",
+          "icon-enable": true,
+          "cart-number": "quantity",
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "main_linklist": "redesign-main-menu",
+          "top_bar_linklist": "redesign-top-bar",
+          "show-sticky-top-bar": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "Designed. Crafted. Made. Local.",
+              "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "menu_title": "Join our mailing list",
+              "footer_newsletter_description": ""
+            }
+          },
+          "footer-3": {
+            "type": "social",
+            "settings": {
+              "menu_title": "Get connected"
+            }
+          },
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "footer_linklist": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-2",
+          "footer-3",
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
+        ],
+        "settings": {
+          "show_back_to_top": true,
+          "back_to_top_text": "Back to top",
+          "show_borders": true,
+          "show_methods_of_payment": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
   }
 }

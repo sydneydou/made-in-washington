@@ -1,0 +1,112 @@
+/*
+
+Please add any custom CSS code in here, it will be easier to transfer if updating themes.
+
+We highly recommend labelling changes, or App installs, so these can also be updated or removed as needed.
+
+*/
+
+/* # Font-Face
+================================================== */
+/*  This is the proper syntax for an @font-face file.
+    Upload your font files to Assets and then
+    copy your FontName into code below and remove
+    comment brackets */
+/*  @font-face {
+      font-family: 'FontName';
+      font-weight: bold/200/300/400/500/600/700/normal;
+      font-style: normal/italic;
+      font-display: swap;
+      src: url('FontName.eot');
+      src: url('FontName.eot?iefix') format('eot'),
+           url('FontName.woff') format('woff'),
+           url('FontName.ttf') format('truetype'),
+           url('FontName.svg#webfontZam02nTh') format('svg');
+       }
+*/
+@font-face {
+    font-family: 'Crater';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('crafter-rough-webfont.woff') format('woff');
+   }
+
+   @font-face {
+    font-family: 'Averia Bold';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-Bold.ttf') format('ttf');
+   }
+
+   @font-face {
+    font-family: 'Averia Bold Italic';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-BoldItalic.ttf') format('ttf');
+   }
+
+   @font-face {
+    font-family: 'Averia Italic';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-Italic.ttf') format('ttf');
+   }
+
+   @font-face {
+    font-family: 'Averia Light';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-Light.ttf') format('ttf');
+   }
+
+   @font-face {
+    font-family: 'Averia Light Italic';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-LightItalic.ttf') format('ttf');
+   }
+
+   @font-face {
+    font-family: 'Averia Regular';
+    font-weight: 400;
+    font-style: inherit;
+    font-display: swap;
+    src: url('AveriaSansLibre-Regular.ttf') format('ttf');
+   }
+
+   
+
+   :root {
+    --font-family-subheader: 'Crater';
+    --font-family-book-italic: 'FontName';
+    --font-family-light: 'Averia Light';
+    --font-family-regular: 'Averia Regular';
+    --font-family-bold: 'Averia Bold';
+    
+
+
+    --font-weight-book: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+    --font-weight-heavy: 700;
+}
+
+h1{
+    font-family: var(--font-family-regular);
+}
+
+h2{
+    font-family: var(--font-family-subheader);
+}
+
+p, div, span{
+    font-family: zen-maru-gothic,sans-serif;
+font-weight: 400;
+font-style: normal;
+}

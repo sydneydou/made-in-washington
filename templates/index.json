@@ -8,20 +8,21 @@
           "type": "slide",
           "settings": {
             "subheading": "",
-            "title": "testing testing",
-            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "title": "Discover the best of Washington, all in one place.",
+            "text": "",
             "button_text": "",
             "link": "",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
           }
         },
         "1662705180984bcaa0-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "title": "Share your story",
@@ -73,16 +74,65 @@
           "settings": {
             "collection": ""
           }
+        },
+        "d7755ba4-ea65-4a06-8be1-642c53b7523a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
+        "109d854f-e162-4b40-b595-a993a90a399e": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "collection-list-0",
         "collection-list-1",
-        "collection-list-2"
+        "collection-list-2",
+        "d7755ba4-ea65-4a06-8be1-642c53b7523a",
+        "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c",
+        "109d854f-e162-4b40-b595-a993a90a399e"
       ],
       "settings": {
+        "subheading": "Pick a curated set or build your own basket.",
+        "title": "Shop Our Collections"
+      }
+    },
+    "image-image-with-text-block": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#000000",
+        "background-color": "rgba(0,0,0,0)",
+        "horizontal-alignment": "center",
+        "subheading": "Subheading",
+        "title": "Design Your Own Box",
+        "text": "",
+        "button_link": "https:\/\/madeinwashington.com\/apps\/builder?b=jpgzhzr1ZGP4904KN3DRDHLa",
+        "button_label": "Start Your Design"
+      }
+    },
+    "166271019590518e08": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
         "subheading": "",
-        "title": ""
+        "title": "Who we support",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": ""
       }
     },
     "image-logo-list": {
@@ -136,20 +186,26 @@
       "settings": {
         "width": 150,
         "subheading": "",
-        "title": "As seen in"
+        "title": "What we value"
       }
     },
-    "image-image-with-text-block": {
-      "type": "image--image-with-text-block",
+    "blog-blog-posts": {
+      "type": "blog--blog-posts",
       "settings": {
-        "text-color": "#000000",
-        "background-color": "rgba(0,0,0,0)",
-        "horizontal-alignment": "right",
+        "subheading": "",
+        "title": "On the blog",
+        "show_author_name": false,
+        "show_dates": false,
+        "show_blog_images": true,
+        "imageSize": "square"
+      }
+    },
+    "newsletter-newsletter": {
+      "type": "newsletter--newsletter",
+      "settings": {
         "subheading": "Subheading",
-        "title": "Share your story",
-        "text": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "button_label": "Shop now"
+        "title": "Join our mailing list",
+        "newsletter_description": ""
       }
     },
     "text-rich-text": {
@@ -352,17 +408,6 @@
         "text": ""
       }
     },
-    "blog-blog-posts": {
-      "type": "blog--blog-posts",
-      "settings": {
-        "subheading": "",
-        "title": "From the blog",
-        "show_author_name": true,
-        "show_dates": true,
-        "show_blog_images": true,
-        "imageSize": "square"
-      }
-    },
     "search-block": {
       "type": "search-block",
       "settings": {
@@ -404,30 +449,23 @@
         "button_link": "",
         "button_label": ""
       }
-    },
-    "newsletter-newsletter": {
-      "type": "newsletter--newsletter",
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Join our mailing list",
-        "newsletter_description": ""
-      }
     }
   },
   "order": [
     "166270518089e3ae56",
     "collection-list",
-    "image-logo-list",
     "image-image-with-text-block",
+    "166271019590518e08",
+    "image-logo-list",
+    "blog-blog-posts",
+    "newsletter-newsletter",
     "text-rich-text",
     "text-text-adverts",
     "image-gallery",
     "text-service-list",
     "store-information-delivery-partners",
-    "blog-blog-posts",
     "search-block",
     "product-featured-product",
-    "image-image-with-text-overlay",
-    "newsletter-newsletter"
+    "image-image-with-text-overlay"
   ]
 }
