@@ -36,6 +36,7 @@
           "ec435c30-fa27-42a7-a00d-812dd1a684af"
         ],
         "settings": {
+          "background-color": "#4e714e",
           "sticky_header": "enable",
           "overlay_header": false,
           "show_border": true,
