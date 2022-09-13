@@ -37,7 +37,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-Bold.ttf') format('ttf');
+    src: url('AveriaSansLibre-Bold.ttf') ;
    }
 
    @font-face {
@@ -45,7 +45,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-BoldItalic.ttf') format('ttf');
+    src: url('AveriaSansLibre-BoldItalic.ttf') ;
    }
 
    @font-face {
@@ -53,7 +53,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-Italic.ttf') format('ttf');
+    src: url('AveriaSansLibre-Italic.ttf') ;
    }
 
    @font-face {
@@ -61,7 +61,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-Light.ttf') format('ttf');
+    src: url('AveriaSansLibre-Light.ttf') ;
    }
 
    @font-face {
@@ -69,7 +69,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-LightItalic.ttf') format('ttf');
+    src: url('AveriaSansLibre-LightItalic.ttf') ;
    }
 
    @font-face {
@@ -77,7 +77,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight: 400;
     font-style: inherit;
     font-display: swap;
-    src: url('AveriaSansLibre-Regular.ttf') format('ttf');
+    src: url('AveriaSansLibre-Regular.ttf');
    }
 
    
@@ -88,7 +88,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     --font-family-light: 'Averia Light';
     --font-family-regular: 'Averia Regular';
     --font-family-bold: 'Averia Bold';
-    
+    --font-family-body: zen-maru-gothic,sans-serif;
 
 
     --font-weight-book: 400;
@@ -106,7 +106,7 @@ h2{
 }
 
 p, div, span{
-    font-family: zen-maru-gothic,sans-serif;
+font-family: zen-maru-gothic,sans-serif;
 font-weight: 400;
 font-style: normal;
 }

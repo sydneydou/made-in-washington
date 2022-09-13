@@ -6,3 +6,23 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+
+
+/* navigation & header */
+
+.header-content--top-bar .header-link{
+    font-family: var(--font-family-bold);
+}
+
+.header-row .header-link, .header-row .nav-label, .dropdown-menu .dropdown-submenu__link{
+    font-family: var(--font-family-body);
+    font-weight:500;
+}
+
+
+/* button styles */
+
+.btn{
+    font-family: var(--font-family-body) !important;
+    font-weight:500;
+}

@@ -304,6 +304,10 @@
 		background: {{ section.settings.slider-navigation--color }}
 	}
 
+    #shopify-section-{{ section.id }} .slides h2{
+        font-family:{{ section.settings.header-font }};
+    }
+
 	@media only screen and (max-width:767px) {
 		.slider-direction-nav.slider--{{ section.id }} {
 			display: none;
@@ -508,6 +512,22 @@
                 "pt-PT": "Adicionar um sobreposição de gradiente para melhorar a legibilidade do texto"
             },
             "default": true
+        },
+        {
+            "type": "select",
+            "id": "header-font",
+            "label": "Header Font",
+            "default": "var(--font-family-regular)",
+            "options": [
+                {
+                    "value": "var(--font-family-regular)",
+                    "label": "Averia"
+                },
+                {
+                    "value": "var(--font-family-subheader)",
+                    "label": "Crafter"
+                }
+            ]
         }
     ],
     "blocks": [
