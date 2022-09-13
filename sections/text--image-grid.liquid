@@ -58,32 +58,7 @@
           <p>{{block.settings.richtext}}</p>
           {% endif %}
 
-          <!-- {%- assign menu_list_linklist = block.settings.menu_list_linklist -%} -->
-
-          <!-- {% if linklists[menu_list_linklist].links.size > 0 %}
-            <nav {% unless section.settings.enable_image %}class="no--image"{% endunless %}>
-              <h3 class="type-subheading--1 menu-list--subheading">{{ linklists[menu_list_linklist].title }}</h3>
-              <ul>
-                {% for link in linklists[menu_list_linklist].links %}
-                  <li {% if link.object.tags and link.object.tags.size > 0 %} class="children"{% endif %}>
-                    <a href="{{link.url}}">{{link.title}}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </nav>
-          {% else %} -->
-          <!-- Show a dummy navigation until the merchant chooses a nav to show -->
-            <!-- <nav {% unless section.settings.enable_image %}class="no--image"{% endunless %}>
-              <h3 class="type-subheading--1 menu-list--subheading">Menu List</h3>
-              <ul>
-                {% for i in (1..5) %}
-                <li>
-                  <a href="#">Link</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </nav> -->
-          <!-- {% endif %} -->
+         
         </div>
       </div>
     {% endfor %}
@@ -96,7 +71,7 @@
 {
     "name": "Image Grid",
     "class": "homepage-section--menu-list",
-    "max_blocks": 6,
+    "max_blocks": 9,
     "settings": [
         {
           "type": "text",
