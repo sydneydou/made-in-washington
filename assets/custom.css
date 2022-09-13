@@ -19,6 +19,15 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     font-weight:500;
 }
 
+header span{
+    font-size:1.2em !important;
+}
+
+.notification-bar__message p{
+    font-family: var(--font-family-bold);
+    text-transform:uppercase;
+}
+
 
 /* button styles */
 
