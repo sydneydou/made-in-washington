@@ -635,8 +635,12 @@
 </div>
 <style>
 
-  .header-wrapper{
+  .header-wrapper, .header-content--top-bar{
     background:{{section.settings.background-color}};
+  }
+
+  .header-wrapper a span,.header-wrapper .header-link .header-content--top-bar a span, .header-link{
+    color:{{section.settings.text-color}} !important;
   }
 </style>
 
@@ -656,6 +660,12 @@
       "id": "background-color",
       "label": "Background Color",
       "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text Color",
+      "default": "#FFF"
     },
         {
             "type": "select",
