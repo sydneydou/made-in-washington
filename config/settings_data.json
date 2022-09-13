@@ -74,36 +74,39 @@
               "menu_title": "Get connected"
             }
           },
+          "629eb93b-d16a-4e9c-b9c4-ec477612eed6": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Made_in_Washington_Primary_Logo_-_Smooth_white-1.png",
+              "image_max_width": 80,
+              "image_opacity": 100,
+              "title-logo": "Designed. Crafted. Made. Local.",
+              "richtext-title": "<p>At Made In Washington, we connect makers with customers and people with products to spark moments of joy and celebrate local pride.<\/p>"
+            }
+          },
           "e5c51c6d-1416-45e1-b51a-edac8b9622a4": {
             "type": "menu",
             "settings": {
               "menu_title": "Links",
               "footer_linklist": "footer"
             }
-          },
-          "629eb93b-d16a-4e9c-b9c4-ec477612eed6": {
-            "type": "image",
-            "settings": {
-              "image_max_width": 80,
-              "image_opacity": 100
-            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-3",
-          "e5c51c6d-1416-45e1-b51a-edac8b9622a4",
-          "629eb93b-d16a-4e9c-b9c4-ec477612eed6"
+          "629eb93b-d16a-4e9c-b9c4-ec477612eed6",
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
         ],
         "settings": {
           "background-color": "#4e714e",
-          "text-color": "#FFF",
-          "show_back_to_top": true,
+          "text-color": "#ffffff",
+          "show_back_to_top": false,
           "back_to_top_text": "Back to top",
-          "show_borders": true,
+          "show_borders": false,
           "show_methods_of_payment": true,
           "show_currency_selector": true,
-          "show_locale_selector": true
+          "show_locale_selector": false
         }
       }
     },
