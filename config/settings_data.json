@@ -11,8 +11,8 @@
           "enable": true,
           "message_text": "Shop our holiday gift guide now",
           "message_link": "",
-          "notification-bar--background-color": "#2d2d2d",
-          "notification-bar--text-color": "#ffffff",
+          "notification-bar--background-color": "#ffffff",
+          "notification-bar--text-color": "#222222",
           "social-enable": true
         }
       },
