@@ -2,11 +2,101 @@
   "sections": {
     "main": {
       "type": "template--page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16630404174402d7a2": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "subheading": "",
+        "title": "Our Story",
+        "text": "<p>Inspired Locally. Made in Washington. Loved Everywhere.<\/p>",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "medium",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1663040411aa0550b7": {
+      "type": "text--image-with-text",
+      "settings": {
+        "image-width": "medium",
+        "layout": "right",
+        "subheading": "",
+        "title": "Our History",
+        "text_block": "<p>Made in Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <br\/><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made in Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <br\/><br\/>Although the business started with only fifty items, the Made In Washington concept flourished, and soon we were working with over 200 makers around the state. We’re one of the few places in the state able to offer a huge range of the best local products, and we simplify the search for customers because they know everything we have—both online and in stores—is thoughtfully curated. You can’t visit our stores or website without feeling inspired by the creativity and stories on display. <br\/><br\/>Today, we continue to celebrate the rich bounty of Washington State’s food, art, and lifestyle online and at our stores throughout the Puget Sound region, including a licensed retail location at SeaTac airport. <br\/><br\/>Whether you are shopping for family, friends, or those you work with, you’ll be proud to share a gift that’s designed, crafted, and Made In Washington.<br\/><\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16630404948b795be5": {
+      "type": "text--image-grid",
+      "blocks": {
+        "1663040494fb0f3ed2-0": {
+          "type": "menu",
+          "settings": {
+            "title": "Carla Walton Pike Place Store Manager",
+            "richtext": "<p>Somewhat counter-intuitively, I love the weather in Washington. It’s never too extreme. I also appreciate the proximity to water and mountains. <br\/><br\/><br\/><\/p>"
+          }
+        },
+        "1663040494fb0f3ed2-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Jax Kaufman Alderwood Mall Store Manager",
+            "richtext": "<p>We are surrounded by water and wildlife in Washington, and I find so much magic in kayaking with orcas and seals in the San Juan Islands. Kayaking with orcas is the most exciting experience that I’ve ever had.<br\/><br\/><\/p>"
+          }
+        },
+        "1663040494fb0f3ed2-2": {
+          "type": "menu",
+          "settings": {
+            "title": "Judy Burnside Bellevue Square Store Manager",
+            "richtext": "<p>One of the things I love most about Washington is the weather: beautifully temperate long summer days, perfect spring and fall days, and just enough rain.<br\/><br\/><\/p>"
+          }
+        },
+        "854a27d7-2a92-494f-a11b-dbf24253c206": {
+          "type": "menu",
+          "settings": {
+            "title": "Laurie Fleek Director of Operations and Customer Care",
+            "richtext": "<p>The best thing about living in Washington State is the ability to jump on a ferry to visit our many islands.<br\/><br\/><\/p>"
+          }
+        },
+        "d18cda5f-ffc7-42d2-81b8-e80558f1bb07": {
+          "type": "menu",
+          "settings": {
+            "title": "Haydee Allred E-Commerce & Marketing Assistant",
+            "richtext": "<p>I love the adventure of the changing seasons and weather events we experience in Washington, like Frozen Fog, the Pineapple Express, and long summer days!<br\/><br\/><\/p>"
+          }
+        },
+        "12ce2ef0-2c6f-446c-adca-608aa76c4105": {
+          "type": "menu",
+          "settings": {
+            "title": "Bill Gates Vice President, Buyer",
+            "richtext": "<p>For me, the best part of the Washington landscape can be found on our annual family trip to Winthrop, where my family and I enjoy hiking, boating, and swimming. <br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663040494fb0f3ed2-0",
+        "1663040494fb0f3ed2-1",
+        "1663040494fb0f3ed2-2",
+        "854a27d7-2a92-494f-a11b-dbf24253c206",
+        "d18cda5f-ffc7-42d2-81b8-e80558f1bb07",
+        "12ce2ef0-2c6f-446c-adca-608aa76c4105"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Menu list",
+        "enable_image": true
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16630404174402d7a2",
+    "1663040411aa0550b7",
+    "16630404948b795be5"
   ]
 }
