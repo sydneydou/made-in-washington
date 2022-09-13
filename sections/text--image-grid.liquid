@@ -49,7 +49,7 @@
       {% if section.blocks.size == 5 %}{% cycle 'col-lg-4 col-sm-12', 'col-lg-4 col-sm-12', 'col-lg-4 col-sm-12', 'col-lg-6 col-sm-12', 'col-lg-6 col-sm-12' %}{% else %}{{ menu_list_item_width }}{% endif %}" {{ block.shopify_attributes }}>
 
         <div class="menu-list__item" style="flex-direction: column;
-        justify-content: center;">
+        justify-content: center; align-items:center;">
           {% if block.settings.image != blank and section.settings.enable_image %}
             {% render 'responsive-image' with block.settings.image, alt: block.settings.image.alt, class: 'menu-list__image', default_size: '240x' %}
           {% elsif block.settings.image == blank and section.settings.enable_image %}

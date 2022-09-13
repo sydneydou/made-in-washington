@@ -14,6 +14,7 @@
 	<meta charset="utf-8">
 	{%- comment -%}DemoStoreRequirements{%- endcomment -%}
 
+	
 	<title>
 		{{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
 	</title>
@@ -66,7 +67,14 @@
 	{{ 'fonts.css' | asset_url | stylesheet_tag }}
 
 	{% render 'font-links' %}
-
+	<!-- {% render 'slick.css' %}
+	{% render 'slick-theme.css' %}
+	{% render 'slick.min.js' %} -->
+	
+	{{  'slick.css' | asset_url | stylesheet_tag }}
+	{{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+	{{ 'slick.min.js' | asset_url | script_tag }}
+	
 	{% if settings.favicon != blank %}
 		<link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
 	{% endif %}
