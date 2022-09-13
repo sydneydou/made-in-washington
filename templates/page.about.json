@@ -107,12 +107,42 @@
         "title": "Menu list",
         "enable_image": true
       }
+    },
+    "16630409112cd2e1e6": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Share your story",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "medium",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "16630409173f46f10a": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#ffffff",
+        "background-color": "#4e714e",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Join Our Team",
+        "text": "<p>We appreciate your interest in learning more about potential opportunities at Made in Washington. We believe our team is our most valuable asset and the very core of our success.<br\/><\/p>",
+        "button_link": "#",
+        "button_label": "Learn more"
+      }
     }
   },
   "order": [
     "main",
     "16630404174402d7a2",
     "1663040411aa0550b7",
-    "16630404948b795be5"
+    "16630404948b795be5",
+    "16630409112cd2e1e6",
+    "16630409173f46f10a"
   ]
 }
