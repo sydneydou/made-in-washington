@@ -37,7 +37,7 @@
         ],
         "settings": {
           "background-color": "#4e714e",
-          "text-color": "#FFF",
+          "text-color": "#ffffff",
           "sticky_header": "enable-scroll-up",
           "overlay_header": false,
           "show_border": false,
@@ -66,14 +66,6 @@
               "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
-          "footer-2": {
-            "type": "newsletter",
-            "disabled": true,
-            "settings": {
-              "menu_title": "Join our mailing list",
-              "footer_newsletter_description": ""
-            }
-          },
           "footer-3": {
             "type": "social",
             "settings": {
@@ -90,7 +82,6 @@
         },
         "block_order": [
           "footer-0",
-          "footer-2",
           "footer-3",
           "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
         ],
