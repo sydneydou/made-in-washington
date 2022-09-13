@@ -633,7 +633,12 @@
   </noscript>
 
 </div>
+<style>
 
+  .header-wrapper{
+    background:{{section.settings.background-color}};
+  }
+</style>
 
 
 {% schema %}
@@ -646,6 +651,12 @@
         "pt-PT": "Cabeçalho"
     },
     "settings": [
+    {
+      "type": "color",
+      "id": "background-color",
+      "label": "Background Color",
+      "default": "#000"
+    },
         {
             "type": "select",
             "id": "sticky_header",
