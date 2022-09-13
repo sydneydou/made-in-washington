@@ -147,12 +147,19 @@
                                     {% render 'responsive-image' with block.settings.image, blur: 'center', props: image_props, alt: alt %}
                                 {% endif %}
                             </div>
+                            {% unless block.settings.title-logo == blank %}
+                            <h3 class="type-subheading type-subheading--1">{{ block.settings.title-logo | escape }}</h3>
+                        {% endunless %}
+                        <div class="rte footer__block-text{% if block.settings.title-logo == blank %} footer__block-heading-blank{% endif %}">{{ block.settings.richtext-title }}</div>
 
                             {% if img_url != blank %}
                                 </div>
                             {% endif %}
 
                         </div>
+                       
+
+                        
                 {% endcase %}
 			{% endfor %}
 		</div>
@@ -208,7 +215,7 @@
         "fr": "Pied de page",
         "pt-PT": "Rodapé"
     },
-    "max_blocks": 5,
+    "max_blocks": 7,
     "settings": [
     {
       "type": "color",
@@ -509,6 +516,7 @@
                 }
             ]
         },
+        
         {
             "type": "image",
             "name": {
@@ -573,7 +581,36 @@
                         "pt-PT": "Opacidade"
                     },
                     "default": 100
-                }
+                },
+                {
+                    "type": "text",
+                    "id": "title-logo",
+                    "label": {
+                        "en": "Heading",
+                        "de": "Überschrift",
+                        "es": "Encabezado",
+                        "fr": "Rubrique",
+                        "pt-PT": "Título"
+                    },
+                    "default": {
+                        "en": "Designed. Crafted. Made. Local.",
+                        "de": "Kontaktieren Sie uns",
+                        "es": "Contacto",
+                        "fr": "Contactez-nous",
+                        "pt-PT": "Contacte-nos"
+                    }
+                },
+                {
+                    "type": "richtext",
+                    "id": "richtext-title",
+                    "label": {
+                        "en": "Text",
+                        "de": "Text",
+                        "es": "Texto",
+                        "fr": "Texte",
+                        "pt-PT": "Texto"
+                    }
+                } 
             ]
         }
     ],
