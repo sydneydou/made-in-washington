@@ -3,6 +3,8 @@
     "typography-body-font-size": 15,
     "navigation--capitalize": false,
     "typography-buttons-font-size": 15,
+    "sm_facebook_link": "https:\/\/www.facebook.com\/Made.In.Washington\/?fref=ts",
+    "sm_instagram_link": "https:\/\/www.instagram.com\/madeinwashington_\/?hl=en",
     "favicon": "shopify:\/\/shop_images\/MIW_favicon-min.png",
     "sections": {
       "announcement-bar": {
@@ -62,8 +64,8 @@
           "footer-0": {
             "type": "text",
             "settings": {
-              "title": "Designed. Crafted. Made. Local.",
-              "richtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "title": "",
+              "richtext": "<p><strong>Business Office:<\/strong><br\/>11604 Airport Road, Suite 300<br\/>Everett, 98204<br\/>1-800-338-9903<br\/><br\/><strong>Locations:<\/strong><br\/><a href=\"https:\/\/goo.gl\/maps\/LBCR8WotFJsKKpaP8\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/LBCR8WotFJsKKpaP8\">Bellevue - Bellevue Square Mall<\/a><br\/><a href=\"https:\/\/goo.gl\/maps\/DdxxEKh7MEEJLDJ5A\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/DdxxEKh7MEEJLDJ5A\">Lynnwood - Alderwood Mall<\/a><br\/><a href=\"https:\/\/goo.gl\/maps\/CUhxwk8Tyz3PAsHr9\" target=\"_blank\" title=\"https:\/\/goo.gl\/maps\/CUhxwk8Tyz3PAsHr9\">Seattle - Pike Place Market<\/a><\/p>"
             }
           },
           "footer-3": {
@@ -78,14 +80,24 @@
               "menu_title": "Links",
               "footer_linklist": "footer"
             }
+          },
+          "629eb93b-d16a-4e9c-b9c4-ec477612eed6": {
+            "type": "image",
+            "settings": {
+              "image_max_width": 80,
+              "image_opacity": 100
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-3",
-          "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4",
+          "629eb93b-d16a-4e9c-b9c4-ec477612eed6"
         ],
         "settings": {
+          "background-color": "#4e714e",
+          "text-color": "#FFF",
           "show_back_to_top": true,
           "back_to_top_text": "Back to top",
           "show_borders": true,
