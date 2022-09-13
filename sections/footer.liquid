@@ -188,6 +188,17 @@
 
 </footer>
 
+<style>
+
+    footer {
+      background-color:{{section.settings.background-color}} !important;
+    }
+  
+    footer a span, footer h3, footer p, footer a{
+      color:{{section.settings.text-color}} !important;
+    }
+  </style>
+
 {% schema %}
 {
     "name": {
@@ -199,6 +210,18 @@
     },
     "max_blocks": 5,
     "settings": [
+    {
+      "type": "color",
+      "id": "background-color",
+      "label": "Background Color",
+      "default": "#4e714e"
+    },
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text Color",
+      "default": "#FFF"
+    },
         {
             "type": "checkbox",
             "id": "show_back_to_top",
