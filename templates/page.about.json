@@ -76,6 +76,20 @@
             "title": "Bill Gates Vice President, Buyer",
             "richtext": "<p>For me, the best part of the Washington landscape can be found on our annual family trip to Winthrop, where my family and I enjoy hiking, boating, and swimming. <br\/><\/p>"
           }
+        },
+        "3cdb1b75-0ece-46d8-befe-fe7aa2730c68": {
+          "type": "menu",
+          "settings": {
+            "title": "Jack Helgeson Operations Assistant | Business Gift Specialist",
+            "richtext": "<p>In Washington, we have rainforests, beaches, and mountains that are all accessible within just a few hours of anywhere in the state. It’s unbeatable! <br\/><\/p>"
+          }
+        },
+        "92aa3be0-a217-408d-8cbe-15a4e631763f": {
+          "type": "menu",
+          "settings": {
+            "title": "Kristin Frossmo President & CEO",
+            "richtext": "<p>I love that we’re surrounded by mountains and water in Washington. My best days are spent on getaways to Whidbey Island. <br\/><\/p>"
+          }
         }
       },
       "block_order": [
@@ -84,7 +98,9 @@
         "1663040494fb0f3ed2-2",
         "854a27d7-2a92-494f-a11b-dbf24253c206",
         "d18cda5f-ffc7-42d2-81b8-e80558f1bb07",
-        "12ce2ef0-2c6f-446c-adca-608aa76c4105"
+        "12ce2ef0-2c6f-446c-adca-608aa76c4105",
+        "3cdb1b75-0ece-46d8-befe-fe7aa2730c68",
+        "92aa3be0-a217-408d-8cbe-15a4e631763f"
       ],
       "settings": {
         "subheading": "",
