@@ -28,6 +28,7 @@
                 {% if section.blocks.size > 0 %}
                 <div class="logo-bar">
                     {% for block in section.blocks %}
+                    <div>
                         <div class="logo-bar__item wow" 
                             {{ block.shopify_attributes }}>
                             {% if block.settings.link != blank %}
@@ -46,7 +47,19 @@
                             {% if block.settings.link != blank %}
                                 </a>
                             {% endif %}
+
+                           
+
+
                         </div>
+
+                        {% if block.settings.logo-title != blank %}
+                                <p class="subheading-new" >{{block.settings.logo-title}}</p>
+                            {% endif %}
+                            {% if block.settings.logo-body != blank %}
+                                <p>{{block.settings.logo-body}}</p>
+                            {% endif %}
+                    </div>    
                     {% endfor %}
                 </div>
                 {% endif %}
@@ -164,9 +177,23 @@
                         "fr": "Facultatif",
                         "pt-PT": "Opcional"
                     }
-                }
+                }, 
+                {
+                "type": "text",
+           
+            "id": "logo-title",
+            "label": "Logo Heading"
+        },
+        {
+            "type": "text",
+            
+            "id": "logo-body",
+            "label": "Logo Body Text"
+        }
             ]
         }
+        
+        
     ],
     "presets": [
         {

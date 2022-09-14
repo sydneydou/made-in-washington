@@ -67,6 +67,11 @@
 
   }
 
+  #shopify-section-{{ section.id }} h3{
+  font-family:var(--font-family-regular) ;
+    text-transform:inherit;
+ }
+
  {% if section.settings.font-size == 'large' %}
   #shopify-section-{{ section.id }} h2{
     font-size:1.6em !important;
@@ -79,10 +84,7 @@
 
  {% endif %}
 
- #shopify-section-{{ section.id }} h3{
-  font-family:var(--font-family-regular);
-    text-transform:inherit;
- }
+
 </style>
 
 {% schema %}
