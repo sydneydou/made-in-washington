@@ -28,7 +28,7 @@
                 {% if section.blocks.size > 0 %}
                 <div class="logo-bar">
                     {% for block in section.blocks %}
-                    <div>
+                    <div class="logo-portion">
                         <div class="logo-bar__item wow" 
                             {{ block.shopify_attributes }}>
                             {% if block.settings.link != blank %}
@@ -57,7 +57,7 @@
                                 <p class="subheading-new" >{{block.settings.logo-title}}</p>
                             {% endif %}
                             {% if block.settings.logo-body != blank %}
-                                <p>{{block.settings.logo-body}}</p>
+                                <p class="logo-body">{{block.settings.logo-body}}</p>
                             {% endif %}
                     </div>    
                     {% endfor %}
