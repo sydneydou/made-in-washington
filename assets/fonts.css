@@ -113,7 +113,12 @@ font-style: normal;
 
 }
 
-p, .rte, .type-subheading{
+p{
+    font-size:1em;
+}
+
+
+ .rte, .type-subheading{
     font-size:1.1em;
 }
 
