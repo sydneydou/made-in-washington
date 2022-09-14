@@ -135,9 +135,13 @@
         "horizontal-alignment": "center",
         "subheading": "",
         "title": "Who we support",
+        "font-size": "small",
         "text": "<p>Here's your chance to make a great first impression<\/p>",
         "button_link": "",
-        "button_label": ""
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     },
     "image-logo-list": {
@@ -146,19 +150,25 @@
         "image--logo-list-0": {
           "type": "logo_image",
           "settings": {
-            "link": ""
+            "link": "",
+            "logo-title": "Inspiring Discovery",
+            "logo-body": "By curating the best local partners and products, we’re a go-to source for both new and forever favorites."
           }
         },
         "image--logo-list-1": {
           "type": "logo_image",
           "settings": {
-            "link": ""
+            "link": "",
+            "logo-title": "Community Connections",
+            "logo-body": "Deep-rooted relationships with our customers, employees, partners, and local communities are at our core."
           }
         },
         "image--logo-list-2": {
           "type": "logo_image",
           "settings": {
-            "link": ""
+            "link": "",
+            "logo-title": "Local Pride",
+            "logo-body": "We want everyone to experience the variety and uniqueness Washington State offers."
           }
         }
       },
