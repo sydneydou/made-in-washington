@@ -28,10 +28,36 @@ header span{
     text-transform:uppercase;
 }
 
+.header-wrapper .header-content{
+    padding-top:0;
+}
+
+.header-wrapper .header-content--top-bar{
+    padding-top:.8em;
+}
 
 /* button styles */
 
 .btn{
-    font-family: var(--font-family-body) !important;
-    font-weight:500;
+    font-family: var(--font-family-regular) !important;
+    
+}
+
+/* slideshow section */
+
+.slider-caption{
+    width:65%;
+}
+
+
+/* image with text block section */
+
+.subheading-new {
+    font-family:var(--font-family-regular);
+    text-transform:inherit;
+    font-size: 1.05em;
+}
+
+.type-subheading {
+    text-transform:inherit;
 }

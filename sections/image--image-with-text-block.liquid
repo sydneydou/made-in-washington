@@ -18,12 +18,13 @@
     <div class="image-text-block-row__text-container wow">
       {% if section.settings.title != blank or section.settings.subheading != blank %}
         <div class="title-bar custom-font">
-          {% if section.settings.subheading != blank %}
-            <h3 class="type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
-          {% endif %}
           {% if section.settings.title != blank %}
             <h2>{{ section.settings.title | escape }}</h2>
           {% endif %}
+          {% if section.settings.subheading != blank %}
+            <h3 class="subheading-new type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+          {% endif %}
+          
         </div>
       {% endif %}
       {% if section.settings.text != blank %}
@@ -51,6 +52,38 @@
     {% endif %}
   </div>
 </section>
+
+<style>
+
+#shopify-section-{{ section.id }} .btn{
+    color:{{section.settings.btn-color}};
+    background-color:{{section.settings.btn-background-color}};
+
+  }
+
+  #shopify-section-{{ section.id }} .btn:hover{
+    
+    background-color:{{section.settings.btn-background-hover}};
+
+  }
+
+ {% if section.settings.font-size == 'large' %}
+  #shopify-section-{{ section.id }} h2{
+    font-size:1.6em !important;
+  }
+
+  #shopify-section-{{ section.id }} h3{
+   
+    font-size: 1.05em;
+  }
+
+ {% endif %}
+
+ #shopify-section-{{ section.id }} h3{
+  font-family:var(--font-family-regular);
+    text-transform:inherit;
+ }
+</style>
 
 {% schema %}
 {
@@ -179,6 +212,22 @@
             }
         },
         {
+          "type": "select",
+          "id": "font-size",
+          "label": "Font Sizes",
+          "options": [
+              {
+                  "value": "small",
+                  "label": "Small"
+              },
+              {
+                  "value": "large",
+                  "label": "Large"
+              }
+          ],
+          "default": "small"
+      },
+        {
             "type": "richtext",
             "id": "text",
             "label": {
@@ -224,7 +273,37 @@
                 "fr": "Étiquette du bouton",
                 "pt-PT": "Etiqueta do botão"
             }
-        }
+        },
+        {
+          "type": "color",
+          "id": "btn-color",
+          "label": {
+              "en": "Button Text",
+              "de": "Text",
+              "es": "Texto",
+              "fr": "Texte",
+              "pt-PT": "Texto"
+          },
+          "default": "#000000"
+      },
+      {
+          "type": "color",
+          "id": "btn-background-color",
+          "label": {
+              "en": "Button Background",
+              "de": "Hintergrund",
+              "es": "Fondo",
+              "fr": "Contexte général",
+              "pt-PT": "Fundo"
+          },
+          "default": "#ffffff"
+      },
+      {
+          "type": "color",
+          "id": "btn-background-hover",
+          "label": "Button Background on Hover",
+          "default": "#ffffff"
+      }
     ],
     "presets": [
         {

@@ -8,12 +8,13 @@
 
         {% if section.settings.title != blank or section.settings.subheading != blank %}
           <div class="title-bar custom-font">
-            {% if section.settings.subheading != blank %}
-              <h3 class="type-subheading type-subheading--1 wow{% if section.settings.subheading != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
-            {% endif %}
             {% if section.settings.title != blank %}
               <h2 class="wow">{{ section.settings.title | escape }}</h2>
             {% endif %}
+            {% if section.settings.subheading != blank %}
+              <h3 class="type-subheading type-subheading--1 wow{% if section.settings.subheading != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+            {% endif %}
+            
           </div>
         {% endif %}
 
