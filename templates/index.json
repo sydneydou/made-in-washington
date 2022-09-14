@@ -134,14 +134,10 @@
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
         "subheading": "",
-        "title": "Meet Our Makers",
-        "font-size": "small",
-        "text": "<p>From fishmongers to potters and everything in between, our makers have one key thing in common: their local pride runs deep.<\/p>",
-        "button_link": "shopify:\/\/blogs\/news",
-        "button_label": "Read their stories",
-        "btn-color": "#ffffff",
-        "btn-background-color": "#d09951",
-        "btn-background-hover": "#daa157"
+        "title": "Who we support",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": ""
       }
     },
     "image-logo-list": {
