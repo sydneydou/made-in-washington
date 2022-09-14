@@ -61,32 +61,31 @@
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "redesign-gift-baskets-sets"
           }
         },
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "redesign-seafood-gourment-food-chocolate"
           }
         },
         "collection-list-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "redesign-coffee-beverages"
           }
         },
         "d7755ba4-ea65-4a06-8be1-642c53b7523a": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "redesign-home-gifts-1"
           }
         },
         "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "redesign-bath-body"
           }
         },
         "109d854f-e162-4b40-b595-a993a90a399e": {
@@ -125,6 +124,18 @@
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
         "btn-background-hover": "#ffffff"
+      }
+    },
+    "1663139248caf87b7b": {
+      "type": "text--image-with-text",
+      "settings": {
+        "image-width": "extra-large",
+        "layout": "right",
+        "subheading": "",
+        "title": "Who we are",
+        "text_block": "<p>At Made In Washington, we connect makers with customers and people with products to spark moments of joy. Our products celebrate the communities we serve: urban to rural, across generations and backgrounds—they’re all proudly Made In Washington.<\/p>",
+        "button_link": "",
+        "button_label": ""
       }
     },
     "166271019590518e08": {
@@ -204,6 +215,7 @@
     },
     "text-rich-text": {
       "type": "text--rich-text",
+      "disabled": true,
       "settings": {
         "width": "medium",
         "subheading": "Subheading",
@@ -215,6 +227,7 @@
     },
     "text-text-adverts": {
       "type": "text--text-adverts",
+      "disabled": true,
       "blocks": {
         "text--text-adverts-0": {
           "type": "text",
@@ -260,6 +273,7 @@
     },
     "image-gallery": {
       "type": "image--gallery",
+      "disabled": true,
       "blocks": {
         "image--gallery-1": {
           "type": "image",
@@ -296,6 +310,7 @@
     },
     "text-service-list": {
       "type": "text--service-list",
+      "disabled": true,
       "blocks": {
         "text--service-list-0": {
           "type": "text",
@@ -357,6 +372,7 @@
     },
     "store-information-delivery-partners": {
       "type": "store-information--delivery-partners",
+      "disabled": true,
       "blocks": {
         "store-information--delivery-partners-0": {
           "type": "partner_logo",
@@ -404,6 +420,7 @@
     },
     "search-block": {
       "type": "search-block",
+      "disabled": true,
       "settings": {
         "heading": "Search",
         "text": "<p>Add a powerful site search directly onto your home page<\/p>",
@@ -415,6 +432,7 @@
     },
     "product-featured-product": {
       "type": "product--featured-product",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Featured product",
@@ -432,6 +450,7 @@
     },
     "image-image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "subheading": "Subheading",
         "title": "Share your story",
@@ -449,6 +468,7 @@
     "166270518089e3ae56",
     "collection-list",
     "image-image-with-text-block",
+    "1663139248caf87b7b",
     "166271019590518e08",
     "image-logo-list",
     "blog-blog-posts",
