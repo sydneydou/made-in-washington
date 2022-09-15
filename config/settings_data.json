@@ -88,7 +88,14 @@
             "type": "menu",
             "settings": {
               "menu_title": "Links",
-              "footer_linklist": "footer"
+              "footer_linklist": "redesign-links"
+            }
+          },
+          "576a6d45-78ff-48de-a155-ccda4c3a237f": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "",
+              "footer_linklist": "redesign-secondary-footer-links"
             }
           }
         },
@@ -96,7 +103,8 @@
           "footer-0",
           "footer-3",
           "629eb93b-d16a-4e9c-b9c4-ec477612eed6",
-          "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
+          "e5c51c6d-1416-45e1-b51a-edac8b9622a4",
+          "576a6d45-78ff-48de-a155-ccda4c3a237f"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/dark_green_background.png",
