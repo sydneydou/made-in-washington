@@ -9,6 +9,7 @@
     "16630404174402d7a2": {
       "type": "image--image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/about_banner_image-min.png",
         "subheading": "",
         "title": "Our Story",
         "text": "<p>Inspired Locally. Made in Washington. Loved Everywhere.<\/p>",
@@ -23,11 +24,15 @@
     "1663040411aa0550b7": {
       "type": "text--image-with-text",
       "settings": {
-        "image-width": "medium",
+        "image-width": "extra-large",
+        "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
         "title": "Our History",
         "text_block": "<p>Made in Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <br\/><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made in Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <br\/><br\/>Although the business started with only fifty items, the Made In Washington concept flourished, and soon we were working with over 200 makers around the state. We’re one of the few places in the state able to offer a huge range of the best local products, and we simplify the search for customers because they know everything we have—both online and in stores—is thoughtfully curated. You can’t visit our stores or website without feeling inspired by the creativity and stories on display. <br\/><br\/>Today, we continue to celebrate the rich bounty of Washington State’s food, art, and lifestyle online and at our stores throughout the Puget Sound region, including a licensed retail location at SeaTac airport. <br\/><br\/>Whether you are shopping for family, friends, or those you work with, you’ll be proud to share a gift that’s designed, crafted, and Made In Washington.<br\/><\/p>",
+        "subheading-two": "",
+        "title-two": "Share brand or product details",
+        "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_link": "",
         "button_label": ""
       }
@@ -126,14 +131,19 @@
     "16630409173f46f10a": {
       "type": "image--image-with-text-block",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/join_our_team_banner_image-min.png",
         "text-color": "#ffffff",
         "background-color": "#4e714e",
-        "horizontal-alignment": "center",
+        "horizontal-alignment": "left",
         "subheading": "",
         "title": "Join Our Team",
+        "font-size": "small",
         "text": "<p>We appreciate your interest in learning more about potential opportunities at Made in Washington. We believe our team is our most valuable asset and the very core of our success.<br\/><\/p>",
         "button_link": "#",
-        "button_label": "Learn more"
+        "button_label": "Learn more",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     }
   },
