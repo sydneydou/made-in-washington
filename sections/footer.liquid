@@ -204,6 +204,18 @@
     footer a span, footer h3, footer p, footer a{
       color:{{section.settings.text-color}} !important;
     }
+
+
+  {% if section.settings.image  %}
+  #shopify-section-footer footer{
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          background:url({{section.settings.image  | product_img_url: 'master'}}) !important;
+          padding-top:10em !important;
+          padding-bottom:7em !important;
+        }
+  {% endif %}
+
   </style>
 
 {% schema %}
@@ -217,6 +229,11 @@
     },
     "max_blocks": 7,
     "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Mountain Background Image"
+  },
     {
       "type": "color",
       "id": "background-color",
