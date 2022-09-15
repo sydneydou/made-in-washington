@@ -52,7 +52,7 @@ header span{
 
 /* image with text block section */
 
-.subheading-new  {
+.subheading-new , .crafter-font {
     font-family:var(--font-family-regular);
     text-transform:inherit;
     font-size: 1.05em;
