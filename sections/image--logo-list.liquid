@@ -63,7 +63,14 @@
                     {% endfor %}
                 </div>
                 {% endif %}
-
+                {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        <div style=" display: flex;
+    justify-content: center; margin-top:6em;">
+          <a href="{{ section.settings.button_link }}" class="btn">
+            {{ section.settings.button_label }}
+          </a>
+        </div>
+      {% endif %}
                 {% if section.blocks.size == 0 %}
                     <div class="placeholder-noblocks">
                         {{ 'general.onboarding.no_content' | t }}
@@ -71,14 +78,9 @@
                 {% endif %}
             </div>
         </div>
-        {% if section.settings.button_label != blank and section.settings.button_link != blank %}
-        <div>
-          <a href="{{ section.settings.button_link }}" class="btn">
-            {{ section.settings.button_label }}
-          </a>
-        </div>
-      {% endif %}
+      
     </div>
+   
 </section>
 
 

@@ -236,7 +236,12 @@
       "settings": {
         "width": 110,
         "subheading": "",
-        "title": "What we value"
+        "title": "What we value",
+        "button_link": "shopify:\/\/pages\/redesign-about",
+        "button_label": "Read our story",
+        "btn-color": "#ffffff",
+        "btn-background-color": "#3a271d",
+        "btn-background-hover": "#493327"
       }
     },
     "blog-blog-posts": {

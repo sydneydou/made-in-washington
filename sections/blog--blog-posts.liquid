@@ -49,7 +49,7 @@
   </article>
 {% endcapture %}
 
-<section class="homepage-sections-wrapper">
+<section class="homepage-sections-wrapper blog-home">
 
   <div class="container featured-blog--block--{{ section.id }}">
     <div class="row">
@@ -240,6 +240,18 @@
   </div>
 </section>
 
+<style>
+  {% if section.settings.image  %}
+        #shopify-section-{{ section.id }} .blog-home{
+          background-repeat: no-repeat;
+          background-size: cover !important;
+          background:url({{section.settings.image  | product_img_url: 'master'}});
+          padding-top:10em;
+          padding-bottom:7em;
+        }
+  {% endif %}
+</style>
+
 {% schema %}
 {
     "name": {
@@ -252,6 +264,11 @@
     "class": "homepage-section--blog-posts-wrapper",
     "max_blocks": 1,
     "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Mountain Background Image"
+  },
         {
             "type": "text",
             "id": "subheading",
