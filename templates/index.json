@@ -7,13 +7,14 @@
         "1662705180984bcaa0-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_1-min.png",
             "subheading": "",
             "title": "Discover the best of Washington, all in one place.",
             "text": "",
             "button_text": "",
             "link": "",
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
+            "caption-text": "#222222",
             "button-text": "#ffffff",
             "button-background": "#000000",
             "horizontal-alignment": "center",
@@ -22,25 +23,61 @@
         },
         "1662705180984bcaa0-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/banner_2_1_-min_842f63dc-7620-47e4-83df-e586da739bbe.png",
             "subheading": "",
-            "title": "Share your story",
-            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "title": "Discover the best of Washington, all in one place.",
+            "text": "",
             "button_text": "",
             "link": "",
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
+            "caption-text": "#222222",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
+        "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
+            "subheading": "",
+            "title": "Discover the best of Washington, all in one place.",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#222222",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_4_1_-min.png",
+            "subheading": "",
+            "title": "Discover the best of Washington, all in one place.",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#222222",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
           }
         }
       },
       "block_order": [
         "1662705180984bcaa0-0",
-        "1662705180984bcaa0-1"
+        "1662705180984bcaa0-1",
+        "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5",
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224"
       ],
       "settings": {
         "slider-animation": "fade",
@@ -50,8 +87,8 @@
         "caption-heading-size": 42,
         "show-slide-dots": false,
         "show-slide-arrows": true,
-        "slider-navigation--color": "#ffffff",
-        "overlay": true,
+        "slider-navigation--color": "#222222",
+        "overlay": false,
         "header-font": "var(--font-family-regular)"
       }
     },
