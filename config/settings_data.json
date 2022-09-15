@@ -40,7 +40,7 @@
         "settings": {
           "background-color": "#4e714e",
           "text-color": "#ffffff",
-          "sticky_header": "enable-scroll-up",
+          "sticky_header": "disable",
           "overlay_header": false,
           "show_border": false,
           "logo": "shopify:\/\/shop_images\/Made_in_Washington_Primary_Logo_-_Smooth_white-1.png",

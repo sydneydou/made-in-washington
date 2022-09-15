@@ -247,12 +247,31 @@
     "blog-blog-posts": {
       "type": "blog--blog-posts",
       "settings": {
+        "image": "shopify:\/\/shop_images\/blue_background-min.png",
         "subheading": "",
         "title": "On the blog",
         "show_author_name": false,
         "show_dates": false,
         "show_blog_images": true,
         "imageSize": "square"
+      }
+    },
+    "166322339220be3565": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "Let's stay in touch",
+        "font-size": "small",
+        "text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     },
     "newsletter-newsletter": {
@@ -522,6 +541,7 @@
     "166271019590518e08",
     "image-logo-list",
     "blog-blog-posts",
+    "166322339220be3565",
     "newsletter-newsletter",
     "text-rich-text",
     "text-text-adverts",
