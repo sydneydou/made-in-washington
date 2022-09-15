@@ -445,7 +445,7 @@ pre code {
     max-width: 1140px; }
   
     .container-xl{
-      max-width: 95vw;;
+      max-width: 95vw !important;
     }
   }
 
