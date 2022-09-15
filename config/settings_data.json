@@ -99,6 +99,7 @@
           "e5c51c6d-1416-45e1-b51a-edac8b9622a4"
         ],
         "settings": {
+          "image": "shopify:\/\/shop_images\/dark_green_background.png",
           "background-color": "#4e714e",
           "text-color": "#ffffff",
           "show_back_to_top": false,
