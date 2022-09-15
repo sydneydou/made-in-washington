@@ -67,6 +67,9 @@
 	{{ 'fonts.css' | asset_url | stylesheet_tag }}
 
 	{% render 'font-links' %}
+
+
+ 
 	<!-- {% render 'slick.css' %}
 	{% render 'slick-theme.css' %}
 	{% render 'slick.min.js' %} -->
@@ -206,6 +209,8 @@
 
 	<script defer type="module" src="{{ 'theme.js' | asset_url }}"></script>
 	<script defer nomodule src="{{ 'theme.legacy.js' | asset_url }}"></script>
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
