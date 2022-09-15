@@ -95,9 +95,11 @@
     "16632269343ccbe2e8": {
       "type": "collection--collection-slider",
       "settings": {
-        "title": "Featured Collection",
+        "background-color": "#4e714e",
+        "subheading": "Made to be used and enjoyed. Made to be shared and savored. Made In Washington.",
+        "title": "Shop our best sellers",
         "collection": "redesign-gift-baskets-sets",
-        "product_count": 11
+        "product_count": 12
       }
     },
     "collection-list": {
