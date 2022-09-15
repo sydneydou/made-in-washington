@@ -149,6 +149,7 @@
     "image-image-with-text-block": {
       "type": "image--image-with-text-block",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
         "text-color": "#ffffff",
         "background-color": "#357b8e",
         "horizontal-alignment": "center",
@@ -181,18 +182,19 @@
     "166271019590518e08": {
       "type": "image--image-with-text-block",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/makers_banner-min.png",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
-        "subheading": "",
-        "title": "Who we support",
+        "subheading": "From fishmongers to potters and everything in between, our makers have one key thing in common: their local pride runs deep.",
+        "title": "Meet our makers",
         "font-size": "small",
-        "text": "<p>Here's your chance to make a great first impression<\/p>",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "text": "",
+        "button_link": "shopify:\/\/pages\/makers",
+        "button_label": "Read their stories",
+        "btn-color": "#ffffff",
+        "btn-background-color": "#d09951",
+        "btn-background-hover": "#d8a45f"
       }
     },
     "image-logo-list": {
@@ -201,6 +203,7 @@
         "image--logo-list-0": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Inspiring_Discovery-min.png",
             "link": "",
             "logo-title": "Inspiring Discovery",
             "logo-body": "By curating the best local partners and products, we’re a go-to source for both new and forever favorites."
@@ -209,6 +212,7 @@
         "image--logo-list-1": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Community_Connections-min.png",
             "link": "",
             "logo-title": "Community Connections",
             "logo-body": "Deep-rooted relationships with our customers, employees, partners, and local communities are at our core."
@@ -217,6 +221,7 @@
         "image--logo-list-2": {
           "type": "logo_image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Local_Pride-min.png",
             "link": "",
             "logo-title": "Local Pride",
             "logo-body": "We want everyone to experience the variety and uniqueness Washington State offers."
