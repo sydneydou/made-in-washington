@@ -92,6 +92,14 @@
         "header-font": "var(--font-family-regular)"
       }
     },
+    "16632269343ccbe2e8": {
+      "type": "collection--collection-slider",
+      "settings": {
+        "title": "Featured Collection",
+        "collection": "redesign-gift-baskets-sets",
+        "product_count": 11
+      }
+    },
     "collection-list": {
       "type": "collection--collection-list",
       "blocks": {
@@ -536,6 +544,7 @@
   },
   "order": [
     "166270518089e3ae56",
+    "16632269343ccbe2e8",
     "collection-list",
     "image-image-with-text-block",
     "1663139248caf87b7b",
