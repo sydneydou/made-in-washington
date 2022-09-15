@@ -44,7 +44,7 @@
           "overlay_header": false,
           "show_border": false,
           "logo": "shopify:\/\/shop_images\/Made_in_Washington_Primary_Logo_-_Smooth_white-1.png",
-          "logo_max_width": 200,
+          "logo_max_width": 180,
           "logo-placement": "center",
           "sticky_header_logo": true,
           "search-expand": false,
