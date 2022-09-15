@@ -9,12 +9,20 @@
   "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
 }
 {%- endcapture -%}
+
+<section class="homepage-sections-wrapper collection-slider">
  
 <div class="featured-collection-slider page-width">
-{% if section.settings.title != blank %}
-<div class="section-header text-center">
-  <h2>{{ section.settings.title | escape }}</h2>
-</div>
+  {% if section.settings.title != blank or section.settings.subheading != blank %}
+  <div class="title-bar custom-font">
+    {% if section.settings.title != blank %}
+      <h2 class="wow">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    {% if section.settings.subheading != blank %}
+      <h3 class="type-subheading type-subheading--1 wow{% if section.settings.subheading != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+    {% endif %}
+    
+  </div>
 {% endif %}
  
 {%- assign collection = collections[section.settings.collection] -%}
@@ -23,22 +31,52 @@
     <div class="products-carousel js-flickity" data-flickity='{{ flickity_options }}'>
       {% for product in collection.products limit: product_limit %}
         <div class="carousel-cell">
-          <a href="{{ product.url | within: collection }}">
+          <a href="{{ product.url | within: collection }}" style="text-decoration:none;"  class="carousel-product">
             <img class="img-explore" src="{{ product.featured_image | img_url: 'master'}}">
-            <h4>{{ product.title }}</h4>
+            <h4 class="crafter-font carousel-title">{{ product.title }}</h4>
             <p>{{ product.price | money }}</p>
           </a>
       </div>  
     {% endfor %}
     </div>
 </div>
+
+</section>
  
 <style>
+
+  .flickity-prev-next-button.previous{
+    left:-50px !important;
+  }
+  .flickity-prev-next-button.next{
+    right:-50px !important;
+  }
+
+  .carousel-product{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .carousel-title{
+    text-align:center;
+    text-decoration:none;
+    margin-top:2em;
+  }
+
+
+.collection-slider{
+  background:{{section.settings.background-color}};
+}
+
 .featured-collection-slider{
   padding-left: 55px;
   padding-right: 55px;
-  max-width: 1200px;
+  max-width: 92vw;
   margin: 0 auto;
+  
 }
 .featured-collection-slider .carousel-cell{
   width:25%;
@@ -50,7 +88,7 @@
 }
 
 .img-explore{
-    width:10em;
+    width:13em;
 }
 @media screen and (max-width: 920px){
   .featured-collection-slider{
@@ -72,12 +110,40 @@
 {
   "name": "Collection Slider",
   "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Featured Collection"
+  {
+    "type": "color",
+    "id": "background-color",
+    "label": {
+        "en": "Background",
+        "de": "Hintergrund",
+        "es": "Fondo",
+        "fr": "Contexte général",
+        "pt-PT": "Fundo"
     },
+    "default": "#ffffff"
+},
+  {
+    "type": "text",
+    "id": "subheading",
+    "label": {
+      "en": "Subheading",
+      "de": "Unterüberschrift",
+      "es": "Subencabezado",
+      "fr": "Sous-rubrique",
+      "pt-PT": "Subtítulo"
+    }
+  },
+  {
+    "type": "text",
+    "id": "title",
+    "label": {
+      "en": "Heading",
+      "de": "Überschrift",
+      "es": "Encabezado",
+      "fr": "Rubrique",
+      "pt-PT": "Título"
+    }
+  },
     {
       "type": "collection",
       "id": "collection",
