@@ -52,7 +52,7 @@ header span{
 
 /* image with text block section */
 
-.subheading-new , .crafter-font {
+.subheading-new , .crafter-font, .grid-title{
     font-family:var(--font-family-regular);
     text-transform:inherit;
     font-size: 1.05em;
@@ -99,6 +99,17 @@ header span{
     width: 65%;
     margin: 0 auto;
 }
+
+
+/* image grid section */
+.image-grid p{
+    text-align:center;
+}
+
+.grid-title{
+    margin-top:1.5em;
+}
+
 
 /* footer */
 
