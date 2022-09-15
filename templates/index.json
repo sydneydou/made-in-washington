@@ -276,6 +276,7 @@
     },
     "newsletter-newsletter": {
       "type": "newsletter--newsletter",
+      "disabled": true,
       "settings": {
         "subheading": "Subheading",
         "title": "Join our mailing list",
