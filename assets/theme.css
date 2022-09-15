@@ -441,8 +441,13 @@ pre code {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px; } }
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 1140px; }
+  
+    .container-xl{
+      max-width: 95vw;;
+    }
+  }
 
 .row {
   display: -ms-flexbox;
