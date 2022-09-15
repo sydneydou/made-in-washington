@@ -7,8 +7,9 @@
 {% render 'responsive-background-image' with section.settings.background_image, selector: selector %}
 
 .image-with-text-block--{{ section.id }} .image-text-block-row__text-container{
-  background: {{ section.settings.background-color }};
+  background: {{ section.settings.background-color | color_modify: 'alpha', 0.9 }};
   color: {{ section.settings.text-color }};
+
 }
 
 </style>
@@ -140,6 +141,7 @@
             },
             "default": "#ffffff"
         },
+   
         {
             "type": "select",
             "id": "horizontal-alignment",

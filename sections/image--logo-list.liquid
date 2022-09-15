@@ -71,8 +71,33 @@
                 {% endif %}
             </div>
         </div>
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+        <div>
+          <a href="{{ section.settings.button_link }}" class="btn">
+            {{ section.settings.button_label }}
+          </a>
+        </div>
+      {% endif %}
     </div>
 </section>
+
+
+<style>
+
+#shopify-section-{{ section.id }} .btn{
+    color:{{section.settings.btn-color}};
+    background-color:{{section.settings.btn-background-color}};
+
+  }
+
+  #shopify-section-{{ section.id }} .btn:hover{
+    
+    background-color:{{section.settings.btn-background-hover}};
+
+  }
+
+
+</style>
 
 {% schema %}
 {
@@ -136,7 +161,66 @@
                 "fr": "Comme on peut le voir dans",
                 "pt-PT": "Conforme visto em"
             }
-        }
+        },
+        {
+            "type": "url",
+            "id": "button_link",
+            "label": {
+                "en": "Button link",
+                "de": "Buttonlink",
+                "es": "Enlace del botón",
+                "fr": "Lien du bouton",
+                "pt-PT": "Ligação do botão"
+            },
+            "info": {
+                "en": "Required to show the button",
+                "de": "Notwendig, den Button zu zeigen",
+                "es": "Es necesario mostrar el botón",
+                "fr": "Requis pour afficher le bouton",
+                "pt-PT": "Necessário para exibir o botão"
+            }
+        },
+        {
+            "type": "text",
+            "id": "button_label",
+            "label": {
+                "en": "Button label",
+                "de": "Button-Bezeichnung",
+                "es": "Etiqueta del botón",
+                "fr": "Étiquette du bouton",
+                "pt-PT": "Etiqueta do botão"
+            }
+        },
+        {
+          "type": "color",
+          "id": "btn-color",
+          "label": {
+              "en": "Button Text",
+              "de": "Text",
+              "es": "Texto",
+              "fr": "Texte",
+              "pt-PT": "Texto"
+          },
+          "default": "#000000"
+      },
+      {
+          "type": "color",
+          "id": "btn-background-color",
+          "label": {
+              "en": "Button Background",
+              "de": "Hintergrund",
+              "es": "Fondo",
+              "fr": "Contexte général",
+              "pt-PT": "Fundo"
+          },
+          "default": "#ffffff"
+      },
+      {
+          "type": "color",
+          "id": "btn-background-hover",
+          "label": "Button Background on Hover",
+          "default": "#ffffff"
+      }
     ],
     "blocks": [
         {
