@@ -51,7 +51,10 @@
   .flickity-prev-next-button.next{
     right:-50px !important;
   }
-
+  
+  .collection-slider h4, .collection-slider p,  .collection-slider h2,  .collection-slider h3{
+    color: {{section.settings.text-color}};
+  }
   .carousel-product{
     text-decoration: none;
     display: flex;
@@ -121,6 +124,18 @@
         "pt-PT": "Fundo"
     },
     "default": "#ffffff"
+},
+{
+  "type": "color",
+  "id": "text-color",
+  "label": {
+      "en": "Text",
+      "de": "Text",
+      "es": "Texto",
+      "fr": "Texte",
+      "pt-PT": "Texto"
+  },
+  "default": "#000000"
 },
   {
     "type": "text",
