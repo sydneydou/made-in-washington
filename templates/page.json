@@ -88,6 +88,7 @@
         "subheading": "",
         "title": "MEET OUR MAKERS",
         "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+        "font-size": "large",
         "parallax": false,
         "alignment": "center",
         "hero_size": "large",
@@ -254,13 +255,7 @@
         "horizontal-alignment": "center",
         "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
         "title": "let's stay in touch",
-        "font-size": "small",
-        "text": "",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "font-size": "small"
       }
     },
     "166357385892c100a9": {
