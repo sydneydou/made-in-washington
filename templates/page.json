@@ -230,18 +230,19 @@
     "166357353859bf306f": {
       "type": "image--image-with-text-block",
       "settings": {
+        "background_image": "shopify:\/\/shop_images\/maker_of_the_month_banner.png",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
-        "subheading": "",
-        "title": "Share your story",
+        "subheading": "Learn more about this month’s featured partner!",
+        "title": "Maker of the month",
         "font-size": "small",
-        "text": "<p>Here's your chance to make a great first impression<\/p>",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "text": "",
+        "button_link": "#",
+        "button_label": "Learn More",
+        "btn-color": "#ffffff",
+        "btn-background-color": "#d09951",
+        "btn-background-hover": "#d8a45f"
       }
     },
     "1663573610743b54a4": {
@@ -261,6 +262,25 @@
         "btn-background-color": "#ffffff",
         "btn-background-hover": "#ffffff"
       }
+    },
+    "166357385892c100a9": {
+      "type": "apps",
+      "blocks": {
+        "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -274,6 +294,7 @@
     "16635731767eb88922",
     "166357351277772320",
     "166357353859bf306f",
-    "1663573610743b54a4"
+    "1663573610743b54a4",
+    "166357385892c100a9"
   ]
 }
