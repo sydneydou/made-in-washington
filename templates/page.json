@@ -8,6 +8,7 @@
     },
     "1663572286c3a592d6": {
       "type": "image--image-with-text-block",
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/makers_banner_1.png",
         "text-color": "#222222",
@@ -94,12 +95,87 @@
         "button_link": "",
         "button_label": ""
       }
+    },
+    "1663572489772c8a05": {
+      "type": "image--image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Share your story",
+        "font-size": "small",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "166357261491f08943": {
+      "type": "text--image-with-text",
+      "settings": {
+        "image-width": "medium",
+        "layout": "left",
+        "subheading": "",
+        "title": "Share brand or product details",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "subheading-two": "",
+        "title-two": "Share brand or product details",
+        "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1663572641d0883af7": {
+      "type": "text--image-grid",
+      "disabled": true,
+      "blocks": {
+        "1663572641bbf806d9-0": {
+          "type": "menu",
+          "settings": {
+            "title": "",
+            "richtext": ""
+          }
+        },
+        "1663572641bbf806d9-1": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "richtext": ""
+          }
+        },
+        "1663572641bbf806d9-2": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "richtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663572641bbf806d9-0",
+        "1663572641bbf806d9-1",
+        "1663572641bbf806d9-2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Menu list",
+        "enable_image": true
+      }
     }
   },
   "order": [
     "main",
     "1663572286c3a592d6",
     "16635720255e76fa4a",
-    "166357223161cba705"
+    "166357223161cba705",
+    "1663572489772c8a05",
+    "166357261491f08943",
+    "1663572641d0883af7"
   ]
 }
