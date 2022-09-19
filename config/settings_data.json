@@ -15,7 +15,7 @@
           "message_link": "",
           "notification-bar--background-color": "#ffffff",
           "notification-bar--text-color": "#222222",
-          "social-enable": true
+          "social-enable": false
         }
       },
       "header": {
