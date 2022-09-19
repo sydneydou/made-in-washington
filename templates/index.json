@@ -269,6 +269,12 @@
         "imageSize": "square"
       }
     },
+    "16635711307b17662c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>"
+      }
+    },
     "166322339220be3565": {
       "type": "image--image-with-newsletter",
       "settings": {
@@ -564,12 +570,6 @@
         "button_link": "",
         "button_label": ""
       }
-    },
-    "16635711307b17662c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>"
-      }
     }
   },
   "order": [
@@ -581,6 +581,7 @@
     "166271019590518e08",
     "image-logo-list",
     "blog-blog-posts",
+    "16635711307b17662c",
     "166322339220be3565",
     "16635600351e723d9b",
     "newsletter-newsletter",
@@ -591,7 +592,6 @@
     "store-information-delivery-partners",
     "search-block",
     "product-featured-product",
-    "image-image-with-text-overlay",
-    "16635711307b17662c"
+    "image-image-with-text-overlay"
   ]
 }

@@ -127,6 +127,9 @@ padding:2em 0 !important;
 
 /* footer */
 
+.footer .rte, .footer .type-subheading{
+font-size:.93em !important;
+}
 .footer__block-type--menu{
     display: flex;
     justify-content: center;
@@ -205,4 +208,25 @@ padding: 3em 0;
 
 #insta-feed h2 {
     margin-bottom: 4em !important;
+}
+
+/* events calendar */
+
+.tscBrand{
+    display:none !important;
+}
+
+.d-inline{
+    font-size:17px;
+}
+
+/* image column section */
+
+.image-columns .feature-row{
+    flex-direction: column-reverse;
+}
+
+.image-columns .feature-row__text--inner, .image-columns h2{
+    margin: 0 auto;
+    text-align: center;
 }
