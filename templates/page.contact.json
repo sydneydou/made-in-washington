@@ -1,5 +1,20 @@
 {
   "sections": {
+    "1663574089f19aac96": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact_banner-min.png",
+        "subheading": "",
+        "title": "Contact Us",
+        "text": "",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "medium",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
     "main": {
       "type": "template--page-contact",
       "settings": {
@@ -7,20 +22,24 @@
     },
     "collection-list": {
       "type": "collection--collection-list",
+      "disabled": true,
       "blocks": {
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
+            "collection": ""
           }
         },
         "collection-list-2": {
           "type": "featured_collection",
           "settings": {
+            "collection": ""
           }
         },
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
+            "collection": ""
           }
         }
       },
@@ -36,6 +55,7 @@
     }
   },
   "order": [
+    "1663574089f19aac96",
     "main",
     "collection-list"
   ]

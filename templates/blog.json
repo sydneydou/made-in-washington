@@ -1,29 +1,80 @@
 {
   "sections": {
-    "main": {
-      "type": "template--blog",
-      "settings": {
-        "blog-posts-per-page": 3
-      }
-    },
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "subheading": "Subheading",
-        "hero_size": "x-large"
+        "subheading": "",
+        "title": "Blog",
+        "text": "",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "x-large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--blog",
+      "settings": {
+        "blog_layout": "grid",
+        "blog-posts-per-page": 6,
+        "show_author_name": false,
+        "show_dates": false
       }
     },
     "newsletter": {
       "type": "newsletter--newsletter",
+      "disabled": true,
       "settings": {
         "subheading": "Subheading",
+        "title": "Join our mailing list",
         "newsletter_description": ""
+      }
+    },
+    "1663574303f8f28100": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "Let's stay in touch",
+        "font-size": "small",
+        "text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "166357436128577abc": {
+      "type": "apps",
+      "blocks": {
+        "4a246943-f4b9-4905-b5f8-61537694d1b0": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "4a246943-f4b9-4905-b5f8-61537694d1b0"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
   "order": [
-    "main",
     "image-with-text-overlay",
-    "newsletter"
+    "main",
+    "newsletter",
+    "1663574303f8f28100",
+    "166357436128577abc"
   ]
 }
