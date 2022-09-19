@@ -1,29 +1,40 @@
 {
   "sections": {
-    "main": {
-      "type": "template--blog",
-      "settings": {
-        "blog-posts-per-page": 3
-      }
-    },
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "subheading": "Subheading",
-        "hero_size": "x-large"
+        "subheading": "",
+        "title": "Blog",
+        "text": "",
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "x-large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "main": {
+      "type": "template--blog",
+      "settings": {
+        "blog_layout": "grid",
+        "blog-posts-per-page": 3,
+        "show_author_name": false,
+        "show_dates": true
       }
     },
     "newsletter": {
       "type": "newsletter--newsletter",
       "settings": {
         "subheading": "Subheading",
+        "title": "Join our mailing list",
         "newsletter_description": ""
       }
     }
   },
   "order": [
-    "main",
     "image-with-text-overlay",
+    "main",
     "newsletter"
   ]
 }
