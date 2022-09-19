@@ -172,13 +172,14 @@
       "type": "text--image-column",
       "settings": {
         "image-width": "medium",
+        "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "left",
         "subheading": "",
         "title": "our makers",
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
         "subheading-two": "",
         "title-two": "",
-        "text_block-two": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
+        "text_block-two": "",
         "button_link": "",
         "button_label": ""
       }
