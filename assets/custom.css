@@ -53,6 +53,12 @@ header span{
     height:80vh;
 }
 
+.slider-subheader{
+    font-weight: 500 !important;
+    font-size: 1.35em !important;
+    margin-top:.9em !important;
+}
+
 
 /* image with text block section */
 
@@ -91,7 +97,7 @@ header span{
 }    
 
 .logo-body{
-    width:80%;
+    width:100%;
     margin:0 auto;
 }
 
@@ -100,8 +106,12 @@ header span{
 }
 
 .title-bar h3.typography--padding-bottom{
-    width: 65%;
+    width: 96%;
     margin: 0 auto;
+}
+
+.featured-logos .title-bar h2{
+padding:2em 0 !important;
 }
 
 
@@ -191,4 +201,8 @@ header span{
 
 #insta-feed{
 padding: 3em 0;
+}
+
+#insta-feed h2 {
+    margin-bottom: 4em !important;
 }
