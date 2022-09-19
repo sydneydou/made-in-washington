@@ -8,7 +8,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_1-min.png",
-            "subheading": "",
+            "subheading": "Designed. Crafted. Made. Local.",
             "title": "Discover the best of Washington, all in one place.",
             "text": "",
             "button_text": "",
@@ -25,7 +25,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_2_1_-min_842f63dc-7620-47e4-83df-e586da739bbe.png",
-            "subheading": "",
+            "subheading": "Designed. Crafted. Made. Local.",
             "title": "Discover the best of Washington, all in one place.",
             "text": "",
             "button_text": "",
@@ -42,7 +42,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
-            "subheading": "",
+            "subheading": "Designed. Crafted. Made. Local.",
             "title": "Discover the best of Washington, all in one place.",
             "text": "",
             "button_text": "",
@@ -59,7 +59,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_4_1_-min.png",
-            "subheading": "",
+            "subheading": "Designed. Crafted. Made. Local.",
             "title": "Discover the best of Washington, all in one place.",
             "text": "",
             "button_text": "",
@@ -179,6 +179,7 @@
       "type": "text--image-with-text",
       "settings": {
         "image-width": "extra-large",
+        "image-logo": "shopify:\/\/shop_images\/tree_icon-min.png",
         "layout": "right",
         "subheading": "",
         "title": "Who we are",
@@ -261,6 +262,7 @@
         "image": "shopify:\/\/shop_images\/blue_background-min.png",
         "subheading": "",
         "title": "On the blog",
+        "text-color": "#fff",
         "show_author_name": false,
         "show_dates": false,
         "show_blog_images": true,
