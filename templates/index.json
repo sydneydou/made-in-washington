@@ -9,7 +9,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_1-min.png",
             "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington, all in one place.",
+            "title": "Discover the best of Washington State, all in one place.",
             "text": "",
             "button_text": "",
             "link": "",
@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_2_1_-min_842f63dc-7620-47e4-83df-e586da739bbe.png",
             "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington, all in one place.",
+            "title": "Discover the best of Washington State, all in one place.",
             "text": "",
             "button_text": "",
             "link": "",
@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
             "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington, all in one place.",
+            "title": "Discover the best of Washington State, all in one place.",
             "text": "",
             "button_text": "",
             "link": "",
@@ -60,7 +60,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_4_1_-min.png",
             "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington, all in one place.",
+            "title": "Discover the best of Washington State, all in one place.",
             "text": "",
             "button_text": "",
             "link": "",
@@ -262,7 +262,7 @@
         "image": "shopify:\/\/shop_images\/blue_background-min.png",
         "subheading": "",
         "title": "On the blog",
-        "text-color": "#fff",
+        "text-color": "#ffffff",
         "show_author_name": false,
         "show_dates": false,
         "show_blog_images": true,
@@ -564,6 +564,12 @@
         "button_link": "",
         "button_label": ""
       }
+    },
+    "16635711307b17662c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>"
+      }
     }
   },
   "order": [
@@ -585,6 +591,7 @@
     "store-information-delivery-partners",
     "search-block",
     "product-featured-product",
-    "image-image-with-text-overlay"
+    "image-image-with-text-overlay",
+    "16635711307b17662c"
   ]
 }
