@@ -2,11 +2,104 @@
   "sections": {
     "main": {
       "type": "template--page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1663572286c3a592d6": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/makers_banner_1.png",
+        "text-color": "#222222",
+        "background-color": "rgba(0,0,0,0)",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "MEET OUR MAKERS",
+        "font-size": "large",
+        "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "rgba(0,0,0,0)",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "16635720255e76fa4a": {
+      "type": "image--slideshow",
+      "disabled": true,
+      "blocks": {
+        "1663572025e5d49296-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/makers_banner_1.png",
+            "subheading": "",
+            "title": "MEET OUR MAKERS",
+            "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#ffffff",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
+        "1663572025e5d49296-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "1663572025e5d49296-0",
+        "1663572025e5d49296-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true,
+        "header-font": "var(--font-family-regular)"
+      }
+    },
+    "166357223161cba705": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/makers_banner_1.png",
+        "subheading": "",
+        "title": "MEET OUR MAKERS",
+        "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+        "parallax": false,
+        "alignment": "center",
+        "hero_size": "large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663572286c3a592d6",
+    "16635720255e76fa4a",
+    "166357223161cba705"
   ]
 }
