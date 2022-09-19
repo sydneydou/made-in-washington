@@ -1,5 +1,6 @@
 {
   "current": {
+    "image_overlay_opacity": 10,
     "typography-body-font-size": 15,
     "navigation--capitalize": false,
     "typography-buttons-font-size": 15,
