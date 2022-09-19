@@ -50,7 +50,7 @@ header span{
 }
 
 .slides img{
-    height:100vh;
+    height:80vh;
 }
 
 
@@ -131,3 +131,36 @@ header span{
     margin-bottom:1.5em;
 }
 
+
+
+/* collection picker */
+
+.row {
+    
+    margin-right: -45px;
+    margin-left: -45px;
+}
+
+.shopify-section .homepage-sections-wrapper {
+    padding: 65px 0 !important;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .feature-row__text--inner{
+        margin-right: 5em;
+    }
+
+}
+
+
+
+/* newsletter block */
+
+#newsletter_section_form div{
+    align-items: baseline;
+}
+
+.newsletter__item{
+    margin: 0 auto;
+}

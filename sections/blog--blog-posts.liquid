@@ -246,10 +246,15 @@
           background-repeat: no-repeat;
           background-size: cover !important;
           background:url({{section.settings.image  | product_img_url: 'master'}});
-          padding-top:10em;
-          padding-bottom:7em;
+          padding-top:10em !important;
+          padding-bottom:7em !important;
         }
   {% endif %}
+
+
+  .blog-home h4, .blog-home p,  .blog-home h2,  .blog-home h3 a, .home-blog-excerpt{
+    color: {{section.settings.text-color}};
+  }
 </style>
 
 {% schema %}
@@ -297,6 +302,18 @@
                 "fr": "Du blog",
                 "pt-PT": "Do blog"
             }
+        },
+        {
+          "type": "color",
+          "id": "text-color",
+          "label": {
+              "en": "Text",
+              "de": "Text",
+              "es": "Texto",
+              "fr": "Texte",
+              "pt-PT": "Texto"
+          },
+          "default": "#fff"
         },
         {
             "type": "checkbox",

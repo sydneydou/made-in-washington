@@ -25,6 +25,12 @@
           {% if section.settings.subheading != blank %}
             <h3 class="subheading-new type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
           {% endif %}
+
+          <div class="newsletter__item col-sm-12 col-md-7 col-lg-6">
+            <div class="newsletter_form wow">
+              {% render 'newsletter-form', form_id: 'newsletter_section_form' %}
+            </div>
+          </div>
           
         </div>
       {% endif %}
@@ -52,6 +58,8 @@
       </div>
     {% endif %}
   </div>
+
+  
 </section>
 
 <style>
