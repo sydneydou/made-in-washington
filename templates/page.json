@@ -116,6 +116,7 @@
     },
     "166357261491f08943": {
       "type": "text--image-with-text",
+      "disabled": true,
       "settings": {
         "image-width": "medium",
         "layout": "left",
@@ -174,14 +175,91 @@
         "image-width": "medium",
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "left",
-        "subheading": "",
         "title": "our makers",
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
-        "subheading-two": "",
-        "title-two": "",
-        "text_block-two": "",
         "button_link": "",
         "button_label": ""
+      }
+    },
+    "166357351277772320": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "166357351289793237-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-gift-baskets-sets"
+          }
+        },
+        "166357351289793237-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-seafood-gourment-food-chocolate"
+          }
+        },
+        "166357351289793237-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-coffee-beverages"
+          }
+        },
+        "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-home-gifts-1"
+          }
+        },
+        "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-bath-body"
+          }
+        }
+      },
+      "block_order": [
+        "166357351289793237-0",
+        "166357351289793237-1",
+        "166357351289793237-2",
+        "be128fe2-223b-4c65-8bd2-5dfc9b7994a1",
+        "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
+    },
+    "166357353859bf306f": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Share your story",
+        "font-size": "small",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "1663573610743b54a4": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "let's stay in touch",
+        "font-size": "small",
+        "text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     }
   },
@@ -193,6 +271,9 @@
     "1663572489772c8a05",
     "166357261491f08943",
     "1663572641d0883af7",
-    "16635731767eb88922"
+    "16635731767eb88922",
+    "166357351277772320",
+    "166357353859bf306f",
+    "1663573610743b54a4"
   ]
 }
