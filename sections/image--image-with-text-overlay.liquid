@@ -74,6 +74,22 @@
     </div>
   </div>
 
+
+<style>
+    {% if section.settings.font-size == 'large' %}
+  #shopify-section-{{ section.id }} h2{
+    font-size: 2.7em !important;
+
+  }
+
+  /* #shopify-section-{{ section.id }} h3{
+   
+    font-size: 1.05em;
+  } */
+
+ {% endif %}
+</style>
+
 {% schema %}
 {
     "name": {
@@ -149,6 +165,22 @@
                 "fr": "<p>C'est le moment ou jamais de faire une excellente première impression</p>",
                 "pt-PT": "<p>Aqui está a sua oportunidade de causar uma excelente primeira impressão</p>"
             }
+        },
+        {
+            "type": "select",
+            "id": "font-size",
+            "label": "Font Sizes",
+            "options": [
+                {
+                    "value": "small",
+                    "label": "Small"
+                },
+                {
+                    "value": "large",
+                    "label": "Large"
+                }
+            ],
+            "default": "small"
         },
         {
             "type": "checkbox",
