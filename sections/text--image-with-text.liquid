@@ -18,7 +18,7 @@
     {%- assign content_width_columns = 6 -%}
 {% endcase %}
 
-<section class="homepage-sections-wrapper">
+<section class="homepage-sections-wrapper image-with-text-home">
 
     <div class="container">
     	<div class="row">
@@ -34,6 +34,10 @@
                   {% else %}
                     {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
                   {% endif %}
+                  {% if section.settings.image-logo != blank %}
+                    <img class="img-logo" src="{{ section.settings.image-logo | img_url: 'master'}}">
+                
+                {% endif %}
                 </div>
 
                 <div class="feature-row__text col-md-{{ content_width_columns }} col-12 wow">
@@ -177,6 +181,11 @@
                 "pt-PT": "600 x 600px, recomendado"
             }
         },
+        {
+          "type": "image_picker",
+          "id": "image-logo",
+          "label": "Logo beneath image"
+      },
         {
             "type": "select",
             "id": "layout",

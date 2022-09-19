@@ -137,11 +137,11 @@ header span{
 
 .row {
     
-    margin-right: -45px;
-    margin-left: -45px;
+    margin-right: -55px;
+    margin-left: -55px;
 }
 
-.shopify-section .homepage-sections-wrapper {
+.homepage-sections-wrapper {
     padding: 65px 0 !important;
 }
 
@@ -163,4 +163,32 @@ header span{
 
 .newsletter__item{
     margin: 0 auto;
+}
+
+
+/* image with text section */
+
+.feature-row__image{
+    position:relative;
+}
+
+.img-logo{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 43%);
+    width: 4em;
+}
+.feature-row__image{
+    height:27em;
+}
+
+.image-with-text-home{
+    padding: 11em 0 !important;
+}
+
+/* instagram feed */
+
+#insta-feed{
+padding: 3em 0;
 }
