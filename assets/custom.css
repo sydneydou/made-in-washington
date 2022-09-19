@@ -49,6 +49,10 @@ header span{
     width:65%;
 }
 
+.slides img{
+    height:100vh;
+}
+
 
 /* image with text block section */
 
