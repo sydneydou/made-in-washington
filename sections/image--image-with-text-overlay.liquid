@@ -88,6 +88,13 @@
   } */
 
  {% endif %}
+
+
+
+ #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} h3{
+    color: {{ section.settings.text-color }};
+
+  }
 </style>
 
 {% schema %}
@@ -165,6 +172,18 @@
                 "fr": "<p>C'est le moment ou jamais de faire une excellente première impression</p>",
                 "pt-PT": "<p>Aqui está a sua oportunidade de causar uma excelente primeira impressão</p>"
             }
+        },
+        {
+            "type": "color",
+            "id": "text-color",
+            "label": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            },
+            "default": "#000000"
         },
         {
             "type": "select",
