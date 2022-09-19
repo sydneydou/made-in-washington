@@ -72,10 +72,7 @@
                                             {% assign has_caption = true %}
 
                                             <div aria-live="polite" aria-atomic="true" class="slider-caption{% if block.settings.caption-background == "rgba(0,0,0,0)" %} pl-0 pr-0{% endif %} horizontal-align--{{ block.settings.horizontal-alignment }} vertical-align--{{ block.settings.vertical-alignment }} background{% if block.settings.mobile_image != blank or section.settings.show-slide-full-screen %} slideshow-mobile-image-content{% endif %}{% if block.settings.mobile_image == blank %} slider-dots--padding{% endif %}">
-                                                {% if block.settings.subheading != empty %}
-                                                    <h3 class="type-subheading type-subheading--1{% if block.settings.title != blank %} typography--padding-bottom{% endif %}">{{ block.settings.subheading | escape }}</h3>
-                                                {% endif %}
-
+                                               
                                                 {% if block.settings.title != empty %}
                                                     {% if slide_is_link %}
                                                         <h2><a href="{{ block.settings.link }}">{{ block.settings.title | escape }}</a></h2>
@@ -83,6 +80,11 @@
                                                         <h2>{{ block.settings.title | escape }}</h2>
                                                     {% endif %}
                                                 {% endif %}
+
+                                                {% if block.settings.subheading != empty %}
+                                                <h3 class="type-subheading type-subheading--1{% if block.settings.title != blank %} typography--padding-bottom{% endif %}">{{ block.settings.subheading | escape }}</h3>
+                                            {% endif %}
+
 
                                                 {% if block.settings.text != empty %}
                                                 <div class="slider-caption--text">
