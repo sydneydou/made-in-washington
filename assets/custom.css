@@ -75,6 +75,10 @@ header span{
 
 /* blog section homepage */
 
+.home-blog-excerpt{
+    padding:0 1.2em;
+}
+
 .home-blog-excerpt, .blog-title-wrapper h3{
     text-align:center;
 }
@@ -170,6 +174,10 @@ font-size:.93em !important;
 
 /* newsletter block */
 
+.newsletter_form button{
+    background: #057C90;
+}
+
 #newsletter_section_form div{
     align-items: baseline;
 }
@@ -240,6 +248,40 @@ padding: 3em 0;
   }
 
 
+
+  /* footer */
+footer{
+    position: relative;
+    margin-top: 11em;
+}
+
+  .mtn{
+    position: absolute;
+    top: -10em;
+    background-color:#B8CAB7;
+  }
+
+  #shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer{
+    background-color:#B8CAB7;
+  }
+
+  #insta-feed{
+    margin-top:0 !important;
+    padding: 5em 0 !important;
+  }
+
+
+
+  /* announcement bar */
+
+  .notification-bar__message{
+    width:fit-content !important;
+  }
+
+  .notification-bar__message img{
+    height:10px;
+    width:13px;
+  }
 
 /* tablet */
 @media only screen and (min-width: 796px) and (max-width: 1250px){
@@ -331,5 +373,65 @@ padding: 3em 0;
     .title-bar h3.typography--padding-bottom {
         width: 97%;
     }
+
+
+    .footer img{
+        width:7em;
+    }
+
+    .footer p, .footer h3 , .footer h2, .footer a,  .footer li{
+        text-align:center;
+    }
+
+    .footer .sm-icons{
+        justify-content: center;
+    }
+
+    .footer .sm-icons a{
+        margin: 0 auto !important;
+    }
+
+    .footer__block-wrapper .sm-icons svg {
+        fill: white;
+    }
+
+    .footer .container-xl .row .col-sm-12:nth-child(1){
+        order:2;
+
+    }
+    .footer .container-xl .row .col-sm-12:nth-child(2){
+        order:5;
+        
+    }
+    .footer .container-xl .row .col-sm-12:nth-child(3){
+        order:1;
+    }
+    .footer .container-xl .row .col-sm-12:nth-child(4){
+        order:3;
+    }
+    .footer .container-xl .row .col-sm-12:nth-child(5){
+        order:4;
+    }
+
+    #shopify-section-footer footer button{
+        color:white !important;
+    }
+
+    .footer__block-type--menu .footer__mobile-menu-expandable .footer__mobile-menu-toggle:after{
+        border-color:white !important;
+    }
+
+    .footer p{
+        padding: 0 5em !important;
+    }
+
+    #shopify-section-footer footer{
+        padding-top:5em !important;
+    }
+
+    .mtn{
+        width:auto !important;
+    }
+
 
 }

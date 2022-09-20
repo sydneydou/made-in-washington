@@ -21,7 +21,7 @@
         <div class="collection-grid">
           <div class="row">
             {% for block in section.blocks limit: section.blocks.size %}
-              <article class="indiv-collection-grid-homepage wow col-sm
+              <article id={{block}} class="indiv-collection-grid-homepage wow col-sm
                 {%- case section.blocks.size -%}
                   {% when 2 %}
                     {% cycle 'mobileCycle': ' alpha', ' omega' %}
@@ -42,7 +42,12 @@
                         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
                         {{ 'collection-' | append: current | placeholder_svg_tag: 'icon--placeholder' }}
                       {% else %}
-                        {% if collection.image %}
+
+                      <!-- {% if block.settings.hover %}onmouseleave ="leaveHovs({{block_id}}, '{{from}}')" onmouseenter="onHovs( '/{{hover}}', {{block_id}}, '{{from}}' )"    {%- endif -%} -->
+                        
+                      
+                      
+                      {% if collection.image %}
                           {% render 'responsive-image' with collection, alt: collection.image.alt %}
                           {% else %}
                           {% assign product = collection.products | first %}
@@ -78,6 +83,37 @@
     </div>
   </div>
 </section>
+
+
+
+<script>
+  
+
+  // let origImg;
+  
+  //   function onHovs(imgurl, ind, from ){
+  // let targ = "."+from
+  //     origImg =   document.querySelectorAll(targ)[ind].style.backgroundImage
+  //     if(imgurl){
+  // console.log(document.querySelectorAll(targ)[ind].style.backgroundImage )
+  // document.querySelectorAll(targ)[ind].style.backgroundImage = `url(https://cdn.shopify.com/s/files/1/0553/9502/5001`+imgurl+`)`;
+  //   console.log(document.querySelectorAll(targ)[ind].style.backgroundImage, "after")
+  //      }
+        
+  //   }
+    
+  //   function leaveHovs(ind, from){
+  //       let targ = "."+from
+  //     document.querySelectorAll(targ)[ind].style.backgroundImage = origImg;
+  
+      
+  //   }
+  
+   
+  
+  </script>
+
+
 
 {% schema %}
 {
@@ -115,6 +151,8 @@
         }
     ],
     "blocks": [
+    
+       
         {
             "type": "featured_collection",
             "name": {
