@@ -1,22 +1,6 @@
 {{ 'section-image-with-text.min.css' | asset_url | stylesheet_tag }}
 
-{% case section.settings.image-width %}
-  {% when 'extra-small' %}
-    {%- assign image_width_columns = 2 -%}
-    {%- assign content_width_columns = 10 -%}
-  {% when 'small' %}
-    {%- assign image_width_columns = 3 -%}
-    {%- assign content_width_columns = 9 -%}
-  {% when 'medium' %}
-    {%- assign image_width_columns = 4 -%}
-    {%- assign content_width_columns = 8 -%}
-  {% when 'large' %}
-    {%- assign image_width_columns = 5 -%}
-    {%- assign content_width_columns = 7 -%}
-  {% when 'extra-large' %}
-    {%- assign image_width_columns = 6 -%}
-    {%- assign content_width_columns = 6 -%}
-{% endcase %}
+
 
 <section class="homepage-sections-wrapper image-with-text-home  text-column-section">
     <img class="mtn"  src="{{ section.settings.image | img_url: '1000x1000' }}"
@@ -71,75 +55,23 @@
     </div>
   </section>
 
+  <style>
+    #shopify-section-{{ section.id }} p, #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} a, #shopify-section-{{ section.id }} h3, #shopify-section-{{ section.id }} div{
+        color:{{section.settings.text-color}} !important;
+    }
+  </style>
+
 {% schema %}
 {
     "name": "Text Columns",
     "class": "homepage-section--text-and-image-wrapper",
     "settings": [
-        {
-            "type": "select",
-            "id": "image-width",
-            "label": {
-                "en": "Image width",
-                "de": "Bildbreite",
-                "es": "Ancho de la imagen",
-                "fr": "Largeur de l'image",
-                "pt-PT": "Largura de imagem"
-            },
-            "default": "medium",
-            "options": [
-                {
-                    "value": "extra-small",
-                    "label": {
-                        "en": "Extra small",
-                        "de": "Extra klein",
-                        "es": "Muy pequeño",
-                        "fr": "Très petite",
-                        "pt-PT": "Extra pequeno"
-                    }
-                },
-                {
-                    "value": "small",
-                    "label": {
-                        "en": "Small",
-                        "de": "Klein",
-                        "es": "Pequeño",
-                        "fr": "Petite",
-                        "pt-PT": "Pequeno"
-                    }
-                },
-                {
-                    "value": "medium",
-                    "label": {
-                        "en": "Medium",
-                        "de": "Mittel",
-                        "es": "Mediano",
-                        "fr": "Moyenne",
-                        "pt-PT": "Médio"
-                    }
-                },
-                {
-                    "value": "large",
-                    "label": {
-                        "en": "Large",
-                        "de": "Groß",
-                        "es": "Grande",
-                        "fr": "Grande",
-                        "pt-PT": "Grande"
-                    }
-                },
-                {
-                    "value": "extra-large",
-                    "label": {
-                        "en": "Extra large",
-                        "de": "Extra groß",
-                        "es": "Muy grande",
-                        "fr": "Extra grande",
-                        "pt-PT": "Extra grande"
-                    }
-                }
-            ]
-        },
+    {
+        "type": "color",
+        "id": "text-color",
+        "label": "Text Color",
+        "default": "#FFF"
+      },
         {
             "type": "image_picker",
             "id": "image",
