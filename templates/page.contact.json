@@ -7,10 +7,11 @@
         "subheading": "",
         "title": "Contact Us",
         "text": "",
+        "text-color": "#000000",
         "font-size": "large",
-        "parallax": true,
+        "parallax": false,
         "alignment": "center",
-        "hero_size": "medium",
+        "hero_size": "large",
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
