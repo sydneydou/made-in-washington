@@ -36,7 +36,7 @@
           {% if section.settings.logo != blank and section.settings.logo-enable %}
             <span style="position: absolute;
             left: 39%;
-            top: 18px;">
+            top: 18px;width:1em;">
               {% render 'responsive-image' with section.settings.logo, alt: alt, blur: false, props: props %}
             </span>
           {% endif %}
@@ -55,7 +55,7 @@
           {% if section.settings.logo != blank and section.settings.logo-enable %}
               <span style="position: absolute;
               right: 39%;
-              top: 18px;">
+              top: 18px; width:1em;">
                 {% render 'responsive-image' with section.settings.logo, alt: alt, blur: false, props: props %}
               </span>
         {% endif %}
