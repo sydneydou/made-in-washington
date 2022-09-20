@@ -3,14 +3,15 @@
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/miw_blog_banner_2x-min.png",
         "subheading": "",
         "title": "Blog",
         "text": "",
         "text-color": "#000000",
         "font-size": "large",
-        "parallax": true,
+        "parallax": false,
         "alignment": "center",
-        "hero_size": "x-large",
+        "hero_size": "large",
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
