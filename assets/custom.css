@@ -159,7 +159,7 @@ font-size:.93em !important;
 }
 
 .homepage-sections-wrapper {
-    padding: 65px 0 !important;
+    padding: 80px 0 !important;
 }
 
 
@@ -259,9 +259,11 @@ footer{
     position: absolute;
     top: -10em;
     background-color:#B8CAB7;
+    left:-1em;
+    min-width:130vw;
   }
 
-  #shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer{
+  #shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer, #shopify-section-template--15844122820780__16635600351e723d9b{
     background-color:#B8CAB7;
   }
 
@@ -432,6 +434,30 @@ footer{
     .mtn{
         width:auto !important;
     }
+
+    .left-logo{
+        left:12% !important;
+    }
+
+    .right-logo{
+        right:12% !important;
+    }
+
+    .mobile-header--wrapper .mobile-side-column .header-link{
+        width:0;
+    }
+
+
+    li .mobile-menu-link{
+    font-family: zen-maru-gothic,sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+
+    }
+
+ .homepage-section--logo-bar-wrapper .featured-logos{
+    margin-bottom: -13em;
+  }
 
 
 }
