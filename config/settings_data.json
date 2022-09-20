@@ -16,7 +16,9 @@
           "message_link": "",
           "notification-bar--background-color": "#ffffff",
           "notification-bar--text-color": "#222222",
-          "social-enable": false
+          "social-enable": false,
+          "logo": "shopify:\/\/shop_images\/small_WA_logo-min_d31b4482-e4f3-4ae0-826e-6be613e6b69a.png",
+          "logo-enable": true
         }
       },
       "header": {
@@ -108,7 +110,6 @@
           "576a6d45-78ff-48de-a155-ccda4c3a237f"
         ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/dark_green_background.png",
           "background-color": "#4e714e",
           "text-color": "#ffffff",
           "show_back_to_top": false,
