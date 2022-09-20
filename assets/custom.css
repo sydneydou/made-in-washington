@@ -247,6 +247,14 @@ padding: 3em 0;
     right:-50px !important;
   }
 
+  /* text column section */
+.column-groups{
+    display:flex;
+}
+
+.text-column-section{
+    position:relative;
+}
 
 
   /* footer */
