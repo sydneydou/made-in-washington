@@ -8,6 +8,8 @@
         "subheading": "",
         "title": "{{ collection.title }}",
         "text": "",
+        "text-color": "#000000",
+        "font-size": "large",
         "parallax": true,
         "alignment": "center",
         "hero_size": "medium",

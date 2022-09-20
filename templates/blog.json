@@ -3,12 +3,15 @@
     "image-with-text-overlay": {
       "type": "image--image-with-text-overlay",
       "settings": {
+        "image": "shopify:\/\/shop_images\/miw_blog_banner_2x-min.png",
         "subheading": "",
         "title": "Blog",
         "text": "",
-        "parallax": true,
+        "text-color": "#000000",
+        "font-size": "large",
+        "parallax": false,
         "alignment": "center",
-        "hero_size": "x-large",
+        "hero_size": "large",
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
@@ -41,13 +44,7 @@
         "horizontal-alignment": "center",
         "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
         "title": "Let's stay in touch",
-        "font-size": "small",
-        "text": "",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "font-size": "small"
       }
     },
     "166357436128577abc": {
