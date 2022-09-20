@@ -25,15 +25,15 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_2_1_-min_842f63dc-7620-47e4-83df-e586da739bbe.png",
-            "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington State, all in one place.",
+            "subheading": "One for everyone on your list.",
+            "title": "Twelve ways to celebrate",
             "text": "",
-            "button_text": "",
-            "link": "",
+            "button_text": "Shop Now",
+            "link": "#",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#222222",
             "button-text": "#ffffff",
-            "button-background": "#000000",
+            "button-background": "#057c90",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
@@ -42,8 +42,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
-            "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington State, all in one place.",
+            "subheading": "with hand made, fragrant candles. That’s Festive AF.",
+            "title": "Light up the Holidays",
             "text": "",
             "button_text": "",
             "link": "",
@@ -59,15 +59,15 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_4_1_-min.png",
-            "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington State, all in one place.",
+            "subheading": "But really the spa is brought to you, and can last way longer than a day.",
+            "title": "A day at the spa",
             "text": "",
             "button_text": "",
             "link": "",
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#222222",
             "button-text": "#ffffff",
-            "button-background": "#000000",
+            "button-background": "#b8cab7",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
@@ -284,13 +284,7 @@
         "horizontal-alignment": "center",
         "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
         "title": "Let's stay in touch",
-        "font-size": "small",
-        "text": "",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "font-size": "small"
       }
     },
     "16635600351e723d9b": {
@@ -563,6 +557,8 @@
         "subheading": "Subheading",
         "title": "Share your story",
         "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "text-color": "#000000",
+        "font-size": "small",
         "parallax": true,
         "alignment": "center",
         "hero_size": "x-large",
