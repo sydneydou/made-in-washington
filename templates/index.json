@@ -85,8 +85,8 @@
         "show-slide-full-screen": false,
         "slider-slide-time": 5,
         "caption-heading-size": 42,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
+        "show-slide-dots": true,
+        "show-slide-arrows": false,
         "slider-navigation--color": "#222222",
         "overlay": false,
         "header-font": "var(--font-family-regular)"
@@ -561,6 +561,7 @@
         "font-size": "small",
         "parallax": true,
         "alignment": "center",
+        "text-position": "center",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
         "button_link": "",
