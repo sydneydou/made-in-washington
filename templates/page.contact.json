@@ -88,12 +88,45 @@
         "subheading": "",
         "title": ""
       }
+    },
+    "1663732694c7a0912a": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "Let's stay in touch",
+        "font-size": "small"
+      }
+    },
+    "16637326789eb4517a": {
+      "type": "apps",
+      "blocks": {
+        "e70a5287-fb4f-4fa7-88d6-31638bf61b2a": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e70a5287-fb4f-4fa7-88d6-31638bf61b2a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "1663574089f19aac96",
     "166366530112b45772",
     "main",
-    "collection-list"
+    "collection-list",
+    "1663732694c7a0912a",
+    "16637326789eb4517a"
   ]
 }
