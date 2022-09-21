@@ -83,6 +83,10 @@
       background-color:{{section.settings.btn-background-color}};
       color:{{section.settings.btn-text-color}};
     }
+
+    #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} .textarea{
+      color:{{section.settings.text-color}} !important;
+    }
   </style>
 
 {% schema %}
@@ -94,6 +98,12 @@
       "type": "color",
       "id": "background-color",
       "label": "Background Color",
+      "default": "#FFF"
+    },
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text Color",
       "default": "#FFF"
     },
         {
