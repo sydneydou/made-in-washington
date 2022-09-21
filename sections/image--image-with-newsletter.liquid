@@ -48,6 +48,9 @@
   </div>
 
   <div class="image-text-block--wrapper">
+    {% if section.settings.credit != blank %}
+      <p class="credit">{{section.settings.credit}}</p>
+    {% endif %}
     {% if section.settings.background_image != blank %}
       <div class="image-text-block-row---mobile--image visible-xs">
         {% render 'responsive-image' with section.settings.background_image, alt: section.settings.background_image.alt, class: 'feature-row__image' %}
@@ -122,6 +125,11 @@
                 "pt-PT": "2000 x 500px, recomendado"
             }
         },
+        {
+          "type": "text",
+          "id": "credit",
+          "label": "Image Credit"
+      },
         {
             "type": "color",
             "id": "text-color",

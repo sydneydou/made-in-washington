@@ -207,6 +207,20 @@ font-size:.93em !important;
     margin: 0 auto;
 }
 
+.image-text-block--wrapper{
+    position:relative;
+}
+
+.credit{
+    position: absolute;
+    bottom: 1em;
+    right: 4em;
+    width: 20em;
+    text-align: center;
+    color: white;
+    z-index: 999;
+}
+
 
 /* image with text section */
 
