@@ -34,10 +34,7 @@
                   {% else %}
                     {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
                   {% endif %}
-                  {% if section.settings.image-logo != blank %}
-                    <img class="img-logo" src="{{ section.settings.image-logo | img_url: 'master'}}">
                 
-                {% endif %}
                 </div>
 
                 <div class="feature-row__text col-md-{{ content_width_columns }} col-12 wow">
@@ -73,11 +70,23 @@
     </div>
   </section>
 
+  <style>
+      #shopify-section-{{ section.id }}{
+      background-color:{{section.settings.background-color}} !important;
+    }
+  </style>
+
 {% schema %}
 {
     "name": "Image & Text Column",
     "class": "homepage-section--text-and-image-wrapper",
     "settings": [
+    {
+      "type": "color",
+      "id": "background-color",
+      "label": "Background Color",
+      "default": "#FFF"
+    },
         {
             "type": "select",
             "id": "image-width",
@@ -160,11 +169,7 @@
                 "pt-PT": "600 x 600px, recomendado"
             }
         },
-        {
-          "type": "image_picker",
-          "id": "image-logo",
-          "label": "Logo beneath image"
-      },
+       
         {
             "type": "select",
             "id": "layout",
