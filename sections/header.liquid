@@ -642,6 +642,8 @@
   .header-wrapper a span,.header-wrapper .header-link .header-content--top-bar a span, .header-link{
     color:{{section.settings.text-color}} !important;
   }
+
+ 
 </style>
 
 
@@ -1077,16 +1079,13 @@
         }
     ],
     "blocks": [
-        {
-            "type": "content",
-            "name": {
-                "en": "Mega Menu",
-                "de": "Mega-Menü",
-                "es": "Mega menú",
-                "fr": "Méga menu",
-                "pt-PT": "Mega Menu"
-            },
-            "settings": [
+       
+    {
+      "type": "color",
+      "id": "text-color",
+      "label": "Text Color",
+      "default": "#FFF"
+    },
                 {
                     "id": "mega-menu",
                     "type": "text",

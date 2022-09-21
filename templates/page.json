@@ -92,6 +92,7 @@
         "font-size": "large",
         "parallax": false,
         "alignment": "bottom",
+        "text-position": "right",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
         "button_link": "",

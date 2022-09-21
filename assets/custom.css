@@ -10,6 +10,19 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 /* navigation & header */
 
+.nav>li.mega-menu .dropdown-menu, .nav>li.mega-menu .dropdown-menu .mega-menu-block{
+    background: #4f704e;
+}
+
+.dropdown-menu .h4{
+    text-decoration:underline;
+    font-weight:600;
+}
+
+.dropdown-menu--mega a, .dropdown-menu--mega li{
+    color:white;
+}
+
 .header-content--top-bar .header-link{
     font-family: var(--font-family-bold);
 }
@@ -156,6 +169,10 @@ font-size:.93em !important;
 
 /* collection picker */
 
+.flickity-prev-next-button {
+    top: 36%;
+}
+
 .row {
     
     margin-right: -55px;
@@ -234,6 +251,10 @@ padding: 3em 0;
 
 /* image column section */
 
+.text-image-column .btn{
+    margin-top:3em;
+}
+
 .image-columns .feature-row{
     flex-direction: column-reverse;
 }
@@ -283,6 +304,8 @@ padding: 3em 0;
 .feature-row--image-top{
     flex-direction: column;
 }
+
+
 
 
   /* footer */
@@ -500,5 +523,34 @@ footer{
     margin-bottom: -13em;
   }
 
+  .column-groups{
+    flex-direction: column;
+    width:85vw;
+    margin: 0 auto;
+  }
+
+  .rte{
+    width:90vw;
+    margin: 0 auto;
+  }
+
+  .text-column-section .mtn {
+    top: -4em;
+    height: 57em;
+    left: -7em;
+}
+
+.feature-row__image {
+    height: auto;
+}
+
+.feature-row__image img {
+    max-width: 76%;
+    margin: 0 auto;
+}
+
+.column-groups h2{
+    text-align:center;
+}
 
 }
