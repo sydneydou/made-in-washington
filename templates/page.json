@@ -175,7 +175,7 @@
       "type": "text--image-column",
       "settings": {
         "background-color": "#ffffff",
-        "text-color": "#FFF",
+        "text-color": "#000000",
         "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "bottom",
@@ -279,7 +279,7 @@
       "settings": {
         "mtn": "shopify:\/\/shop_images\/blue_background-min.png",
         "background-color": "#057c90",
-        "text-color": "#FFF",
+        "text-color": "#ffffff",
         "image-width": "extra-small",
         "image": "shopify:\/\/shop_images\/WA_state_outline-min.png",
         "layout": "top",
