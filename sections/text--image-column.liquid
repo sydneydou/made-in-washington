@@ -27,7 +27,7 @@
           <div class="page-width feature-row homepage-featured-content">
 
           	<div class="feature-row__container">
-              <div class="feature-row{% if section.settings.layout == 'right' %} feature-row--image-right{% endif %}">
+              <div class="feature-row{% if section.settings.layout == 'top' %} feature-row--image-top{% endif %}">
                 <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow">
                   {% if section.settings.image != blank %}
                     {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
@@ -175,27 +175,15 @@
                 "fr": "Mise en page",
                 "pt-PT": "Apresentação"
             },
-            "default": "left",
+            "default": "bottom",
             "options": [
                 {
-                    "value": "left",
-                    "label": {
-                        "en": "Image on left",
-                        "de": "Bild links",
-                        "es": "Imagen a la izquierda",
-                        "fr": "Image à gauche",
-                        "pt-PT": "Imagem à esquerda"
-                    }
+                    "value": "bottom",
+                    "label": "Image on Bottom"
                 },
                 {
-                    "value": "right",
-                    "label": {
-                        "en": "Image on right",
-                        "de": "Bild rechts",
-                        "es": "Imagen a la derecha",
-                        "fr": "Image à droite",
-                        "pt-PT": "Imagem à direita"
-                    }
+                    "value": "top",
+                    "label": "Image on Top"
                 }
             ]
         },
