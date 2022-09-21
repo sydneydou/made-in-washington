@@ -46,8 +46,9 @@
         "15c52e3f-176f-4c35-a5c5-e7a7b8978498"
       ],
       "settings": {
-        "text-color": "#FFF",
-        "image": "shopify:\/\/shop_images\/dark_green_background.png"
+        "text-color": "#ffffff",
+        "background-color": "#4e714e",
+        "image": "shopify:\/\/shop_images\/contact_info_background-min.png"
       }
     },
     "main": {
