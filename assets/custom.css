@@ -280,6 +280,10 @@ padding: 3em 0;
     height: 57em;
 }
 
+.feature-row--image-top{
+    flex-direction: column;
+}
+
 
   /* footer */
 footer{
