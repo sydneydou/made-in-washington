@@ -239,6 +239,10 @@ padding: 3em 0;
     margin-bottom: 4em !important;
 }
 
+.instafeed-container img{
+    border:12px solid white;
+}
+
 /* events calendar */
 
 .tscBrand{

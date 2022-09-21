@@ -17,6 +17,18 @@
         <div id="newsletter-wrapper{% if section %}-{{ section.id }}{% endif %}" {% if form.posted_successfully? %}class="hide"{% endif %}>
             <label for="newsletter_text" class="sr-only"></label>
             <input
+            id="newsletter_text{% if section %}-{{ section.id }}{% endif %}"
+            type="name"
+            value="{% if customer %}{{ customer.email }}{% endif %}"
+            placeholder="First Name"
+            name="contact[name]"
+            class="input-group-field name"
+            aria-label="First Name"
+            autocorrect="off"
+            autocapitalize="off"
+            required
+        >
+            <input
                 id="newsletter_text{% if section %}-{{ section.id }}{% endif %}"
                 type="email"
                 value="{% if customer %}{{ customer.email }}{% endif %}"
@@ -31,13 +43,15 @@
             >
 
             <button
+            style="    width: 19em;
+        "
                 type="submit"
                 id="newsletter_submit{% if section %}-{{ section.id }}{% endif %}"
                 name="commit"
-                aria-label="{{ 'general.newsletter_form.submit' | t }}"
+                aria-label="Sign Up"
                 class="btn"
             >
-                {{ 'general.newsletter_form.button_label' | t }}
+            Sign Up
             </button>
         </div>
     {% endif %}
