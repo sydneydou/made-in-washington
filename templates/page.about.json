@@ -134,6 +134,12 @@
         "button_label": ""
       }
     },
+    "1663742949d79d8d70": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/theapplicantmanager.com\/jobfeeds\/bc_made_in_washington.js\"><\/script>"
+      }
+    },
     "16630409173f46f10a": {
       "type": "image--image-with-text-block",
       "settings": {
@@ -197,6 +203,7 @@
     "1663040411aa0550b7",
     "16630404948b795be5",
     "16630409112cd2e1e6",
+    "1663742949d79d8d70",
     "16630409173f46f10a",
     "1663742438a4dba04f",
     "16637423516acc56b7",
