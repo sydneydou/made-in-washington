@@ -74,6 +74,15 @@
       #shopify-section-{{ section.id }}{
       background-color:{{section.settings.background-color}} !important;
     }
+
+    #shopify-section-{{ section.id }} .feature-row--image-top{
+      flex-direction:column !important;
+    }
+
+    #shopify-section-{{ section.id }} .btn{
+      background-color:{{section.settings.btn-background-color}};
+      color:{{section.settings.btn-text-color}};
+    }
   </style>
 
 {% schema %}
@@ -258,6 +267,18 @@
                 "fr": "Étiquette du bouton",
                 "pt-PT": "Etiqueta do botão"
             }
+        },
+        {
+          "type": "color",
+          "id": "btn-text-color",
+          "label": "Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "btn-background-color",
+          "label": "Background Color",
+          "default": "#FFF"
         }
     ],
     "presets": [
