@@ -45,7 +45,7 @@
     		    {% endif %}
 
     		    <div class="hero__inner wow">
-    		      <div class="page-width text-center">
+    		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %} {% if section.settings.text-position == 'left' %} text-left{% endif %}"  >
                 {% if section.settings.title != blank or section.settings.subheading != blank %}
                   <div class="title-bar custom-font">
                     {% if section.settings.subheading != blank %}
@@ -82,14 +82,17 @@
 
   }
 
-  /* #shopify-section-{{ section.id }} h3{
-   
-    font-size: 1.05em;
-  } */
-
  {% endif %}
 
+.text-right{
+    margin-right: 5em !important;
+    margin-bottom: 10em !important;
+}
 
+.text-left{
+    margin-left: 5em !important;
+    margin-bottom: 10em !important;
+}
 
  #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} h3,#shopify-section-{{ section.id }} .hero__text{
     color: {{ section.settings.text-color }};
@@ -261,6 +264,26 @@
                         "fr": "En bas",
                         "pt-PT": "Parte inferior"
                     }
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "text-position",
+            "label": "Text Position",
+            "default": "center",
+            "options": [
+                {
+                    "label": "Center",
+                    "value": "center"
+                },
+                {
+                    "label": "Left",
+                    "value": "left"
+                },
+                {
+                    "label": "Right",
+                    "value": "right"
                 }
             ]
         },
