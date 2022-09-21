@@ -18,7 +18,7 @@
     {%- assign content_width_columns = 6 -%}
 {% endcase %}
 
-<section class="homepage-sections-wrapper image-columns">
+<section class="homepage-sections-wrapper image-columns text-image-column">
 
     <div class="container">
     	<div class="row">
@@ -71,6 +71,28 @@
   </section>
 
   <style>
+
+{% if section.settings.mtn  %}
+        #shopify-section-{{ section.id }} .text-image-column{
+          background-repeat: no-repeat;
+          background-size: cover !important;
+          background:url({{section.settings.mtn  | product_img_url: 'master'}});
+          padding-top:12em !important;
+          padding-bottom:7em !important;
+        }
+
+
+
+
+    @media only screen and (max-width: 797px){
+      #shopify-section-{{ section.id }} .text-image-column{
+        padding-top:21em !important;
+      }
+
+    }
+  {% endif %}
+
+
       #shopify-section-{{ section.id }}{
       background-color:{{section.settings.background-color}} !important;
     }
@@ -94,6 +116,11 @@
     "name": "Image & Text Column",
     "class": "homepage-section--text-and-image-wrapper",
     "settings": [
+    {
+      "type": "image_picker",
+      "id": "mtn",
+      "label": "Mountain Background Image"
+  },
     {
       "type": "color",
       "id": "background-color",
