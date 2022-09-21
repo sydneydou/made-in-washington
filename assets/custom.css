@@ -250,10 +250,25 @@ padding: 3em 0;
   /* text column section */
 .column-groups{
     display:flex;
+    justify-content: space-evenly;
 }
 
 .text-column-section{
     position:relative;
+}
+
+
+.feature-row__text-column{
+    display:flex;
+    justify-content:center;
+}
+
+.feature-row__text-column .feature-row__text--inner{
+    margin: 0 auto;
+}
+
+.column-groups p{
+    text-align:center;
 }
 
 
@@ -292,6 +307,11 @@ footer{
     height:10px;
     width:13px;
   }
+
+
+
+
+
 
 /* tablet */
 @media only screen and (min-width: 796px) and (max-width: 1250px){
