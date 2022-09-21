@@ -18,8 +18,10 @@
     {%- assign content_width_columns = 6 -%}
 {% endcase %}
 
-<section class="homepage-sections-wrapper image-columns text-image-column">
-
+<section class="homepage-sections-wrapper image-columns text-image-column" style="position:relative;">
+  {% if section.settings.mtn != blank %}
+      <img class="mtn" style="background-color:transparent; top:-8.5em;" src={{section.settings.mtn | img_url: 'master'}} >
+  {% endif %}
     <div class="container">
     	<div class="row">
 
@@ -72,25 +74,6 @@
 
   <style>
 
-{% if section.settings.mtn  %}
-        #shopify-section-{{ section.id }} .text-image-column{
-          background-repeat: no-repeat;
-          background-size: cover !important;
-          background:url({{section.settings.mtn  | product_img_url: 'master'}});
-          padding-top:12em !important;
-          padding-bottom:7em !important;
-        }
-
-
-
-
-    @media only screen and (max-width: 797px){
-      #shopify-section-{{ section.id }} .text-image-column{
-        padding-top:21em !important;
-      }
-
-    }
-  {% endif %}
 
 
       #shopify-section-{{ section.id }}{
