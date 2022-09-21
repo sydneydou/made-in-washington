@@ -176,7 +176,7 @@
       "settings": {
         "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
-        "layout": "top",
+        "layout": "bottom",
         "title": "our makers",
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
         "button_link": "",
