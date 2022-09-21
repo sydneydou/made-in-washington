@@ -91,7 +91,7 @@
         "text-color": "#000000",
         "font-size": "large",
         "parallax": false,
-        "alignment": "center",
+        "alignment": "bottom",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
         "button_link": "",
