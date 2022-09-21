@@ -88,6 +88,7 @@
         "subheading": "",
         "title": "MEET OUR MAKERS",
         "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+        "text-color": "#000000",
         "font-size": "large",
         "parallax": false,
         "alignment": "center",
@@ -180,6 +181,29 @@
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
         "button_link": "",
         "button_label": ""
+      }
+    },
+    "1663733160da55cc5c": {
+      "type": "text--text-columns",
+      "blocks": {
+        "ed9a2165-1b5d-4518-9ddb-cfa3227d5e9f": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Share brand or product details",
+            "text_block": "<p>Abby Barr Design<br\/>Addition<br\/>AJ’s Edible Arts<br\/>Apolis Craft Tea<br\/>Barn Cat Creations<br\/>Beecher’s Crackers<br\/>Bewilderness Puzzles<br\/>BobbySue’s Nuts<br\/>Bonache Sauces<br\/>The Bread Dip Company<br\/>Bunnies By The Bay<br\/>Burning At Both Ends<br\/>Buy Give Share<br\/>Buzzy<br\/>Caffe Appassionato<br\/>Campfire Coffee<br\/>Capuli Club Tea<br\/>Careful Hand Sanitizers<br\/>Cate Florey Studio<br\/>Chalo Seattle<br\/>Chelan Beauty<br\/>Chukar Cherries<br\/>Clay In Motion<br\/>Clear Creek Pottery<br\/>Columbia Valley Farms<br\/>Coro By Salumi<\/p>",
+            "button_link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "ed9a2165-1b5d-4518-9ddb-cfa3227d5e9f"
+      ],
+      "settings": {
+        "text-color": "#FFF",
+        "background-color": "#3c271b",
+        "image": "shopify:\/\/shop_images\/makers_background-min.png"
       }
     },
     "166357351277772320": {
@@ -287,6 +311,7 @@
     "166357261491f08943",
     "1663572641d0883af7",
     "16635731767eb88922",
+    "1663733160da55cc5c",
     "166357351277772320",
     "166357353859bf306f",
     "1663573610743b54a4",
