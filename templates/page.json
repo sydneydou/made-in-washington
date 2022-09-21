@@ -175,6 +175,7 @@
       "type": "text--image-column",
       "settings": {
         "background-color": "#ffffff",
+        "text-color": "#FFF",
         "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "bottom",
@@ -182,8 +183,8 @@
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
         "button_link": "",
         "button_label": "",
-        "btn-text-color": "#000",
-        "btn-background-color": "#FFF"
+        "btn-text-color": "#000000",
+        "btn-background-color": "#ffffff"
       }
     },
     "1663733160da55cc5c": {
@@ -276,7 +277,9 @@
     "1663734254b6665bd3": {
       "type": "text--image-column",
       "settings": {
+        "mtn": "shopify:\/\/shop_images\/blue_background-min.png",
         "background-color": "#057c90",
+        "text-color": "#FFF",
         "image-width": "extra-small",
         "image": "shopify:\/\/shop_images\/WA_state_outline-min.png",
         "layout": "top",
@@ -284,8 +287,8 @@
         "text_block": "<p>Do you sing Washington’s praises from the mountain tops? Do you make products that showcase your local pride? We want to know you! <br\/><br\/>We’re always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <br\/><\/p>",
         "button_link": "#",
         "button_label": "Apply here",
-        "btn-text-color": "#000",
-        "btn-background-color": "#FFF"
+        "btn-text-color": "#000000",
+        "btn-background-color": "#ffffff"
       }
     },
     "1663573610743b54a4": {
