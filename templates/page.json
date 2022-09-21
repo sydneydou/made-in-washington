@@ -174,7 +174,7 @@
     "16635731767eb88922": {
       "type": "text--image-column",
       "settings": {
-        "image-width": "medium",
+        "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "left",
         "title": "our makers",
