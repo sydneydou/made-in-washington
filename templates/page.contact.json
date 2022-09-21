@@ -7,7 +7,7 @@
         "subheading": "",
         "title": "Contact Us",
         "text": "",
-        "text-color": "#000000",
+        "text-color": "#ffffff",
         "font-size": "large",
         "parallax": false,
         "alignment": "center",
@@ -46,7 +46,7 @@
         "15c52e3f-176f-4c35-a5c5-e7a7b8978498"
       ],
       "settings": {
-        "image-width": "medium",
+        "text-color": "#FFF",
         "image": "shopify:\/\/shop_images\/dark_green_background.png"
       }
     },
