@@ -51,7 +51,7 @@
                      
                     {% endif %}
                     {% if section.settings.text_block != blank %}
-                      <div class="rte featured-row__subtext textarea">{{ section.settings.text_block }}</div>
+                      <div  class="rte featured-row__subtext textarea">{{ section.settings.text_block }}</div>
                     {% endif %}
 
             
@@ -74,10 +74,21 @@
 
   <style>
 
+   .text-image-column .featured-row__subtext  {  
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1.5em;
+}
+
 #shopify-section-{{ section.id }} img{
   width:{{section.settings.img_width}}%;
   margin:0 auto;
   margin-bottom:1.5em !important;
+}
+
+#shopify-section-{{ section.id }} .feature-row{
+
+  margin-bottom:{{section.settings.margin-bottom}}em;
 }
 
 
@@ -316,6 +327,15 @@
           "id": "btn-background-color",
           "label": "Background Color",
           "default": "#FFF"
+        },
+        {
+            "type": "range",
+            "id": "margin-bottom",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "label": "Space Below Content",
+            "default": 0
         }
     ],
     "presets": [
