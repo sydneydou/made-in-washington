@@ -186,7 +186,8 @@
         "button_link": "",
         "button_label": "",
         "btn-text-color": "#000000",
-        "btn-background-color": "#ffffff"
+        "btn-background-color": "#ffffff",
+        "margin-bottom": 0
       }
     },
     "1663733160da55cc5c": {
@@ -291,7 +292,8 @@
         "button_link": "#",
         "button_label": "Apply here",
         "btn-text-color": "#000000",
-        "btn-background-color": "#ffffff"
+        "btn-background-color": "#ffffff",
+        "margin-bottom": 2
       }
     },
     "1663573610743b54a4": {
