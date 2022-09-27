@@ -40,6 +40,15 @@
         "button_label": ""
       }
     },
+    "16642537267e69b078": {
+      "type": "image--mountain-with-image",
+      "settings": {
+        "text-color": "#FFF",
+        "background-color": "#FFF",
+        "mtn": "shopify:\/\/shop_images\/timeline_background-min.png",
+        "img": "shopify:\/\/shop_images\/MIW_timeline-min.gif"
+      }
+    },
     "16630404948b795be5": {
       "type": "text--image-grid",
       "blocks": {
@@ -201,6 +210,7 @@
     "main",
     "16630404174402d7a2",
     "1663040411aa0550b7",
+    "16642537267e69b078",
     "16630404948b795be5",
     "16630409112cd2e1e6",
     "1663742949d79d8d70",
