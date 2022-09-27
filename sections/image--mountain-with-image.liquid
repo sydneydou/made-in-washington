@@ -1,0 +1,82 @@
+{{ 'section-image-with-text.min.css' | asset_url | stylesheet_tag }}
+
+
+
+<section class="homepage-sections-wrapper  text-column-section mtn-with-img">
+    <img class="mtn"  src="{{ section.settings.mtn | img_url: '1000x1000' }}"
+    loading="lazy"}} style="background-color:transparent;" >
+    <div class="container">
+    	<div class="row">
+
+        <div class="index-section col-md-12">
+          <div class="page-width feature-row homepage-featured-content">
+
+          	<div class="feature-row__container">
+              <div >
+            
+                            <div class="column-groups">
+                               <img src={{section.settings.img |  product_img_url: 'master'}} >
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+
+
+    #shopify-section-{{ section.id }}{
+      background-color:{{section.settings.background-color}} !important;
+    }
+
+    #shopify-section-{{ section.id }} .mtn-with-img .mtn{
+        top: -13em;
+        height:auto;
+    }
+   
+  </style>
+
+{% schema %}
+{
+    "name": "Mountain with Image",
+    "class": "homepage-section--text-and-image-wrapper",
+    "settings": [
+    {
+        "type": "color",
+        "id": "text-color",
+        "label": "Text Color",
+        "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "background-color",
+        "label": "Background Color",
+        "default": "#FFF"
+      },
+        {
+            "type": "image_picker",
+            "id": "mtn",
+            "label": "Mountain Background"
+            
+        },
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Main Image"
+        }
+       
+
+      
+      ],
+    "presets": [
+        {
+            "name": "Mountain with Image",
+            "category": "Image"
+        }
+    ]
+}
+{% endschema %}
