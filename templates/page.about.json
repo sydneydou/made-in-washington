@@ -43,8 +43,8 @@
     "16642537267e69b078": {
       "type": "image--mountain-with-image",
       "settings": {
-        "text-color": "#FFF",
-        "background-color": "#FFF",
+        "text-color": "#ffffff",
+        "background-color": "#4e714e",
         "mtn": "shopify:\/\/shop_images\/timeline_background-min.png",
         "img": "shopify:\/\/shop_images\/MIW_timeline-min.gif"
       }
