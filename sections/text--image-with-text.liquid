@@ -88,6 +88,12 @@
     </div>
   </section>
 
+  <style>
+   #shopify-section-{{ section.id }} .image-with-text-home{
+    padding: {{section.settings.bottom-padding}}em 0 !important; 
+}
+  </style>
+
 {% schema %}
 {
     "name": {
@@ -342,7 +348,16 @@
                 "fr": "Étiquette du bouton",
                 "pt-PT": "Etiqueta do botão"
             }
-        }
+        },
+        {
+          "type": "range",
+          "id": "bottom-padding",
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "label": "Space below content",
+          "default": 11
+      }
     ],
     "presets": [
         {
