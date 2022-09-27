@@ -74,6 +74,14 @@
 
   <style>
 
+#shopify-section-{{ section.id }} img{
+  width:{{section.settings.img_width}}%;
+  margin:0 auto;
+  margin-bottom:1.5em !important;
+}
+
+
+
 
 
       #shopify-section-{{ section.id }}{
@@ -179,6 +187,15 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "range",
+            "id": "img_width",
+            "min": 10,
+            "max": 100,
+            "step": 5,
+            "label": "Image Size",
+            "default": 100
         },
         {
             "type": "image_picker",
