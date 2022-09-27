@@ -15,7 +15,7 @@
         "text": "<p>Inspired Locally. Made in Washington. Loved Everywhere.<\/p>",
         "text-color": "#ffffff",
         "font-size": "large",
-        "parallax": true,
+        "parallax": false,
         "alignment": "center",
         "text-position": "center",
         "hero_size": "medium",
