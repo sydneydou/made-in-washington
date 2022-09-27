@@ -18,7 +18,7 @@
     {%- assign content_width_columns = 6 -%}
 {% endcase %}
 
-<section class="homepage-sections-wrapper image-columns text-image-column" style="position:relative;">
+<section class="homepage-sections-wrapper image-columns text-image-column" {% if section.settings.mtn != blank %}style="padding:10px 0 !important; " {% endif %}>
   {% if section.settings.mtn != blank %}
       <img class="mtn" style="background-color:transparent; top:-8.5em;" src={{section.settings.mtn | img_url: 'master'}} >
   {% endif %}
@@ -91,7 +91,13 @@
   margin-bottom:{{section.settings.margin-bottom}}em;
 }
 
+#shopify-section-{{ section.id }} {
+  margin-top:{{section.settings.margin-bottom}}em;
+}
 
+.text-image-column{
+  position:relative; 
+}
 
 
 
@@ -335,6 +341,15 @@
             "max": 20,
             "step": 1,
             "label": "Space Below Content",
+            "default": 0
+        },
+        {
+            "type": "range",
+            "id": "margin-top",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "label": "Space Above Content",
             "default": 0
         }
     ],
