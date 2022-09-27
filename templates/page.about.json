@@ -154,7 +154,7 @@
       "settings": {
         "mtn": "shopify:\/\/shop_images\/blue_background-min.png",
         "background-color": "#357b8e",
-        "text-color": "#FFF",
+        "text-color": "#ffffff",
         "image-width": "medium",
         "img_width": 20,
         "image": "shopify:\/\/shop_images\/small_WA_logo-min.png",
@@ -163,9 +163,10 @@
         "text_block": "<p>Designed. Crafted. Made. Local.<\/p><p><\/p><p>Since 1984, our team has been completely dedicated to curating the best of Washington State in a way that thrills and inspires you. <\/p><p><\/p><p>If, for any reason, you are not pleased with your purchase, we will do whatever it takes to make it right.<\/p>",
         "button_link": "",
         "button_label": "",
-        "btn-text-color": "#000",
-        "btn-background-color": "#FFF",
-        "margin-bottom": 3
+        "btn-text-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "margin-bottom": 3,
+        "margin-top": 4
       }
     },
     "16630409173f46f10a": {
