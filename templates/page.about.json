@@ -37,14 +37,14 @@
         "title-two": "Share brand or product details",
         "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_link": "",
-        "button_label": ""
+        "button_label": "",
+        "bottom-padding": 0
       }
     },
     "16642537267e69b078": {
       "type": "image--mountain-with-image",
       "settings": {
         "text-color": "#ffffff",
-        "background-color": "#4e714e",
         "mtn": "shopify:\/\/shop_images\/timeline_background-min.png",
         "img": "shopify:\/\/shop_images\/MIW_timeline-min.gif"
       }
