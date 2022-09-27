@@ -254,7 +254,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": ""
+        "title": "Shop makers by collection"
       }
     },
     "166357353859bf306f": {
@@ -296,6 +296,7 @@
       "type": "image--image-with-newsletter",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "credit": "",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
