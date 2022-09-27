@@ -48,7 +48,11 @@
       ],
       "settings": {
         "text-color": "#ffffff",
+<<<<<<< HEAD
         "background-color": "#4e714e",
+=======
+        "background-color": "#476647",
+>>>>>>> d1334b668d8c501824d907294ca165809bc691a6
         "image": "shopify:\/\/shop_images\/contact_page_background_1_-min.png"
       }
     },
