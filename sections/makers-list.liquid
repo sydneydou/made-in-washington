@@ -20,19 +20,20 @@
               <div >
             
                             <div class="column-groups">
+                              <div class="title-bar custom-font makers-title">
+                                {% if section.settings.subheading != blank %}
+                                <h3 class="type-subheading type-subheading--1 wow{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+                                {% endif %}
+                                {% if section.settings.title != blank %}
+                                <h2 class="wow">{{ section.settings.title | escape }}</h2>
+                                {% endif %}
+                            </div>
                                 {% for block in section.blocks %}
                             
                                     <div class="feature-row__text-column col-md-{{ content_width_columns }}  wow">
                                     <div class="feature-row__text--inner">
                                         {% if block.settings.title != blank or block.settings.subheading != blank %}
-                                        <div class="title-bar custom-font">
-                                            {% if block.settings.subheading != blank %}
-                                            <h3 class="type-subheading type-subheading--1 wow{% if block.settings.title != blank %} typography--padding-bottom{% endif %}">{{ block.settings.subheading | escape }}</h3>
-                                            {% endif %}
-                                            {% if block.settings.title != blank %}
-                                            <h2 class="wow">{{ block.settings.title | escape }}</h2>
-                                            {% endif %}
-                                        </div>
+                                        
                                         
                                         {% endif %}
                                         {% if block.settings.collection != blank %}
@@ -61,6 +62,12 @@
   </section>
 
   <style>
+
+    .makers-title{
+      justify-content: center;
+    display: flex;
+    }
+    
     #shopify-section-{{ section.id }} p, #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} a, #shopify-section-{{ section.id }} h3, #shopify-section-{{ section.id }} div{
         color:{{section.settings.text-color}} !important;
     }
@@ -106,16 +113,8 @@
                 "fr": "600 x 600 px recommandé",
                 "pt-PT": "600 x 600px, recomendado"
             }
-        }
-       
-     
-    ],
-      "blocks": [
-      {
-        "type": "text",
-        "name": "Text Column",
-        "settings": [
-      {
+        },
+        {
         "type": "text",
         "id": "subheading",
         "label": {
@@ -143,7 +142,16 @@
           "fr": "Partager les infos sur la marque ou le produit",
           "pt-PT": "Partilhar detalhes da marca ou produto"
         }
-      },
+      }
+       
+     
+    ],
+      "blocks": [
+      {
+        "type": "text",
+        "name": "Text Column",
+        "settings": [
+      
       /* {
           "type": "richtext",
           "id": "text_block",
