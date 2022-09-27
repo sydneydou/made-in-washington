@@ -19,7 +19,7 @@
           	<div class="feature-row__container">
               <div >
             
-                            <div class="column-groups">
+                            <div class="column-groups maker-group">
                               <div class="title-bar custom-font makers-title">
                                 {% if section.settings.subheading != blank %}
                                 <h3 class="type-subheading type-subheading--1 wow{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
@@ -63,11 +63,16 @@
 
   <style>
 
+    .maker-group{
+      display: flex;
+    flex-direction: column;
+    }
+
     .makers-title{
       justify-content: center;
     display: flex;
     }
-    
+
     #shopify-section-{{ section.id }} p, #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} a, #shopify-section-{{ section.id }} h3, #shopify-section-{{ section.id }} div{
         color:{{section.settings.text-color}} !important;
     }
