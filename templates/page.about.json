@@ -176,7 +176,7 @@
         "background_image": "shopify:\/\/shop_images\/join_our_team_banner_image-min.png",
         "text-color": "#ffffff",
         "background-color": "#4e714e",
-        "horizontal-alignment": "center",
+        "horizontal-alignment": "left",
         "subheading": "",
         "title": "Join Our team",
         "font-size": "small",
