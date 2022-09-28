@@ -26,6 +26,7 @@
     },
     "1663040411aa0550b7": {
       "type": "text--image-with-text",
+      "disabled": true,
       "settings": {
         "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/history_image-min.png",
@@ -44,9 +45,13 @@
     "1664350345e319724f": {
       "type": "text--image-text-sides",
       "settings": {
+<<<<<<< HEAD
 
         "image-width": "large",
 
+=======
+        "image-width": "large",
+>>>>>>> 28bcb24a22719cf8ba71a5278d94e12a0854a0b6
         "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
