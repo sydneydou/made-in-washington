@@ -190,6 +190,7 @@
     },
     "16630409173f46f10a": {
       "type": "image--image-with-text-block",
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/join_our_team_banner_image-min.png",
         "text-color": "#ffffff",

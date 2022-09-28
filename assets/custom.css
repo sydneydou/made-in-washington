@@ -325,6 +325,16 @@ padding: 3em 0;
 
 
 
+/* image text sides */
+
+.about-sides .feature-row {
+    align-items: flex-start !important;
+}
+
+
+.about-sides .feature-row__text--inner {
+    margin-right: 2em !important;
+}
 
   /* footer */
 footer{
