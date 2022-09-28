@@ -45,13 +45,7 @@
     "1664350345e319724f": {
       "type": "text--image-text-sides",
       "settings": {
-<<<<<<< HEAD
-
         "image-width": "large",
-
-=======
-        "image-width": "large",
->>>>>>> 28bcb24a22719cf8ba71a5278d94e12a0854a0b6
         "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
@@ -62,7 +56,7 @@
         "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
         "button_link": "",
         "button_label": "",
-        "bottom-padding": 11
+        "bottom-padding": 0
       }
     },
     "16642537267e69b078": {
