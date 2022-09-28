@@ -401,6 +401,19 @@ footer{
     font-size:1em;
 }
 
+.join-team .homepage-image-text-block--content .homepage-image-text-block--left{
+    left: 9em;
+    width: 47%;
+    padding: 3em;
+}
+
+
+.join-team .homepage-image-text-block--content .homepage-image-text-block--right{
+    right: 9em;
+    width: 47%;
+    padding: 3em;
+}
+
 /* mobile */
 
 @media only screen and (max-width: 797px){
