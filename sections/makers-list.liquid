@@ -28,29 +28,71 @@
                                 <h2 class="wow">{{ section.settings.title | escape }}</h2>
                                 {% endif %}
                             </div>
+
+
+                        <div class="lists">
+
+                            <div class="first-column">
                                 {% for block in section.blocks %}
-                            
+
+                                {% if forloop.index < 26 %}
+
                                     <div class="feature-row__text-column col-md-{{ content_width_columns }}  wow">
+
                                     <div class="feature-row__text--inner">
-                                        {% if block.settings.title != blank or block.settings.subheading != blank %}
                                         
-                                        
-                                        {% endif %}
                                         {% if block.settings.collection != blank %}
-                                        <a href={{ block.settings.collection.url }}>{{ block.settings.collection.title }}</div></a>
+                                        <a href={{ block.settings.collection.url }}><div>{{ block.settings.collection.title }}</div></a>
                                         {% endif %}
 
-                                        
-
-                                        <!-- {% if block.settings.button_label != blank and block.settings.button_link != blank %}
-                                        <a href="{{ block.settings.button_link }}" class="btn">
-                                            {{ block.settings.button_label }}
-                                        </a>
-                                        {% endif %} -->
+                                   
                                     </div>
                                 </div>
-                            
+                                {% endif %}
+                                {% endfor %}
+                                </div>
+                              
+
+                                <div class="second-column">
+                                  {% for block in section.blocks %}
+                                {% if forloop.index > 27 and  forloop.index < 52 %}
+                                <div class="feature-row__text-column col-md-{{ content_width_columns }}  wow">
+
+                                <div class="feature-row__text--inner">
+                                    
+                                    {% if block.settings.collection != blank %}
+                                    <a href={{ block.settings.collection.url }}><div>{{ block.settings.collection.title }}</div></a>
+                                    {% endif %}
+
+                               
+                                </div>
+                            </div>
+                            {% endif %}
+
                             {% endfor %}
+                          </div>
+
+
+
+                          <div class="third-column">
+                            {% for block in section.blocks %}
+                          {% if forloop.index > 52 and  forloop.index < 79 %}
+                          <div class="feature-row__text-column col-md-{{ content_width_columns }}  wow">
+
+                          <div class="feature-row__text--inner">
+                              
+                              {% if block.settings.collection != blank %}
+                              <a href={{ block.settings.collection.url }}><div>{{ block.settings.collection.title }}</div></a>
+                              {% endif %}
+
+                         
+                          </div>
+                      </div>
+                      {% endif %}
+
+                      {% endfor %}
+                    </div>
+                  </div>
                         </div>
               </div>
             </div>
@@ -58,10 +100,20 @@
         </div>
       </div>
 
-    </div>
+    
   </section>
 
   <style>
+
+    .lists{
+      display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    }
+
+  .lists div{
+    margin: 0 1.5em;
+  }
 
     .maker-group{
       display: flex;
