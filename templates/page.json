@@ -206,15 +206,309 @@
           "settings": {
             "collection": "addition"
           }
+        },
+        "5c7dfcfa-8ab8-4608-9335-05b1ee947c54": {
+          "type": "text",
+          "settings": {
+            "collection": "ajs-edible-arts"
+          }
+        },
+        "cc3ac93b-70f3-484b-b9c2-3b8924fa59e6": {
+          "type": "text",
+          "settings": {
+            "collection": "apolis-craft-tea"
+          }
+        },
+        "c451af12-e2bc-4b3f-9e5a-d79b605f8b4b": {
+          "type": "text",
+          "settings": {
+            "collection": "barn-cat-creations"
+          }
+        },
+        "2f0508de-cf57-49ae-ad7b-a1615708370b": {
+          "type": "text",
+          "settings": {
+            "collection": "beechers-crackers"
+          }
+        },
+        "c4fc53e9-dea4-4745-9546-25f047a85b03": {
+          "type": "text",
+          "settings": {
+            "collection": "bewilderness"
+          }
+        },
+        "06f5a87d-da7c-4291-8490-53d51e5892f0": {
+          "type": "text",
+          "settings": {
+            "collection": "bobbysues-nuts"
+          }
+        },
+        "fb8fb09d-b9eb-4b27-9dbf-bbf7c7010baa": {
+          "type": "text",
+          "settings": {
+            "collection": "bonache"
+          }
+        },
+        "7d3f78dc-a919-461f-8b64-ec61378b1a6e": {
+          "type": "text",
+          "settings": {
+            "collection": "the-bread-dip-company"
+          }
+        },
+        "60735a96-3e25-40ba-8c71-ac8342da8200": {
+          "type": "text",
+          "settings": {
+            "collection": "bunnies-by-the-bay"
+          }
+        },
+        "71f611a9-03e7-43d8-9aef-551b561e5c22": {
+          "type": "text",
+          "settings": {
+            "collection": "burning-at-both-ends"
+          }
+        },
+        "a5a98e50-3eed-434d-bce3-123d4dce6d4e": {
+          "type": "text",
+          "settings": {
+            "collection": "buy-give-share"
+          }
+        },
+        "786f2392-8afe-4165-8dd5-83514e88a518": {
+          "type": "text",
+          "settings": {
+            "collection": "buzzy"
+          }
+        },
+        "f7451830-ef6c-4996-9612-22594458a798": {
+          "type": "text",
+          "settings": {
+            "collection": "caffe-appassionato"
+          }
+        },
+        "038a9b68-9947-489e-be6e-67019b63f189": {
+          "type": "text",
+          "settings": {
+            "collection": "campfire-coffee"
+          }
+        },
+        "c2213535-a85a-42df-be2c-4d8a51f69438": {
+          "type": "text",
+          "settings": {
+            "collection": "capuli-club-tea"
+          }
+        },
+        "6b6c5a75-07c2-4ab8-be21-bce0fd9f3fac": {
+          "type": "text",
+          "settings": {
+            "collection": "careful-hand-sanitizers"
+          }
+        },
+        "4177e6e7-83e3-42a9-94a0-ecdfb9aecba2": {
+          "type": "text",
+          "settings": {
+            "collection": "cate-florey-studio"
+          }
+        },
+        "b9071042-3056-4037-9a82-6dc438d05089": {
+          "type": "text",
+          "settings": {
+            "collection": "chalo-seattle"
+          }
+        },
+        "b549d331-a1a2-48d2-9095-6abcdd1543d9": {
+          "type": "text",
+          "settings": {
+            "collection": "chelan-beauty-organic-fruit"
+          }
+        },
+        "d11921b2-a3fa-421c-a9fd-b8aa9488adac": {
+          "type": "text",
+          "settings": {
+            "collection": "chukar-cherries"
+          }
+        },
+        "11e272d5-7a3b-419d-a41a-4751ddf4ffb8": {
+          "type": "text",
+          "settings": {
+            "collection": "clay-in-motion"
+          }
+        },
+        "2b3109b4-d609-4a28-8c0f-3155f0abafef": {
+          "type": "text",
+          "settings": {
+            "collection": "clear-creek-pottery"
+          }
+        },
+        "19a2ab1f-9ea3-4a48-b923-dce34c06e6ae": {
+          "type": "text",
+          "settings": {
+            "collection": "columbia-valley-farms"
+          }
+        },
+        "4d21617a-b824-4ab8-aeba-e21c2aa34882": {
+          "type": "text",
+          "settings": {
+            "collection": "coro-by-salumi"
+          }
+        },
+        "26e0d103-5da5-4db6-be7a-ae250f20721f": {
+          "type": "text",
+          "settings": {
+            "collection": "dan-the-sausageman"
+          }
+        },
+        "d5ffaff4-e6cd-4ea0-8636-c83acbdaa4e2": {
+          "type": "text",
+          "settings": {
+            "collection": "demitris"
+          }
+        },
+        "b72ff155-a63e-4b10-8689-e3c9000590d1": {
+          "type": "text",
+          "settings": {
+            "collection": "ekone-oyster-company"
+          }
+        },
+        "007c3a64-141e-4d2f-a794-7a2c92d702c4": {
+          "type": "text",
+          "settings": {
+            "collection": "el-fuego-pepper-sauce"
+          }
+        },
+        "be089d3f-249f-4e17-8242-e25dbbc4346e": {
+          "type": "text",
+          "settings": {
+            "collection": "fiala-design-works"
+          }
+        },
+        "933153ef-32d2-43e7-b571-83f6d7741890": {
+          "type": "text",
+          "settings": {
+            "collection": "fisher"
+          }
+        },
+        "593bbb3d-bebb-406e-8e5a-8df253be8a18": {
+          "type": "text",
+          "settings": {
+            "collection": "frans-chocolates"
+          }
+        },
+        "d7fbfc9b-f6ac-40c2-a85d-447e5dac386a": {
+          "type": "text",
+          "settings": {
+            "collection": "from-the-ground-up"
+          }
+        },
+        "98836f5c-8157-49ac-bc8d-1fee78d590de": {
+          "type": "text",
+          "settings": {
+            "collection": "funkys-hot-sauce-factory"
+          }
+        },
+        "c1863a00-f435-4783-ab5e-6975fced8f3b": {
+          "type": "text",
+          "settings": {
+            "collection": "garveys-enterprises"
+          }
+        },
+        "12b55ea0-950f-4e25-91ad-06fbc03c10b0": {
+          "type": "text",
+          "settings": {
+            "collection": "geokidz"
+          }
+        },
+        "00167444-1813-4b0d-ab2e-e30d2f75ff3f": {
+          "type": "text",
+          "settings": {
+            "collection": "girl-meets-dirt"
+          }
+        },
+        "2a540db9-6731-4315-b339-fc8eb23997a0": {
+          "type": "text",
+          "settings": {
+            "collection": "glass-eye-studios"
+          }
+        },
+        "6ff4dbd6-261a-4846-8816-4f58ffb969d7": {
+          "type": "text",
+          "settings": {
+            "collection": "good-well-supply-co"
+          }
+        },
+        "2267735a-8878-4f45-887f-6a8bc73986cf": {
+          "type": "text",
+          "settings": {
+            "collection": "handmade-la-conner"
+          }
+        },
+        "5536bb63-b4d9-412e-8d1e-c35e0d556149": {
+          "type": "text",
+          "settings": {
+            "collection": "harveys-butter-rum-batter"
+          }
+        },
+        "2163cd02-6672-423d-88ad-36ae50b25e2b": {
+          "type": "text",
+          "settings": {
+            "collection": "island-art-glass"
+          }
+        },
+        "4821541c-e026-4bc9-9c27-5a994b43d1e8": {
+          "type": "text",
+          "settings": {
+            "collection": "jensen-toffee-co"
+          }
         }
       },
       "block_order": [
         "8bb47fc6-8b84-472c-82a1-7675a9b2abcf",
-        "fc5382e1-aaac-43d4-a291-02ab8b03e13a"
+        "fc5382e1-aaac-43d4-a291-02ab8b03e13a",
+        "5c7dfcfa-8ab8-4608-9335-05b1ee947c54",
+        "cc3ac93b-70f3-484b-b9c2-3b8924fa59e6",
+        "c451af12-e2bc-4b3f-9e5a-d79b605f8b4b",
+        "2f0508de-cf57-49ae-ad7b-a1615708370b",
+        "c4fc53e9-dea4-4745-9546-25f047a85b03",
+        "06f5a87d-da7c-4291-8490-53d51e5892f0",
+        "fb8fb09d-b9eb-4b27-9dbf-bbf7c7010baa",
+        "7d3f78dc-a919-461f-8b64-ec61378b1a6e",
+        "60735a96-3e25-40ba-8c71-ac8342da8200",
+        "71f611a9-03e7-43d8-9aef-551b561e5c22",
+        "a5a98e50-3eed-434d-bce3-123d4dce6d4e",
+        "786f2392-8afe-4165-8dd5-83514e88a518",
+        "f7451830-ef6c-4996-9612-22594458a798",
+        "038a9b68-9947-489e-be6e-67019b63f189",
+        "c2213535-a85a-42df-be2c-4d8a51f69438",
+        "6b6c5a75-07c2-4ab8-be21-bce0fd9f3fac",
+        "4177e6e7-83e3-42a9-94a0-ecdfb9aecba2",
+        "b9071042-3056-4037-9a82-6dc438d05089",
+        "b549d331-a1a2-48d2-9095-6abcdd1543d9",
+        "d11921b2-a3fa-421c-a9fd-b8aa9488adac",
+        "11e272d5-7a3b-419d-a41a-4751ddf4ffb8",
+        "2b3109b4-d609-4a28-8c0f-3155f0abafef",
+        "19a2ab1f-9ea3-4a48-b923-dce34c06e6ae",
+        "4d21617a-b824-4ab8-aeba-e21c2aa34882",
+        "26e0d103-5da5-4db6-be7a-ae250f20721f",
+        "d5ffaff4-e6cd-4ea0-8636-c83acbdaa4e2",
+        "b72ff155-a63e-4b10-8689-e3c9000590d1",
+        "007c3a64-141e-4d2f-a794-7a2c92d702c4",
+        "be089d3f-249f-4e17-8242-e25dbbc4346e",
+        "933153ef-32d2-43e7-b571-83f6d7741890",
+        "593bbb3d-bebb-406e-8e5a-8df253be8a18",
+        "d7fbfc9b-f6ac-40c2-a85d-447e5dac386a",
+        "98836f5c-8157-49ac-bc8d-1fee78d590de",
+        "c1863a00-f435-4783-ab5e-6975fced8f3b",
+        "12b55ea0-950f-4e25-91ad-06fbc03c10b0",
+        "00167444-1813-4b0d-ab2e-e30d2f75ff3f",
+        "2a540db9-6731-4315-b339-fc8eb23997a0",
+        "6ff4dbd6-261a-4846-8816-4f58ffb969d7",
+        "2267735a-8878-4f45-887f-6a8bc73986cf",
+        "5536bb63-b4d9-412e-8d1e-c35e0d556149",
+        "2163cd02-6672-423d-88ad-36ae50b25e2b",
+        "4821541c-e026-4bc9-9c27-5a994b43d1e8"
       ],
       "settings": {
-        "text-color": "#FFF",
-        "background-color": "#FFF",
+        "text-color": "#ffffff",
+        "background-color": "#ffffff",
         "image": "shopify:\/\/shop_images\/makers_background-min.png",
         "subheading": "",
         "title": "browse our makers"
