@@ -367,7 +367,9 @@ footer{
   }
 
 
-
+.feature-row--image-right{
+    align-items: flex-start;
+}
 
 
 
