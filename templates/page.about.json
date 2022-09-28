@@ -145,6 +145,7 @@
     },
     "1663742949d79d8d70": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script src=\"https:\/\/theapplicantmanager.com\/jobfeeds\/bc_made_in_washington.js\"><\/script>"
       }
@@ -157,7 +158,7 @@
         "text-color": "#ffffff",
         "image-width": "medium",
         "img_width": 20,
-        "image": "shopify:\/\/shop_images\/small_WA_logo-min.png",
+        "image": "shopify:\/\/shop_images\/wash.png",
         "layout": "top",
         "title": "Our Commitment",
         "text_block": "<p>Designed. Crafted. Made. Local.<\/p><p><\/p><p>Since 1984, our team has been completely dedicated to curating the best of Washington State in a way that thrills and inspires you. <\/p><p><\/p><p>If, for any reason, you are not pleased with your purchase, we will do whatever it takes to make it right.<\/p>",

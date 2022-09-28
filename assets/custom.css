@@ -390,6 +390,17 @@ footer{
 
 }
 
+
+/* join our team section */
+
+#theapplicantmanager .description{
+    display:none;
+}
+
+#theapplicantmanager .title{
+    font-size:1em;
+}
+
 /* mobile */
 
 @media only screen and (max-width: 797px){
