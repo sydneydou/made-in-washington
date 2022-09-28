@@ -44,11 +44,9 @@
     "1664350345e319724f": {
       "type": "text--image-text-sides",
       "settings": {
-<<<<<<< HEAD
-        "image-width": "extra-large",
-=======
+
         "image-width": "large",
->>>>>>> 0634ea3f3b46001a56269c40b825882412cb94b0
+
         "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
