@@ -206,6 +206,83 @@
         "btn-background-hover": "#ffffff"
       }
     },
+    "1664352087c94aa161": {
+      "type": "accordion",
+      "blocks": {
+        "16643520873d5156d1-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long has Made In Washington been in business?",
+            "text": "<p>Made In Washington was founded in 1984 by Gillian and Jack Mathews. To read our company story, <a href=\"\/pages\/redesign-about\" title=\"[REDESIGN] About\">click here.<\/a><\/p>"
+          }
+        },
+        "16643520873d5156d1-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What if I receive something I am not satisfied with?",
+            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, please contact our Customer Service Department by phone (1-800-338-9903) or <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">by email<\/span><\/a>, and we will resolve things promptly. <\/p>"
+          }
+        },
+        "16643520873d5156d1-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I place an order?",
+            "text": "<p>There are several options for placing an order:<\/p><p>Online at <a href=\"http:\/\/www.madeinwashington.com\"><span style=\"text-decoration:underline\">www.madeinwashington.com<\/span><\/a><\/p><p>By phone:<\/p><p>Call Center 1-800-338-9903<\/p><p>Pike Place Market: 206-467-0788<\/p><p>Alderwood Mall: 425-771-3212<\/p><p>Bellevue Square Mall: 425-454-6907<\/p><p><a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">By email <\/span><\/a><\/p>"
+          }
+        },
+        "d93665ff-5892-4b53-91fd-3e8700ba387e": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I track my order?",
+            "text": "<p>Online customers will receive a text (if you enter a cell number) and an email (if you enter an email address) with tracking numbers once an order ships.<\/p>"
+          }
+        },
+        "c5d4ba57-61e2-42b0-837f-8028afc34245": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How do I contact customer service?",
+            "text": "<p>You may reach us at 1-800-338-9903 or <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">by email<\/span><\/a>.<\/p>"
+          }
+        },
+        "a426ba28-5129-4c7f-bdc6-b162094137a6": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "text": "<p>Currently, Made In Washington cannot ship to international addresses.<\/p>"
+          }
+        },
+        "aaf3c360-691a-438c-87f5-057a52a53986": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is your return policy?",
+            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">contact our Customer Service Department<\/span><\/a>, and we will resolve things promptly. Made in Washington may require returning the products with which you are dissatisfied before we substitute an acceptable item, issue a credit or give you cash back. With a receipt, you may return any item purchased online either by mail or at any of our three store locations within 60 days of purchase. Please note: Food items cannot be returned or exchanged for safety reasons. Gift cards are unable to be returned or exchanged.<\/p>"
+          }
+        },
+        "77520e45-aa14-4c58-854e-616b7432c71f": {
+          "type": "tab_content",
+          "settings": {
+            "question": "I need an order to arrive on a specific day – help!",
+            "text": "<p>Please contact customer service at 1-800-338-9903 <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">or email us<\/span><\/a>. We will make recommendations to get your order delivered on, or near, your preferred date.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16643520873d5156d1-0",
+        "16643520873d5156d1-1",
+        "16643520873d5156d1-2",
+        "d93665ff-5892-4b53-91fd-3e8700ba387e",
+        "c5d4ba57-61e2-42b0-837f-8028afc34245",
+        "a426ba28-5129-4c7f-bdc6-b162094137a6",
+        "aaf3c360-691a-438c-87f5-057a52a53986",
+        "77520e45-aa14-4c58-854e-616b7432c71f"
+      ],
+      "settings": {
+        "background-color": "#b8cab6",
+        "text-color": "#000000",
+        "title": "Frequently asked questions",
+        "faq_icon": "plus_minus"
+      }
+    },
     "16630409173f46f10a": {
       "type": "image--image-with-text-block",
       "disabled": true,
@@ -275,6 +352,7 @@
     "1663742949d79d8d70",
     "166425477166e85a3c",
     "166433949249bacf8a",
+    "1664352087c94aa161",
     "16630409173f46f10a",
     "1663742438a4dba04f",
     "16637423516acc56b7",
