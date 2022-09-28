@@ -170,6 +170,24 @@
         "margin-top": 9
       }
     },
+    "166433949249bacf8a": {
+      "type": "image--join-our-team",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/join_our_team_banner_image-min.png",
+        "text-color": "#ffffff",
+        "background-color": "#4e714e",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Join Our team",
+        "font-size": "small",
+        "text": "<p>We appreciate that you love our state and are interested in learning more about potential opportunities at Made in Washington. We believe our team is our most valuable asset and the very core of our success. We offer benefits for full-time team members, including medical, dental, and vision, as well as a 401(k). Plus, our team members enjoy great discounts on Made In Washington products.  <\/p><p>Check out our current openings and apply below. <\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
     "16630409173f46f10a": {
       "type": "image--image-with-text-block",
       "settings": {
@@ -236,6 +254,7 @@
     "16630409112cd2e1e6",
     "1663742949d79d8d70",
     "166425477166e85a3c",
+    "166433949249bacf8a",
     "16630409173f46f10a",
     "1663742438a4dba04f",
     "16637423516acc56b7",
