@@ -399,19 +399,20 @@ footer{
 
 #theapplicantmanager .title{
     font-size:1em;
+    padding:15px 0 !important;
 }
 
-.join-team .homepage-image-text-block--content .homepage-image-text-block--left{
-    left: 9em;
-    width: 47%;
-    padding: 3em;
+.join-team  .homepage-image-text-block--left{
+    left: 9em !important;
+    width: 47% !important;
+    padding: 3em !important;
 }
 
 
-.join-team .homepage-image-text-block--content .homepage-image-text-block--right{
-    right: 9em;
-    width: 47%;
-    padding: 3em;
+.join-team  .homepage-image-text-block--right{
+    right: 9em !important;
+    width: 47% !important;
+    padding: 3em !important;
 }
 
 /* mobile */
