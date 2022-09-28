@@ -394,7 +394,7 @@ footer{
 /* join our team section */
 
 #theapplicantmanager .description{
-    display:none;
+    display:none; 
 }
 
 #theapplicantmanager .title{
@@ -403,15 +403,15 @@ footer{
 }
 
 .join-team  .homepage-image-text-block--left{
-    left: 9em !important;
-    width: 47% !important;
+    left: 8em !important;
+    width: 52% !important;
     padding: 3em !important;
 }
 
 
 .join-team  .homepage-image-text-block--right{
-    right: 9em !important;
-    width: 47% !important;
+    right: 8em !important;
+    width: 52% !important;
     padding: 3em !important;
 }
 
