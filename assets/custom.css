@@ -247,12 +247,21 @@ font-size:.93em !important;
 padding: 3em 0;
 }
 
+
+
 #insta-feed h2 {
     margin-bottom: 4em !important;
 }
 
 .instafeed-container img{
-    border:12px solid white;
+    border:6px solid white;
+    border-bottom:12px solid white;
+    border-top:12px solid white;
+    
+}
+
+#insta-feed a:first-child img{
+    border-left:12px solid white !important;
 }
 
 /* events calendar */
@@ -414,6 +423,11 @@ footer{
     padding:15px 0 !important;
 }
 
+
+/* desktop */
+
+@media only screen and (min-width: 798px){
+
 .join-team  .homepage-image-text-block--left{
     left: 8em !important;
     width: 59% !important;
@@ -427,9 +441,43 @@ footer{
     
 }
 
+
+}
+
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .homepage-sections-wrapper {
+        padding: 80px 50px !important;
+    }
+
+    #newsletter_section_form div{
+        flex-direction:column;
+        align-items: center;
+    } 
+
+    #newsletter_section_form input{
+        width:13em !important;
+        margin-top:15px;
+    }
+
+    #newsletter_section_form button{
+        width:auto !important;
+    }
+
+    .homepage-image-text-block--text-wrapper{
+        position: absolute;
+        top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+        z-index: 999;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+ 
+
     .slider-caption {
         width: 54%;
         margin: 0 auto;
@@ -591,7 +639,7 @@ footer{
   }
 
   .rte{
-    width:90vw;
+    width:74vw;
     margin: 0 auto;
   }
 

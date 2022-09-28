@@ -90,6 +90,7 @@
 </style>
 
 <section
+id="faq"
   class="homepage-sections-wrapper accordion--faq-wrapper accordion-faq--{{ section.id }}"
   data-wetheme-section-type="accordion--faq"
   data-wetheme-section-id="{{ section.id }}"
@@ -97,7 +98,7 @@
     <div class="accordion-container {% if template.name == 'product' %}accordion-container--product{% else %}container{% endif %}">
       {% unless section.settings.title == blank %}
         <div class="title-bar custom-font">
-          <h2 style="    text-align: center;">{{ section.settings.title }}</h2>
+          <h2 style="  margin-bottom:2.5em;  text-align: center;">{{ section.settings.title }}</h2>
         </div>
       {% endunless %}
       
