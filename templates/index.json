@@ -109,31 +109,36 @@
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-gift-baskets-sets"
+            "collection": "redesign-gift-baskets-sets",
+            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
         },
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-seafood-gourment-food-chocolate"
+            "collection": "redesign-seafood-gourment-food-chocolate",
+            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
         },
         "collection-list-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-coffee-beverages"
+            "collection": "redesign-coffee-beverages",
+            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
           }
         },
         "d7755ba4-ea65-4a06-8be1-642c53b7523a": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-home-gifts-1"
+            "collection": "redesign-home-gifts-1",
+            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
         },
         "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-bath-body"
+            "collection": "redesign-bath-body",
+            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
         },
         "109d854f-e162-4b40-b595-a993a90a399e": {
@@ -188,7 +193,8 @@
         "title-two": "What we offer",
         "text_block-two": "<p>At Made In Washington, you’ll find gifts for yourself and gifts for the people you care about most. Whether you’re set on a charcuterie box, the most Seattle of coffees and teas, or supporting an up-and-coming artist, you’ll find something perfectly and uniquely Washington here<\/p>",
         "button_link": "",
-        "button_label": ""
+        "button_label": "",
+        "bottom-padding": 11
       }
     },
     "166271019590518e08": {
