@@ -326,12 +326,27 @@ padding: 3em 0;
     height: 46em; */
     top: -8em;
     height: 107%;
+
 }
+
+ .con-title{
+    
+        font-size: var(--heading-font-size);
+        line-height: var(--heading-line-height);
+        text-transform: var(--header-font-transform);
+        letter-spacing: var(--header-letter-spacing); 
+ }
 
 .feature-row--image-top{
     flex-direction: column;
 }
 
+
+/* contact */
+
+#contact-form{
+    margin-bottom:5em;
+}
 
 
 /* image text sides */
