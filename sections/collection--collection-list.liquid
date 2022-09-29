@@ -1,4 +1,5 @@
 {{ 'section-collection-list.min.css' | asset_url | stylesheet_tag }}
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
 <section class="homepage-sections-wrapper">
 
@@ -21,7 +22,10 @@
         <div class="collection-grid">
           <div class="row">
             {% for block in section.blocks limit: section.blocks.size %}
-              <article id={{block}} class="indiv-collection-grid-homepage wow col-sm
+
+          
+              <!-- <article onmouseenter="onHovs()" onmouseleave="onLeave()"class="indiv-collection-grid-homepage wow col-sm -->
+                <article class="indiv-collection-grid-homepage wow col-sm
                 {%- case section.blocks.size -%}
                   {% when 2 %}
                     {% cycle 'mobileCycle': ' alpha', ' omega' %}
@@ -42,18 +46,32 @@
                         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
                         {{ 'collection-' | append: current | placeholder_svg_tag: 'icon--placeholder' }}
                       {% else %}
-
                       <!-- {% if block.settings.hover %}onmouseleave ="leaveHovs({{block_id}}, '{{from}}')" onmouseenter="onHovs( '/{{hover}}', {{block_id}}, '{{from}}' )"    {%- endif -%} -->
                         
                       
                       
                       {% if collection.image %}
+                      <span class=" init">
                           {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                      </span>
                           {% else %}
                           {% assign product = collection.products | first %}
+                          <span class=" init">
                           {% render 'responsive-image' with product.media[0].preview_image, alt: product.featured_image.alt %}
-                        {% endif %}
+                        </span>
+                          {% endif %}
                       {% endif %}
+
+                      {% if block.settings.hover %}
+                      <span class="secondary targ">
+                        {% render 'responsive-image' with block.settings.hover, alt: collection.image.alt %}
+                      </span>
+                      {% else %}
+                      <span class=" secondary targ">
+                        {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                    </span>
+                      {% endif %}
+
                     </div>
                   </div>
                 </div>
@@ -84,32 +102,32 @@
   </div>
 </section>
 
+<style>
+  .secondary{
+    display:none;
+  }
 
+
+
+</style>
 
 <script>
-  
 
-  // let origImg;
-  
-  //   function onHovs(imgurl, ind, from ){
-  // let targ = "."+from
-  //     origImg =   document.querySelectorAll(targ)[ind].style.backgroundImage
-  //     if(imgurl){
-  // console.log(document.querySelectorAll(targ)[ind].style.backgroundImage )
-  // document.querySelectorAll(targ)[ind].style.backgroundImage = `url(https://cdn.shopify.com/s/files/1/0553/9502/5001`+imgurl+`)`;
-  //   console.log(document.querySelectorAll(targ)[ind].style.backgroundImage, "after")
-  //      }
-        
-  //   }
-    
-  //   function leaveHovs(ind, from){
-  //       let targ = "."+from
-  //     document.querySelectorAll(targ)[ind].style.backgroundImage = origImg;
-  
-      
-  //   }
-  
-   
+
+
+$('.indiv-collection-grid-homepage').mouseenter(function(){
+$(this).find('.targ').show();
+$(this).find('.init').hide();
+});
+
+$('.indiv-collection-grid-homepage').mouseleave(function(){
+$(this).find('.targ').hide();
+$(this).find('.init').show();
+});
+
+
+
+
   
   </script>
 
@@ -151,8 +169,6 @@
         }
     ],
     "blocks": [
-    
-       
         {
             "type": "featured_collection",
             "name": {
@@ -174,7 +190,12 @@
                     },
                       "id": "collection",
                       "type": "collection"
-                    }
+                    },
+                    {
+                      "type": "image_picker",
+                      "id": "hover",
+                      "label": "hover"
+                  }
             ]
         }
     ],
