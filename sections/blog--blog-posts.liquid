@@ -94,9 +94,9 @@
                 {% assign selector = ' .article--background-image--' | append: forloop.index | prepend: section-id %}
 
                 {% unless current_post == empty %}
-                <style>
+                <!-- <style> -->
                   {% render 'responsive-background-image--no-formatting' with current_post.image, alt: current_post.title, selector: selector %}
-                </style>
+                <!-- </style> -->
 
                 <article class="{{ post_count_grid }} wow index-blog-item--wrapper index-blog-item--image---{{ section.settings.imageSize }}">
                     {% if section.settings.show_blog_images %}
@@ -245,7 +245,7 @@
         #shopify-section-{{ section.id }} .blog-home{
           background-repeat: no-repeat;
           background-size: cover !important;
-          background:url({{section.settings.image  | product_img_url: 'master'}});
+          background:url({{section.settings.image | img_url: 'master' }});
           padding-top:12em !important;
           padding-bottom:7em !important;
         }
