@@ -346,6 +346,10 @@ padding: 3em 0;
 }
 
   /* footer */
+
+  .footer__block-wrapper .sm-icons svg {
+    fill: white;
+}
 footer{
     position: relative;
     margin-top: 11em;
@@ -423,10 +427,18 @@ footer{
     padding:15px 0 !important;
 }
 
+.footer__block-type--text strong{
+    font-weight: 800;
+    font-size: 1.035em !important;
+}
 
 /* desktop */
 
 @media only screen and (min-width: 798px){
+
+    .footer__block-type--menu:last-child{
+        margin-top: 3.83em;
+    }
 
 .join-team  .homepage-image-text-block--left{
     left: 8em !important;
@@ -447,6 +459,11 @@ footer{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+   footer .mtn {
+       
+        top: -6em;
+    }
 
     .homepage-sections-wrapper {
         padding: 80px 50px !important;

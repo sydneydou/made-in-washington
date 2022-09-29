@@ -50,7 +50,9 @@
                             {%- assign footer_linklist = block.settings.footer_linklist -%}
                             <div class="{% if block.settings.menu_title != blank %} d-none d-md-block{% endif %}">
                                 {% unless block.settings.menu_title == blank %}
-                                    <h3 class="type-subheading type-subheading--1">{{ block.settings.menu_title | escape }}</h3>
+                                    <h3 style="    font-weight: 800;
+                                    font-size: .97em !important;    text-decoration: underline;
+    text-underline-offset: 6px;"  class="type-subheading type-subheading--1">{{ block.settings.menu_title | escape }}</h3>
                                 {% endunless %}
 
                                 {% if linklists[footer_linklist].links.size > 0 %}
@@ -119,7 +121,8 @@
                         {% if show_social_block %}
                             <div class="{{ footer_col_style }} footer__block-wrapper footer__block-type--social-media" {{ block.shopify_attributes }}>
                                 {% unless block.settings.menu_title == blank %}
-                                    <h3 class="type-subheading type-subheading--1">{{ block.settings.menu_title | escape }}</h3>
+                                    <h3 style="    font-weight: 800;
+                                    font-size: .97em !important;" class="type-subheading type-subheading--1">{{ block.settings.menu_title | escape }}</h3>
                                 {% endunless %}
                                 <div class="footer__social-icons {%if block.settings.menu_title == blank %} footer__block-heading-blank{% endif %}">
                                     {% render 'social-links' %}
@@ -139,7 +142,8 @@
 
                             {% capture image_width %}{{ block.settings.image_max_width }}{% endcapture %}
                             {% capture image_opacity %}{{ block.settings.image_opacity }}{% endcapture %}
-                            <div class="image-bar__content" style="width: {{ image_width }}%; opacity: {{ image_opacity }}%;">
+                            <div class="image-bar__content" style="width: {{ image_width }}%; opacity: {{ image_opacity }}%;     display: flex;
+                            justify-content: center;">
                                 {% if img_url == blank %}
                                     {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
                                 {% else %}
@@ -149,7 +153,8 @@
                                 {% endif %}
                             </div>
                             {% unless block.settings.title-logo == blank %}
-                            <h3 class="type-subheading type-subheading--1">{{ block.settings.title-logo | escape }}</h3>
+                            <h3 class="type-subheading type-subheading--1" style="    font-weight: 800;
+                            font-size: .97em !important;">{{ block.settings.title-logo | escape }}</h3>
                         {% endunless %}
                         <div class="rte footer__block-text{% if block.settings.title-logo == blank %} footer__block-heading-blank{% endif %}">{{ block.settings.richtext-title }}</div>
 
@@ -199,6 +204,8 @@
 <style>
 
 @media (min-width: 1200px) {
+
+  
 
   
     .container-xl{
