@@ -120,8 +120,18 @@
 
     @media only screen and (max-width: 797px){
       #shopify-section-{{ section.id }} img{
-  width:70%;
- 
+        width:{{section.settings.img_width_mobile}}%;
+    padding-top: 1em;
+
+    
+}
+
+#shopify-section-{{ section.id }} .rte{
+  width:87%;
+}
+
+.text-image-column .featured-row__subtext  {  
+  width: 100%;
 }
 
     }
@@ -219,9 +229,18 @@
             "min": 10,
             "max": 100,
             "step": 5,
-            "label": "Image Size",
+            "label": " Desktop Image Size",
             "default": 100
         },
+        {
+          "type": "range",
+          "id": "img_width_mobile",
+          "min": 10,
+          "max": 100,
+          "step": 5,
+          "label": "Mobile Image Size",
+          "default": 100
+      },
         {
             "type": "image_picker",
             "id": "image",

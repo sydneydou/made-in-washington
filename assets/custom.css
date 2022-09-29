@@ -463,6 +463,10 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .text-image-column .feature-row{
+        display:flex;
+    }
+
    footer .mtn {
        
         top: -6em;
