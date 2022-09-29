@@ -325,7 +325,7 @@ padding: 3em 0;
     /* top: -11em;
     height: 46em; */
     top: -8em;
-    height: 107%;
+    height: 115%;
 
 }
 
@@ -442,7 +442,11 @@ footer .mtn{
 
 #theapplicantmanager .title{
     font-size:1em;
-    padding:15px 0 !important;
+    padding:5px 0 !important;
+}
+
+#theapplicantmanager{
+    margin-top:1.5em;
 }
 
 .footer__block-type--text strong{
@@ -477,6 +481,27 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    #col-main h3{
+        width:85% !important;
+    }
+
+    .dis p {
+        width:65%;
+        margin: 0 auto;
+        margin-bottom:3em;
+    }
+
+    #contact-form .row{
+        margin-right:4em;
+        margin-left:4em;
+    }
+
+
+
+.text-column-section .mtn {
+    top: -12em;
+}
 
     .text-image-column .feature-row{
         display:flex;
