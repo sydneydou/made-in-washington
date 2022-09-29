@@ -587,31 +587,36 @@
         "166357351289793237-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-gift-baskets-sets"
+            "collection": "redesign-gift-baskets-sets",
+            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
         },
         "166357351289793237-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-seafood-gourment-food-chocolate"
+            "collection": "redesign-seafood-gourment-food-chocolate",
+            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
         },
         "166357351289793237-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-coffee-beverages"
+            "collection": "redesign-coffee-beverages",
+            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
           }
         },
         "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-home-gifts-1"
+            "collection": "redesign-home-gifts-1",
+            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
         },
         "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-bath-body"
+            "collection": "redesign-bath-body",
+            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
         }
       },
