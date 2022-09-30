@@ -85,6 +85,15 @@ header span{
     font-size: 1.05em;
 }
 
+.grid-title{
+    width:75%
+}
+
+.grid-text p{
+    font-weight:500;
+    font-size:.92em;
+}
+
 .type-subheading {
     text-transform:inherit;
 }

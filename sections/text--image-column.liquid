@@ -30,14 +30,18 @@
 
           	<div class="feature-row__container">
               <div class="feature-row{% if section.settings.layout == 'top' %} feature-row--image-top{% endif %}">
-                <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="margin: 2em 0;">
-                  {% if section.settings.image != blank %}
-                    {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
-                  {% else %}
-                    {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
-                  {% endif %}
-                
-                </div>
+
+                    {% if section.settings.layout != 'between' %}
+                    <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="margin: 2em 0;">
+                  
+                        {% if section.settings.image != blank %}
+                          {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+                        {% else %}
+                          {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+                        {% endif %}
+                      
+                    </div>
+                    {% endif %}
 
                 <div class="feature-row__text col-md-{{ content_width_columns }} col-12 wow">
                   <div class="feature-row__text--inner">
@@ -50,6 +54,19 @@
                       </div>
                      
                     {% endif %}
+
+                    {% if section.settings.layout == 'between' %}
+                    <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="padding-top:2em; height: auto;margin: 0 auto;">
+                   
+                        {% if section.settings.image != blank %}
+                          {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
+                        {% else %}
+                          {{ 'image' | placeholder_svg_tag: 'icon--placeholder' }}
+                        {% endif %}
+                      
+                    </div>
+                    {% endif %}
+
                     {% if section.settings.text_block != blank %}
                       <div  class="rte featured-row__subtext textarea">{{ section.settings.text_block }}</div>
                     {% endif %}
@@ -279,7 +296,12 @@
                 {
                     "value": "top",
                     "label": "Image on Top"
-                }
+                },
+                {
+                  "value": "between",
+                  "label": "Image between text"
+              }
+
             ]
         },
        

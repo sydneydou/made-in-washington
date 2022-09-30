@@ -62,7 +62,7 @@
           {% endif %}
 
           {% if block.settings.richtext %}
-          <p class="grid-text">{{block.settings.richtext}}</p>
+          <div class="grid-text">{{block.settings.richtext}}</div>
           {% endif %}
 
          
@@ -73,6 +73,14 @@
     </div>
   </div>
 </section>
+<style>
+  .image-grid img,  .image-grid svg{
+    height: 14em !important;
+    width: 12em !important;
+    border: 1px solid black;
+
+  }
+</style>
 
 {% schema %}
 {
