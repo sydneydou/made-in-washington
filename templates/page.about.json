@@ -273,6 +273,12 @@
             "question": "I need an order to arrive on a specific day – help!",
             "text": "<p>Please contact customer service at 1-800-338-9903 <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">or email us<\/span><\/a>. We will make recommendations to get your order delivered on, or near, your preferred date.<\/p>"
           }
+        },
+        "c60d2fd8-ec9f-4359-ba16-a58c5c1456c2": {
+          "type": "separator",
+          "settings": {
+            "title": "Default"
+          }
         }
       },
       "block_order": [
@@ -283,7 +289,8 @@
         "c5d4ba57-61e2-42b0-837f-8028afc34245",
         "a426ba28-5129-4c7f-bdc6-b162094137a6",
         "aaf3c360-691a-438c-87f5-057a52a53986",
-        "77520e45-aa14-4c58-854e-616b7432c71f"
+        "77520e45-aa14-4c58-854e-616b7432c71f",
+        "c60d2fd8-ec9f-4359-ba16-a58c5c1456c2"
       ],
       "settings": {
         "background-color": "#b8cab6",
