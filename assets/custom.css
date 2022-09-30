@@ -10,6 +10,10 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 /* navigation & header */
 
+.mobile-menu a{
+    text-transform:capitalize !important;
+}
+
 .nav>li.mega-menu .dropdown-menu, .nav>li.mega-menu .dropdown-menu .mega-menu-block{
     background: #4f704e;
 }
@@ -547,33 +551,32 @@ footer .mtn{
         width:auto !important;
     }
 
-    .homepage-image-text-block--text-wrapper{
-        position: absolute;
-        top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ .homepage-image-text-block--text-wrapper, .slider-caption {
+        position: absolute !important;
+        top: 50%  !important;
+  transform: translate(-50%, -50%) !important;
         z-index: 999;
-        width: 90vw;
-        margin: 0 auto;
+        width: 90vw !important;
+        margin: 0 auto !important;
+        left:50% !important;
     }
+  
+  
 
- 
 
-    .slider-caption {
-        width: 54%;
-        margin: 0 auto;
+    .swiper-slide div{
+        position:relative;
     }
-
     .slides img {
-        height: 16em;
+        height: 40em;
     }
 
     .flickity-prev-next-button.next {
-        right: -15px !important;
+        right: -45px !important;
     }
 
     .flickity-prev-next-button.previous {
-        left: -15px !important;
+        left: -45px !important;
     }
 
     .title-bar h3.typography--padding-bottom {
@@ -596,7 +599,7 @@ footer .mtn{
     }
 
     .home-blog-excerpt{
-        padding:0em 3em !important;
+        padding:0em  !important;
     }
 
 
@@ -725,7 +728,7 @@ footer .mtn{
   }
 
   .text-column-section .mtn {
-    top: -4em;
+    top: -9em;
     height: 57em;
     left: -7em;
 }
