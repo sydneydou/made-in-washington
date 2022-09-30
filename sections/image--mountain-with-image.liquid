@@ -14,7 +14,7 @@
           	<div class="feature-row__container">
               <div >
             
-                            <div class="column-groups">
+                            <div class="column-groups timeline-section">
                               <div class="first-time">{{section.settings.one}}</div>
                                 <div class="second-time">{{section.settings.two}}</div>
                                   <div class="third-time">{{section.settings.three}}</div>
@@ -35,9 +35,17 @@
 
   <style>
 
+    .timeline-section .second-time p:first-child,.timeline-section .four-time p:first-child,.timeline-section .six-time p:first-child{
+      top:38%;
+    }
+
+    .timeline-section .first-time p:first-child,.timeline-section .third-time p:first-child,.timeline-section .five-time p:first-child,.timeline-section .third-time p:first-child,.timeline-section .seven-time p:first-child{
+      top:67%;
+    }
+
 .first-time p{
   position: absolute;
-    top: 68%;
+    top: 72%;
     color: white;
     left: 0em;
     width: 11em;
@@ -54,7 +62,7 @@
 
 .third-time p{
   position: absolute;
-    top: 68%;
+    top: 72%;
     color: white;
     left: 23em;
     width: 11em;
@@ -64,14 +72,14 @@
   position: absolute;
     top: 43%;
     color: white;
-    left: 39em;
-    width: 11em;
+    left: 33em;
+    width: 23em;
 
 }
 
 .five-time p{
   position: absolute;
-    top: 68%;
+    top: 72%;
     color: white;
     left: 54em;
     width: 11em;
@@ -89,7 +97,7 @@
 
 .seven-time p{
   position: absolute;
-    top: 68%;
+    top: 72%;
     color: white;
     left: 69em;
     width: 11em;
