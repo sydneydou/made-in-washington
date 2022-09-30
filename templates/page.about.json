@@ -184,7 +184,7 @@
         "image-width": "medium",
         "marg-bot": 30,
         "img_width": 30,
-        "img_width_mobile": 100,
+        "img_width_mobile": 15,
         "image": "shopify:\/\/shop_images\/wash.png",
         "layout": "between",
         "title": "Our Commitment",
