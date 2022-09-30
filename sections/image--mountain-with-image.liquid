@@ -15,7 +15,14 @@
               <div >
             
                             <div class="column-groups">
-                               <img style="width:95%;" src="https://cdn.shopify.com/s/files/1/0552/0546/2188/files/MIW_timeline-min.gif?v=1664250940" >
+                              <p class="first-time">{{section.settings.one}}</p>
+                                <p class="second-time">{{section.settings.two}}</p>
+                                  <p class="third-time">{{section.settings.three}}</p>
+                                    <p class="four-time">{{section.settings.four}}</p>
+                                      <p class="five-time">{{section.settings.five}}</p>
+                                        <p class="six-time">{{section.settings.six}}</p>
+                                          <p class="seven-time">{{section.settings.seven}}</p>
+                               <img style="width:100%;" src="https://cdn.shopify.com/s/files/1/0552/0546/2188/files/MIW_timeline-min.gif?v=1664250940" >
                         </div>
               </div>
             </div>
@@ -28,6 +35,66 @@
 
   <style>
 
+.first-time{
+  position: absolute;
+    top: 68%;
+    color: white;
+    left: 0em;
+    width: 11em;
+}
+
+.second-time{
+  position: absolute;
+    top: 43%;
+    color: white;
+    left: 10em;
+    width: 11em;
+
+}
+
+.third-time{
+  position: absolute;
+    top: 68%;
+    color: white;
+    left: 23em;
+    width: 11em;
+}
+
+.four-time{
+  position: absolute;
+    top: 43%;
+    color: white;
+    left: 39em;
+    width: 11em;
+
+}
+
+.five-time{
+  position: absolute;
+    top: 68%;
+    color: white;
+    left: 54em;
+    width: 11em;
+}
+
+.six-time{
+  position: absolute;
+    top: 43%;
+    color: white;
+    left: 65em;
+    width: 11em;
+
+}
+
+
+.seven-time{
+  position: absolute;
+    top: 68%;
+    color: white;
+    left: 69em;
+    width: 11em;
+}
+
 
     #shopify-section-{{ section.id }}{
       background-color:transparent!important;
@@ -35,7 +102,7 @@
 
     #shopify-section-{{ section.id }} .mtn-with-img .mtn{
         top: 7em;
-        height:auto;
+        height:74%;
     }
 
     .mtn-with-img{
@@ -47,7 +114,7 @@
 
 {% schema %}
 {
-    "name": "Mountain with Image",
+    "name": "Timeline Image With Text",
     "class": "homepage-section--text-and-image-wrapper",
     "settings": [
     {
@@ -66,6 +133,42 @@
             "type": "image_picker",
             "id": "img",
             "label": "Main Image"
+        },
+        {
+          "type": "richtext",
+          "id": "one",
+          "label": "First Timeline Section"
+        }
+        ,
+        {
+          "type": "richtext",
+          "id": "two",
+          "label": "Second Timeline Section"
+        },
+        {
+          "type": "richtext",
+          "id": "three",
+          "label": "Third Timeline Section"
+        },
+        {
+          "type": "richtext",
+          "id": "four",
+          "label": "Fourth Timeline Section"
+        },
+        {
+          "type": "richtext",
+          "id": "five",
+          "label": "Fivth Timeline Section"
+        },
+        {
+          "type": "richtext",
+          "id": "six",
+          "label": "Sixth Timeline Section"
+        },
+        {
+          "type": "richtext",
+          "id": "seven",
+          "label": "Seventh Timeline Section"
         }
        
 
@@ -73,7 +176,7 @@
       ],
     "presets": [
         {
-            "name": "Mountain with Image",
+            "name": "Timeline Image with Text",
             "category": "Image"
         }
     ]
