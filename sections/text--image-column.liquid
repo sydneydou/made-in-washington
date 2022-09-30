@@ -116,7 +116,9 @@
   position:relative; 
 }
 
-
+#shopify-section-{{ section.id }} .textarea p:first-child {
+  margin-bottom:{{section.settings.marg-bot}}px;
+}
 
       #shopify-section-{{ section.id }}{
       background-color:{{section.settings.background-color}} !important;
@@ -240,6 +242,15 @@
                 }
             ]
         },
+        {
+          "type": "range",
+          "id": "marg-bot",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "label": "Space below first line",
+          "default": 0
+      },
         {
             "type": "range",
             "id": "img_width",
