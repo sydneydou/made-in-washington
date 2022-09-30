@@ -68,6 +68,11 @@ header span{
     z-index:1;
 }
 
+.about-sides .feature-row--image-right img{
+    max-width: 90%;
+    float: right;
+}
+
 /* slideshow section */
 
 .slider-caption{
