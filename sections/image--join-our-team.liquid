@@ -14,13 +14,13 @@
 
 </style>
 
-<section class="homepage-image-text-block--content join-team image-with-text-block--{{ section.id }}" data-wetheme-section-type="image--image-with-text-block">
+<section class=" homepage-image-text-block--content join-team image-with-text-block--{{ section.id }}" data-wetheme-section-type="image--image-with-text-block">
   <div class="homepage-image-text-block--text-wrapper homepage-image-text-block--{{ section.settings.horizontal-alignment }}">
     <div class="image-text-block-row__text-container wow">
       {% if section.settings.title != blank or section.settings.subheading != blank %}
         <div class="title-bar custom-font">
           {% if section.settings.title != blank %}
-            <h2>{{ section.settings.title | escape }}</h2>
+            <h2 style="font-size:1.7em;">{{ section.settings.title | escape }}</h2>
           {% endif %}
           {% if section.settings.subheading != blank %}
             <h3 class="subheading-new type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>

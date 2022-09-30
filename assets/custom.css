@@ -55,7 +55,7 @@ header span{
 
 /* button styles */
 
-.btn, .timeline-section p{
+.btn, .timeline-section p, .hero__text p{
     font-family: var(--font-family-regular) !important;
     
 }
@@ -472,15 +472,19 @@ footer .mtn{
     }
 
 .join-team  .homepage-image-text-block--left{
-    left: 8em !important;
-    width: 59% !important;
+    left: 7em !important;
+    width: 65% !important;
     
+}
+
+.join-team .image-text-block-row__text-container{
+    padding:4em 3em !important;
 }
 
 
 .join-team  .homepage-image-text-block--right{
-    right: 8em !important;
-    width: 59% !important;
+    right: 7em !important;
+    width: 65% !important;
     
 }
 
