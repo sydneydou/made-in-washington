@@ -64,7 +64,7 @@ header span{
     
 }
 
-#contact-us .mtn{
+.col-mtn {
     z-index:1;
 }
 
@@ -271,15 +271,17 @@ padding: 3em 0;
 }
 
 .instafeed-container img{
-    border:6px solid white;
-    border-bottom:12px solid white;
-    border-top:12px solid white;
+    border:7.5px solid white;
+    border-bottom:15px solid white;
+    border-top:15px solid white;
     
 }
 
 #insta-feed a:first-child img{
-    border-left:12px solid white !important;
+    border-left:15px solid white !important;
 }
+
+
 
 /* events calendar */
 
@@ -602,6 +604,14 @@ footer .mtn{
         padding:0em  !important;
     }
 
+    #insta-feed{
+        padding-bottom:0 !important;
+    }
+
+
+    .footer .image-bar__content{
+        padding-bottom:3em;
+    }
 
     .image-with-text-home .feature-row__text--inner{
         padding-top:4em;
