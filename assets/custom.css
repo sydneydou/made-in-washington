@@ -60,6 +60,10 @@ header span{
     
 }
 
+#contact-us .mtn{
+    z-index:1;
+}
+
 /* slideshow section */
 
 .slider-caption{
