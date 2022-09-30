@@ -64,7 +64,14 @@
       "settings": {
         "text-color": "#ffffff",
         "mtn": "shopify:\/\/shop_images\/timeline_background-min.png",
-        "img": "shopify:\/\/shop_images\/MIW_timeline-min.gif"
+        "img": "shopify:\/\/shop_images\/MIW_timeline-min.gif",
+        "one": "<p><strong>1984 <\/strong><\/p><p>The first Made In Washington store opens in Pike Place Market<\/p>",
+        "two": "<p><strong>1992<\/strong><\/p><p>Made In Washington grows to five retail locations<\/p>",
+        "three": "<p><strong>2000<\/strong><\/p><p>The Made In Washington online store opens<\/p>",
+        "four": "<p><strong>2004<\/strong><\/p><p>The first Limited Edition Holiday Ornament is introduced—a hand-blown glass ornament created exclusively for Made In Washington customers<\/p>",
+        "five": "<p><strong>2010<\/strong><\/p><p>Design Your Own Gift Box launches<\/p>",
+        "six": "<p><strong>2020<\/strong><\/p><p>Personal Shopper Service launches<\/p>",
+        "seven": "<p><strong>2022<\/strong><\/p><p>Made in Washington rebrands and relaunches their new website<\/p>"
       }
     },
     "16630404948b795be5": {
@@ -176,6 +183,7 @@
         "text-color": "#ffffff",
         "image-width": "medium",
         "img_width": 20,
+        "img_width_mobile": 100,
         "image": "shopify:\/\/shop_images\/wash.png",
         "layout": "top",
         "title": "Our Commitment",
