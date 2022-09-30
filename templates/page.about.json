@@ -45,7 +45,7 @@
     "1664350345e319724f": {
       "type": "text--image-text-sides",
       "settings": {
-        "image-width": "large",
+        "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
@@ -182,6 +182,7 @@
         "background-color": "#357b8e",
         "text-color": "#ffffff",
         "image-width": "medium",
+        "marg-bot": 30,
         "img_width": 30,
         "img_width_mobile": 100,
         "image": "shopify:\/\/shop_images\/wash.png",
