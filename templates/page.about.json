@@ -45,7 +45,7 @@
     "1664350345e319724f": {
       "type": "text--image-text-sides",
       "settings": {
-        "image-width": "large",
+        "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/history_image-min.png",
         "layout": "right",
         "subheading": "",
