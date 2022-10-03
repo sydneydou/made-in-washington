@@ -93,6 +93,7 @@
         "parallax": false,
         "alignment": "bottom",
         "text-position": "right",
+        "position-mobile": "right",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
         "button_link": "",
@@ -197,7 +198,7 @@
     "1664783985092c9626": {
       "type": "makers-list-blog",
       "settings": {
-        "text-color": "#FFF",
+        "text-color": "#ffffff",
         "background-color": "#3a271d",
         "image": "shopify:\/\/shop_images\/makers_background-min.png",
         "subheading": "",
