@@ -40,17 +40,17 @@
 						</h3>
 
 						{% if section.settings.show_dates or section.settings.show_author_name %}
-							<div class="blog__date-author">
-								<div class="blog-publish-date">
+							<div class="blog__date-author" style="    text-align: center;">
+								<div class="blog-publish-date" style="    text-align: center;">
 									{% if section.settings.show_dates %}
 										<time class="updated blog--indiv-date" datetime="{{ article.published_at | date: format: 'long' }}" pubdate>{{ article.published_at | date: format: 'month_day_year' }}</time>
 									{% endif %}
 
 									{% if section.settings.show_dates and section.settings.show_author_name %}
-										<span>  |  </span>
+										<span style="    text-align: center;" >  |  </span>
 									{% endif %}
 
-									{% if section.settings.show_author_name %}<span>
+									{% if section.settings.show_author_name %}<span style="    text-align: center;">
 										{{ article.author }}</span>
 									{% endif %}
 								</div>
