@@ -482,6 +482,8 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+  
+
 .blog__post-container{
     padding: 6em 0 4em 0;
 }
@@ -514,6 +516,16 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .text-image-column .mtn{
+        top: -11.5em;
+    }
+
+
+.about-sides .feature-row--image-right img{
+    max-width: 100%;
+    float: inherit;
+}
 
     #col-main h3{
         width:85% !important;

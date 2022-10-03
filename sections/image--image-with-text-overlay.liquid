@@ -45,7 +45,7 @@
     		    {% endif %}
 
     		    <div class="hero__inner wow">
-    		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %} {% if section.settings.text-position == 'left' %} text-left{% endif %}"  >
+    		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %} {% if section.settings.text-position == 'left' %} text-left{% endif %}  {% if section.settings.text-position == 'top' %} text-top{% endif %}"  >
                 {% if section.settings.title != blank or section.settings.subheading != blank %}
                   <div class="title-bar custom-font">
                    
@@ -331,6 +331,10 @@
                 {
                     "label": "Center",
                     "value": "center"
+                },
+                {
+                    "label": "Top Center",
+                    "value": "top"
                 },
                 {
                     "label": "Left",
