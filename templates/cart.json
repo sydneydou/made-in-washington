@@ -2,20 +2,50 @@
   "sections": {
     "image-with-text-block": {
       "type": "image--image-with-text-block",
+      "disabled": true,
       "settings": {
         "text-color": "#3a3a3a",
         "background-color": "rgba(0,0,0,0)",
-        "text": ""
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Share your story",
+        "font-size": "small",
+        "text": "",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     },
     "main": {
       "type": "template--cart",
       "settings": {
       }
+    },
+    "166478462299a1dcae": {
+      "type": "apps",
+      "blocks": {
+        "597085eb-40ae-4016-9ce9-45320a572f7a": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "597085eb-40ae-4016-9ce9-45320a572f7a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image-with-text-block",
-    "main"
+    "main",
+    "166478462299a1dcae"
   ]
 }
