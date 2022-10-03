@@ -65,8 +65,10 @@
   				</div>
 				  {% endif %}
 
-  				<div class="blog--read-more">
-  					<a href="{{ article.url }}" class="button--text-subdued" tabindex="-1">{{ 'blogs.article.read_more' | t }}</a>
+  				<div class="blog--read-more" style="    display: flex;
+				  justify-content: center;
+				  margin-top: 1.5em;">
+  					<a style="background:#357b8e; color:white; text-transform:uppercase;text-decoration:none;" href="{{ article.url }}" class="button--text-subdued btn" tabindex="-1">{{ 'blogs.article.read_more' | t }}</a>
   				</div>
 
         </div>
