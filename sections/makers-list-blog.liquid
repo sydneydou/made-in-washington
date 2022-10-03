@@ -1,0 +1,186 @@
+
+
+
+
+
+{{ 'section-image-with-text.min.css' | asset_url | stylesheet_tag }}
+
+
+
+<section class="homepage-sections-wrapper  text-column-section">
+    <img class="mtn"  src="{{ section.settings.image | img_url: '1000x1000' }}"
+    loading="lazy"}} style="background-color:transparent;" >
+    <div class="container">
+    	<div class="row">
+
+        <div class="index-section col-md-12">
+          <div class="page-width feature-row homepage-featured-content">
+
+          	<div class="feature-row__container">
+              <div >
+            
+                            <div class="column-groups maker-group">
+                              <div class="title-bar custom-font makers-title">
+                                {% if section.settings.subheading != blank %}
+                                <h3 class="type-subheading type-subheading--1 wow{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+                                {% endif %}
+                                {% if section.settings.title != blank %}
+                                <h2 class="wow">{{ section.settings.title | escape }}</h2>
+                                {% endif %}
+                            </div>
+
+
+                        <div class="lists">
+
+                            <div class="first-column">
+
+                              
+
+                                        {% for article in section.settings.blog.articles %}
+                                            <h3 class="type-subheading type-subheading--1"><a href="{{article.url}}">{{ article.title }}</a></h3>
+                                        {% endfor %}
+                          
+                                </div>
+                              
+
+                 
+                     
+
+                  </div>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+  </section>
+
+  <style>
+
+    .lists{
+      display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    }
+
+  .lists div{
+    margin: 0 1.5em;
+  }
+
+    .maker-group{
+      display: flex;
+    flex-direction: column;
+    }
+
+    .makers-title{
+      justify-content: center;
+    display: flex;
+    }
+
+    #shopify-section-{{ section.id }} p, #shopify-section-{{ section.id }} h2, #shopify-section-{{ section.id }} a, #shopify-section-{{ section.id }} h3, #shopify-section-{{ section.id }} div{
+        color:{{section.settings.text-color}} !important;
+    }
+
+    #shopify-section-{{ section.id }}{
+      background-color:{{section.settings.background-color}} !important;
+    }
+   
+  </style>
+
+{% schema %}
+{
+    "name": "Makers List Blog",
+    "class": "homepage-section--text-and-image-wrapper",
+    "settings": [
+  
+    {
+        "type": "color",
+        "id": "text-color",
+        "label": "Text Color",
+        "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "background-color",
+        "label": "Background Color",
+        "default": "#FFF"
+      },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": {
+                "en": "Image",
+                "de": "Bild",
+                "es": "Imagen",
+                "fr": "Image",
+                "pt-PT": "Imagem"
+            },
+            "info": {
+                "en": "600 x 600px recommended",
+                "de": "600 x 600 px empfohlen",
+                "es": "Recomendado 600 x 600 px",
+                "fr": "600 x 600 px recommandé",
+                "pt-PT": "600 x 600px, recomendado"
+            }
+        },
+        {
+        "type": "text",
+        "id": "subheading",
+        "label": {
+          "en": "Subheading",
+          "de": "Unterüberschrift",
+          "es": "Subencabezado",
+          "fr": "Sous-rubrique",
+          "pt-PT": "Subtítulo"
+        }
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": {
+          "en": "Heading",
+          "de": "Überschrift",
+          "es": "Encabezado",
+          "fr": "Rubrique",
+          "pt-PT": "Título"
+        },
+        "default": {
+          "en": "Share brand or product details",
+          "de": "Marken- oder Produktdetails teilen",
+          "es": "Compartir marca o detalles del producto",
+          "fr": "Partager les infos sur la marque ou le produit",
+          "pt-PT": "Partilhar detalhes da marca ou produto"
+        }
+      },
+      {
+            "type": "blog",
+            "id": "blog",
+            "label": {
+                "en": "Blog",
+                "de": "Blog",
+                "es": "Blog",
+                "fr": "Blog",
+                "pt-PT": "Blog"
+            }
+          }
+       
+     
+    ],
+    
+ 
+    "presets": [
+        {
+            "name": "Makers List Blog",
+            "category": {
+                "en": "Text",
+                "de": "Text",
+                "es": "Texto",
+                "fr": "Texte",
+                "pt-PT": "Texto"
+            }
+        }
+    ]
+}
+{% endschema %}

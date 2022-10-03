@@ -218,6 +218,12 @@
     "1664352087c94aa161": {
       "type": "accordion",
       "blocks": {
+        "c60d2fd8-ec9f-4359-ba16-a58c5c1456c2": {
+          "type": "separator",
+          "settings": {
+            "title": "general questions"
+          }
+        },
         "16643520873d5156d1-0": {
           "type": "tab_content",
           "settings": {
@@ -230,6 +236,12 @@
           "settings": {
             "question": "What if I receive something I am not satisfied with?",
             "text": "<p>If you experience a problem with your order or are unsatisfied with our products, please contact our Customer Service Department by phone (1-800-338-9903) or <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">by email<\/span><\/a>, and we will resolve things promptly. <\/p>"
+          }
+        },
+        "a41cddc3-230c-438a-b0ce-8ffa359e9c66": {
+          "type": "separator",
+          "settings": {
+            "title": "ORDERS & SHIPPING"
           }
         },
         "16643520873d5156d1-2": {
@@ -273,17 +285,111 @@
             "question": "I need an order to arrive on a specific day – help!",
             "text": "<p>Please contact customer service at 1-800-338-9903 <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">or email us<\/span><\/a>. We will make recommendations to get your order delivered on, or near, your preferred date.<\/p>"
           }
+        },
+        "9c766ab9-b46b-43ca-91b0-89a3d3d6e6bf": {
+          "type": "separator",
+          "settings": {
+            "title": "STORES & AVAILABILITY"
+          }
+        },
+        "84820da8-be40-4dd1-b4ba-125b32cacf30": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Where are you located?",
+            "text": "<p>We have retail locations in downtown Seattle, Bellevue, and Lynwood. Our shipping warehouse is in Everett, and some of our team works out of Anacortes. Additionally, we have several managers and call center team members working remotely.<\/p><p>The Made In Washington store location at SeaTac Airport is a licensed location, staffed and managed by the Hudson Group. As such, some products, promotions, and special features on MadeInWashington.com or at the three Made In Washington locations listed above may not be reflected at the SeaTac location.<\/p>"
+          }
+        },
+        "b47d9b41-eb79-48b8-a12d-93bb147a7d76": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What are your hours?",
+            "text": "<p>Our three stores each have different hours. Click here for store hours. Click here for our call center hours.<\/p>"
+          }
+        },
+        "f575e9d0-c0c5-487d-8a2e-cc79b36840e4": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why can't I find something I saw online in one of your stores?",
+            "text": "<p>Our Made In Washington stores may carry one-of-a-kind or limited products that are more difficult to sell online because each piece is unique. Also, the stores may work with new makers directly to introduce them to customers, so those makers may not be represented on our website. Our stores’ personal shoppers are happy to help you via email, text, phone, or on FaceTime, if you’ve spotted an item you can’t live without!<\/p>"
+          }
+        },
+        "cfbfedff-6c7e-47e6-9d13-da2d350ed5eb": {
+          "type": "separator",
+          "settings": {
+            "title": "GIFTS & GIFT CARDS"
+          }
+        },
+        "3bbbd96d-3e72-4a35-aede-a3254ef529f0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you have a Business Gift Program?",
+            "text": "<p>Yes, we have a business gift program. You may contact our business gift team at 1-800-338-9903 or by <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">email<\/span><\/a>. We will be happy to discuss options, including customization, with you.<\/p>"
+          }
+        },
+        "3b39b428-b8df-4587-9660-2cfa96456406": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you sell gift cards?",
+            "text": "<p>Yes, Made In Washington currently offers digital gift cards in various denominations. Click here to purchase a digital gift card.<\/p>"
+          }
+        },
+        "7479e375-e04b-4179-9aa5-3071df5aeb4b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I return a digital gift card?",
+            "text": "<p>A digital gift card is cash. Gift cards cannot be returned or exchanged. If you are giving a digital card as a gift, please confirm your recipient's email when forwarding the gift card. <\/p>"
+          }
+        },
+        "dd64b740-8aa0-4cff-8177-df18eda12154": {
+          "type": "separator",
+          "settings": {
+            "title": "PARTNERSHIP OPPORTUNITIES"
+          }
+        },
+        "dda1db3d-7ff8-49e5-b757-39692eabdd88": {
+          "type": "tab_content",
+          "settings": {
+            "question": "I would like to inquire about becoming a vendor with Made In Washington.",
+            "text": "<p>We'd love to get to know you and your products! We are always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <\/p><p>Please note that during the busy holiday period, communications with our team may be delayed due to the nature of the season.<\/p>"
+          }
+        },
+        "94cbd0f6-6ea6-4335-8f63-17f6ebd7f5ee": {
+          "type": "separator",
+          "settings": {
+            "title": "SECURITY"
+          }
+        },
+        "ae5073cf-e5b9-4547-b7ba-19597fd1759d": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is your website secure?",
+            "text": "<p>Regarding security, we always use industry-standard encryption technologies when transferring and receiving consumer data exchanged with our site. We have appropriate security measures in place in our physical facilities to protect against the loss, misuse, or alteration of information collected from you on our site.<\/p>"
+          }
         }
       },
       "block_order": [
+        "c60d2fd8-ec9f-4359-ba16-a58c5c1456c2",
         "16643520873d5156d1-0",
         "16643520873d5156d1-1",
+        "a41cddc3-230c-438a-b0ce-8ffa359e9c66",
         "16643520873d5156d1-2",
         "d93665ff-5892-4b53-91fd-3e8700ba387e",
         "c5d4ba57-61e2-42b0-837f-8028afc34245",
         "a426ba28-5129-4c7f-bdc6-b162094137a6",
         "aaf3c360-691a-438c-87f5-057a52a53986",
-        "77520e45-aa14-4c58-854e-616b7432c71f"
+        "77520e45-aa14-4c58-854e-616b7432c71f",
+        "9c766ab9-b46b-43ca-91b0-89a3d3d6e6bf",
+        "84820da8-be40-4dd1-b4ba-125b32cacf30",
+        "b47d9b41-eb79-48b8-a12d-93bb147a7d76",
+        "f575e9d0-c0c5-487d-8a2e-cc79b36840e4",
+        "cfbfedff-6c7e-47e6-9d13-da2d350ed5eb",
+        "3bbbd96d-3e72-4a35-aede-a3254ef529f0",
+        "3b39b428-b8df-4587-9660-2cfa96456406",
+        "7479e375-e04b-4179-9aa5-3071df5aeb4b",
+        "dd64b740-8aa0-4cff-8177-df18eda12154",
+        "dda1db3d-7ff8-49e5-b757-39692eabdd88",
+        "94cbd0f6-6ea6-4335-8f63-17f6ebd7f5ee",
+        "ae5073cf-e5b9-4547-b7ba-19597fd1759d"
       ],
       "settings": {
         "background-color": "#b8cab6",

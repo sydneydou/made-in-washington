@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "166357223161cba705": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header_banner-min.png",
+        "subheading": "Stuff your stocking with Washington pride",
+        "title": "local gift guide",
+        "text": "",
+        "text-color": "#000000",
+        "font-size": "large",
+        "parallax": false,
+        "alignment": "bottom",
+        "text-position": "center",
+        "hero_size": "x-large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "166357351277772320": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "166357351289793237-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-gift-baskets-sets",
+            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
+          }
+        },
+        "166357351289793237-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-seafood-gourment-food-chocolate",
+            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
+          }
+        },
+        "166357351289793237-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-coffee-beverages",
+            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
+          }
+        },
+        "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-home-gifts-1",
+            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
+          }
+        },
+        "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-bath-body",
+            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "166357351289793237-0",
+        "166357351289793237-1",
+        "166357351289793237-2",
+        "be128fe2-223b-4c65-8bd2-5dfc9b7994a1",
+        "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Shop makers by collection"
+      }
+    },
+    "1664778935c5ae759d": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+        "text-color": "#ffffff",
+        "background-color": "#357b8e",
+        "horizontal-alignment": "center",
+        "subheading": "All your local favorites in one box? The sky's the limit.",
+        "title": "design your own box",
+        "font-size": "large",
+        "text": "",
+        "button_link": "shopify:\/\/pages\/design-your-own-gift-basket",
+        "button_label": "Start Here",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "1663573610743b54a4": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "credit": "Waptus Lake, Washington Photo Credit: Becca Harpain, Unsplash",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "let's stay in touch",
+        "font-size": "small"
+      }
+    },
+    "166357385892c100a9": {
+      "type": "apps",
+      "blocks": {
+        "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166357223161cba705",
+    "166357351277772320",
+    "1664778935c5ae759d",
+    "1663573610743b54a4",
+    "166357385892c100a9"
+  ]
+}
