@@ -489,7 +489,7 @@ footer .mtn{
 
     .text-top{
         position: absolute;
-        top: 20%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -499,8 +499,12 @@ footer .mtn{
         font-size:1.8em !important;
         font-family:var(--font-family-regular) !important;
         margin-top:.7em !important;
+        
     }
   
+    .overlay-contain .title-bar{
+        width:40em;
+    }
 
 .blog__post-container{
     padding: 6em 0 4em 0;
