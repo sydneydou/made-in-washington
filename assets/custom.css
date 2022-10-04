@@ -402,7 +402,7 @@ footer{
     min-width:130vw;
   }
 
-#shopify-section-template--15844025434284__16637326789eb4517a, .page-title--404-not-found main,#challenge main,#create-account main, .page-title--account #main-body,#shopify-section-template--15844025335980__166357436128577abc, #shopify-section-template--15852022464684__16637423885d172095, #shopify-section-template--15844023566508__166357385892c100a9,#shopify-section-template--15850343334060__16637423885d172095,#shopify-section-template--15844122755244__166357385892c100a9,#shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer, #shopify-section-template--15844122820780__16635600351e723d9b, #shopify-section-template--15844123213996__16637326789eb4517a{
+#shopify-section-template--15906657763500__166357385892c100a9,#shopify-section-template--15844025434284__16637326789eb4517a, .page-title--404-not-found main,#challenge main,#create-account main, .page-title--account #main-body,#shopify-section-template--15844025335980__166357436128577abc, #shopify-section-template--15852022464684__16637423885d172095, #shopify-section-template--15844023566508__166357385892c100a9,#shopify-section-template--15850343334060__16637423885d172095,#shopify-section-template--15844122755244__166357385892c100a9,#shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer, #shopify-section-template--15844122820780__16635600351e723d9b, #shopify-section-template--15844123213996__16637326789eb4517a{
     background-color:#B8CAB7 !important;
   }
 
@@ -482,6 +482,24 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+
+    .overlay-contain{
+        width:100vw;
+    }
+
+    .text-top{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .overlay-sub{
+        font-size:1.8em;
+        font-family:var(--font-family-regular);
+        margin-top:.7em;
+    }
   
 
 .blog__post-container{
