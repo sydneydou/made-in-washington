@@ -44,7 +44,7 @@
                     <div class="img"></div>
     		    {% endif %}
 
-    		    <div class="hero__inner wow text-large-container">
+    		    <div class="hero__inner wow">
     		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %} {% if section.settings.text-position == 'left' %} text-left{% endif %}  {% if section.settings.text-position == 'top' %} text-top{% endif %}"  >
                 {% if section.settings.title != blank or section.settings.subheading != blank %}
                   <div class="title-bar custom-font">
@@ -53,7 +53,7 @@
                       <h2>{{ section.settings.title | escape }}</h2>
                     {% endif %}
                     {% if section.settings.subheading != blank %}
-                    <h3 class="overlay-sub type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+                    <h3 class="type-subheading type-subheading--1 {% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
                   {% endif %}
                   </div>
                 {% endif %}
