@@ -496,9 +496,9 @@ footer .mtn{
 
 
     .overlay-sub{
-        font-size:1.8em;
-        font-family:var(--font-family-regular);
-        margin-top:.7em;
+        font-size:1.8em !important;
+        font-family:var(--font-family-regular) !important;
+        margin-top:.7em !important;
     }
   
 
