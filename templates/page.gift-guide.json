@@ -17,7 +17,7 @@
         "font-size": "large",
         "parallax": false,
         "alignment": "top",
-        "text-position": "center",
+        "text-position": "top",
         "position-mobile": "center",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
