@@ -478,9 +478,22 @@ footer .mtn{
     font-size: 1.035em !important;
 }
 
+.mobile-menu{
+    background:#4f704e !important;
+}
+
 /* desktop */
 
 @media only screen and (min-width: 798px){
+
+    .nav-pills a{
+        text-transform:uppercase !important;
+    }
+
+    .article-image img{
+        height: 16em;
+        object-fit: cover;
+    }
 
 
     .overlay-contain{
@@ -489,7 +502,7 @@ footer .mtn{
 
     .text-top{
         position: absolute;
-        top: 15%;
+        top: 18%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -538,6 +551,14 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .article-image img {
+
+    width: 70%;
+    margin: 0 auto;
+    height: 17em;
+    object-fit: cover;
+}
 
     .text-image-column .mtn{
         top: -11.5em;
