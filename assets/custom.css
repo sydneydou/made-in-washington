@@ -443,7 +443,11 @@ footer{
 }
 
 .product-grid{
-    margin-top:0em !important;
+    margin:0em !important;
+}
+
+.indiv-product-title-text{
+    font-family: var(--font-family-regular);
 }
 
 .indiv-product img {
@@ -567,6 +571,11 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .indiv-product img {
+        height: 15em;
+        object-fit: contain;
+    }
 
     .article-image img {
 
