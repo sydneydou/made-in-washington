@@ -1122,3 +1122,68 @@ a:hover i.check-icon:before {
 
 {%- comment -%}/* Add custom styles here */{%- endcomment -%}
 
+
+.filter-menu-cols .left-col {
+  width: 25%;  
+  float: left;
+  padding-right: 3%;
+}
+
+.filter-menu-cols .main-col {
+    width: 75%;
+    float: right;  
+}
+
+.filter-group ul {
+    padding: 0;
+    margin: 10px 0;  
+}
+
+@media screen and (min-width: 768px) {
+  .filter-menu-cols .left-col {
+    width: 20%;  
+  padding-right: 2%;
+}
+
+.filter-menu-cols .main-col {
+    width: 80%;
+}
+}
+
+@media screen and (min-width: 960px) {
+    .filter-menu-cols .left-col {
+        width: 20%;  
+        padding-right: 1%;
+    }
+
+    .filter-menu-cols .main-col {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) { 
+    i.check-icon {
+        /* Translate the @2x sprite's dimensions back to 1x */
+        background-size: 16px 96px;
+        background-position: 0px -30px;
+    }
+
+        .selected i.check-icon {
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 40em) {
+  
+    .filter-menu-cols .left-col {
+        width: 100%;  
+      float: none;
+      padding-right: 5%;
+    }
+
+    .filter-menu-cols .main-col {
+        width: 100%;
+    float: none;  
+    } 
+}
