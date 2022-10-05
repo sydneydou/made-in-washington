@@ -1,0 +1,232 @@
+{{ 'section-collection-list.min.css' | asset_url | stylesheet_tag }}
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<section class="homepage-sections-wrapper">
+
+  <div class="container">
+    <div class="row">
+      <div class="page-width col-md-12">
+
+        {% if section.settings.title != blank or section.settings.subheading != blank %}
+          <div class="title-bar custom-font">
+            {% if section.settings.title != blank %}
+              <h2 class="wow">{{ section.settings.title | escape }}</h2>
+            {% endif %}
+            {% if section.settings.subheading != blank %}
+              <h3 class="type-subheading type-subheading--1 wow{% if section.settings.subheading != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+            {% endif %}
+            
+          </div>
+        {% endif %}
+
+        <div class="collection-grid">
+          <div class="row">
+            {% for block in section.blocks limit: section.blocks.size %}
+
+          
+              <!-- <article onmouseenter="onHovs()" onmouseleave="onLeave()"class="indiv-collection-grid-homepage wow col-sm -->
+                <article class="indiv-collection-grid-homepage wow col-sm
+                {%- case section.blocks.size -%}
+                  {% when 2 %}
+                    {% cycle 'mobileCycle': ' alpha', ' omega' %}
+                  {% when 3 %}
+                    {% cycle 'mobileCycle': ' alpha', '', ' omega' %}
+                  {% when 4 %}
+                    {% cycle 'mobileCycle': ' alpha', '', '', ' omega' %}
+                {%- endcase -%}
+                " {{ block.shopify_attributes }}>
+                  {%- assign collection = collections[block.settings.collection] -%}
+
+                {%- assign image_size = '600x' -%}
+
+                <div class="homepage-collection-grid-inner">
+                  <div class="grid-image">
+                    <div class="grid-image--centered">
+                      {% if collection == empty %}
+                        {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                        {{ 'collection-' | append: current | placeholder_svg_tag: 'icon--placeholder' }}
+                      {% else %}
+                      <!-- {% if block.settings.hover %}onmouseleave ="leaveHovs({{block_id}}, '{{from}}')" onmouseenter="onHovs( '/{{hover}}', {{block_id}}, '{{from}}' )"    {%- endif -%} -->
+                        
+                      
+                      
+                      {% if collection.image %}
+                      <span class=" init">
+                          {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                      </span>
+                          {% else %}
+                          {% assign product = collection.products | first %}
+                          <span class=" init">
+                          {% render 'responsive-image' with product.media[0].preview_image, alt: product.featured_image.alt %}
+                        </span>
+                          {% endif %}
+                      {% endif %}
+
+                      {% if block.settings.hover %}
+                      <span class="secondary targ">
+                        {% render 'responsive-image' with block.settings.hover, alt: collection.image.alt %}
+                      </span>
+                      {% else %}
+                      <span class=" secondary targ">
+                        {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                    </span>
+                      {% endif %}
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hp-title homepage-collection-link">
+                {% if collection == empty %}
+                  <h3 class="type-subheading type-subheading--1">
+                    <a href="#">{{ 'general.onboarding.collection_title' | t }}</a>
+                  </h3>
+                {% else %}
+                  <h3 class="type-subheading type-subheading--1">
+                    <a class="crafter-font" href="{{ collection.url }}">{{ collection.title }}</a>
+                  </h3>
+                {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% if section.blocks.size == 0 %}
+          <div class="placeholder-noblocks">
+            {{ 'general.onboarding.no_content' | t }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .secondary{
+    display:none;
+  }
+
+
+
+</style>
+
+<script>
+
+
+
+$('.indiv-collection-grid-homepage').mouseenter(function(){
+$(this).find('.targ').show();
+$(this).find('.init').hide();
+});
+
+$('.indiv-collection-grid-homepage').mouseleave(function(){
+$(this).find('.targ').hide();
+$(this).find('.init').show();
+});
+
+
+
+
+  
+  </script>
+
+
+
+{% schema %}
+{
+    "name": "Local Collections",
+    "class": "homepage-section--featured-collections-wrapper wow",
+    "max_blocks": 12,
+    "settings": [
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": {
+            "en": "Subheading",
+            "de": "Unterüberschrift",
+            "es": "Subencabezado",
+            "fr": "Sous-rubrique",
+            "pt-PT": "Subtítulo"
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": {
+            "en": "Heading",
+            "de": "Überschrift",
+            "es": "Encabezado",
+            "fr": "Rubrique",
+            "pt-PT": "Título"
+          }
+        }
+    ],
+    "blocks": [
+        {
+            "type": "featured_collection",
+            "name": {
+                "en": "Collection",
+                "de": "Kollektion",
+                "es": "Colección",
+                "fr": "Collection",
+                "pt-PT": "Coleção"
+            },
+            "limit": 6,
+            "settings": [
+                {
+                    "label": {
+                        "en": "Collection",
+                        "de": "Kollektion",
+                        "es": "Colección",
+                        "fr": "Collection",
+                        "pt-PT": "Coleção"
+                    },
+                      "id": "collection",
+                      "type": "collection"
+                    },
+                    {
+                      "type": "image_picker",
+                      "id": "hover",
+                      "label": "Image on Hover of Collection"
+                  }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Local Collections",
+            "category": {
+                "en": "Collection",
+                "de": "Kollektion",
+                "es": "Colección",
+                "fr": "Collection",
+                "pt-PT": "Coleção"
+            },
+            "blocks": [
+                {
+                    "type": "featured_collection"
+                },
+                {
+                    "type": "featured_collection"
+                },
+                {
+                    "type": "featured_collection"
+                }
+            ]
+        }
+    ],
+    "templates": [
+      "404",
+      "article",
+      "blog",
+      "cart",
+      "collection",
+      "index",
+      "page",
+      "password",
+      "product",
+      "search"
+    ]
+}
+{% endschema %}

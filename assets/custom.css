@@ -436,6 +436,22 @@ footer{
 }
 
 
+/* collection page */
+
+.collection-filtering-section{
+    margin-top:3em;
+}
+
+.product-grid{
+    margin-top:0em !important;
+}
+
+.indiv-product img {
+
+    height: 25em;
+    object-fit: contain;
+}
+
 
 /* tablet */
 @media only screen and (min-width: 796px) and (max-width: 1250px){
