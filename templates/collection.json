@@ -76,67 +76,23 @@
         "pagination_type": "load_more"
       }
     },
-    "image": {
-      "type": "image--image",
-      "settings": {
-        "parallax": true,
-        "alignment": "center",
-        "hero_size": "small",
-        "text-over-image-width": "full-width"
-      }
-    },
-    "text-adverts": {
-      "type": "text--text-adverts",
+    "16649469091654578d": {
+      "type": "apps",
       "blocks": {
-        "text-adverts-0": {
-          "type": "text",
+        "e575355e-3624-4e4a-ae6d-af02fc2c2ea2": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "icon": "takeaway",
-            "heading": "Free shipping",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
-          }
-        },
-        "text-adverts-1": {
-          "type": "text",
-          "settings": {
-            "icon": "exchange",
-            "heading": "Hassle free returns",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
-          }
-        },
-        "text-adverts-2": {
-          "type": "text",
-          "settings": {
-            "icon": "recycle",
-            "heading": "Eco friendly packaging",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
           }
         }
       },
       "block_order": [
-        "text-adverts-0",
-        "text-adverts-1",
-        "text-adverts-2"
+        "e575355e-3624-4e4a-ae6d-af02fc2c2ea2"
       ],
       "settings": {
-        "icon-color": "#333333",
-        "text-color": "#000000",
-        "background-color": "#ffffff"
-      }
-    },
-    "image-1": {
-      "type": "image--image",
-      "settings": {
-        "parallax": true,
-        "alignment": "center",
-        "hero_size": "small",
-        "text-over-image-width": "full-width"
+        "include_margins": true
       }
     }
   },
@@ -145,8 +101,6 @@
     "collection_header",
     "product_filtering",
     "main",
-    "image",
-    "text-adverts",
-    "image-1"
+    "16649469091654578d"
   ]
 }
