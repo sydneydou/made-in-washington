@@ -10,6 +10,10 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 /* navigation & header */
 
+.dropdown-menu .site-nav--active {
+    border-left: solid 2px white !important;
+}
+
 .dropdown-menu .h4:hover{
     color:white;
 }

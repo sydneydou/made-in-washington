@@ -64,6 +64,14 @@
     #shopify-section-{{ section.id }}{
       background-color:{{section.settings.background-color}} !important;
     }
+
+    @media only screen and (min-width: 798px){
+
+      #shopify-section-{{ section.id }} .mtn{
+        top: {{section.settings.img-pos}}em !important;
+      }
+
+    }
    
   </style>
 
@@ -101,7 +109,16 @@
                 "fr": "600 x 600 px recommandé",
                 "pt-PT": "600 x 600px, recomendado"
             }
-        }
+        },
+        {
+          "type": "range",
+          "id": "img-pos",
+          "min": -40,
+          "max": 40,
+          "step": 2,
+          "label": "Mountain Image Positioning",
+          "default": 0
+      }
        
      
     ],
