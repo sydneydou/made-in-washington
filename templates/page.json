@@ -197,7 +197,6 @@
     },
     "1664783985092c9626": {
       "type": "makers-list-blog",
-      "disabled": true,
       "settings": {
         "text-color": "#ffffff",
         "background-color": "#3a271d",
@@ -209,6 +208,7 @@
     },
     "1664263971a4eb5cd6": {
       "type": "makers-list",
+      "disabled": true,
       "blocks": {
         "8bb47fc6-8b84-472c-82a1-7675a9b2abcf": {
           "type": "text",
