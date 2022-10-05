@@ -518,6 +518,10 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+    .text-top{
+        width: 36em;
+    }
+
     .nav-bar__top-nav a{
         text-transform:uppercase !important;
     }
@@ -529,7 +533,7 @@ footer .mtn{
 
 
     .overlay-contain{
-        width:100vw;
+        width:100%;
     }
 
     .text-top{
