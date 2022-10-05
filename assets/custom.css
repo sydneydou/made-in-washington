@@ -486,7 +486,7 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
-    .nav-pills a{
+    .nav-bar__top-nav a{
         text-transform:uppercase !important;
     }
 
@@ -516,7 +516,7 @@ footer .mtn{
     }
   
     .overlay-contain .title-bar{
-        width:40em;
+        width:auto;
     }
 
 .blog__post-container{

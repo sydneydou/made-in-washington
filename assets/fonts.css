@@ -97,7 +97,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     --font-weight-heavy: 700;
 }
 
-h1{
+h1, .bxp-bldr-wizard-header, #bxp-bldr-form h3, #search_text{
     font-family: var(--font-family-regular);
 }
 
@@ -106,11 +106,15 @@ h2{
    
 }
 
-p, div, span, .type-subheading{
+p, div, span, .type-subheading, #bxp-bldr-form label strong, .bxp-bldr-item_price span, .bxp-bldr-item_price{
 font-family: zen-maru-gothic,sans-serif;
 font-weight: 400;
 font-style: normal;
 
+}
+
+#bxp-bldr-form label strong, #bxp-bldr-form h3{
+    text-transform: inherit;
 }
 
 p{
