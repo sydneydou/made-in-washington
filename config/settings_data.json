@@ -13,7 +13,7 @@
         "settings": {
           "enable": true,
           "message_text": "Shop our holiday gift guide now",
-          "message_link": "",
+          "message_link": "shopify:\/\/pages\/redesign-local-gift-guide",
           "notification-bar--background-color": "#ffffff",
           "notification-bar--text-color": "#222222",
           "social-enable": false,
@@ -118,6 +118,11 @@
           "show_methods_of_payment": true,
           "show_currency_selector": true,
           "show_locale_selector": false
+        }
+      },
+      "filter-menu-settings": {
+        "type": "filter-menu-settings",
+        "settings": {
         }
       }
     },
