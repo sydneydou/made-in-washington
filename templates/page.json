@@ -197,6 +197,7 @@
     },
     "1664783985092c9626": {
       "type": "makers-list-blog",
+      "disabled": true,
       "settings": {
         "text-color": "#ffffff",
         "background-color": "#3a271d",
@@ -208,7 +209,6 @@
     },
     "1664263971a4eb5cd6": {
       "type": "makers-list",
-      "disabled": true,
       "blocks": {
         "8bb47fc6-8b84-472c-82a1-7675a9b2abcf": {
           "type": "text",
@@ -504,7 +504,7 @@
             "collection": "kathy-mills-rozzini"
           }
         },
-        "3bf34754-840c-4eb1-8109-c806eb3fb312": {
+        "748f9e11-ca4c-48a7-ac57-f75c7c5616f9": {
           "type": "text",
           "settings": {
             "collection": "kingfisher-specialty-coffee"
@@ -561,7 +561,7 @@
         "b2e0f539-ce30-4223-bc48-ab00d9187b31",
         "264016ef-b8dd-4296-80bd-b28779d1c315",
         "9d7c738c-7ee8-4f0c-9c78-d6587c554706",
-        "3bf34754-840c-4eb1-8109-c806eb3fb312"
+        "748f9e11-ca4c-48a7-ac57-f75c7c5616f9"
       ],
       "settings": {
         "text-color": "#ffffff",
@@ -569,30 +569,6 @@
         "image": "shopify:\/\/shop_images\/makers_background-min.png",
         "subheading": "",
         "title": "browse our makers"
-      }
-    },
-    "1663733160da55cc5c": {
-      "type": "text--text-columns",
-      "disabled": true,
-      "blocks": {
-        "ed9a2165-1b5d-4518-9ddb-cfa3227d5e9f": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "Share brand or product details",
-            "text_block": "<p>Abby Barr Design<br\/>Addition<br\/>AJ’s Edible Arts<br\/>Apolis Craft Tea<br\/>Barn Cat Creations<br\/>Beecher’s Crackers<br\/>Bewilderness Puzzles<br\/>BobbySue’s Nuts<br\/>Bonache Sauces<br\/>The Bread Dip Company<br\/>Bunnies By The Bay<br\/>Burning At Both Ends<br\/>Buy Give Share<br\/>Buzzy<br\/>Caffe Appassionato<br\/>Campfire Coffee<br\/>Capuli Club Tea<br\/>Careful Hand Sanitizers<br\/>Cate Florey Studio<br\/>Chalo Seattle<br\/>Chelan Beauty<br\/>Chukar Cherries<br\/>Clay In Motion<br\/>Clear Creek Pottery<br\/>Columbia Valley Farms<br\/>Coro By Salumi<\/p>",
-            "button_link": "",
-            "button_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "ed9a2165-1b5d-4518-9ddb-cfa3227d5e9f"
-      ],
-      "settings": {
-        "text-color": "#ffffff",
-        "background-color": "#3c271b",
-        "image": "shopify:\/\/shop_images\/makers_background-min.png"
       }
     },
     "166357351277772320": {
@@ -730,7 +706,6 @@
     "16635731767eb88922",
     "1664783985092c9626",
     "1664263971a4eb5cd6",
-    "1663733160da55cc5c",
     "166357351277772320",
     "166357353859bf306f",
     "1663734254b6665bd3",
