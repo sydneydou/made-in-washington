@@ -4,6 +4,7 @@
     "typography-body-font-size": 15,
     "navigation--capitalize": false,
     "typography-buttons-font-size": 15,
+    "hover_effect": "zoom",
     "sm_facebook_link": "https:\/\/www.facebook.com\/Made.In.Washington\/?fref=ts",
     "sm_instagram_link": "https:\/\/www.instagram.com\/madeinwashington_\/?hl=en",
     "favicon": "shopify:\/\/shop_images\/MIW_favicon-min.png",
