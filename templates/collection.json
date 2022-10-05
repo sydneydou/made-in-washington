@@ -46,7 +46,7 @@
     "product_filtering": {
       "type": "main-collection-filtering",
       "settings": {
-        "desktop_position": "sidebar",
+        "desktop_position": "topbar",
         "enable_filtering": true,
         "enable_sorting": true
       }
