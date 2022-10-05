@@ -10,6 +10,14 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 /* navigation & header */
 
+.dropdown-menu .h4:hover{
+    color:white;
+}
+
+.dropdown-submenu__link:hover{
+    color:bisque;
+}
+
 .mobile-menu a{
     text-transform:capitalize !important;
 }
