@@ -12,6 +12,7 @@
         "parallax": false,
         "alignment": "center",
         "text-position": "center",
+        "position-mobile": "center",
         "hero_size": "large",
         "text-over-image-width": "full-width",
         "button_link": "",
@@ -49,7 +50,8 @@
       "settings": {
         "text-color": "#ffffff",
         "background-color": "#4f704f",
-        "image": "shopify:\/\/shop_images\/contact_info_background_1_-min.png"
+        "image": "shopify:\/\/shop_images\/contact_info_background_1_-min.png",
+        "img-pos": -8
       }
     },
     "main": {
