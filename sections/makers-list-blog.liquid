@@ -37,7 +37,9 @@
                               
 
                                         {% for article in section.settings.blog.articles %}
-                                            <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href="{{article.url}}">{{ article.title }}</a></h3>
+                                        {% assign collectionURL = article.title | downcase | replace: ' ', '-'  %}
+                                            <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href=`{{request.origin}}/collection/{{collectionURL}}`>{{ article.title }}</a></h3>
+                                            <!-- <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href=`{{article.url}}`>{{ article.title }}</a></h3> -->
                                         {% endfor %}
                           
                                 </div>
