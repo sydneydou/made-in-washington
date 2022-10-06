@@ -37,7 +37,7 @@
                               
 
                                         {% for article in section.settings.blog.articles %}
-                                        {% assign titleChange = article.title | downcase | replace: ' ', '-'  %}
+                                        {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
                                         {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                             <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                           
