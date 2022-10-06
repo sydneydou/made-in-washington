@@ -72,8 +72,26 @@
       "settings": {
         "grid": 3,
         "grid_mobile": "per_row_two",
-        "rows": 6,
-        "pagination_type": "load_more"
+        "rows": 3,
+        "pagination_type": "paged_navigation"
+      }
+    },
+    "7a898150-dbad-43f2-9dd0-17d09fde901b": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+        "text-color": "#ffffff",
+        "background-color": "#057c90",
+        "horizontal-alignment": "center",
+        "subheading": "All your local favorites in one box? The sky’s the limit.",
+        "title": "Design your own gift box",
+        "font-size": "large",
+        "text": "",
+        "button_link": "shopify:\/\/pages\/design-your-own-gift-basket",
+        "button_label": "Start Here",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
       }
     },
     "16649469091654578d": {
@@ -101,6 +119,7 @@
     "collection_header",
     "product_filtering",
     "main",
+    "7a898150-dbad-43f2-9dd0-17d09fde901b",
     "16649469091654578d"
   ]
 }
