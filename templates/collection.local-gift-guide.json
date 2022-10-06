@@ -40,6 +40,27 @@
         "button_label": ""
       }
     },
+    "6a8eb908-0c21-482e-a532-3f501532d0e9": {
+      "type": "text--image-column",
+      "settings": {
+        "mtn": "shopify:\/\/shop_images\/white_mountains_beneath_banner-min.png",
+        "background-color": "#FFF",
+        "text-color": "#000000",
+        "image-width": "medium",
+        "marg-bot": 0,
+        "img_width": 100,
+        "img_width_mobile": 100,
+        "layout": "bottom",
+        "title": "We've got something for everyone on your list",
+        "text_block": "<p>Our handmade gifts are created in limited numbers - make sure you order yours today!<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-text-color": "#000",
+        "btn-background-color": "#FFF",
+        "margin-bottom": 0,
+        "margin-top": 0
+      }
+    },
     "collection_header": {
       "type": "template--collection-header",
       "disabled": true,
@@ -137,6 +158,7 @@
   "order": [
     "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d",
     "166357422646fe3c36",
+    "6a8eb908-0c21-482e-a532-3f501532d0e9",
     "collection_header",
     "product_filtering",
     "main",
