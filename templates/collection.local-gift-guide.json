@@ -1,8 +1,28 @@
 {
   "wrapper": "div.collection-wrapper",
   "sections": {
+    "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "subheading": "Stuff your stockings with Washington pride",
+        "title": "Local Gift Guide",
+        "text": "",
+        "text-color": "#000000",
+        "font-size": "large",
+        "parallax": false,
+        "alignment": "center",
+        "text-position": "top",
+        "position-mobile": "center",
+        "hero_size": "large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
     "166357422646fe3c36": {
       "type": "image--image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "{{ collection.image }}",
         "subheading": "",
@@ -115,6 +135,7 @@
     }
   },
   "order": [
+    "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d",
     "166357422646fe3c36",
     "collection_header",
     "product_filtering",
