@@ -44,7 +44,7 @@
       "type": "text--image-column",
       "settings": {
         "mtn": "shopify:\/\/shop_images\/white_mountains_beneath_banner-min.png",
-        "background-color": "#FFF",
+        "background-color": "#ffffff",
         "text-color": "#000000",
         "image-width": "medium",
         "marg-bot": 0,
@@ -55,10 +55,10 @@
         "text_block": "<p>Our handmade gifts are created in limited numbers - make sure you order yours today!<\/p>",
         "button_link": "",
         "button_label": "",
-        "btn-text-color": "#000",
-        "btn-background-color": "#FFF",
+        "btn-text-color": "#000000",
+        "btn-background-color": "#ffffff",
         "margin-bottom": 0,
-        "margin-top": 0
+        "margin-top": 3
       }
     },
     "collection_header": {
