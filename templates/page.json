@@ -203,7 +203,8 @@
         "image": "shopify:\/\/shop_images\/makers_background-min.png",
         "subheading": "",
         "title": "Browse our makers",
-        "blog": "maker"
+        "blog": "maker",
+        "img-pos": -6
       }
     },
     "1664263971a4eb5cd6": {
