@@ -468,6 +468,9 @@ footer{
     
 }
     
+.indiv-product__image-wrapper img{
+    object-fit: contain;
+}
 
     /* box builder */
 

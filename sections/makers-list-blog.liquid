@@ -34,13 +34,13 @@
 
                             
                           
-                              {% paginate section.settings.blog.articles  by 250 %}
+                              {% paginate section.settings.blog.articles  by 150 %}
                               {% assign items = section.settings.blog.articles  | reverse %}
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
 
                                               
-                                                      {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
+                                                      {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                                     <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                               
@@ -51,7 +51,7 @@
                                         {% for article in items offset:27 limit:27  %}
 
                                         
-                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
+                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' | replace: "!", ''  %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                         
@@ -62,7 +62,7 @@
                                         {% for article in items offset:52 limit:27  %}
 
                                         
-                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
+                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                         
@@ -73,7 +73,7 @@
                                         {% for article in items offset:79 limit:27  %}
 
                                         
-                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
+                                                {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                         
@@ -83,57 +83,6 @@
                               {% endpaginate %}
                                
 
-
-                                <!-- <div class="second-column">
-
-                          
-                                  {% for article in section.settings.blog.articles   offset:50 %}
-
-                                  
-                                          {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
-                                          {% assign collectionURL =  "/collections/" | append: titleChange  %}
-                                        <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
-                                      
-                                    
-                                  
-                                  {% endfor %}
-                          </div> -->
-                          
-
-
-                          <!-- <div class="third-column">
-                            <script>console.log({{section.settings.blog.articles|json}});</script>
-
-                          
-                            {% for article in section.settings.blog.articles %}
-
-                            {% if forloop.index > 52 and  forloop.index < 79 %}
-                                    {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
-                                    {% assign collectionURL =  "/collections/" | append: titleChange  %}
-                                  <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
-                                
-                             
-                            {% endif %}
-                            {% endfor %}
-                    </div>
-
-
-                    <div class="fourth-column">
-
-                          
-                      {% for article in section.settings.blog.articles %}
-
-                      {% if  forloop.index > 79 %}
-                              {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  %}
-                              {% assign collectionURL =  "/collections/" | append: titleChange  %}
-                            <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
-                          
-                       
-                      {% endif %}
-                      {% endfor %}
-              </div> -->
-
-                 
                      
 
                   </div>
