@@ -38,7 +38,7 @@
 
                                         {% for article in section.settings.blog.articles %}
                                         {% assign collectionURL = article.title | downcase | replace: ' ', '-'  %}
-                                            <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href=`/collections/{{collectionURL}}`>{{ article.title }}</a></h3>
+                                            <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href=`https://madeinwashington.com/collections/{{collectionURL}}`>{{ article.title }}</a></h3>
                                             <!-- <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href=`{{article.url}}`>{{ article.title }}</a></h3> -->
                                         {% endfor %}
                           
