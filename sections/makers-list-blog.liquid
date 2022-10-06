@@ -61,7 +61,7 @@
                                       <div class="third-column">
                                         {% for article in items offset:52 limit:27  %}
 
-                                        
+                                     
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
@@ -125,6 +125,14 @@
     #shopify-section-{{ section.id }}{
       background-color:{{section.settings.background-color}} !important;
     }
+
+    @media only screen and (min-width: 798px){
+
+#shopify-section-{{ section.id }} .mtn{
+  top: {{section.settings.img-pos}}em !important;
+}
+
+}
    
   </style>
 
@@ -204,6 +212,16 @@
                 "pt-PT": "Blog"
             }
           }
+          ,
+        {
+          "type": "range",
+          "id": "img-pos",
+          "min": -40,
+          "max": 40,
+          "step": 2,
+          "label": "Mountain Image Positioning",
+          "default": 0
+      }
        
      
     ],
