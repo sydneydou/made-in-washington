@@ -58,7 +58,7 @@
         "btn-text-color": "#000000",
         "btn-background-color": "#ffffff",
         "margin-bottom": 0,
-        "margin-top": 3
+        "margin-top": 0
       }
     },
     "collection_header": {
