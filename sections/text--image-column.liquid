@@ -31,7 +31,7 @@
           	<div class="feature-row__container">
               <div class="feature-row{% if section.settings.layout == 'top' %} feature-row--image-top{% endif %}">
 
-                    {% if section.settings.layout != 'between' %}
+                    {% if section.settings.layout != 'between' and section.settings.image != blank %}
                     <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="margin: 2em 0;">
                   
                         {% if section.settings.image != blank %}
@@ -55,7 +55,7 @@
                      
                     {% endif %}
 
-                    {% if section.settings.layout == 'between' %}
+                    {% if section.settings.layout == 'between' and section.settings.image != blank %}
                     <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="padding-top:2em; height: auto;margin: 0 auto;">
                    
                         {% if section.settings.image != blank %}
