@@ -1,0 +1,168 @@
+{
+  "wrapper": "div.collection-wrapper",
+  "sections": {
+    "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "subheading": "Stuff your stockings with Washington pride",
+        "title": "Local Gift Guide",
+        "text": "",
+        "text-color": "#000000",
+        "font-size": "large",
+        "parallax": false,
+        "alignment": "center",
+        "text-position": "top",
+        "position-mobile": "center",
+        "hero_size": "large",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "166357422646fe3c36": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "{{ collection.image }}",
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "text": "",
+        "text-color": "#000000",
+        "font-size": "large",
+        "parallax": false,
+        "alignment": "center",
+        "text-position": "center",
+        "position-mobile": "center",
+        "hero_size": "medium",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "6a8eb908-0c21-482e-a532-3f501532d0e9": {
+      "type": "text--image-column",
+      "settings": {
+        "mtn": "shopify:\/\/shop_images\/white_mountains_beneath_banner-min.png",
+        "background-color": "#FFF",
+        "text-color": "#000000",
+        "image-width": "medium",
+        "marg-bot": 0,
+        "img_width": 100,
+        "img_width_mobile": 100,
+        "layout": "bottom",
+        "title": "We've got something for everyone on your list",
+        "text_block": "<p>Our handmade gifts are created in limited numbers - make sure you order yours today!<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-text-color": "#000",
+        "btn-background-color": "#FFF",
+        "margin-bottom": 0,
+        "margin-top": 0
+      }
+    },
+    "collection_header": {
+      "type": "template--collection-header",
+      "disabled": true,
+      "blocks": {
+        "collection_title": {
+          "type": "collection-title",
+          "settings": {
+          }
+        },
+        "collection_description": {
+          "type": "collection-description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collection_title",
+        "collection_description"
+      ],
+      "settings": {
+        "collection_image_enable": false
+      }
+    },
+    "product_filtering": {
+      "type": "main-collection-filtering",
+      "settings": {
+        "desktop_position": "topbar",
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "main": {
+      "type": "template--collection",
+      "blocks": {
+        "product_title": {
+          "type": "product-card-title",
+          "settings": {
+          }
+        },
+        "product_price": {
+          "type": "product-card-price",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_title",
+        "product_price"
+      ],
+      "settings": {
+        "grid": 3,
+        "grid_mobile": "per_row_two",
+        "rows": 3,
+        "pagination_type": "paged_navigation"
+      }
+    },
+    "7a898150-dbad-43f2-9dd0-17d09fde901b": {
+      "type": "image--image-with-text-block",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+        "text-color": "#ffffff",
+        "background-color": "#057c90",
+        "horizontal-alignment": "center",
+        "subheading": "All your local favorites in one box? The sky’s the limit.",
+        "title": "Design your own gift box",
+        "font-size": "large",
+        "text": "",
+        "button_link": "shopify:\/\/pages\/design-your-own-gift-basket",
+        "button_label": "Start Here",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff"
+      }
+    },
+    "16649469091654578d": {
+      "type": "apps",
+      "blocks": {
+        "e575355e-3624-4e4a-ae6d-af02fc2c2ea2": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e575355e-3624-4e4a-ae6d-af02fc2c2ea2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d",
+    "166357422646fe3c36",
+    "6a8eb908-0c21-482e-a532-3f501532d0e9",
+    "collection_header",
+    "product_filtering",
+    "main",
+    "7a898150-dbad-43f2-9dd0-17d09fde901b",
+    "16649469091654578d"
+  ]
+}
