@@ -10,6 +10,14 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 /* navigation & header */
 
+.mega-menu-block__heading:hover{
+    color:white !important;
+    opacity:1;
+}
+
+.dropdown-submenu__linklist li a:hover{
+    color:white !important;
+}
 .dropdown-menu .site-nav--active {
     border-left: solid 2px white !important;
 }
