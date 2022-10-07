@@ -1,4 +1,4 @@
-<section class="homepage-sections-wrapper">
+<section class="homepage-sections-wrapper"  {% if section.settings.id != blank %} id="{{section.settings.id}}" {% endif %}>
   <div class="container">
     {{ section.settings.custom_liquid }}
   </div>
@@ -13,6 +13,11 @@
       "id": "custom_liquid",
       "label": "Custom Liquid",
       "default": "<div style='text-align:center;'><h2>Custom Liquid</h2><p>Add app snippets or other Liquid code to create advanced customizations.</p></div>"
+    },
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Section ID"
     }
   ],
   "presets": [
