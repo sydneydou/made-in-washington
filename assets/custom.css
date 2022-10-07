@@ -7,9 +7,9 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 */
 
 main section:last-child{
-    /* background:blue !important; */
-    background-color:#B8CAB7 !important;
-    width:100%;
+    
+    /* background-color:#B8CAB7 !important;
+    width:100%; */
 }
 
 
