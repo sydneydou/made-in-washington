@@ -20,6 +20,12 @@
         "button_label": ""
       }
     },
+    "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:center;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}"
+      }
+    },
     "collection_header": {
       "type": "template--collection-header",
       "disabled": true,
@@ -98,6 +104,7 @@
   },
   "order": [
     "166357422646fe3c36",
+    "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14",
     "collection_header",
     "product_filtering",
     "main",
