@@ -23,7 +23,7 @@
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:center;'><h3>{{collection.metafields.c_f.info_subtitle}}<\/h3><\/div>\n\n<div style='text-align:center;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}\n\n<style>\n\n{% if collection.metafields.c_f.info_content != blank %}\n  #maker-info{\n    display:none;\n  }\n\n  {% endif %}\n<\/style>",
+        "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:center;'><h4 style=\"margin-bottom:25px;    font-family: var(--font-family-regular);\">{{collection.metafields.c_f.info_subtitle}}<\/h4><\/div>\n\n<div style='text-align:center;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}\n\n<style>\n\n  #maker-info{\n    display:none;\n  }\n\n{% if collection.metafields.c_f.info_content %}\n\n #maker-info{\n    display:block;\n  }\n\n  {% endif %}\n<\/style>",
         "id": "maker-info"
       }
     },
