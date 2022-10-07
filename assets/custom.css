@@ -212,7 +212,7 @@ font-size:.93em !important;
 /* collection picker */
 
 .flickity-prev-next-button {
-    top: 36%;
+    top: 36% !important;
 }
 
 .row {
