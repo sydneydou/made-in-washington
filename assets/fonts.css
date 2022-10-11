@@ -103,7 +103,7 @@ h1, .bxp-bldr-wizard-header, #bxp-bldr-form h3, #search_text{
 
 h2{
     font-family: var(--font-family-subheader);
-   
+   letter-spacing: 1.1px !important;
 }
 
 p, div, span, .type-subheading, #bxp-bldr-form label strong, .bxp-bldr-item_price span, .bxp-bldr-item_price{
