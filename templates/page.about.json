@@ -9,7 +9,7 @@
     "16630404174402d7a2": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/about_banner_image-min.png",
+        "image": "shopify:\/\/shop_images\/about_banner_image_1_-min.png",
         "subheading": "",
         "title": "Our Story",
         "text": "<p>Inspired Locally. Made in Washington. Loved Everywhere.<\/p>",
@@ -51,8 +51,8 @@
         "layout": "right",
         "subheading": "",
         "title": "our history",
-        "text_block": "<p>Made in Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <br\/><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made in Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <\/p><p>Although the business started with only fifty items, the Made In Washington concept flourished, and soon we were working with over 200 makers around the state.<\/p>",
-        "text_block-con": "<p>We’re one of the few places in the state able to offer a huge range of the best local products, and we simplify the search for customers because they know everything we have—both online and in stores—is thoughtfully curated. You can’t visit our stores or website without feeling inspired by the creativity and stories on display. <br\/><br\/>Today, we continue to celebrate the rich bounty of Washington State’s food, art, and lifestyle online and at our stores throughout the Puget Sound region, including a licensed retail location at SeaTac airport. <br\/><br\/>Whether you are shopping for family, friends, or those you work with, you’ll be proud to share a gift that’s designed, crafted, and Made In Washington.<\/p>",
+        "text_block": "<p>Made in Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <br\/><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made in Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <\/p>",
+        "text_block-con": "<p>Although the business started with only fifty items, the Made In Washington concept flourished, and soon we were working with over 200 makers around the state.<\/p><p><\/p><p>We’re one of the few places in the state able to offer a huge range of the best local products, and we simplify the search for customers because they know everything we have—both online and in stores—is thoughtfully curated. You can’t visit our stores or website without feeling inspired by the creativity and stories on display. <br\/><br\/>Today, we continue to celebrate the rich bounty of Washington State’s food, art, and lifestyle online and at our stores throughout the Puget Sound region, including a licensed retail location at SeaTac airport. <br\/><br\/>Whether you are shopping for family, friends, or those you work with, you’ll be proud to share a gift that’s designed, crafted, and Made In Washington.<\/p>",
         "title-two": "Our Story",
         "text_block-two": "<p>Here’s what we know for sure: Washington State is special. From the tops of our mountains to the bottoms of our seas, we love where we live.<\/p>",
         "button_link": "",
@@ -174,7 +174,8 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/theapplicantmanager.com\/jobfeeds\/bc_made_in_washington.js\"><\/script>"
+        "custom_liquid": "<script src=\"https:\/\/theapplicantmanager.com\/jobfeeds\/bc_made_in_washington.js\"><\/script>",
+        "id": ""
       }
     },
     "166425477166e85a3c": {
@@ -202,7 +203,7 @@
     "166433949249bacf8a": {
       "type": "image--join-our-team",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/join_our_team_banner_image-min.png",
+        "background_image": "shopify:\/\/shop_images\/join_the_team_banner-min.png",
         "text-color": "#ffffff",
         "background-color": "#4e714e",
         "horizontal-alignment": "left",
@@ -422,7 +423,8 @@
     "1663742438a4dba04f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>"
+        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>",
+        "id": ""
       }
     },
     "16637423516acc56b7": {
