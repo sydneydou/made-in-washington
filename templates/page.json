@@ -22,7 +22,8 @@
         "button_label": "",
         "btn-color": "#000000",
         "btn-background-color": "rgba(0,0,0,0)",
-        "btn-background-hover": "#ffffff"
+        "btn-background-hover": "#ffffff",
+        "section-height": "default"
       }
     },
     "16635720255e76fa4a": {
@@ -115,7 +116,8 @@
         "button_label": "",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "btn-background-hover": "#ffffff",
+        "section-height": "default"
       }
     },
     "166357261491f08943": {
@@ -640,7 +642,8 @@
         "button_label": "Learn More",
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
-        "btn-background-hover": "#d8a45f"
+        "btn-background-hover": "#d8a45f",
+        "section-height": "small"
       }
     },
     "1663734254b6665bd3": {
