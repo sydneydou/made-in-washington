@@ -161,7 +161,18 @@
   width: 100%;
 }
 
+
+
     }
+
+
+
+    {% if section.settings.on-top == true %}
+        .text-image-column .mtn{
+          z-index:900 !important;
+        }
+    {% endif %}
+
   </style>
 
 {% schema %}
@@ -419,7 +430,14 @@
             "step": 1,
             "label": "Space Above Content",
             "default": 0
-        }
+        },
+
+        {
+          "type": "checkbox",
+          "id": "on-top",
+          "label": "Mountain On Top",
+          "default": false
+      }
     ],
     "presets": [
         {

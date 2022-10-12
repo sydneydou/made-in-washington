@@ -470,9 +470,7 @@ footer{
     width:100vw;
 }
 
-.text-image-column .mtn{
-    z-index:900 !important;
-}
+
 
 .template-collection .text-image-column .feature-row__text{
     z-index:998 !important;
