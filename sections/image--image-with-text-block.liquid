@@ -85,6 +85,17 @@
 
  {% endif %}
 
+ {% if section.settings.section-height == 'small' %}
+      #shopify-section-{{ section.id }},#shopify-section-{{ section.id }} .homepage-image-text-block--content .image-text-block--wrapper img{
+        height: 557px;
+
+      }
+
+    
+
+
+{% endif %}
+
 
 </style>
 
@@ -307,7 +318,23 @@
           "id": "btn-background-hover",
           "label": "Button Background on Hover",
           "default": "#ffffff"
-      }
+      },
+      {        
+        "type": "select",
+      "id": "section-height",
+      "label": "Section Height",
+      "default": "default",
+      "options": [
+          {
+              "value": "small",
+              "label": "Smaller"
+          },
+          {
+              "value": "default",
+              "label": "Default"
+          }
+      ]
+  },
     ],
     "presets": [
         {
