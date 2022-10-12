@@ -2,7 +2,7 @@
 
 
 
-<section class="homepage-sections-wrapper  text-column-section mtn-with-img" style="background-color:{{section.settings.bck-color}};">
+<section class="homepage-sections-wrapper  text-column-section mtn-with-img bckin" >
     <img class="mtn"  src="{{ section.settings.mtn | img_url: '1000x1000' }}"
     loading="lazy"}} style="background-color:transparent;" >
     <div class="container">
@@ -130,6 +130,10 @@
 
 
     @media only screen and (max-width: 797px){
+
+      .bckin{
+        background-color:{{section.settings.bck-color}};
+      }
         #shopify-section-{{ section.id }}
         {
           margin-top: 12em;
@@ -203,12 +207,7 @@
         "label": "Text Color",
         "default": "#FFF"
       },
-      {
-        "type": "color",
-        "id": "bck-color",
-        "label": "Text Color",
-        "default": "#557151"
-      },
+      
         {
             "type": "image_picker",
             "id": "mtn",
@@ -252,6 +251,12 @@
           "type": "richtext",
           "id": "seven",
           "label": "Seventh Timeline Section"
+        },
+        {
+          "type": "color",
+          "id": "bck-color",
+          "label": "Mobile Background Color",
+          "default": "#557151"
         }
        
 
