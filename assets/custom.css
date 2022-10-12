@@ -646,6 +646,12 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+
+   #insta-feed h2{
+    width: 80%;
+    margin: 0 auto;
+   }
+
     .container--product-page .row{
         margin:0;
     }
