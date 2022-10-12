@@ -100,7 +100,7 @@
 }
 
    .text-image-column .featured-row__subtext  {  
-    width: 70%;
+    width: {{section.settins.text-width}}%;
     margin: 0 auto;
     padding-top: 1.5em;
 }
@@ -261,6 +261,15 @@
                 }
             ]
         },
+        {
+          "type": "range",
+          "id": "text-width",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "label": "Text Width",
+          "default": 70
+      },
         {
           "type": "range",
           "id": "marg-bot",
