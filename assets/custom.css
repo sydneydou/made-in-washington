@@ -471,15 +471,7 @@ footer{
 }
 
 .text-image-column .mtn{
-    z-index:900 !important;
-}
-
-.template-collection .text-image-column .feature-row__text{
-    z-index:998 !important;
-        }
-    
-.dropdown-menu{
-    z-index:999 !important;
+    z-index:999;
 }
 
 /* collection page */
@@ -753,8 +745,6 @@ footer .mtn{
         left:50% !important;
     }
   
-
-   
   
 
 
