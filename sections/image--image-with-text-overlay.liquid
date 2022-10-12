@@ -45,7 +45,7 @@
     		    {% endif %}
 
     		    <div class="hero__inner wow overlay-contain">
-    		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %} {% if section.settings.text-position == 'left' %} text-left{% endif %}  {% if section.settings.text-position == 'top' %} text-top{% endif %}"  >
+    		      <div class="page-width text-center  {% if section.settings.text-position == 'right' %} text-right{% endif %}  {% if section.settings.text-position == 'right-center' %} text-right-center{% endif %}  {% if section.settings.text-position == 'left' %} text-left{% endif %}  {% if section.settings.text-position == 'top' %} text-top{% endif %}"  >
                 {% if section.settings.title != blank or section.settings.subheading != blank %}
                   <div class="title-bar custom-font">
                    
@@ -143,6 +143,11 @@
     .text-left{
         margin-left: 5em !important;
         margin-bottom: 10em !important;
+    }
+
+    .text-right-center{
+        margin-right: 5em !important;
+        /* margin-bottom: 20em !important; */
     }
 
 }
@@ -340,8 +345,13 @@
                     "label": "Left",
                     "value": "left"
                 },
+                ,
                 {
                     "label": "Right",
+                    "value": "right-center"
+                },
+                {
+                    "label": "Right Top",
                     "value": "right"
                 }
             ]
