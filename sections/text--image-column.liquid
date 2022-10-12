@@ -32,7 +32,7 @@
               <div class="feature-row{% if section.settings.layout == 'top' %} feature-row--image-top{% endif %}">
 
                     {% if section.settings.layout != 'between' and section.settings.image != blank %}
-                    <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="margin: 2em 0; max-width:90%">
+                    <div class="feature-row__image col-md-{{ image_width_columns }} col-12 wow" style="margin: 2em 0; max-width:90% !important;">
                   
                         {% if section.settings.image != blank %}
                           {% render 'responsive-image' with section.settings.image, alt: section.settings.image.alt %}
