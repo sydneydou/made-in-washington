@@ -2,7 +2,7 @@
 
 
 
-<section class="homepage-sections-wrapper  text-column-section mtn-with-img">
+<section class="homepage-sections-wrapper  text-column-section mtn-with-img" style="background-color:{{section.settings.bck-color}};">
     <img class="mtn"  src="{{ section.settings.mtn | img_url: '1000x1000' }}"
     loading="lazy"}} style="background-color:transparent;" >
     <div class="container">
@@ -37,7 +37,28 @@
 
   <style>
 
-    .timeline-section .second-time p:first-child,.timeline-section .four-time p:first-child,.timeline-section .six-time p:first-child{
+  
+
+
+    #shopify-section-{{ section.id }}{
+      background-color:transparent!important;
+    }
+
+    #shopify-section-{{ section.id }} .mtn-with-img .mtn{
+      top: 5em;
+    height: 81%;
+
+    }
+
+    
+
+    .mtn-with-img{
+        padding-top:0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    @media only screen and (min-width: 798px){
+      .timeline-section .second-time p:first-child,.timeline-section .four-time p:first-child,.timeline-section .six-time p:first-child{
       top:38%;
     }
 
@@ -104,21 +125,69 @@
     left: 69em;
     width: 11em;
 }
-
-
-    #shopify-section-{{ section.id }}{
-      background-color:transparent!important;
+    
     }
 
-    #shopify-section-{{ section.id }} .mtn-with-img .mtn{
-      top: 5em;
-    height: 81%;
 
-    }
+    @media only screen and (max-width: 797px){
+        #shopify-section-{{ section.id }}
+        {
+          margin-top: 12em;
+        }
 
-    .mtn-with-img{
-        padding-top:0 !important;
-        padding-bottom: 0 !important;
+
+        #shopify-section-{{ section.id }} .mtn{
+          top: -8em !important;
+    height: auto !important;
+        }
+
+        #shopify-section-{{ section.id }} .mobile{
+          width: 28% !important;
+        }
+
+        .timeline-section{
+          margin: 8em 0;
+        }
+
+        .timeline-section div p{
+          text-align:left;
+          color:white;
+        }
+
+        .timeline-section div {
+          position: absolute;
+          width: 58%;
+          right: 2em;
+        }
+
+        .seven-time{
+          bottom:3em;
+        }
+
+        .six-time{
+          bottom:10em;
+        }
+
+        .five-time{
+          bottom:27em;
+        }
+
+        .four-time{
+          bottom:42em;
+        }
+
+        .third-time{
+          bottom: 70.9em;
+        }
+
+        .second-time{
+          bottom: 92.7em;
+        }
+
+        .first-time{
+          bottom: 106em;
+        }
+        
     }
    
   </style>
@@ -133,6 +202,12 @@
         "id": "text-color",
         "label": "Text Color",
         "default": "#FFF"
+      },
+      {
+        "type": "color",
+        "id": "bck-color",
+        "label": "Text Color",
+        "default": "#557151"
       },
         {
             "type": "image_picker",
