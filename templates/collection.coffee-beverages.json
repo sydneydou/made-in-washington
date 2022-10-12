@@ -12,7 +12,7 @@
         "font-size": "large",
         "parallax": false,
         "alignment": "center",
-        "text-position": "center",
+        "text-position": "right",
         "position-mobile": "center",
         "hero_size": "large",
         "text-over-image-width": "full-width",
