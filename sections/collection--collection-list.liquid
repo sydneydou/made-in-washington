@@ -46,14 +46,19 @@
                         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
                         {{ 'collection-' | append: current | placeholder_svg_tag: 'icon--placeholder' }}
                       {% else %}
-                      <!-- {% if block.settings.hover %}onmouseleave ="leaveHovs({{block_id}}, '{{from}}')" onmouseenter="onHovs( '/{{hover}}', {{block_id}}, '{{from}}' )"    {%- endif -%} -->
+                    
                         
                       
                       
-                      {% if collection.image %}
+                      {% if block.settings.reg %}
                       <span class=" init">
-                          {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                          {% render 'responsive-image' with block.settings.reg, alt: collection.image.alt %}
                       </span>
+                          {% elsif collection.image %}
+
+                          <span class=" init">
+                            {% render 'responsive-image' with collection, alt: collection.image.alt %}
+                        </span>
                           {% else %}
                           {% assign product = collection.products | first %}
                           <span class=" init">
@@ -66,6 +71,12 @@
                       <span class="secondary targ">
                         {% render 'responsive-image' with block.settings.hover, alt: collection.image.alt %}
                       </span>
+                      
+                      {% elsif block.settings.reg %}
+                          <span class=" init">
+                            {% render 'responsive-image' with block.settings.reg, alt: collection.image.alt %}
+                        </span>
+
                       {% else %}
                       <span class=" secondary targ">
                         {% render 'responsive-image' with collection, alt: collection.image.alt %}
@@ -204,8 +215,13 @@ $(this).find('.init').show();
                     },
                     {
                       "type": "image_picker",
+                      "id": "reg",
+                      "label": "Image (Optional)"
+                  },
+                    {
+                      "type": "image_picker",
                       "id": "hover",
-                      "label": "Image on Hover of Collection"
+                      "label": "Image on Hover of Collection (Optional)"
                   }
             ]
         }

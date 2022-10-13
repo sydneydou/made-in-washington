@@ -107,8 +107,12 @@ header span{
 /* product page */
 
 .spr-container{
-    border:none;
+    border:none !important;
     margin: 4em 0px;
+}
+
+.container--product-page{
+    margin: 0.5em 3.5em;
 }
 
 /* slideshow section */

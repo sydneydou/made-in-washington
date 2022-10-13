@@ -135,7 +135,62 @@
         "button_label": "Start Here",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "btn-background-hover": "#ffffff",
+        "section-height": "default"
+      }
+    },
+    "74263384-cae3-4021-949f-4ec249b3857a": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+            "subheading": "",
+            "title": "Share your story",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-1": {
+          "type": "slide",
+          "settings": {
+            "subheading": "",
+            "title": "Share your story",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "",
+            "link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-0",
+        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true,
+        "header-font": "var(--font-family-regular)"
       }
     },
     "16649469091654578d": {
