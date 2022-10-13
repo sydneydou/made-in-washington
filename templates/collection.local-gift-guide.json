@@ -135,8 +135,7 @@
         "button_label": "Start Here",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff",
-        "section-height": "default"
+        "btn-background-hover": "#ffffff"
       }
     },
     "16649469091654578d": {
@@ -167,6 +166,7 @@
     "product_filtering",
     "main",
     "7a898150-dbad-43f2-9dd0-17d09fde901b",
+    "74263384-cae3-4021-949f-4ec249b3857a",
     "16649469091654578d"
   ]
 }
