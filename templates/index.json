@@ -110,6 +110,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-gift-baskets-sets",
+            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
         },
@@ -117,6 +118,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-seafood-gourment-food-chocolate",
+            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
         },
@@ -124,6 +126,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-coffee-beverages",
+            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min.png",
             "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
           }
         },
@@ -131,6 +134,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-home-gifts-1",
+            "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min.png",
             "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
         },
@@ -138,6 +142,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-bath-body",
+            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min.png",
             "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
         },
@@ -177,7 +182,8 @@
         "button_label": "Start Here",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#f3efef"
+        "btn-background-hover": "#f3efef",
+        "section-height": "default"
       }
     },
     "1663139248caf87b7b": {
@@ -212,7 +218,8 @@
         "button_label": "Read their stories",
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
-        "btn-background-hover": "#d8a45f"
+        "btn-background-hover": "#d8a45f",
+        "section-height": "default"
       }
     },
     "image-logo-list": {
@@ -278,7 +285,8 @@
     "16635711307b17662c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>"
+        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>",
+        "id": ""
       }
     },
     "166322339220be3565": {
@@ -569,6 +577,7 @@
         "parallax": true,
         "alignment": "center",
         "text-position": "center",
+        "position-mobile": "center",
         "hero_size": "x-large",
         "text-over-image-width": "full-width",
         "button_link": "",

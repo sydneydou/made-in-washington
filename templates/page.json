@@ -188,6 +188,7 @@
         "img_width_mobile": 90,
         "image": "shopify:\/\/shop_images\/makers_map-min.png",
         "layout": "bottom",
+        "heading-font": "default",
         "title": "our makers",
         "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
         "button_link": "",
@@ -583,6 +584,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-gift-baskets-sets",
+            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png",
             "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
         },
@@ -590,6 +592,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-seafood-gourment-food-chocolate",
+            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
         },
@@ -597,6 +600,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-coffee-beverages",
+            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png",
             "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
           }
         },
@@ -604,6 +608,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-home-gifts-1",
+            "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min_01bd8410-64f8-477e-bdbf-fa30921b864e.png",
             "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
         },
@@ -611,6 +616,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "redesign-bath-body",
+            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min_a093663f-e108-4d05-9a6b-26cb16d2462a.png",
             "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
         }
@@ -659,6 +665,7 @@
         "img_width_mobile": 30,
         "image": "shopify:\/\/shop_images\/WA_state_outline-min.png",
         "layout": "top",
+        "heading-font": "default",
         "title": "Partner with us",
         "text_block": "<p>Do you sing Washington’s praises from the mountain tops? Do you make products that showcase your local pride? We want to know you! <br\/><br\/>We’re always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <br\/><\/p>",
         "button_link": "#",
