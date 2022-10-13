@@ -65,14 +65,14 @@
       "settings": {
         "text-color": "#ffffff",
         "mtn": "shopify:\/\/shop_images\/timeline_background-min.png",
-        "img": "shopify:\/\/shop_images\/timeline-min.png",
         "one": "<p><strong>1984 <\/strong><\/p><p>The first Made In Washington store opens in Pike Place Market<\/p>",
         "two": "<p><strong>1992<\/strong><\/p><p>Made In Washington grows to five retail locations<\/p>",
         "three": "<p><strong>2000<\/strong><\/p><p>The Made In Washington online store opens<\/p>",
         "four": "<p><strong>2004<\/strong><\/p><p>The first Limited Edition Holiday Ornament is introduced—a hand-blown glass ornament created exclusively for Made In Washington customers<\/p>",
         "five": "<p><strong>2010<\/strong><\/p><p>Design Your Own Gift Box launches<\/p>",
         "six": "<p><strong>2020<\/strong><\/p><p>Personal Shopper Service launches<\/p>",
-        "seven": "<p><strong>2022<\/strong><\/p><p>Made in Washington rebrands and relaunches their new website<\/p>"
+        "seven": "<p><strong>2022<\/strong><\/p><p>Made in Washington rebrands and relaunches their new website<\/p>",
+        "bck-color": "#557151"
       }
     },
     "16630404948b795be5": {
@@ -81,6 +81,7 @@
         "1663040494fb0f3ed2-0": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/carla-min.png",
             "title": "Carla Walton Pike Place Store Manager",
             "richtext": "<p>Somewhat counter-intuitively, I love the weather in Washington. It’s never too extreme. I also appreciate the proximity to water and mountains. <br\/><br\/><br\/><\/p>"
           }
@@ -88,6 +89,7 @@
         "1663040494fb0f3ed2-1": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jax_1_-min.png",
             "title": "Jax Kaufman Alderwood Mall Store Manager",
             "richtext": "<p>We are surrounded by water and wildlife in Washington, and I find so much magic in kayaking with orcas and seals in the San Juan Islands. Kayaking with orcas is the most exciting experience that I’ve ever had.<br\/><br\/><\/p>"
           }
@@ -95,6 +97,7 @@
         "1663040494fb0f3ed2-2": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/judy-min.png",
             "title": "Judy Burnside Bellevue Square Store Manager",
             "richtext": "<p>One of the things I love most about Washington is the weather: beautifully temperate long summer days, perfect spring and fall days, and just enough rain.<br\/><br\/><\/p>"
           }
@@ -102,6 +105,7 @@
         "854a27d7-2a92-494f-a11b-dbf24253c206": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/laurie-min.png",
             "title": "Laurie Fleek Director of Operations and Customer Care",
             "richtext": "<p>The best thing about living in Washington State is the ability to jump on a ferry to visit our many islands.<br\/><br\/><\/p>"
           }
@@ -109,6 +113,7 @@
         "d18cda5f-ffc7-42d2-81b8-e80558f1bb07": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/haydee-min.png",
             "title": "Haydee Allred E-Commerce & Marketing Assistant",
             "richtext": "<p>I love the adventure of the changing seasons and weather events we experience in Washington, like Frozen Fog, the Pineapple Express, and long summer days!<br\/><br\/><\/p>"
           }
@@ -116,6 +121,7 @@
         "12ce2ef0-2c6f-446c-adca-608aa76c4105": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/bill-min.png",
             "title": "Bill Gates Vice President, Buyer",
             "richtext": "<p>For me, the best part of the Washington landscape can be found on our annual family trip to Winthrop, where my family and I enjoy hiking, boating, and swimming. <br\/><\/p>"
           }
@@ -123,6 +129,7 @@
         "3cdb1b75-0ece-46d8-befe-fe7aa2730c68": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/jack_1_-min.png",
             "title": "Jack Helgeson Operations Assistant | Business Gift Specialist",
             "richtext": "<p>In Washington, we have rainforests, beaches, and mountains that are all accessible within just a few hours of anywhere in the state. It’s unbeatable! <br\/><\/p>"
           }
@@ -130,6 +137,7 @@
         "92aa3be0-a217-408d-8cbe-15a4e631763f": {
           "type": "menu",
           "settings": {
+            "image": "shopify:\/\/shop_images\/kristin-min.png",
             "title": "Kristin Frossmo President & CEO",
             "richtext": "<p>I love that we’re surrounded by mountains and water in Washington. My best days are spent on getaways to Whidbey Island. <br\/><\/p>"
           }
@@ -185,11 +193,13 @@
         "background-color": "#357b8e",
         "text-color": "#ffffff",
         "image-width": "medium",
+        "text-width": 70,
         "marg-bot": 30,
         "img_width": 30,
         "img_width_mobile": 15,
         "image": "shopify:\/\/shop_images\/wash.png",
         "layout": "between",
+        "heading-font": "default",
         "title": "Our Commitment",
         "text_block": "<p><strong>Designed. Crafted. Made. Local.<\/strong><\/p><p><\/p><p>Since 1984, our team has been completely dedicated to curating the best of Washington State in a way that thrills and inspires you. <\/p><p><\/p><p>If, for any reason, you are not pleased with your purchase, we will do whatever it takes to make it right.<\/p>",
         "button_link": "",
@@ -197,7 +207,8 @@
         "btn-text-color": "#000000",
         "btn-background-color": "#ffffff",
         "margin-bottom": 3,
-        "margin-top": 4
+        "margin-top": 4,
+        "on-top": false
       }
     },
     "166433949249bacf8a": {
@@ -417,7 +428,8 @@
         "button_label": "Learn more",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "btn-background-hover": "#ffffff",
+        "section-height": "default"
       }
     },
     "1663742438a4dba04f": {
