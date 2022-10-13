@@ -103,6 +103,13 @@ header span{
     float: right;
 }
 
+
+/* product page */
+
+.spr-container{
+    border:none;
+}
+
 /* slideshow section */
 
 .slider-caption{
