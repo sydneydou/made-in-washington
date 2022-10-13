@@ -91,9 +91,7 @@
 
   <style>
 
-.text-image-column .mtn{
-  /* z-index:1; */
-}
+
 
 .template-collection .text-image-column .feature-row__text,.template-collection .text-image-column .feature-row__image, .facets__wrapper, .collection-filters__item, .active-facets{
   z-index:999;
@@ -102,7 +100,7 @@
 #shopify-section-{{ section.id }} .text-image-column .featured-row__subtext  {  
     width: {{section.settings.text-width}}%;
     margin: 0 auto;
-    padding-top: 1.5em;
+    padding-top: 1em;
 }
 
 #shopify-section-{{ section.id }} img{
@@ -172,7 +170,17 @@
           z-index:900 !important;
         }
     {% endif %}
+    
+    {% if section.settings.heading-font == 'regular' %}
+    #shopify-section-{{ section.id }} .title-bar h2{
+            font-family: var(--font-family-regular) !important;
+            letter-spacing: 0 !important;
+        }
+    {% endif %}
 
+    #shopify-section-{{ section.id }} h2{
+      margin-top:2em;
+    }
   </style>
 
 {% schema %}
@@ -343,6 +351,23 @@
 
             ]
         },
+
+        {
+          "type": "select",
+          "id": "heading-font",
+          "label": "Heading Font",
+          "default": "default",
+          "options": [
+              {
+                  "value": "default",
+                  "label": "Crafter Font"
+              },
+              {
+                  "value": "regular",
+                  "label": "Regular Header Font"
+              }
+          ]
+      },
        
         {
           "type": "text",
