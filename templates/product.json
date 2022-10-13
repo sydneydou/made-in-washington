@@ -9,6 +9,11 @@
           "settings": {
           }
         },
+        "f75a9ea6-12c4-4739-b26c-667551140a5a": {
+          "type": "product-description",
+          "settings": {
+          }
+        },
         "product-price": {
           "type": "product-price",
           "settings": {
@@ -63,6 +68,7 @@
       },
       "block_order": [
         "product-title",
+        "f75a9ea6-12c4-4739-b26c-667551140a5a",
         "product-price",
         "product-options",
         "quantity-selector",
@@ -76,28 +82,32 @@
         "out_of_stock_email_position": "below-details",
         "hide_out_of_stock": false,
         "thumbnail_changes_variant": false,
-        "image_display": "full-size",
+        "image_display": "thumbnails",
         "enable_zoom": true,
         "enable_video_loop": false
       }
     },
     "product-description": {
       "type": "template--product-description",
+      "disabled": true,
       "blocks": {
         "e43fcbb0-e783-45ee-9e04-946ededa9f33": {
           "type": "custom_pages",
+          "disabled": true,
           "settings": {
             "pages": ""
           }
         },
         "aaa0f64d-b66d-4422-8117-eb06f719c179": {
           "type": "custom_pages",
+          "disabled": true,
           "settings": {
             "pages": ""
           }
         },
         "be0fa6ac-67d6-47cc-b05e-5246bfdfc55d": {
           "type": "custom_pages",
+          "disabled": true,
           "settings": {
             "pages": ""
           }
@@ -115,6 +125,22 @@
         "show_type": false
       }
     },
+    "1665680074b6125e23": {
+      "type": "apps",
+      "blocks": {
+        "44bf4597-0840-49f0-9d56-7839121de122": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "44bf4597-0840-49f0-9d56-7839121de122"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product-recommendations": {
       "type": "template--product--recommendations",
       "settings": {
@@ -126,6 +152,7 @@
   "order": [
     "main",
     "product-description",
+    "1665680074b6125e23",
     "product-recommendations"
   ]
 }
