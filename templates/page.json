@@ -23,7 +23,8 @@
         "btn-color": "#000000",
         "btn-background-color": "rgba(0,0,0,0)",
         "btn-background-hover": "#ffffff",
-        "section-height": "default"
+        "section-height": "default",
+        "mob-pos": "below"
       }
     },
     "16635720255e76fa4a": {
@@ -117,7 +118,8 @@
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
         "btn-background-hover": "#ffffff",
-        "section-height": "default"
+        "section-height": "default",
+        "mob-pos": "below"
       }
     },
     "166357261491f08943": {
@@ -649,7 +651,8 @@
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
         "btn-background-hover": "#d8a45f",
-        "section-height": "small"
+        "section-height": "small",
+        "mob-pos": "center"
       }
     },
     "1663734254b6665bd3": {
