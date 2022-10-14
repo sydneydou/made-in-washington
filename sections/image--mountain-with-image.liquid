@@ -9,6 +9,10 @@
     	<div class="row">
 
         <div class="index-section col-md-12">
+          {% if section.settings.mob-header != blank %}
+            <h2 class="wow animated mobile" >{{section.settings.mob-header}}</h2>
+          {% endif %}
+          
           <div class="page-width feature-row homepage-featured-content">
 
           	<div class="feature-row__container">
@@ -257,6 +261,11 @@
           "id": "bck-color",
           "label": "Mobile Background Color",
           "default": "#557151"
+        },
+         {
+          "type": "text",
+          "id": "mob-header",
+          "label": "Mobile Header"
         }
        
 

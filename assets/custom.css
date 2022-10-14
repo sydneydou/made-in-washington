@@ -595,6 +595,8 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+   
+
     .container--product-page{
         margin: 0.5em 3.5em;
     }
@@ -678,6 +680,37 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .feature-row__text{
+        margin: 0 auto;
+    }
+
+    .text-image-column .mtn{
+        top: -11.5em !important;
+    }
+
+    .hero--medium {
+        height: 320px !important;
+    }
+
+    .image-with-text-home {
+        padding-bottom: 4em !important;
+        padding-top: 4em !important;
+    }
+
+    .collection-list-scroll .title-bar h3.typography--padding-bottom {
+        width: 86% !important;
+        margin: 0 auto;
+    }
+
+    .swiper-slide .background{
+
+        background-color: transparent !important;
+        color: #333333 !important;
+        text-align: center;
+        top: 8.5em !important;
+        width: 29em !important;
+        } 
+
     .desktop{
         display:none;
     }
@@ -746,7 +779,8 @@ footer .mtn{
     }
 
     .homepage-sections-wrapper {
-        padding: 80px 50px !important;
+        padding: 50px 34px 50px 34px !important;
+    
     }
 
     #newsletter_section_form div{
@@ -786,11 +820,11 @@ footer .mtn{
     }
 
     .flickity-prev-next-button.next {
-        right: -45px !important;
+        right: -30px !important;
     }
 
     .flickity-prev-next-button.previous {
-        left: -45px !important;
+        left: -30px !important;
     }
 
     .title-bar h3.typography--padding-bottom {
@@ -826,7 +860,7 @@ footer .mtn{
     }
 
     .image-with-text-home .feature-row__text--inner{
-        padding-top:4em;
+        padding-top:1em;
     }
 
     .image-with-text-home h2, .image-with-text-home p{
@@ -903,7 +937,7 @@ footer .mtn{
     }
 
     .footer p{
-        padding: 0 5em !important;
+        padding: 0 0em !important;
     }
 
     #shopify-section-footer footer{
@@ -945,14 +979,18 @@ footer .mtn{
   }
 
   .rte{
-    width:74vw;
+    width:78vw;
     margin: 0 auto;
   }
 
   .text-column-section .mtn {
-    top: -9em;
+    top: -5em;
     height: 57em;
     left: -7em;
+}
+
+.text-image-column .featured-row__subtext{
+    width: 90% !important;
 }
 
 .feature-row__image {
