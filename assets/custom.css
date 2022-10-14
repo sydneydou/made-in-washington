@@ -678,7 +678,7 @@ footer .mtn{
 
 /* mobile */
 
-@media only screen and (max-width: 797px){
+
 
     .feature-row__text{
         margin: 0 auto;
@@ -797,15 +797,7 @@ footer .mtn{
         width:auto !important;
     }
 
- .homepage-image-text-block--text-wrapper, .slider-caption {
-        position: absolute !important;
-        top: 50%  !important;
-  transform: translate(-50%, -50%) !important;
-        z-index: 999;
-        width: 90vw !important;
-        margin: 0 auto !important;
-        left:50% !important;
-    }
+
   
 
    

@@ -97,6 +97,27 @@
 {% endif %}
 
 
+
+@media only screen and (max-width: 797px){
+
+
+  {% if section.settings.mob-pos == 'below' %}
+
+#shopify-section-{{ section.id }} .homepage-image-text-block--text-wrapper, .slider-caption {
+        position: absolute !important;
+        top: 50%  !important;
+  transform: translate(-50%, -50%) !important;
+        z-index: 999;
+        width: 90vw !important;
+        margin: 0 auto !important;
+        left:50% !important;
+    }
+
+
+  }
+
+  {% endif %}
+
 </style>
 
 {% schema %}
@@ -334,7 +355,23 @@
               "label": "Default"
           }
       ]
-  }
+  },
+  {        
+    "type": "select",
+  "id": "mob-pos",
+  "label": "Mobile Positioning",
+  "default": "below",
+  "options": [
+      {
+          "value": "center",
+          "label": "Content in center box"
+      },
+      {
+          "value": "below",
+          "label": "Content below image"
+      }
+  ]
+}
     ],
     "presets": [
         {
