@@ -183,7 +183,8 @@
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
         "btn-background-hover": "#f3efef",
-        "section-height": "default"
+        "section-height": "default",
+        "mob-pos": "below"
       }
     },
     "1663139248caf87b7b": {
@@ -220,7 +221,8 @@
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
         "btn-background-hover": "#d8a45f",
-        "section-height": "default"
+        "section-height": "default",
+        "mob-pos": "center"
       }
     },
     "image-logo-list": {
