@@ -680,7 +680,7 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
-    .slider-caption {
+    .slider-caption, .newsletter-block-text {
         position: absolute !important;
         top: 50%  !important;
   transform: translate(-50%, -50%) !important;
