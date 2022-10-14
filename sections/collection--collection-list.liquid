@@ -41,11 +41,8 @@
         <div class="carousel-cell">
           <a href="{{ product.url | within: collection }}" style="text-decoration:none;"  class="carousel-product">
             <img class="img-explore" src="{{ block.settings.reg | img_url: 'master'}}">
-            <!-- <h4 class="crafter-font carousel-title">{{ product.title }}</h4>
-            <p>{{ product.price | money }}</p> -->
-
-            <h3 class="type-subheading type-subheading--1">
-              <a class="crafter-font" href="{{ collection.url }}">{{ collection.title }}</a>
+            <h3 class="type-subheading type-subheading--1 carousel-text">
+              <a class="crafter-font " href="{{ collection.url }}">{{ collection.title }}</a>
             </h3>
           </a>
       </div>  
@@ -57,6 +54,16 @@
  
 <style>
 
+.carousel-text{
+  text-align:center;
+  display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.carousel-text .crafter-font{
+  text-decoration: none;
+}
   
 
   .carousel-product{
