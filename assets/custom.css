@@ -680,7 +680,7 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
-    .mtn{
+    #shopify-section-footer{
         overflow:hidden;
     }
 
