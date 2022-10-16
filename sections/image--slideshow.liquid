@@ -71,11 +71,11 @@
 
                                             {% assign has_caption = true %}
 
-                                            <div {% if block.settings.cap-back == 'true' %}
-                                            style="                                            
+                                            <div style=" {% if block.settings.cap-back %}
+                                                                                      
                                                 background:none !important;
-                                            "
-                                            {% else %}style="width:{{block.settings.cont-width}}%; " {% endif %} aria-live="polite" aria-atomic="true" class="slider-caption{% if block.settings.caption-background == "rgba(0,0,0,0)" %} pl-0 pr-0{% endif %} horizontal-align--{{ block.settings.horizontal-alignment }} vertical-align--{{ block.settings.vertical-alignment }} background{% if block.settings.mobile_image != blank or section.settings.show-slide-full-screen %} slideshow-mobile-image-content{% endif %}{% if block.settings.mobile_image == blank %} slider-dots--padding{% endif %}">
+                                            
+                                            {% endif %}  width:{{block.settings.cont-width}}%;"aria-live="polite" aria-atomic="true" class="slider-caption{% if block.settings.caption-background == "rgba(0,0,0,0)" %} pl-0 pr-0{% endif %} horizontal-align--{{ block.settings.horizontal-alignment }} vertical-align--{{ block.settings.vertical-alignment }} background{% if block.settings.mobile_image != blank or section.settings.show-slide-full-screen %} slideshow-mobile-image-content{% endif %}{% if block.settings.mobile_image == blank %} slider-dots--padding{% endif %}">
                                                
                                                 {% if block.settings.title != empty %}
                                                     {% if slide_is_link %}
