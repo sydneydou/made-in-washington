@@ -680,6 +680,13 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .join-team  .image-text-block--wrapper img{
+        height: 346px !important;
+        object-fit: cover !important;
+        object-position: 69%;
+    
+    }
+
     .secondarydiv{
         display: none;;
     }
