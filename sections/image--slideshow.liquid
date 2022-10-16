@@ -105,7 +105,8 @@
 
                                     <style>
                                     .slider-block--{{ block.id }} .slider-caption.background {
-                                        background-color: {{ block.settings.caption-background }}!important;
+                                        background: {{ section.settings.caption-background | color_modify: 'alpha', 0.9 }} !important;
+                                        /* background-color: {{ block.settings.caption-background }}!important; */
                                         color: {{ block.settings.caption-text }} !important;
                                     }
 
