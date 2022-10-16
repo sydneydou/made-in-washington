@@ -680,6 +680,12 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .entry-content{
+        width: 78vw;
+        margin: 0 auto;
+        padding-bottom: 5em;
+    }
+
     .blog-title-wrapper{
         width: 80vw;
         margin: 0 auto;
