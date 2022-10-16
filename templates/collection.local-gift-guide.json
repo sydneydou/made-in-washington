@@ -122,6 +122,7 @@
     },
     "7a898150-dbad-43f2-9dd0-17d09fde901b": {
       "type": "image--image-with-text-block",
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
         "text-color": "#ffffff",
@@ -170,12 +171,12 @@
             "text": "<p>Something sweet to share with friends and family. <\/p><p>If sharing is your thing..<\/p>",
             "button_text": "Shop Chocolates",
             "link": "shopify:\/\/collections\/redesign-chocolate",
-            "cont-width": 65,
+            "cont-width": 45,
             "caption-background": "#4d724d",
             "caption-text": "#ffffff",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "center",
+            "horizontal-alignment": "right",
             "vertical-alignment": "middle"
           }
         }
