@@ -30,6 +30,11 @@
                             </div>
 
                       <!-- {% assign sorted = section.settings.blog.articles | sort %} -->
+
+                      {% if section.settings.show-all == true %}
+                        <h3 onclick="myFunction()" class="mobile view-all-link">View Full List</h3>
+                      {% endif %}
+
                         <div class="lists">
 
                             
@@ -47,7 +52,7 @@
                                               
                                               {% endfor %}
                                       </div>
-                                      <div class="second-column">
+                                      <div class="second-column secondarydiv" id="myDIV">
                                         {% for article in items offset:27 limit:27  %}
 
                                         
@@ -58,7 +63,7 @@
                                         
                                         {% endfor %}
                                       </div>
-                                      <div class="third-column">
+                                      <div class="third-column secondarydiv" id="myDIV2">
                                         {% for article in items offset:52 limit:27  %}
 
                                      
@@ -69,7 +74,7 @@
                                         
                                         {% endfor %}
                                       </div>
-                                      <div class="fourth-column">
+                                      <div class="fourth-column secondarydiv" id="myDIV3">
                                         {% for article in items offset:79 limit:27  %}
 
                                         
@@ -95,6 +100,30 @@
 
     
   </section>
+
+  <script>
+function myFunction() {
+
+  // var x = document.getElementsByClassName("secondarydiv")
+  var x =document.getElementById("myDIV");
+  var y =document.getElementById("myDIV2");
+  var z =document.getElementById("myDIV3");
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display = "block";
+    z.style.display = "block";
+  } else {
+    x.style.display = "none";
+    y.style.display = "none";
+    z.style.display = "none";
+  }
+
+
+
+ 
+}
+  </script>
 
   <style>
 
@@ -221,7 +250,14 @@
           "step": 2,
           "label": "Mountain Image Positioning",
           "default": 0
-      }
+      },
+      
+        {
+            "type": "checkbox",
+            "id": "show-all",
+            "default": true,
+            "label": "Mobile - Show all makers"
+        }
        
      
     ],

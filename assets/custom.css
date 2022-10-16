@@ -680,6 +680,21 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .secondarydiv{
+        display: none;;
+    }
+
+    .view-all-link{
+        text-align: center;
+        margin-top: 2em;
+        text-decoration: underline;
+        font-size: 1.4em;
+    }
+
+    .lists{
+        flex-direction: column;
+    }
+
     .slider-caption, .newsletter-block-text {
         position: absolute !important;
         top: 50%  !important;
