@@ -680,10 +680,23 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .collection-wrapper:not(.main-search-wrapper)>section+div {
+        flex: auto !important;
+    }
+
+    .product-description-wrapper{
+        padding-top:20px !important;
+    }
+
+    .spr-container {
+        border: none !important;
+        margin: 0em 0em 3em 0em !important;
+    }
+
     .entry-content{
         width: 78vw;
         margin: 0 auto;
-        padding-bottom: 5em;
+        padding-bottom: 3em;
     }
 
     .blog-title-wrapper{
