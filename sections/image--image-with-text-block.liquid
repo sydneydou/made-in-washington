@@ -14,7 +14,7 @@
 
 </style>
 
-<section class="homepage-image-text-block--content image-with-text-block--{{ section.id }}" data-wetheme-section-type="image--image-with-text-block">
+<section class="homepage-image-text-block--content image-with-text-block--{{ section.id }} image-text-block" data-wetheme-section-type="image--image-with-text-block">
   <div class="homepage-image-text-block--text-wrapper homepage-image-text-block--{{ section.settings.horizontal-alignment }}">
     <div class="image-text-block-row__text-container wow">
       {% if section.settings.title != blank or section.settings.subheading != blank %}
@@ -114,6 +114,16 @@
     }
 
 
+  }
+
+  {% endif %}
+
+  {% if section.settings.mob-pos == 'below' %}
+
+  #shopify-section-{{ section.id }}  .image-text-block--wrapper img{
+        height: 215px !important;
+        object-fit: cover !important;
+        object-position: 69%;
   }
 
   {% endif %}
