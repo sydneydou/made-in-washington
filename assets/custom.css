@@ -694,7 +694,7 @@ footer .mtn{
     }
 
     .hero{
-        height:310px !important;
+        height:390px !important;
     }
 
     .join-team  .image-text-block--wrapper img{
@@ -705,14 +705,14 @@ footer .mtn{
     }
 
     .secondarydiv{
-        display: none;;
+        display: none;
     }
 
     .view-all-link{
         text-align: center;
         margin-top: 2em;
         text-decoration: underline;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .lists{
