@@ -274,6 +274,19 @@
     },
     "blog-blog-posts": {
       "type": "blog--blog-posts",
+      "blocks": {
+        "5409a50b-8685-408c-8919-b954cf2de8fb": {
+          "type": "blog",
+          "settings": {
+            "blog": "blog-post",
+            "post_limit": 3,
+            "show_view_all": false
+          }
+        }
+      },
+      "block_order": [
+        "5409a50b-8685-408c-8919-b954cf2de8fb"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/blue_background-min.png",
         "subheading": "",
@@ -323,269 +336,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "newsletter-newsletter": {
-      "type": "newsletter--newsletter",
-      "disabled": true,
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Join our mailing list",
-        "newsletter_description": ""
-      }
-    },
-    "text-rich-text": {
-      "type": "text--rich-text",
-      "disabled": true,
-      "settings": {
-        "width": "medium",
-        "subheading": "Subheading",
-        "title": "Welcome to our store",
-        "text": "<p>Use this text block to show store announcements, advertise products and collections, or simply welcome visitors to your store.<\/p>",
-        "button_link": "",
-        "button_label": ""
-      }
-    },
-    "text-text-adverts": {
-      "type": "text--text-adverts",
-      "disabled": true,
-      "blocks": {
-        "text--text-adverts-0": {
-          "type": "text",
-          "settings": {
-            "icon": "takeaway",
-            "heading": "Free shipping",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
-          }
-        },
-        "text--text-adverts-1": {
-          "type": "text",
-          "settings": {
-            "icon": "exchange",
-            "heading": "Hassle free returns",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
-          }
-        },
-        "text--text-adverts-2": {
-          "type": "text",
-          "settings": {
-            "icon": "recycle",
-            "heading": "Eco friendly packaging",
-            "subheading": "Shout about your unique selling points",
-            "buttonLabel": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "text--text-adverts-0",
-        "text--text-adverts-1",
-        "text--text-adverts-2"
-      ],
-      "settings": {
-        "icon-color": "#444444",
-        "text-color": "#3a3a3a",
-        "background-color": "#dcdcdc"
-      }
-    },
-    "image-gallery": {
-      "type": "image--gallery",
-      "disabled": true,
-      "blocks": {
-        "image--gallery-1": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "",
-            "description": ""
-          }
-        },
-        "image--gallery-0": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "",
-            "description": ""
-          }
-        },
-        "image--gallery-2": {
-          "type": "image",
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "title": "",
-            "description": ""
-          }
-        }
-      },
-      "block_order": [
-        "image--gallery-1",
-        "image--gallery-0",
-        "image--gallery-2"
-      ],
-      "settings": {
-      }
-    },
-    "text-service-list": {
-      "type": "text--service-list",
-      "disabled": true,
-      "blocks": {
-        "text--service-list-0": {
-          "type": "text",
-          "settings": {
-            "service-list--title": "Title"
-          }
-        },
-        "text--service-list-2": {
-          "type": "content-list",
-          "settings": {
-            "content-list-title": "Item",
-            "content-list-price": "4.99",
-            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
-          }
-        },
-        "text--service-list-1": {
-          "type": "content-list",
-          "settings": {
-            "content-list-title": "Item",
-            "content-list-price": "4.99",
-            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
-          }
-        },
-        "text--service-list-3": {
-          "type": "text",
-          "settings": {
-            "service-list--title": "Title"
-          }
-        },
-        "text--service-list-4": {
-          "type": "content-list",
-          "settings": {
-            "content-list-title": "Item",
-            "content-list-price": "4.99",
-            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
-          }
-        },
-        "text--service-list-5": {
-          "type": "content-list",
-          "settings": {
-            "content-list-title": "Item",
-            "content-list-price": "4.99",
-            "content-list-richtext": "<p><a href=\"\/collections\" title=\"All collections\">Learn more<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text--service-list-0",
-        "text--service-list-2",
-        "text--service-list-1",
-        "text--service-list-3",
-        "text--service-list-4",
-        "text--service-list-5"
-      ],
-      "settings": {
-        "service-list--subheading": "Subheading",
-        "service-list--heading": "Delivery charges"
-      }
-    },
-    "store-information-delivery-partners": {
-      "type": "store-information--delivery-partners",
-      "disabled": true,
-      "blocks": {
-        "store-information--delivery-partners-0": {
-          "type": "partner_logo",
-          "settings": {
-            "delivery_partner": "ubereats",
-            "link": ""
-          }
-        },
-        "store-information--delivery-partners-1": {
-          "type": "partner_logo",
-          "settings": {
-            "delivery_partner": "grubhub",
-            "link": ""
-          }
-        },
-        "store-information--delivery-partners-2": {
-          "type": "partner_logo",
-          "settings": {
-            "delivery_partner": "justeat",
-            "link": ""
-          }
-        },
-        "store-information--delivery-partners-3": {
-          "type": "partner_logo",
-          "settings": {
-            "delivery_partner": "deliveroo",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "store-information--delivery-partners-0",
-        "store-information--delivery-partners-1",
-        "store-information--delivery-partners-2",
-        "store-information--delivery-partners-3"
-      ],
-      "settings": {
-        "background-color": "#ffffff",
-        "text-color": "#3a3a3a",
-        "partner-text-color": true,
-        "horizontal-alignment": "center",
-        "title": "Delivery partners",
-        "text": ""
-      }
-    },
-    "search-block": {
-      "type": "search-block",
-      "disabled": true,
-      "settings": {
-        "heading": "Search",
-        "text": "<p>Add a powerful site search directly onto your home page<\/p>",
-        "text_color": "#000000",
-        "placeholder": "Search our store",
-        "background_color": "#ffffff",
-        "enable_overlay": false
-      }
-    },
-    "product-featured-product": {
-      "type": "product--featured-product",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "Featured product",
-        "featured_product": "",
-        "tax_included": true,
-        "shipping_policy": true,
-        "show_discount": "hide",
-        "show_SKU": false,
-        "show_quantity_selector": true,
-        "show_smart_checkout": true,
-        "show_product_description": true,
-        "hide_out_of_stock": false,
-        "enable_video_loop": false
-      }
-    },
-    "image-image-with-text-overlay": {
-      "type": "image--image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "subheading": "Subheading",
-        "title": "Share your story",
-        "text": "<p>Here's your chance to make a great first impression<\/p>",
-        "text-color": "#000000",
-        "font-size": "small",
-        "parallax": true,
-        "alignment": "center",
-        "text-position": "center",
-        "position-mobile": "center",
-        "hero_size": "x-large",
-        "text-over-image-width": "full-width",
-        "button_link": "",
-        "button_label": ""
-      }
     }
   },
   "order": [
@@ -599,15 +349,6 @@
     "blog-blog-posts",
     "16635711307b17662c",
     "166322339220be3565",
-    "16635600351e723d9b",
-    "newsletter-newsletter",
-    "text-rich-text",
-    "text-text-adverts",
-    "image-gallery",
-    "text-service-list",
-    "store-information-delivery-partners",
-    "search-block",
-    "product-featured-product",
-    "image-image-with-text-overlay"
+    "16635600351e723d9b"
   ]
 }
