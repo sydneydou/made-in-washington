@@ -94,9 +94,9 @@
 
                                                 {% if block.settings.button_text != empty %}
                                                     {% if slide_is_link %}
-                                                        <a class="btn" href="{{ block.settings.link }}">{{ block.settings.button_text  }}</a>
+                                                        <a class="btn slidebtn" href="{{ block.settings.link }}">{{ block.settings.button_text  }}</a>
                                                     {% else %}
-                                                        <div class="btn btn-no-link" href="{{ block.settings.link }}">{{ block.settings.button_text  }}</div>
+                                                        <div class="btn btn-no-link slidebtn" href="{{ block.settings.link }}">{{ block.settings.button_text  }}</div>
                                                     {% endif %}
                                                 {% endif %}
                                             </div>
@@ -104,6 +104,10 @@
                                     </li>
 
                                     <style>
+
+                                        .slidebtn{
+                                            margin-top:0 !important;
+                                        }
                                     .slider-block--{{ block.id }} .slider-caption.background {
                                         background: {{ block.settings.caption-background | color_modify: 'alpha', 0.9 }} !important;
                                         /* background-color: {{ block.settings.caption-background }}!important; */
