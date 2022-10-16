@@ -1030,8 +1030,11 @@ footer .mtn{
   }
 
   .text-column-section .mtn {
+    /* top: -5em;
+    height: 57em; */
     top: -5em;
-    height: 57em;
+    height: auto;
+    
     left: -7em;
 }
 
