@@ -680,6 +680,10 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .mtn{
+        overflow:hidden;
+    }
+
     .collection-wrapper:not(.main-search-wrapper)>section+div {
         flex: auto !important;
     }
