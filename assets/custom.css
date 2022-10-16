@@ -693,8 +693,12 @@ footer .mtn{
 
     }
 
-    .hero{
-        height:390px !important;
+    .hero--large{
+        height:310px !important;
+    }
+
+    .hero--x-large{
+        height: 700px!important;
     }
 
     .join-team  .image-text-block--wrapper img{
