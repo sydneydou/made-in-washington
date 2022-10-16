@@ -329,6 +329,14 @@
     /* width:40%; */
 }
 
+{% if section.blocks.cap-back == 'true' %}
+.slider-caption{
+    background:none !important;
+}
+{% endif %}
+
+
+
 @media only screen and (min-width: 798px){
     .slider-caption{
     width:65%;
@@ -697,6 +705,13 @@ padding:3em !important;
                     "step": 1,
                     "label":"Mobile - Slide Content Width",
                     "default": 65
+                },
+                {
+                    "type": "checkbox",
+                    "id": "cap-back",
+                    "label": "Remove Caption Background",
+                    
+                    "default": false
                 },
                 {
                     "type": "color",
