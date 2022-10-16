@@ -680,6 +680,17 @@ footer .mtn{
 
 @media only screen and (max-width: 797px){
 
+    .blog-title-wrapper{
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: 2.4em !important;
+
+    }
+
+    .hero{
+        height:310px !important;
+    }
+
     .join-team  .image-text-block--wrapper img{
         height: 346px !important;
         object-fit: cover !important;
