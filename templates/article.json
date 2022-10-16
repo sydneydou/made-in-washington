@@ -3,24 +3,49 @@
     "main": {
       "type": "template--article",
       "settings": {
+        "show_author_name": false,
+        "show_dates": true,
+        "social_sharing_facebook": true,
+        "social_sharing_twitter": true,
+        "social_sharing_pinterest": true
       }
     },
     "image-with-text-block": {
       "type": "image--image-with-text-block",
+      "disabled": true,
       "settings": {
         "text-color": "#292929",
-        "background-color": "#F6F6F6",
+        "background-color": "#f6f6f6",
         "horizontal-alignment": "right",
-        "subheading": "Subheading"
+        "subheading": "Subheading",
+        "title": "Share your story",
+        "font-size": "small",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff",
+        "section-height": "default",
+        "mob-pos": "below"
       }
     },
     "featured-product": {
       "type": "product--featured-product",
+      "disabled": true,
       "settings": {
+        "subheading": "",
+        "title": "Featured product",
+        "featured_product": "",
+        "tax_included": true,
         "shipping_policy": false,
         "show_discount": "percentage",
+        "show_SKU": false,
+        "show_quantity_selector": true,
         "show_smart_checkout": false,
-        "show_product_description": true
+        "show_product_description": true,
+        "hide_out_of_stock": false,
+        "enable_video_loop": false
       }
     }
   },
