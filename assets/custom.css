@@ -603,7 +603,9 @@ footer .mtn{
     background:#4f704e !important;
 }
 
-
+.indiv-product-wrapper, .collection-filters button{
+    z-index:999;
+}
 
 
 /* desktop */
@@ -695,6 +697,10 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .page-title--2022-featured-holiday-products .text-image-column .mtn {
+        top: -18.5em!important;
+    }
 
     .blog-home .article--background-image{
         width:86vw;
