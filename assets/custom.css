@@ -542,6 +542,22 @@ background:#057C90 !important;
         color:white !important;
     }
 
+    .article--background-image{
+        height: 17em;
+    }
+
+    .blog--read-more{
+        text-align: center;
+    }
+
+    .blog--read-more a{
+        background: white;
+        padding: 0.7em 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 1em;
+    }
+
 /* tablet */
 @media only screen and (min-width: 796px) and (max-width: 1250px){
 
@@ -679,6 +695,10 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    .img-logo{
+        transform: translate(-50%, 49%);
+    }
 
     #shopify-section-footer{
         overflow:hidden;
@@ -923,7 +943,7 @@ footer .mtn{
     }
 
     .image-with-text-home .feature-row__text--inner{
-        padding-top:1em;
+        padding-top:3em;
     }
 
     .image-with-text-home h2, .image-with-text-home p{
