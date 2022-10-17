@@ -519,7 +519,7 @@
         "heading-font": "default",
         "title": "Partner with us",
         "text_block": "<p>Do you sing Washington’s praises from the mountain tops? Do you make products that showcase your local pride? We want to know you! <br\/><br\/>We’re always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <br\/><\/p>",
-        "button_link": "#",
+        "button_link": "shopify:\/\/pages\/maker-application",
         "button_label": "Apply here",
         "btn-text-color": "#000000",
         "btn-background-color": "#ffffff",
