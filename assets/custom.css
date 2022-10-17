@@ -452,6 +452,10 @@ footer{
 
   /* account */
 
+  #create-customer h2{
+    margin-top:1.5em;
+  }
+
   #customer-accounts #add_address input, #customer-accounts #login_email input, #customer-accounts #login_password input, #add_address input, #add_address select, #add_address select[id^=address_country_], #login_email input, #login_email select, #login_email select[id^=address_country_], #login_password input, #login_password select, #login_password select[id^=address_country_], #recover-password #recover_email input, #recover-password #recover_email select, #recover-password #recover_email select[id^=address_country_], .edit_address input, .edit_address select, .edit_address select[id^=address_country_]{
     background:white;
   }
@@ -695,6 +699,13 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width: 797px){
+
+    #create-customer form, #account form{
+        width: 83vw;
+        padding-top: 2em;
+        margin: 0 auto;
+    
+    }
 
     .page-title--2022-featured-holiday-products .text-image-column .mtn {
         top: -18.5em!important;
