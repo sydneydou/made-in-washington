@@ -67,6 +67,7 @@
     },
     "3995f71b-eb62-455f-948c-4228c8b7b492": {
       "type": "text--image-text-sides",
+      "disabled": true,
       "settings": {
         "image-width": "medium",
         "image": "{{ collection.image }}",
@@ -84,6 +85,7 @@
     },
     "af751d17-470c-4347-9fa2-e9fbfcd6e8e6": {
       "type": "text--rich-text",
+      "disabled": true,
       "settings": {
         "width": "medium",
         "subheading": "",
@@ -93,10 +95,37 @@
         "button_label": ""
       }
     },
+    "1948d831-951a-4c87-aeec-cd0cca97d1fa": {
+      "type": "image--image",
+      "disabled": true,
+      "settings": {
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "small",
+        "text-over-image-width": "fixed"
+      }
+    },
+    "a6d62d7e-3b64-4ec4-9378-1331db1e4656": {
+      "type": "text--image-with-text",
+      "settings": {
+        "image-width": "medium",
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "text_block": "",
+        "subheading-two": "",
+        "title-two": "",
+        "text_block-two": "",
+        "button_link": "",
+        "button_label": "",
+        "bottom-padding": 0
+      }
+    },
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:center;'><h4 style=\"margin-bottom:25px;    font-family: var(--font-family-regular);\">{{collection.metafields.c_f.info_subtitle}}<\/h4><\/div>\n\n<div style='text-align:center;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}\n\n<style>\n\n  #maker-info{\n    display:none;\n  }\n\n{% if collection.metafields.c_f.info_content %}\n\n #maker-info{\n    display:block;\n  }\n\n  {% endif %}\n<\/style>\n<script>console.log({{collection}})<script>",
+        "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:left;'><h4 style=\"margin-bottom:25px;    font-family: var(--font-family-regular);\">{{collection.metafields.c_f.info_subtitle}}<\/h4><\/div>\n\n<div style='text-align:left;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}\n\n<style>\n\n  #maker-info{\n    display:none;\n  }\n\n{% if collection.metafields.c_f.info_content %}\n\n #maker-info{\n    display:block;\n  }\n\n  {% endif %}\n<\/style>",
         "id": "maker-info"
       }
     },
@@ -163,6 +192,8 @@
     "c9369657-7a63-4ef9-9231-9c198bf3836a",
     "3995f71b-eb62-455f-948c-4228c8b7b492",
     "af751d17-470c-4347-9fa2-e9fbfcd6e8e6",
+    "1948d831-951a-4c87-aeec-cd0cca97d1fa",
+    "a6d62d7e-3b64-4ec4-9378-1331db1e4656",
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14",
     "collection_header",
     "product_filtering",
