@@ -8,7 +8,7 @@
         "subheading": "",
         "title": "{{ collection.title }}",
         "text": "",
-        "text-color": "#000000",
+        "text-color": "#ffffff",
         "font-size": "large",
         "parallax": false,
         "alignment": "center",
