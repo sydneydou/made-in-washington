@@ -5,7 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/contact_banner-min.png",
         "subheading": "",
-        "title": "Contact Us",
+        "title": "Maker Application",
         "text": "",
         "text-color": "#ffffff",
         "font-size": "large",
@@ -13,7 +13,7 @@
         "alignment": "center",
         "text-position": "center",
         "position-mobile": "center",
-        "hero_size": "large",
+        "hero_size": "medium",
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
@@ -21,6 +21,7 @@
     },
     "166366530112b45772": {
       "type": "text--text-columns",
+      "disabled": true,
       "blocks": {
         "ee8698b0-05ae-4610-a82c-72558e90cb5f": {
           "type": "text",
@@ -58,6 +59,24 @@
       "type": "template--page-contact",
       "disabled": true,
       "settings": {
+      }
+    },
+    "1666048885e8e51867": {
+      "type": "apps",
+      "blocks": {
+        "143f09d4-e402-482f-a534-1437666b33a2": {
+          "type": "shopify:\/\/apps\/form-builder-with-file-upload\/blocks\/custom-form\/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "143f09d4-e402-482f-a534-1437666b33a2"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "collection-list": {
@@ -130,6 +149,7 @@
     "1663574089f19aac96",
     "166366530112b45772",
     "main",
+    "1666048885e8e51867",
     "collection-list",
     "1663732694c7a0912a",
     "16637326789eb4517a"
