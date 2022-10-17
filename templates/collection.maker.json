@@ -23,6 +23,7 @@
     },
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% if collection.metafields.c_f.info_content != blank %}\n\n<div style='text-align:center;'><h4 style=\"margin-bottom:25px;    font-family: var(--font-family-regular);\">{{collection.metafields.c_f.info_subtitle}}<\/h4><\/div>\n\n<div style='text-align:center;'><p>{{collection.metafields.c_f.info_content}}<\/p><\/div>\n\n\n  {% endif %}\n\n<style>\n\n  #maker-info{\n    display:none;\n  }\n\n{% if collection.metafields.c_f.info_content %}\n\n #maker-info{\n    display:block;\n  }\n\n  {% endif %}\n<\/style>",
         "id": "maker-info"
@@ -34,12 +35,12 @@
         "image-width": "medium",
         "image": "{{ collection.image }}",
         "layout": "right",
-        "subheading": "",
+        "subheading": "{{ collection.metafields.custom.location.value }}",
         "title": "{{ collection.title }}",
         "text_block": "<p>{{ collection.metafields.custom.description | metafield_tag }}<\/p>",
         "text_block-con": "",
         "title-two": "",
-        "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_block-two": "",
         "button_link": "",
         "button_label": "",
         "bottom-padding": 11
