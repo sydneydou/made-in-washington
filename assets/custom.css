@@ -623,7 +623,7 @@ footer .mtn{
 /* desktop */
 
 
-@media only screen and (min-width: 798px){
+@media only screen and (min-width: 998px){
 
    
 
@@ -708,7 +708,11 @@ footer .mtn{
 
 /* mobile */
 
-@media only screen and (max-width: 797px){
+@media only screen and (max-width: 997px){
+
+    .slider-caption--text p{
+        font-size:1.2em !important;
+    }
 
     #create-customer form, #account form{
         width: 83vw;
