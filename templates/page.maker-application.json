@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "1663574089f19aac96": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact_banner-min.png",
+        "subheading": "",
+        "title": "Maker Application",
+        "text": "",
+        "text-color": "#ffffff",
+        "font-size": "large",
+        "parallax": false,
+        "alignment": "center",
+        "text-position": "center",
+        "position-mobile": "center",
+        "hero_size": "medium",
+        "text-over-image-width": "full-width",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "166366530112b45772": {
+      "type": "text--text-columns",
+      "disabled": true,
+      "blocks": {
+        "ee8698b0-05ae-4610-a82c-72558e90cb5f": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text_block": "<p><strong>HAVE QUESTIONS OR NEED HELP WITH AN ORDER?<\/strong><br\/><strong><br\/>FIND A QUICK ANSWER<\/strong><br\/>Check out our FAQs page<br\/><br\/><strong>DROP US AN EMAIL<\/strong><br\/>Email Customer Service<br\/><br\/><strong>CALL OUR CUSTOMER SERVICE TEAM<\/strong><br\/>800.338.9903<br\/><br\/><strong>Call Center Hours<\/strong><br\/>Monday-Friday: 9:00am-2:00pm PT<br\/>Saturday: Closed<br\/>Sunday: Closed<\/p>",
+            "button_link": "",
+            "button_label": ""
+          }
+        },
+        "15c52e3f-176f-4c35-a5c5-e7a7b8978498": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text_block": "<p><strong>QUESTIONS ABOUT OUR STORES?<br\/><br\/>Bellevue Square<\/strong><br\/>425-454-6907<br\/>10 am - 9 pm Mon. - Sat.<br\/>11 am - 7 pm Sun.<br\/><strong><br\/>Alderwood Mall<\/strong><br\/>3000 184th St Sw #196<br\/>425-771-3212<br\/>11 am - 8 pm Mon. - Sat.<br\/>11 am - 7 pm Sun.<br\/><br\/><strong>Pike Place Market<\/strong><br\/>206-467-0788<br\/>9:00 am - 6:00 pm Daily<\/p>",
+            "button_link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "ee8698b0-05ae-4610-a82c-72558e90cb5f",
+        "15c52e3f-176f-4c35-a5c5-e7a7b8978498"
+      ],
+      "settings": {
+        "text-color": "#ffffff",
+        "background-color": "#4f704f",
+        "image": "shopify:\/\/shop_images\/contact_info_background_1_-min.png",
+        "img-pos": -8
+      }
+    },
+    "main": {
+      "type": "template--page-contact",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1666048885e8e51867": {
+      "type": "apps",
+      "blocks": {
+        "143f09d4-e402-482f-a534-1437666b33a2": {
+          "type": "shopify:\/\/apps\/form-builder-with-file-upload\/blocks\/custom-form\/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "143f09d4-e402-482f-a534-1437666b33a2"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collection-list": {
+      "type": "collection--collection-list",
+      "disabled": true,
+      "blocks": {
+        "collection-list-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection-list-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-list-0",
+        "collection-list-2",
+        "collection-list-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
+    },
+    "1663732694c7a0912a": {
+      "type": "image--image-with-newsletter",
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "credit": "Waptus Lake, Washington Photo Credit: Becca Harpain, Unsplash",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "Sign up for our newsletter to get exclusive first dibs on new items and to learn about upcoming pop-ups and events.",
+        "title": "Let's stay in touch",
+        "font-size": "small"
+      }
+    },
+    "16637326789eb4517a": {
+      "type": "apps",
+      "blocks": {
+        "e70a5287-fb4f-4fa7-88d6-31638bf61b2a": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e70a5287-fb4f-4fa7-88d6-31638bf61b2a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1663574089f19aac96",
+    "166366530112b45772",
+    "main",
+    "1666048885e8e51867",
+    "collection-list",
+    "1663732694c7a0912a",
+    "16637326789eb4517a"
+  ]
+}
