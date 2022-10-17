@@ -8,7 +8,7 @@
         "subheading": "",
         "title": "{{ collection.title }}",
         "text": "",
-        "text-color": "#000000",
+        "text-color": "#ffffff",
         "font-size": "large",
         "parallax": false,
         "alignment": "center",
@@ -18,6 +18,109 @@
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
+      }
+    },
+    "49e43cd1-c42d-4ff9-a248-414f3552694c": {
+      "type": "image--image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "background_image": "{{ collection.image }}",
+        "text-color": "#000000",
+        "background-color": "#ffffff",
+        "horizontal-alignment": "center",
+        "subheading": "",
+        "title": "Share your story",
+        "font-size": "small",
+        "text": "<p>Here's your chance to make a great first impression<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "btn-background-hover": "#ffffff",
+        "section-height": "default",
+        "mob-pos": "below"
+      }
+    },
+    "c9369657-7a63-4ef9-9231-9c198bf3836a": {
+      "type": "text--image-column",
+      "disabled": true,
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#ffffff",
+        "image-width": "medium",
+        "text-width": 70,
+        "marg-bot": 0,
+        "img_width": 100,
+        "img_width_mobile": 100,
+        "layout": "bottom",
+        "heading-font": "default",
+        "title": "Share brand or product details",
+        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "btn-text-color": "#000000",
+        "btn-background-color": "#ffffff",
+        "margin-bottom": 0,
+        "margin-top": 0,
+        "on-top": false
+      }
+    },
+    "3995f71b-eb62-455f-948c-4228c8b7b492": {
+      "type": "text--image-text-sides",
+      "disabled": true,
+      "settings": {
+        "image-width": "medium",
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "text_block": "",
+        "text_block-con": "",
+        "title-two": "Share brand or product details",
+        "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "button_link": "",
+        "button_label": "",
+        "bottom-padding": 11
+      }
+    },
+    "af751d17-470c-4347-9fa2-e9fbfcd6e8e6": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "settings": {
+        "width": "medium",
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "text": "",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
+    "1948d831-951a-4c87-aeec-cd0cca97d1fa": {
+      "type": "image--image",
+      "disabled": true,
+      "settings": {
+        "parallax": true,
+        "alignment": "center",
+        "hero_size": "small",
+        "text-over-image-width": "fixed"
+      }
+    },
+    "a6d62d7e-3b64-4ec4-9378-1331db1e4656": {
+      "type": "text--image-with-text",
+      "disabled": true,
+      "settings": {
+        "image-width": "medium",
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "subheading": "",
+        "title": "{{ collection.title }}",
+        "text_block": "",
+        "subheading-two": "",
+        "title-two": "",
+        "text_block-two": "",
+        "button_link": "",
+        "button_label": "",
+        "bottom-padding": 0
       }
     },
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14": {
@@ -86,6 +189,12 @@
   },
   "order": [
     "166357422646fe3c36",
+    "49e43cd1-c42d-4ff9-a248-414f3552694c",
+    "c9369657-7a63-4ef9-9231-9c198bf3836a",
+    "3995f71b-eb62-455f-948c-4228c8b7b492",
+    "af751d17-470c-4347-9fa2-e9fbfcd6e8e6",
+    "1948d831-951a-4c87-aeec-cd0cca97d1fa",
+    "a6d62d7e-3b64-4ec4-9378-1331db1e4656",
     "65bb35d7-bea5-4e7f-b6e5-5f0cd566ec14",
     "collection_header",
     "product_filtering",

@@ -6,83 +6,6 @@
       "settings": {
       }
     },
-    "1663572286c3a592d6": {
-      "type": "image--image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/makers_banner_1.png",
-        "text-color": "#222222",
-        "background-color": "rgba(0,0,0,0)",
-        "horizontal-alignment": "center",
-        "subheading": "",
-        "title": "MEET OUR MAKERS",
-        "font-size": "large",
-        "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "rgba(0,0,0,0)",
-        "btn-background-hover": "#ffffff",
-        "section-height": "default",
-        "mob-pos": "below"
-      }
-    },
-    "16635720255e76fa4a": {
-      "type": "image--slideshow",
-      "disabled": true,
-      "blocks": {
-        "1663572025e5d49296-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/makers_banner_1.png",
-            "subheading": "",
-            "title": "MEET OUR MAKERS",
-            "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
-            "button_text": "",
-            "link": "",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#ffffff",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
-          }
-        },
-        "1663572025e5d49296-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "title": "Share your story",
-            "text": "<p>Here's your chance to make a great first impression<\/p>",
-            "button_text": "",
-            "link": "",
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "1663572025e5d49296-0",
-        "1663572025e5d49296-1"
-      ],
-      "settings": {
-        "slider-animation": "fade",
-        "slider-width": "full-width",
-        "show-slide-full-screen": false,
-        "slider-slide-time": 5,
-        "caption-heading-size": 50,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
-        "slider-navigation--color": "#ffffff",
-        "overlay": true,
-        "header-font": "var(--font-family-regular)"
-      }
-    },
     "166357223161cba705": {
       "type": "image--image-with-text-overlay",
       "settings": {
@@ -100,82 +23,6 @@
         "text-over-image-width": "full-width",
         "button_link": "",
         "button_label": ""
-      }
-    },
-    "1663572489772c8a05": {
-      "type": "image--image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "text-color": "#000000",
-        "background-color": "#ffffff",
-        "horizontal-alignment": "center",
-        "subheading": "",
-        "title": "Share your story",
-        "font-size": "small",
-        "text": "<p>Here's your chance to make a great first impression<\/p>",
-        "button_link": "",
-        "button_label": "",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff",
-        "section-height": "default",
-        "mob-pos": "below"
-      }
-    },
-    "166357261491f08943": {
-      "type": "text--image-with-text",
-      "disabled": true,
-      "settings": {
-        "image-width": "medium",
-        "layout": "left",
-        "subheading": "",
-        "title": "Share brand or product details",
-        "text_block": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "subheading-two": "",
-        "title-two": "Share brand or product details",
-        "text_block-two": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_link": "",
-        "button_label": "",
-        "bottom-padding": 11
-      }
-    },
-    "1663572641d0883af7": {
-      "type": "text--image-grid",
-      "disabled": true,
-      "blocks": {
-        "1663572641bbf806d9-0": {
-          "type": "menu",
-          "settings": {
-            "title": "",
-            "richtext": ""
-          }
-        },
-        "1663572641bbf806d9-1": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "richtext": ""
-          }
-        },
-        "1663572641bbf806d9-2": {
-          "type": "menu",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "richtext": ""
-          }
-        }
-      },
-      "block_order": [
-        "1663572641bbf806d9-0",
-        "1663572641bbf806d9-1",
-        "1663572641bbf806d9-2"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Menu list",
-        "enable_image": true
       }
     },
     "16635731767eb88922": {
@@ -211,7 +58,8 @@
         "subheading": "",
         "title": "Browse our makers",
         "blog": "maker",
-        "img-pos": -6
+        "img-pos": -6,
+        "show-all": true
       }
     },
     "1664263971a4eb5cd6": {
@@ -715,12 +563,7 @@
   },
   "order": [
     "main",
-    "1663572286c3a592d6",
-    "16635720255e76fa4a",
     "166357223161cba705",
-    "1663572489772c8a05",
-    "166357261491f08943",
-    "1663572641d0883af7",
     "16635731767eb88922",
     "1664783985092c9626",
     "1664263971a4eb5cd6",
