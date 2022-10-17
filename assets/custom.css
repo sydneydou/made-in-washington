@@ -391,6 +391,16 @@ padding: 3em 0;
 
 }
 
+.blog--read-more{
+    margin-top:2em;
+}
+
+
+.blog--read-more a{
+    font-weight: 500;
+}
+
+
  .con-title{
     
         font-size: var(--heading-font-size);

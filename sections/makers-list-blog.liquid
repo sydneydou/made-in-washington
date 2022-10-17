@@ -32,7 +32,7 @@
                       <!-- {% assign sorted = section.settings.blog.articles | sort %} -->
 
                       {% if section.settings.show-all == true %}
-                        <h3 onclick="myFunction()" class="mobile view-all-link">View Full List</h3>
+                        <h3 onclick="myFunction()" class="mobile view-all-link" id="list-link">View Full List </h3>
                       {% endif %}
 
                         <div class="lists">
@@ -114,11 +114,16 @@ function myFunction() {
     y.style.display = "block";
     z.style.display = "block";
     
+    document.getElementById("list-link").innerHTML = "Minimize Makers List"
+    
     
   } else {
     x.style.display = "none";
     y.style.display = "none";
     z.style.display = "none";
+
+
+    document.getElementById("list-link").innerHTML = "View Full List"
   }
 
 
