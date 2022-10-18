@@ -75,7 +75,7 @@
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#222222",
             "button-text": "#ffffff",
-            "button-background": "#b8cab7",
+            "button-background": "#333333",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
