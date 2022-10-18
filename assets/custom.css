@@ -208,7 +208,7 @@ padding:2em 0 !important;
 
 /* footer */
 
-.sm-icon li{
+.sm-icons li{
     width:fit-content;
 }
 
@@ -627,12 +627,38 @@ footer .mtn{
     z-index:999;
 }
 
+.shopify-policy__container{
+    max-width:1300px !important;
+}
+
+.shopify-policy__container h2, .shopify-policy__body h1{
+    font-size: 1.2em;
+}
+
 
 /* desktop */
 
 
 @media only screen and (min-width: 998px){
 
+    #footer-payment-methods{
+        padding: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    }
+
+    .footer-bottom{
+        margin-top: 7em;
+    }
+
+
+    .footer-bottom__copyright{
+        position: absolute;
+    left: 3.7%;
+    }
    
 
     .container--product-page{
