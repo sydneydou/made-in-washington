@@ -51,6 +51,9 @@
     {% if section.settings.credit != blank %}
       <p class="credit">{{section.settings.credit}}</p>
     {% endif %}
+    {% if section.settings.credit-below != blank %}
+    <p class="credit bottom-line">{{section.settings.credit-below}}</p>
+  {% endif %}
     {% if section.settings.background_image != blank %}
       <div class="image-text-block-row---mobile--image visible-xs">
         {% render 'responsive-image' with section.settings.background_image, alt: section.settings.background_image.alt, class: 'feature-row__image' %}
@@ -130,6 +133,11 @@
           "id": "credit",
           "label": "Image Credit"
       },
+      {
+        "type": "text",
+        "id": "credit-below",
+        "label": "Image Credit Second Line"
+    },
         {
             "type": "color",
             "id": "text-color",

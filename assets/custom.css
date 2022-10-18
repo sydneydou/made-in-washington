@@ -277,7 +277,7 @@ font-size:.93em !important;
 
 .credit{
     position: absolute;
-    bottom: 1em;
+    bottom: 2.5em;
     right: 4em;
     width: 20em;
     text-align: center;
@@ -285,6 +285,9 @@ font-size:.93em !important;
     z-index: 999;
 }
 
+.bottom-line{
+    bottom: 1em;
+}
 
 /* image with text section */
 
