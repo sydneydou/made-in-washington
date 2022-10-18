@@ -230,7 +230,7 @@
         "btn-background-color": "#d09951",
         "btn-background-hover": "#d8a45f",
         "section-height": "default",
-        "mob-pos": "center"
+        "mob-pos": "below"
       }
     },
     "image-logo-list": {
