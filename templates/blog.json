@@ -19,6 +19,17 @@
         "button_label": ""
       }
     },
+    "74c4f89c-eafb-4ad0-b1ba-efe5984f685d": {
+      "type": "text--rich-text",
+      "settings": {
+        "width": "large",
+        "subheading": "",
+        "title": "",
+        "text": "<p>Settle in with your favorite warm beverage to read interviews with our makers, learn how to make a salami rose, or even explore the history of smoked salmon. Let our world be your oyster!<\/p>",
+        "button_link": "",
+        "button_label": ""
+      }
+    },
     "main": {
       "type": "template--blog",
       "settings": {
@@ -73,6 +84,7 @@
   },
   "order": [
     "image-with-text-overlay",
+    "74c4f89c-eafb-4ad0-b1ba-efe5984f685d",
     "main",
     "newsletter",
     "1663574303f8f28100",
