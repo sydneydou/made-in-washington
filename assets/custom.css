@@ -628,11 +628,15 @@ footer .mtn{
 }
 
 .shopify-policy__container{
-    max-width:1300px !important;
+    max-width:1200px !important;
 }
 
-.shopify-policy__container h2, .shopify-policy__body h1{
-    font-size: 1.2em;
+.shopify-policy__container h2, .shopify-policy__body h1, .article__entry-content h2{
+    font-size: 1.1em;
+}
+
+.shopify-policy__title h1{
+    text-transform: uppercase;
 }
 
 
