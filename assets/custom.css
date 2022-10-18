@@ -208,6 +208,10 @@ padding:2em 0 !important;
 
 /* footer */
 
+.sm-icon li{
+    width:fit-content;
+}
+
 .footer .rte, .footer .type-subheading{
 font-size:.93em !important;
 }
