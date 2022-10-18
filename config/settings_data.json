@@ -7,6 +7,8 @@
     "hover_effect": "shadow",
     "sm_facebook_link": "https:\/\/www.facebook.com\/Made.In.Washington\/?fref=ts",
     "sm_instagram_link": "https:\/\/www.instagram.com\/madeinwashington_\/?hl=en",
+    "sm_tiktok_link": "https:\/\/www.tiktok.com\/@madeinwashington_",
+    "sm_pinterest_link": "https:\/\/www.pinterest.com\/miwstores\/",
     "favicon": "shopify:\/\/shop_images\/MIW_favicon-min.png",
     "sections": {
       "announcement-bar": {
@@ -75,7 +77,7 @@
           "footer-3": {
             "type": "social",
             "settings": {
-              "menu_title": "Get connected"
+              "menu_title": "Get Connected"
             }
           },
           "629eb93b-d16a-4e9c-b9c4-ec477612eed6": {
