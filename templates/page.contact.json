@@ -12,6 +12,7 @@
         "parallax": false,
         "alignment": "center",
         "text-position": "center",
+        "position-mobile": "center",
         "hero_size": "large",
         "text-over-image-width": "full-width",
         "button_link": "",
@@ -95,7 +96,8 @@
       "type": "image--image-with-newsletter",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
-        "credit": "Waptus Lake, Washington Photo Credit: Becca Harpain, Unsplash",
+        "credit": "Waptus Lake, Washington",
+        "credit-below": "Photo Credit: Becca Harpain, Unsplash",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
