@@ -200,7 +200,7 @@
       "settings": {
         "image-width": "extra-large",
         "image": "shopify:\/\/shop_images\/MIW-Group-3_1_-min.png",
-        "image-logo": "shopify:\/\/shop_images\/tree_icon-min.png",
+        "image-logo": "shopify:\/\/shop_images\/tree_icon_1.png",
         "layout": "right",
         "subheading": "",
         "title": "Who we are",
@@ -230,7 +230,7 @@
         "btn-background-color": "#d09951",
         "btn-background-hover": "#d8a45f",
         "section-height": "default",
-        "mob-pos": "center"
+        "mob-pos": "below"
       }
     },
     "image-logo-list": {
@@ -273,7 +273,7 @@
         "width": 110,
         "subheading": "",
         "title": "What we value",
-        "button_link": "shopify:\/\/pages\/redesign-about",
+        "button_link": "shopify:\/\/pages\/about",
         "button_label": "Read our story",
         "btn-color": "#ffffff",
         "btn-background-color": "#3a271d",
@@ -317,7 +317,8 @@
       "type": "image--image-with-newsletter",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
-        "credit": "Waptus Lake, Washington           Photo Credit: Becca Harpain, Unsplash",
+        "credit": "Waptus Lake, Washington",
+        "credit-below": "Photo Credit: Becca Harpain, Unsplash",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
