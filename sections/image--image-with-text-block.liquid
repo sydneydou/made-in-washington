@@ -72,8 +72,10 @@
   font-family:var(--font-family-regular) ;
     text-transform:inherit;
  }
+ @media only screen and (min-width: 798px){
 
  {% if section.settings.font-size == 'large' %}
+ 
   #shopify-section-{{ section.id }} h2{
     font-size:1.6em !important;
   }
@@ -84,6 +86,8 @@
   }
 
  {% endif %}
+ 
+}
 
  {% if section.settings.section-height == 'small' %}
       #shopify-section-{{ section.id }},#shopify-section-{{ section.id }} .homepage-image-text-block--content .image-text-block--wrapper img{

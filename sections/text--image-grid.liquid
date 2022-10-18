@@ -66,7 +66,7 @@
       {%- assign collection = collections[block.settings.collection] -%}
         <div class="carousel-cell">
          
-            <img class="img-explore" style="border:black 1px solid;" src="{{ block.settings.image | img_url: 'master'}}">
+            <img class="img-explore"  src="{{ block.settings.image | img_url: 'master'}}">
             {% if block.settings.title %}
             <p class="grid-title" style="text-align:center;">{{block.settings.title}}</p>
           {% endif %}

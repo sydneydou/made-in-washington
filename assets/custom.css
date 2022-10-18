@@ -192,7 +192,7 @@ header span{
 }
 
 .featured-logos .title-bar h2{
-padding:2em 0 !important;
+padding-top:2em  !important;
 }
 
 
@@ -646,7 +646,7 @@ footer .mtn{
 /* desktop */
 
 
-@media only screen and (min-width: 998px){
+@media only screen and (min-width: 798px){
 
     #footer-payment-methods{
         padding: 0;
@@ -749,7 +749,7 @@ footer .mtn{
 
 /* mobile */
 
-@media only screen and (max-width: 997px){
+@media only screen and (max-width:797px){
 
     .slider-caption--text p{
         font-size:1.2em !important;
@@ -868,14 +868,6 @@ footer .mtn{
         margin: 0 auto;
     }
 
-    .swiper-slide .background{
-
-        background-color: transparent !important;
-        color: #333333 !important;
-        text-align: center;
-        top: 10.5em !important;
-        width: 29em !important;
-        } 
 
     .desktop{
         display:none;
