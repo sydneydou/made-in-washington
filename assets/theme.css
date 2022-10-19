@@ -17095,7 +17095,7 @@ audio:not([controls]) {
   margin-top: 15px; }
 
 .article--main-body.article-image-present {
-  margin-top: -150px;
+  /* margin-top: -150px; */
   background-color: var(--page-background); }
 
 .article-title-wrapper {

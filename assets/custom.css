@@ -13,6 +13,11 @@ main section:last-child{
 }
 
 
+.article-image__container{
+    display:none !important;
+}
+
+
 /* navigation & header */
 
 .mega-menu-block__heading:hover{
