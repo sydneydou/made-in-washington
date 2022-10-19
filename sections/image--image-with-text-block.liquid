@@ -6,6 +6,14 @@
 {% assign selector = ' .image-text-block--wrapper .img' | prepend: section-id %}
 {% render 'responsive-background-image' with section.settings.background_image, selector: selector %}
 
+{% if section.settings.mob-image != blank %}
+    @media screen and (max-width: 768px) {
+
+        {% render 'responsive-background-image--no-formatting' with section.settings.mob-image, selector: selector, scale: scale %}
+    }
+
+    {% endif %}
+
 .image-with-text-block--{{ section.id }} .image-text-block-row__text-container{
   background: {{ section.settings.background-color | color_modify: 'alpha', 0.9 }};
   color: {{ section.settings.text-color }};
@@ -43,7 +51,7 @@
 
   <div class="image-text-block--wrapper">
     {% if section.settings.background_image != blank %}
-      <div class="image-text-block-row---mobile--image visible-xs">
+      <div class="image-text-block-row---mobile--image visible-xs desktop">
         {% render 'responsive-image' with section.settings.background_image, alt: section.settings.background_image.alt, class: 'feature-row__image' %}
       </div>
     {% else %}
@@ -51,6 +59,12 @@
           {{ 'lifestyle-1' | placeholder_svg_tag: 'icon--placeholder' }}
       </div>
     {% endif %}
+
+    {% if section.settings.mob-image != blank %}
+    <div class="image-text-block-row---mobile--image visible-xs mobile">
+      {% render 'responsive-image' with section.settings.mob_image, alt: section.settings.mob_image.alt, class: 'feature-row__image' %}
+    </div>
+  {% endif %}
   </div>
 </section>
 
@@ -163,6 +177,11 @@
                 "pt-PT": "2000 x 500px, recomendado"
             }
         },
+        {
+          "type": "image_picker",
+          "id": "mob-image",
+          "label": "Mobile Image"
+      },
         {
             "type": "color",
             "id": "text-color",
