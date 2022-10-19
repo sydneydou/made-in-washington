@@ -5,6 +5,7 @@
       "type": "image--image-with-text-overlay",
       "settings": {
         "image": "{{ collection.image }}",
+        "mob-image": "shopify:\/\/shop_images\/hero_image-min.png",
         "subheading": "Stuff your stockings with Washington pride",
         "title": "Local Gift Guide",
         "text": "",
