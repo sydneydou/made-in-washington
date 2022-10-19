@@ -55,6 +55,299 @@
 
 
 
+<!-- <section class="homepage-sections-wrapper collection-slider mobile">
+ 
+  <div class="featured-collection-slider page-width">
+    
+    {% if section.settings.title != blank or section.settings.subheading != blank %}
+    <div class="title-bar custom-font">
+      {% if section.settings.subheading != blank %}
+        <h3 class="type-subheading type-subheading--1 wow{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h2 class="wow">{{ section.settings.title | escape }}</h2>
+      {% endif %}
+    </div>
+  {% endif %}
+   
+  {% unless block %}
+        <div class="row">
+          {% for i in (1..3) %}
+              {{ placeholder-blog-post }}
+          {% endfor %}
+        </div>
+      {% endunless %}
+
+      {% case block.type %}
+        {% when "article" %}
+
+          {% if post_count == 0 %}
+            <div class="row" {{ block.shopify_attributes }}>
+              {% for i in (1..3) %}
+                  {{ placeholder-blog-post }}
+              {% endfor %}
+            </div>
+          {% endif %}
+
+            <div class="row grid--blog products-carousel js-flickity" {{ block.shopify_attributes }} data-flickity='{{ flickity_options }}'>
+
+              {% for i in (1..4) %}
+                {% assign blog_post = 'blog_post_' | append: i %}
+                {% assign current_post = articles[block.settings[blog_post]] %}
+                {% assign section-id = '.featured-blog--block--' | append: section.id %}
+                {% assign selector = ' .article--background-image--' | append: forloop.index | prepend: section-id %}
+
+                {% unless current_post == empty %}
+                <!-- <style> -->
+                  {% render 'responsive-background-image--no-formatting' with current_post.image, alt: current_post.title, selector: selector %}
+                <!-- </style> -->
+
+                <article class="{{ post_count_grid }} wow carousel-cell index-blog-item--wrapper index-blog-item--image---{{ section.settings.imageSize }}">
+                    {% if section.settings.show_blog_images %}
+                      {% if current_post.image %}
+                        {% if section.settings.imageSize == 'natural' %}
+                          <div class="article-image">
+                            <a href="{{ current_post.url }}" tabindex="-1">
+
+                            </a>
+                          </div>
+                        {% else %}
+                          <a href="{{ current_post.url }}" tabindex="-1">
+                            <div class="article--background-image article--background-image--{{ forloop.index }}"></div>
+                          </a>
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+
+                    <div class="blog-title-wrapper homepage-blog-title-wrapper{% if current_post.image and section.settings.show_blog_images %} article-image-in-header{% endif %}">
+                      <h3 class="type-subheading type-subheading--1"><a href="{{current_post.url}}">{{ current_post.title }}</a></h3>
+                      {% if section.settings.show_dates or section.settings.show_author_name %}
+                        <div class="blog__date-author">
+                          <div class="blog-publish-date">
+                            {% if section.settings.show_dates %}
+                              <time class="updated blog--indiv-date" datetime="{{ current_post.published_at | date: format: 'long' }}" pubdate>{{ current_post.published_at | date: format: 'month_day_year' }}</time>
+                            {% endif %}
+
+                            {% if section.settings.show_dates and section.settings.show_author_name %}
+                              <span>  |  </span>
+                            {% endif %}
+
+                            {% if section.settings.show_author_name %}<span>
+                              {{ current_post.author }}</span>
+                            {% endif %}
+                          </div>
+                        </div>
+                      {% endif %}
+                    </div>
+
+                    <div class="rte home-blog-excerpt">
+                      {% if current_post.excerpt.size > 0 %}
+                        {{ current_post.excerpt | strip_html | truncatewords: 25 }}
+                      {% else %}
+                        {{ current_post.content | strip_html | truncatewords: 25 }}
+                      {% endif %}
+                    </div>
+
+                    <div class="blog--read-more">
+                      <a href="{{ current_post.url }}" class="button--text-subdued" tabindex="-1">{{ 'blogs.article.read_more' | t }}</a>
+                    </div>
+                </article>
+                {% endunless %}
+              {% endfor %}
+            </div>
+
+        {% when "blog" %}
+          {% assign selected_blog = blogs[block.settings.blog] %}
+
+            <div class="row grid--blog products-carousel js-flickity" {{ block.shopify_attributes }} data-flickity='{{ flickity_options }}'>
+              {% unless selected_blog == empty %}
+
+                {% for article in selected_blog.articles limit: post_count %}
+
+                  {% assign section-id = '.featured-blog--block--' | append: section.id %}
+                  {% assign selector = ' .article--background-image--' | append: forloop.index | prepend: section-id %}
+
+                  <style>
+                    {% render 'responsive-background-image--no-formatting' with article.image, alt: article.title, selector: selector %}
+                  </style>
+
+                  <article class="{{ post_count_grid }} carousel-cell wow index-blog-item--wrapper index-blog-item--image---{{ section.settings.imageSize }}">
+
+                    {% if section.settings.show_blog_images %}
+                      {% if article.image %}
+                        {% if section.settings.imageSize == 'natural' %}
+                          <div class="article-image">
+                            <a href="{{ article.url }}" tabindex="-1">
+                              {% render 'responsive-image' with article.image, alt: article.title %}
+                            </a>
+                          </div>
+                        {% else %}
+                          <a href="{{ article.url }}" tabindex="-1">
+                            <div class="article--background-image article--background-image--{{ forloop.index }}"></div>
+                          </a>
+                        {% endif %}
+                      {% endif %}
+                    {% endif %}
+
+                    <div class="blog-title-wrapper homepage-blog-title-wrapper{% if article.image and section.settings.show_blog_images %} article-image-in-header{% endif %}">
+                      <h3 class="type-subheading type-subheading--1"><a href="{{article.url}}">{{ article.title }}</a></h3>
+                      {% if section.settings.show_dates or section.settings.show_author_name %}
+                        <div class="blog__date-author">
+                          <div class="blog-publish-date">
+                            {% if section.settings.show_dates %}
+                              <time class="updated blog--indiv-date" datetime="{{ article.published_at | date: format: 'long' }}" pubdate>{{ article.published_at | date: format: 'month_day_year' }}</time>
+                            {% endif %}
+
+                            {% if section.settings.show_dates and section.settings.show_author_name %}
+                              <span>  |  </span>
+                            {% endif %}
+
+                            {% if section.settings.show_author_name %}<span>
+                              {{ article.author }}</span>
+                            {% endif %}
+                          </div>
+                        </div>
+                      {% endif %}
+                    </div>
+
+                    <div class="rte home-blog-excerpt">
+                        {{ article.excerpt_or_content | truncatewords: 25 }}
+                    </div>
+
+                    <div class="blog--read-more">
+                      <a href="{{ article.url }}" class="button--text-subdued" tabindex="-1">{{ 'blogs.article.read_more' | t }}</a>
+                    </div>
+                  </article>
+
+                {% endfor %}
+
+                {% if block.settings.show_view_all %}
+                  <div class="text-center wow" style="margin: 0 auto">
+                    <a href="{{ selected_blog.url }}" class="btn">
+                      {{ 'blogs.general.view_all' | t }}
+                    </a>
+                  </div>
+                {% endif %}
+
+              {% else %}
+
+                <div class="row">
+                  {% for i in (1..post_count) %}
+                    {{ placeholder-blog-post }}
+                  {% endfor %}
+                </div>
+              {% endunless %}
+            </div>
+      {% endcase %}
+  
+   
+      <!-- <div class="products-carousel js-flickity" data-flickity='{{ flickity_options }}'>
+        {% for block in section.blocks limit: section.blocks.size %}
+        {%- assign collection = collections[block.settings.collection] -%}
+          <div class="carousel-cell">
+            <a href="{{ product.url | within: collection }}" style="text-decoration:none;"  class="carousel-product">
+              <img class="img-explore" src="{{ block.settings.reg | img_url: 'master'}}">
+              <h3 class="type-subheading type-subheading--1 carousel-text">
+                <a class="crafter-font " href="{{ collection.url }}">{{ collection.title }}</a>
+              </h3>
+            </a>
+        </div>  
+      {% endfor %}
+      </div> -->
+  </div>
+  
+  </section>
+   
+  <style>
+  
+  .carousel-text{
+    text-align:center;
+    display: flex;
+      justify-content: center;
+      margin-top:20px;
+  }
+  
+  .carousel-text .crafter-font{
+    text-decoration: none;
+  }
+    
+  
+    .carousel-product{
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+    .carousel-title{
+      text-align:center;
+      text-decoration:none;
+      margin-top:2em;
+    }
+  
+  
+  .featured-collection-slider{
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 92vw;
+    margin: 0 auto;
+    
+  }
+  .featured-collection-slider .carousel-cell{
+    width:25%;
+    padding: 0 15px;
+    display: block;
+  }
+  .flickity-button:disabled{
+    pointer-events: all!important;
+  }
+  
+  .img-explore{
+      width:16.5em;
+  }
+  @media screen and (max-width: 920px){
+    .featured-collection-slider{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .featured-collection-slider .carousel-cell{
+      width:50%;
+    }
+  }
+  @media screen and (max-width: 767px){
+    .featured-collection-slider .carousel-cell{
+      width:100%;
+    }
+  }
+  </style> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

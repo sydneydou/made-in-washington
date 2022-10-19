@@ -4,7 +4,10 @@
   <style>
     {% capture selector %}.hero--{{ section.id }} .img{% endcapture %}
     {% if section.settings.parallax %}{% assign scale = 2 %}{% else %}{% assign scale = 1 %}{% endif %}
+
+   
     {% render 'responsive-background-image--no-formatting' with section.settings.image, selector: selector, scale: scale %}
+    
 
     .hero--{{ section.id }} .img {
       background-position: {{ section.settings.alignment }};
@@ -14,6 +17,14 @@
       height: 100%;
       position: absolute;
     }
+
+    {% if section.settings.mob-image != blank %}
+    @media screen and (max-width: 768px) {
+
+        {% render 'responsive-background-image--no-formatting' with section.settings.mob-image, selector: selector, scale: scale %}
+    }
+
+    {% endif %}
 
     {% if section.settings.parallax %}
     @media screen and (max-width: 768px) {
@@ -183,6 +194,11 @@
                 "fr": "1800 x 1200 px recommandé",
                 "pt-PT": "1800 x 1200px, recomendado"
             }
+        }, 
+        {
+            "type": "image_picker",
+            "id": "mob-image",
+            "label": "Mobile Image"
         },
         {
             "type": "text",
