@@ -50,21 +50,27 @@
   </div>
 
   <div class="image-text-block--wrapper">
-    {% if section.settings.background_image != blank %}
+    {% if section.settings.background_image != blank and section.settings.mob-image == blank %}
+      <div class="image-text-block-row---mobile--image visible-xs ">
+        {% render 'responsive-image' with section.settings.background_image, alt: section.settings.background_image.alt, class: 'feature-row__image' %}
+      </div>
+      {% elsif  section.settings.background_image != blank and section.settings.mob-image != blank%}
+
       <div class="image-text-block-row---mobile--image visible-xs desktop">
         {% render 'responsive-image' with section.settings.background_image, alt: section.settings.background_image.alt, class: 'feature-row__image' %}
       </div>
+      <div class="image-text-block-row---mobile--image visible-xs mobile">
+        {% render 'responsive-image' with section.settings.mob-image, alt: section.settings.mob-image.alt, class: 'feature-row__image' %}
+      </div>
+
+
     {% else %}
       <div class="homepage-image--text-block--placeholder">
           {{ 'lifestyle-1' | placeholder_svg_tag: 'icon--placeholder' }}
       </div>
     {% endif %}
 
-    {% if section.settings.mob-image != blank %}
-    <div class="image-text-block-row---mobile--image visible-xs mobile">
-      {% render 'responsive-image' with section.settings.mob_image, alt: section.settings.mob_image.alt, class: 'feature-row__image' %}
-    </div>
-  {% endif %}
+   
   </div>
 </section>
 
