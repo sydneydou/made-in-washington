@@ -5,6 +5,7 @@
     "navigation--capitalize": false,
     "typography-buttons-font-size": 15,
     "hover_effect": "shadow",
+    "quick_add_position": "below_product_details",
     "sm_facebook_link": "https:\/\/www.facebook.com\/Made.In.Washington\/?fref=ts",
     "sm_instagram_link": "https:\/\/www.instagram.com\/madeinwashington_\/?hl=en",
     "sm_tiktok_link": "https:\/\/www.tiktok.com\/@madeinwashington_",
