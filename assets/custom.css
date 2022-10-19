@@ -458,7 +458,7 @@ footer{
     top: -10em;
     /* background-color:#B8CAB7; */
     left:-1em;
-    min-width:130vw;
+    /* min-width:130vw; */
   }
 
 #shopify-section-template--15844025499820__166478462299a1dcae,#shopify-section-template--15844123082924__166357436128577abc,#shopify-section-template--15906657763500__166357385892c100a9,#shopify-section-template--15844025434284__16637326789eb4517a, .page-title--404-not-found main,#challenge main,#create-account main, .page-title--account #main-body,#shopify-section-template--15844025335980__166357436128577abc, #shopify-section-template--15852022464684__16637423885d172095, #shopify-section-template--15844023566508__166357385892c100a9,#shopify-section-template--15850343334060__16637423885d172095,#shopify-section-template--15844122755244__166357385892c100a9,#shopify-section-template--15844025368748__16635600351e723d9b, #shopify-section-footer, #shopify-section-template--15844122820780__16635600351e723d9b, #shopify-section-template--15844123213996__16637326789eb4517a{
@@ -648,6 +648,11 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+    .mtn{
+      
+        min-width:130vw;
+      }
+
     #footer-payment-methods{
         padding: 0;
     position: absolute;
@@ -763,7 +768,7 @@ footer .mtn{
     }
 
     .page-title--2022-featured-holiday-products .text-image-column .mtn {
-        top: -18.5em!important;
+        /* top: -18.5em!important; */
     }
 
     .blog-home .article--background-image{
@@ -851,7 +856,9 @@ footer .mtn{
     }
 
     .text-image-column .mtn{
-        top: -11.5em !important;
+        /* top: -11.5em !important; */
+        top: -4em !important;
+        max-width: 107vw;
     }
 
     .hero--medium {
@@ -1136,10 +1143,11 @@ footer .mtn{
   .text-column-section .mtn {
     /* top: -5em;
     height: 57em; */
-    top: -5em;
+    top: -4em !important;
     height: auto;
+    width: 110vw !important;
     
-    left: -7em;
+    /* left: -7em; */
 }
 
 .text-image-column .featured-row__subtext{

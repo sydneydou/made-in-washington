@@ -63,7 +63,10 @@
 
 
 
-<section class="homepage-sections-wrapper blog-home ">
+<section class="homepage-sections-wrapper blog-home text-column-section">
+
+  <img class="mtn"  src="{{ section.settings.mtn | img_url: '1000x1000' }}"
+  loading="lazy"}} style="background-color:transparent;" >
 
   <div class="container featured-blog--block--{{ section.id }}">
     <div class="row">
@@ -255,28 +258,32 @@
 </section>
 
 <style>
-  {% if section.settings.image  %}
+
+
+#shopify-section-{{ section.id }} .blog-home{
+  background-color: {{section.settings.background-color}};
+}
+
+  {% if section.settings.mtn != blank  %}
         #shopify-section-{{ section.id }} .blog-home{
-          background-repeat: no-repeat;
-          background-size: cover !important;
-          background:url({{section.settings.image | img_url: 'master' }});
-          padding-top:12em !important;
-          padding-bottom:7em !important;
+         margin-top:5em;
+        }
+
+        #shopify-section-{{ section.id }} .mtn{
+          top:-6em;
+        }
+
+
+        @media only screen and (max-width:797px){
+
+          #shopify-section-{{ section.id }} .blog-home{
+         margin-top:20em;
+        }
+
         }
 
 
 
-
-    @media only screen and (max-width: 797px){
-      #shopify-section-{{ section.id }} .blog-home{
-        padding-top: 13em !important;
-    margin-top: 10em;
-    background-repeat: no-repeat;
-    background-size: auto !important;
-    /* background-color: #367a8e; */
-      }
-
-    }
   {% endif %}
 
 
@@ -299,9 +306,11 @@
     "settings": [
     {
       "type": "image_picker",
-      "id": "image",
-      "label": "Mountain Background Image"
+      "id": "mtn",
+      "label": "Mountain Background"
+      
   },
+ 
         {
             "type": "text",
             "id": "subheading",
@@ -342,6 +351,12 @@
               "pt-PT": "Texto"
           },
           "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "background-color",
+          "label": "Background Color",
+          "default": "#057C90"
         },
         {
             "type": "checkbox",
