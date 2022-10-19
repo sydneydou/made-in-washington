@@ -488,6 +488,7 @@
       "type": "image--image-with-text-block",
       "settings": {
         "background_image": "shopify:\/\/shop_images\/maker_of_the_month_banner.png",
+        "mob-image": "shopify:\/\/shop_images\/maker_banner-min.png",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
