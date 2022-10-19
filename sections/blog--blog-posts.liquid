@@ -64,10 +64,10 @@
 
 
 <section class="homepage-sections-wrapper blog-home text-column-section">
-
+  {% if section.settings.mtn != blank  %}
   <img class="mtn"  src="{{ section.settings.mtn | img_url: '1000x1000' }}"
   loading="lazy"}} style="background-color:transparent;" >
-
+  {% endif  %}
   <div class="container featured-blog--block--{{ section.id }}">
     <div class="row">
       <div class="page-width col-md-12">
