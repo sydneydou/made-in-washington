@@ -274,18 +274,20 @@
         }
 
 
-        @media only screen and (max-width:797px){
-
-          #shopify-section-{{ section.id }} .blog-home{
-         margin-top:20em;
-        }
-
-        }
+       
 
 
 
   {% endif %}
 
+
+  @media only screen and (max-width:797px){
+
+#shopify-section-{{ section.id }} .blog-home{
+margin-top:20em;
+}
+
+}
 
   .blog-home h4, .blog-home p,  .blog-home h2,  .blog-home h3 a, .home-blog-excerpt{
     color: {{section.settings.text-color}};
