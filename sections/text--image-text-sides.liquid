@@ -76,7 +76,7 @@
 <div class="full-wdth">
  
   {% if section.settings.text_block-con != blank %}
-  <div class="rte featured-row__subtext textarea sidesdiv" >{{ section.settings.text_block-con }}</div>
+  <div class="rte featured-row__subtext textarea sidesdiv continued" >{{ section.settings.text_block-con }}</div>
   {% endif %}
 
 {% if section.settings.title-two != blank or section.settings.subheading-two != blank %}
@@ -110,6 +110,11 @@
   </section>
 
   <style>
+
+.continued p{ 
+  margin-bottom: revert;
+}
+
    #shopify-section-{{ section.id }} .image-with-text-home{
     padding-bottom: {{section.settings.bottom-padding}}em !important; 
     padding-top:6em !important;
