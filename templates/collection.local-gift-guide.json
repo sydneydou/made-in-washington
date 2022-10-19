@@ -143,6 +143,7 @@
     },
     "74263384-cae3-4021-949f-4ec249b3857a": {
       "type": "image--slideshow",
+      "disabled": true,
       "blocks": {
         "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-0": {
           "type": "slide",
@@ -200,6 +201,65 @@
         "header-font": "var(--font-family-regular)"
       }
     },
+    "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20": {
+      "type": "image--carousel-text-blocks",
+      "blocks": {
+        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
+            "subheading": "All your local favorites in one box? The sky's the limit.",
+            "title": "Design your own box",
+            "text": "",
+            "button_text": "Start Here",
+            "link": "shopify:\/\/pages\/design-your-own-gift-basket",
+            "cont-width": 51,
+            "cap-back": false,
+            "caption-background": "#057c90",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chocolate_feature_banner-min.png",
+            "subheading": "Something sweet to share with friends and family. If sharing is your thing..",
+            "title": "Go Ahead. Indulge.",
+            "text": "<p>Here's your chance to make a great first impression<\/p>",
+            "button_text": "Shop chocolates",
+            "link": "shopify:\/\/collections\/redesign-chocolate",
+            "cont-width": 65,
+            "cap-back": false,
+            "caption-background": "#4d724d",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-0",
+        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true,
+        "header-font": "var(--font-family-regular)"
+      }
+    },
     "16649469091654578d": {
       "type": "apps",
       "blocks": {
@@ -229,6 +289,7 @@
     "main",
     "7a898150-dbad-43f2-9dd0-17d09fde901b",
     "74263384-cae3-4021-949f-4ec249b3857a",
+    "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20",
     "16649469091654578d"
   ]
 }
