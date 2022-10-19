@@ -982,6 +982,10 @@ footer .mtn{
         height: 40em;
     }
 
+    .carousel-text-block  .slides img {
+        /* height: 22em !important; */
+    }
+
     .flickity-prev-next-button.next {
         right: -30px !important;
     }

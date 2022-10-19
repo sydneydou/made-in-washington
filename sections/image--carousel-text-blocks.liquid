@@ -38,9 +38,9 @@
                                     >
 
                                         {% if block.settings.image == blank and block.settings.mobile_image == blank %}
-                                            {% if slide_is_link %}
+                                            <!-- {% if slide_is_link %}
                                                 <a href="{{ block.settings.link }}" class="slideshow__link" tabindex="-1">
-                                            {% endif %}
+                                            {% endif %} -->
 
                                                 {% capture current %}{% cycle 1, 2 %}{% endcapture %}
                                                 {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'icon--placeholder' }}
@@ -49,9 +49,9 @@
                                                 </a>
                                             {% endif %}
                                         {% else %}
-                                            {% if slide_is_link %}
+                                            <!-- {% if slide_is_link %}
                                                 <a href="{{ block.settings.link }}" class="slideshow__link" tabindex="-1">
-                                            {% endif %}
+                                            {% endif %} -->
 
                                             {% if block.settings.mobile_image != blank and block.settings.image != blank %}
                                                 {% render 'responsive-image' with block.settings.mobile_image, class: 'slideshow-mobile-image', alt: block.settings.mobile_image.alt %}
@@ -62,9 +62,9 @@
                                                 {% render 'responsive-image' with block.settings.mobile_image, class: 'slideshow-mobile-image', alt: block.settings.mobile_image.alt %}
                                             {% endif %}
 
-                                            {% if slide_is_link %}
+                                            <!-- {% if slide_is_link %}
                                                 </a>
-                                            {% endif %}
+                                            {% endif %} -->
                                         {% endif %}
 
                                         {% if block.settings.title != empty or block.settings.text != empty or block.settings.button_text != empty %}
@@ -265,12 +265,12 @@
         .carousel-text-block .slider-caption{
             width: 100vw !important;
             top: auto !important;
-            bottom: -11em !important;
+            bottom: -9em !important;
 
         }
 
         .carousel-text-block img{
-            height:20em !important;
+            /* height:20em !important; */
         }
 
     }
