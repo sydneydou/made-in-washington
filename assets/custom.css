@@ -161,7 +161,7 @@ header span{
     padding:0 1.2em;
 }
 
-.home-blog-excerpt, .blog-title-wrapper h3{
+.home-blog-excerpt, .blog-title-wrapper h3, .horizontal-align--left{
     text-align:center;
 }
 
