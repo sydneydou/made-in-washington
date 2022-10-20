@@ -15,7 +15,9 @@
         "button_label": "",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff"
+        "btn-background-hover": "#ffffff",
+        "section-height": "default",
+        "mob-pos": "below"
       }
     },
     "main": {
@@ -25,6 +27,7 @@
     },
     "166478462299a1dcae": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "597085eb-40ae-4016-9ce9-45320a572f7a": {
           "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
