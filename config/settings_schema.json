@@ -1003,6 +1003,12 @@
         "default": false
       },
       {
+        "type": "checkbox",
+        "id": "show_deliverydate",
+        "label": "Show Shipping Week Selection",
+        "default": true
+      },
+      {
         "type": "header",
         "content": {
           "en": "Fixed cart",
