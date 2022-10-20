@@ -1,16 +1,31 @@
-<!-- {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }}
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script> 
+  {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }} 
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
 
-<div style="width:300px; clear:both;">
+<div style="width:39%; clear:both;">
   <p>
-    <label for="date">Selected Desired Shipping Week:</label>
-    <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
-    <span style="display:block" class="instructions"> Choosing a future ship date? Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs. If so, please choose a ship week on the calendar above.</span>
+    
+    <!-- <label for="date">Selected Desired Shipping Week:</label> -->
+    <label style="font-weight:800">Selected Desired Shipping Week:</label> <span id="startDate"></span> - <span id="endDate"></span>
+    <input style="display:block;"  id="date" type="text" name="attributes[date]" value="{{cart.attributes[Future_Ship_Date]}}" />
+    <span style="display:block;     margin-top: 2em;" class="instructions"> Choosing a future ship date? Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs. If so, please choose a ship week on the calendar above.</span>
   </p>
 </div>
 
 <script>
   window.onload = function() {
+
+    var startDate;
+    var endDate;
+
+
+    var selectCurrentWeek = function() {
+        window.setTimeout(function () {
+            $('#date').find('.ui-datepicker-current-day a').addClass('ui-state-active')
+        }, 1);
+    }
+
       if (window.jQuery) {
         let $ = window.jQuery;
 
@@ -18,13 +33,32 @@
           $("#date").datepicker({
           minDate: +1,
           maxDate: '+2M',
-          beforeShowDay: $.datepicker.noWeekends
+          beforeShowDay: $.datepicker.noWeekends,
+          onSelect: function(dateText, inst) { 
+            var date = $(this).datepicker('getDate');
+            startDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay());
+            endDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay() + 6);
+            var dateFormat = inst.settings.dateFormat || $.datepicker._defaults.dateFormat;
+            $('#startDate').text($.datepicker.formatDate( dateFormat, startDate, inst.settings ));
+            $('#endDate').text($.datepicker.formatDate( dateFormat, endDate, inst.settings ));
+            
+            selectCurrentWeek();
+        },
+        beforeShowDay: function(date) {
+            var cssClass = '';
+            if(date >= startDate && date <= endDate)
+                cssClass = 'ui-datepicker-current-day';
+            return [true, cssClass];
+        },
+        onChangeMonthYear: function(year, month, inst) {
+            selectCurrentWeek();
+        }
         });
       });
     }
   }
-</script> -->
-
+</script>
+<!-- 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -80,10 +114,4 @@ $(function() {
 </body>
 </html>
 
-<style>
-
-    .ui-datepicker{
-        width:25em;
-    }
-</style>
-
+ -->

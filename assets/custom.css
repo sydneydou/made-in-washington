@@ -12,6 +12,9 @@ main section:last-child{
     width:100%; */
 }
 
+.ui-datepicker{
+    width:25em;
+}
 
 .article-image__container{
     display:none !important;

@@ -156,14 +156,6 @@
 
 		<div class="cart-bottom-box">
 
-			{% if settings.allow_note %}
-				<div class="col-lg-6 checkout-add-note mobile">
-					<label for="note">{{ 'cart.general.note' | t }}&hellip;</label>
-					<textarea id="note" name="note" class="form-control">{{ cart.note }}</textarea>
-					&nbsp;
-				</div>
-			{% endif %}
-
 			
 
 			{%- if cart.cart_level_discount_applications != blank -%}
@@ -201,7 +193,7 @@
 			<div class="row justify-content-center justify-content-md-end">
 
 
-				<div>
+				
 					{% if settings.allow_note %}
 						<div class="col-lg-6 checkout-add-note desktop">
 							<label for="note">{{ 'cart.general.note' | t }}&hellip;</label>
@@ -210,20 +202,6 @@
 						</div>
 					{% endif %}
 
-
-					{% if settings.show_deliverydate %}
-					<div class="cart__delivery" data-collapse-container>
-						<p class="cart__subtitle" data-collapser>Need your order held to ship at a later date? <a id="select-week">Click here to select a week</a></p>
-						<div class="cart__delivery-wrap" data-collapsible>
-							<!-- <label>Selected Desired Shipping Week : </label> <span id="startDate"></span> - <span id="endDate"></span> -->
-							{% render 'delivery-date' %}
-							<!-- <p class="cart__delivery-info">Choosing a future ship date?  Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs.  If so, please choose a ship week on the calendar above.</p> -->
-							<!-- <input class="sr-only" type="text" value="{{cart.attributes[Future_Ship_Date]}}" data-future-ship-date name="attributes[Future_Ship_Date]"> -->
-						</div>
-					</div>
-					{% endif %}
-
-				</div>
 
 
 
@@ -251,6 +229,25 @@
 
 				</div>
 			</div>
+
+
+
+				<div class="below " style="    margin-left: -41px;">
+
+					{% if settings.show_deliverydate %}
+					<div class="cart__delivery" data-collapse-container>
+						<p class="cart__subtitle" data-collapser>Need your order held to ship at a later date? <a id="select-week">Click here to select a week</a></p>
+						<div class="cart__delivery-wrap" data-collapsible>
+							<!-- <label>Selected Desired Shipping Week : </label> <span id="startDate"></span> - <span id="endDate"></span> -->
+							{% render 'delivery-date' %}
+							<!-- <p class="cart__delivery-info">Choosing a future ship date?  Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs.  If so, please choose a ship week on the calendar above.</p> -->
+							<!-- <input class="sr-only" type="text" value="{{cart.attributes[Future_Ship_Date]}}" data-future-ship-date name="attributes[Future_Ship_Date]"> -->
+						</div>
+					</div>
+					{% endif %}
+				</div>
+
+
 		</div>
 
 	</form>
