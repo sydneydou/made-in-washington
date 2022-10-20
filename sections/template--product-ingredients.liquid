@@ -1,8 +1,9 @@
+{% if product.metafields.c_f.ingredients_content != blank %}
 <div class="container--product-page">
     <div class="col-md-12" data-details-col>
       <details class="product-description-wrapper mt-3" {% if section.settings.content_display != "collapse_all" %} open{% endif %}>
         <summary class="description-block__header accordion__header" role="button" aria-expanded="{% if section.settings.content_display != "collapse_all" %}true{% else %}false{% endif %}" tabindex="0">
-          <h2>{{ 'products.product.description_title' | t }}</h2>
+          <h2>Ingredient List:</h2>
           <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
         </summary>
   
@@ -55,6 +56,8 @@
       {% endfor %}
     </div>
   </div>
+
+  {% endif %}
   
   {% schema %}
     {
