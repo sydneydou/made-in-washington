@@ -1,6 +1,11 @@
 <div class="container container--cart-page">
 	<div class="title-bar wrapper--page-title remove-margin-bottom">
 		<h2 class="main-heading">{{ 'cart.general.title' | t }}</h2>
+
+		{% if settings.below-title-cart-message != blank %}
+			<p class="cart-below">{{settings.below-title-cart-message}}</p>
+		{% endif %}
+
 	</div>
 
 	{% if cart.item_count == 0 %}

@@ -1075,6 +1075,11 @@
       },
       {
         "type": "text",
+        "id": "below-title-cart-message",
+        "label": "Text Below Cart Title"
+      },
+      {
+        "type": "text",
         "id": "free_shipping_message",
         "label": {
           "en": "Free shipping message",

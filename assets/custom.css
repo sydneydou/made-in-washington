@@ -339,7 +339,11 @@ padding: 3em 0;
     border-left:15px solid white !important;
 }
 
-
+.cart-below{
+    width: 67%;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
 
 /* events calendar */
 
@@ -770,7 +774,7 @@ footer .mtn{
         text-align:center !important;
     }
 
-#checkout-buttons, .below, .delivery-container{
+#checkout-buttons, .below, .delivery-container, .cart-below{
     width: 80% !important;
     margin: 0 auto !important;
 }
