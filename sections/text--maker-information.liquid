@@ -44,24 +44,27 @@
                   <div class="feature-row__text--inner">
                     {% if section.settings.title != blank or section.settings.subheading != blank %}
                       <div class="title-bar custom-font">
-                        <div>
+                        
                         {% if section.settings.title != blank %}
                         <h2  class="  wow">{{ section.settings.title | escape }}</h2>
                         <!-- <h1 style="font-size:2.2em;" class=" main-heading wow">{{ section.settings.title | escape }}</h1> -->
                       {% endif %}
 
-                      {% if section.settings.enable-scrolllink == true %}
-                      <p  class="  wow"><a href="#/#CollectionFiltersForm"> View this Maker's products </a></h2>
-                      <!-- <h1 style="font-size:2.2em;" class=" main-heading wow">{{ section.settings.title | escape }}</h1> -->
-                    {% endif %}
+                     
 
-                    </div>
+                    
                         {% if section.settings.subheading != blank %}
                           <h3 style="
                           margin-left: 0;
                           font-weight: 500; padding-bottom:1em;     font-size: 1.2em;
                       " class="sub type-subheading type-subheading--1 wow{% if section.settings.title != blank %} typography--padding-bottom{% endif %}">{{ section.settings.subheading | escape }}</h3>
                         {% endif %}
+
+
+                        {% if section.settings.enable-scrolllink == true %}
+                        <p  class="  wow"><a href="#CollectionFiltersForm"> View this Maker's products </a></h2>
+                        <!-- <h1 style="font-size:2.2em;" class=" main-heading wow">{{ section.settings.title | escape }}</h1> -->
+                      {% endif %}
                        
                       </div>
                      
