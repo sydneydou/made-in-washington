@@ -78,6 +78,10 @@ header span{
     font-size:1.2em !important;
 }
 
+.bxp-modal__title{
+    font-size:1.25em !important;
+}
+
 .notification-bar__message p{
     font-family: var(--font-family-bold);
     text-transform:uppercase;
@@ -95,6 +99,24 @@ header span{
     border-bottom: solid 2px white;
 }
 
+
+.bxp-modal__container {
+    background-color: rgb(79 111 78 / 100%) !important;
+}
+
+.bxp-bldr-col-md-6{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.bxp-bldr-col-md-6 button{
+    width: 25%;
+    margin: 0 auto;
+    background:black;
+
+}
 /* button styles */
 
 .btn, .timeline-section p, .hero__text p{
