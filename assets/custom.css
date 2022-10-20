@@ -639,7 +639,7 @@ footer .mtn{
 }
 
 .indiv-product-wrapper, .collection-filters button{
-    z-index:999;
+    /* z-index:999; */
 }
 
 .shopify-policy__container{
