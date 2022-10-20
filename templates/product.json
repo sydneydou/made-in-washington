@@ -9,6 +9,13 @@
           "settings": {
           }
         },
+        "9eaa3649-2ec5-480a-81f7-711864395716": {
+          "type": "vendor-sku",
+          "settings": {
+            "show_vendor": true,
+            "show_sku": false
+          }
+        },
         "f75a9ea6-12c4-4739-b26c-667551140a5a": {
           "type": "product-description",
           "settings": {
@@ -68,6 +75,7 @@
       },
       "block_order": [
         "product-title",
+        "9eaa3649-2ec5-480a-81f7-711864395716",
         "f75a9ea6-12c4-4739-b26c-667551140a5a",
         "product-price",
         "product-options",
