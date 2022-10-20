@@ -14756,7 +14756,7 @@ li .mobile-menu-link {
 ==============================================================================*/
 .template-product .product-description-wrapper {
   border-top: 1px solid var(--border-color);
-  margin-bottom: 10px; }
+  margin-bottom: 10px; margin-top:20px;}
   @media (max-width: 767px) {
     .template-product .product-description-wrapper.desktop {
       display: none; } }

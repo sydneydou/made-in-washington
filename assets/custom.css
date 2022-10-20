@@ -660,6 +660,10 @@ footer .mtn{
 
 @media only screen and (min-width: 798px){
 
+    .product-description-wrapper{
+        padding-top:14px;
+    }
+
     .mtn{
       
         min-width:130vw;
@@ -764,6 +768,8 @@ footer .mtn{
 
 
 }
+
+
 
 /* mobile */
 
