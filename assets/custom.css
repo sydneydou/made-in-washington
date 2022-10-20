@@ -654,6 +654,9 @@ footer .mtn{
     text-transform: uppercase;
 }
 
+.spr-header-title{
+    font-size: 1.25rem !important;
+}
 
 /* desktop */
 
@@ -662,6 +665,9 @@ footer .mtn{
 
     .product-description-wrapper{
         padding-top:14px;
+        margin-left: 9px;
+        margin-right: 9px;
+    
     }
 
     .mtn{
