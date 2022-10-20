@@ -9,6 +9,15 @@
           "settings": {
           }
         },
+        "0fee5649-565a-4bea-a634-0bb8496aef9d": {
+          "type": "text-with-icon",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Free shipping",
+            "link": ""
+          }
+        },
         "9eaa3649-2ec5-480a-81f7-711864395716": {
           "type": "vendor-sku",
           "settings": {
@@ -75,6 +84,7 @@
       },
       "block_order": [
         "product-title",
+        "0fee5649-565a-4bea-a634-0bb8496aef9d",
         "9eaa3649-2ec5-480a-81f7-711864395716",
         "f75a9ea6-12c4-4739-b26c-667551140a5a",
         "product-price",
