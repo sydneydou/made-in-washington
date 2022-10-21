@@ -90,6 +90,7 @@
     },
     "product_filtering": {
       "type": "main-collection-filtering",
+      "disabled": true,
       "settings": {
         "desktop_position": "topbar",
         "enable_filtering": true,
