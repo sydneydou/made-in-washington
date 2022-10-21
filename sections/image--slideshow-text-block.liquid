@@ -158,7 +158,7 @@
 
                                                 .swiper-slide .background{
 
-                                            background-color: transparent !important;
+                                            background-color: transparent ;
                                             color: #333333 !important;
                                             text-align: center;
                                             top: 8.5em !important;
@@ -352,20 +352,7 @@
 }
 
 
-@media only screen and (max-width:797px){
 
-
-.text-top{
-    margin-bottom: 9em !important;
-}
-
-.slider-block--{{ block.id }} .slider-caption.background {
-background: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !important;
-/* background-color: {{ block.settings.caption-background }}!important; */
-color: {{ block.settings.caption-text }} !important;
-}
-
-} 
 
 
 @media only screen and (min-width: 798px){
@@ -397,6 +384,23 @@ padding:3em !important;
 
 
     }
+
+
+
+    @media only screen and (max-width:797px){
+
+
+.text-top{
+    margin-bottom: 9em !important;
+}
+
+.slider-block--{{ block.id }} .slider-caption.background {
+background-color: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !important;
+/* background-color: {{ block.settings.caption-background }}!important; */
+color: {{ block.settings.caption-text }} !important;
+}
+
+} 
 </style>
 
 {% schema %}

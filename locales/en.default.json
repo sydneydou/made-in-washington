@@ -1,8 +1,8 @@
 {
   "general": {
     "404": {
-      "title": "404 Page Not Found",
-      "subtext_html": "The page you requested does not exist. Click <a href=\"\/collections\/all\">here<\/a> to continue shopping."
+      "title": "Oops! Detour Ahead!",
+      "subtext_html": "You usually find the best Washington-made treasures on the paths less traveled. Find your way back home with some of our favorites below."
     },
     "meta": {
       "tags": "Tagged \"{{ tags }}\"",
