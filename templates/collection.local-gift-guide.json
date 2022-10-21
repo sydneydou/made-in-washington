@@ -262,6 +262,65 @@
         "header-font": "var(--font-family-regular)"
       }
     },
+    "47351013-2d22-4deb-a2cb-d29d7a7530ee": {
+      "type": "image--slideshow-text-block",
+      "blocks": {
+        "template--15915512692908__47351013-2d22-4deb-a2cb-d29d7a7530ee-1666380504da98c3f2-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_guide_banner_1-min.png",
+            "subheading": "All your local favorites in one box? The sky's the limit.",
+            "title": "Design your own box",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "cont-width": 65,
+            "cap-back": false,
+            "caption-background": "#057c90",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
+        "template--15915512692908__47351013-2d22-4deb-a2cb-d29d7a7530ee-1666380504da98c3f2-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift_guide_banner_2-min.png",
+            "subheading": "Something sweet to share with friends and family. If sharing is your thing..",
+            "title": "Go ahead. indulge.",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "cont-width": 65,
+            "cap-back": false,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15915512692908__47351013-2d22-4deb-a2cb-d29d7a7530ee-1666380504da98c3f2-0",
+        "template--15915512692908__47351013-2d22-4deb-a2cb-d29d7a7530ee-1666380504da98c3f2-1"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "show-slide-full-screen": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation--color": "#ffffff",
+        "overlay": true,
+        "header-font": "var(--font-family-regular)"
+      }
+    },
     "16649469091654578d": {
       "type": "apps",
       "blocks": {
@@ -292,6 +351,7 @@
     "7a898150-dbad-43f2-9dd0-17d09fde901b",
     "74263384-cae3-4021-949f-4ec249b3857a",
     "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20",
+    "47351013-2d22-4deb-a2cb-d29d7a7530ee",
     "16649469091654578d"
   ]
 }
