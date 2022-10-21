@@ -132,6 +132,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	data-cart-visible="{{ cart_visible }}"
 	{% endif %}
 >
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-918793-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-918793-1');
+    </script>
 	<div class="main-body-wrapper{% if template == 'search' %} search-template{% elsif template.name == 'collection' %} collection-template{% endif %}" id="PageContainer" data-cart-action="{{ settings.cart-action }}" data-cart-type="{{ settings.cart-type }}">
 		{% if template != 'cart' %}
 			{% render 'cart-drawer' %}
