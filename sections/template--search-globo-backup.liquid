@@ -30,7 +30,7 @@
   {% endif %}
 
 <div>
-    <div data-section-id="{% if section.id %}{{section.id}}{% endif %}" data-sectionId="{% if section.id %}{{section.id}}{% endif %}" {% if section.blocks %}data-blocks='{ {%- capture blocks_json -%}{% for block in section.blocks %}{%- capture block_json -%}"{{ block.type }}":{{ block.settings | json }}{%- endcapture -%}{{ block_json | prepend: ","  }}{% endfor %}{%- endcapture -%}{{ blocks_json | remove_first: "," }} }' {% endif %} data-settings='{% if section.settings %}{{section.settings | json}}{% endif %}' id="gf-products" class="collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
+    <div class="collection-filters" id="main-collection-filters" data-id="{{ section.id }}">
       {%- unless search.filters == empty or request.design_mode -%}
         <button type="button" class="mobile-facets__open btn btn--large alt-focus" data-drawer-open-btn>
           Filter / Sort
@@ -551,7 +551,7 @@
         data-section-id="{{ section.id }}"
         >
             <div>
-                <ul data-section-id="{% if section.id %}{{section.id}}{% endif %}" data-sectionId="{% if section.id %}{{section.id}}{% endif %}" {% if section.blocks %}data-blocks='{ {%- capture blocks_json -%}{% for block in section.blocks %}{%- capture block_json -%}"{{ block.type }}":{{ block.settings | json }}{%- endcapture -%}{{ block_json | prepend: ","  }}{% endfor %}{%- endcapture -%}{{ blocks_json | remove_first: "," }} }' {% endif %} data-settings='{% if section.settings %}{{section.settings | json}}{% endif %}' id="gf-products" class="row results-grid product-grid"
+                <ul class="row results-grid product-grid"
                 data-paginate-items="{{ paginate.items }}"
                 data-grid-id="{{section.id}}"
                 id="template--collection">
