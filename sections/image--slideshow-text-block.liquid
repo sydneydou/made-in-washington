@@ -115,7 +115,7 @@
                                             /* margin-top:0 !important; */
                                         }
                                     .slider-block--{{ block.id }} .slider-caption.background {
-                                        background: {{ block.settings.caption-background | color_modify: 'alpha', 0.9 }} !important;
+                                        background: {{ block.settings.caption-background | color_modify: 'alpha', 0.9 }} ;
                                         /* background-color: {{ block.settings.caption-background }}!important; */
                                         color: {{ block.settings.caption-text }} !important;
                                     }
@@ -365,7 +365,7 @@ background: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !
 color: {{ block.settings.caption-text }} !important;
 }
 
-}
+} 
 
 
 @media only screen and (min-width: 798px){
