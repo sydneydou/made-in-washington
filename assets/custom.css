@@ -6,7 +6,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
-#2022-featured-holiday-products .container--collection-page{
+.page-title--2022-featured-holiday-products .container--collection-page{
     margin-top:6em;
 }
 
@@ -806,6 +806,22 @@ footer .mtn{
 /* mobile */
 
 @media only screen and (max-width:797px){
+
+    /* .page-title--2022-featured-holiday-products  #AjaxinateContainer{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .gf-left #gf-tree{
+        width: 100% !important;
+    }
+
+    .gf-left #gf-tree:not(.spf-hidden)+#gf-grid {
+        width: 100% !important;
+        float: right;
+        clear: right;
+        padding-left: 0 !important;
+    } */
 
     .below{
         margin-left:auto;
