@@ -45,7 +45,7 @@
                     {% endcase %}
 
                     <div id="AjaxinateContainer" class="mt-0 clearfix{% if settings.product-grid != 'natural' %} has-aspect-ratio{% else %} natural-images{% endif %}">
-                        <ol data-section-id="{% if section.id %}{{section.id}}{% endif %}" data-sectionId="{% if section.id %}{{section.id}}{% endif %}" {% if section.blocks %}data-blocks='{ {%- capture blocks_json -%}{% for block in section.blocks %}{%- capture block_json -%}"{{ block.type }}":{{ block.settings | json }}{%- endcapture -%}{{ block_json | prepend: ","  }}{% endfor %}{%- endcapture -%}{{ blocks_json | remove_first: "," }} }' {% endif %} data-settings='{% if section.settings %}{{section.settings | json}}{% endif %}' id="gf-products"
+                        <ol
                             class="row product-grid mb-0"
                             data-paginate-items="{{ paginate.items }}"
                             data-grid-id="{{section.id}}"

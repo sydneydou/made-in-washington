@@ -84,7 +84,7 @@
 
 	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
-	{{ content_for_header }}
+	{% include 'globo.filter.script' %}{{ content_for_header }}
 
 	<script type="text/javascript">
 	window.lazySizesConfig = window.lazySizesConfig || {};
@@ -213,6 +213,7 @@
 	<script defer nomodule src="{{ 'theme.legacy.js' | asset_url }}"></script>
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-</body>
+{% include 'globo.filter.action' %}
+	</body>
 
 </html>
