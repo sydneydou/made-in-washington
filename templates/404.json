@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "404",
+      "disabled": true,
       "settings": {
       }
     },
@@ -63,8 +64,8 @@
         "1384c31d-46ca-4151-8c86-eee7836707b3"
       ],
       "settings": {
-        "subheading": "",
-        "title": ""
+        "subheading": "You usually find the best Washington-made treasures on the paths less traveled. Find your way back home with some of our favorites below.",
+        "title": "Oops! Detour Ahead!"
       }
     }
   },
