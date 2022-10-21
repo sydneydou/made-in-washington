@@ -4,9 +4,73 @@
       "type": "404",
       "settings": {
       }
+    },
+    "c3ec9b95-1c6d-46fa-aa32-37dea42d023d": {
+      "type": "collection--collection-slider",
+      "disabled": true,
+      "settings": {
+        "background-color": "#ffffff",
+        "text-color": "#000000",
+        "subheading": "",
+        "title": "",
+        "collection": "",
+        "product_count": 4
+      }
+    },
+    "044ea660-bf59-4a84-9865-d9d4e955a36d": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-gift-baskets-sets",
+            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png"
+          }
+        },
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-seafood-gourment-food-chocolate",
+            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png"
+          }
+        },
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-coffee-beverages",
+            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png"
+          }
+        },
+        "5bb74e1e-3c0e-43a3-8c4d-d5a41a43b423": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-home-gifts-1"
+          }
+        },
+        "1384c31d-46ca-4151-8c86-eee7836707b3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "redesign-bath-body",
+            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-0",
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-1",
+        "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-2",
+        "5bb74e1e-3c0e-43a3-8c4d-d5a41a43b423",
+        "1384c31d-46ca-4151-8c86-eee7836707b3"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c3ec9b95-1c6d-46fa-aa32-37dea42d023d",
+    "044ea660-bf59-4a84-9865-d9d4e955a36d"
   ]
 }
