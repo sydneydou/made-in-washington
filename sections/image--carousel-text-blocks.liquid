@@ -1,9 +1,9 @@
 {{ 'section-slideshow.min.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.slider-width == 'full-width' %}
-	<section class="container-fluid homepage-slider-container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
+	<section class=" carousel-text-block container-fluid homepage-slider-container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
 {% else %}
-	<section class="container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
+	<section class="carousel-text-block container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
 {% endif %}
 
 		<div class="row">
@@ -32,7 +32,7 @@
                                         {%- assign slide_is_link = true -%}
                                     {% endif %}
 
-                                    <li {{ block.shopify_attributes }} data-slide-index="{{ forloop.index0 }}" class="p-0 swiper-slide slider-block--{{ block.id }} {% if section.settings.overlay %} slideshow-image-overlay{% endif %}{% if block.settings.mobile_image %} mobile-image--enabled{% else %} mobile-image--disabled{% endif %}"
+                                    <li {{ block.shopify_attributes }} data-slide-index="{{ forloop.index0 }}" class="p-0  slider-block--{{ block.id }} {% if section.settings.overlay %} slideshow-image-overlay{% endif %}{% if block.settings.mobile_image %} mobile-image--enabled{% else %} mobile-image--disabled{% endif %}"
                                         {% comment %}Show the first slide before the slider is loaded{% endcomment %}
                                         style="display: block; float: left; width: {{ 100 | divided_by: number_of_slides_float }}%"
                                     >
@@ -62,9 +62,9 @@
                                                 {% render 'responsive-image' with block.settings.mobile_image, class: 'slideshow-mobile-image', alt: block.settings.mobile_image.alt %}
                                             {% endif %}
 
-                                            {% if slide_is_link %}
+                                            <!-- {% if slide_is_link %}
                                                 </a>
-                                            {% endif %}
+                                            {% endif %} -->
                                         {% endif %}
 
                                         {% if block.settings.title != empty or block.settings.text != empty or block.settings.button_text != empty %}
@@ -80,7 +80,7 @@
                                                 {% if block.settings.title != empty %}
                                                     {% if slide_is_link %}
                                                         <h2 style="    font-family: var(--font-family-subheader);
-                                                        letter-spacing: 1.1px !important;    font-size: var(--heading-font-size);"><a href="{{ block.settings.link }}">{{ block.settings.title | escape }}</a></h2>
+                                                        letter-spacing: 1.1px !important;    font-size: var(--heading-font-size);">{{ block.settings.title | escape }}</h2>
                                                     {% else %}
                                                         <h2 style="    font-family: var(--font-family-subheader);
                                                         letter-spacing: 1.1px !important;    font-size: var(--heading-font-size);">{{ block.settings.title | escape }}</h2>
@@ -112,13 +112,45 @@
                                     <style>
 
                                         .slidebtn{
-                                            /* margin-top:0 !important; */
+                                            margin-top:30px !important;
                                         }
-                                    .slider-block--{{ block.id }} .slider-caption.background {
+                                    
+
+                                    @media only screen and (min-width: 798px){
+
+                                        .carousel-text-block h2{
+                                            font-size: 1.6em !important;
+                                        }
+
+                                        .carousel-text-block h3{
+                                            font-size: 1.05em !important;
+                                            font-family: var(--font-family-regular);
+    text-transform: inherit;
+                                        }
+                                        
+
+                                        .slider-block--{{ block.id }} .slider-caption.background {
                                         background: {{ block.settings.caption-background | color_modify: 'alpha', 0.9 }} !important;
                                         /* background-color: {{ block.settings.caption-background }}!important; */
                                         color: {{ block.settings.caption-text }} !important;
                                     }
+                                    }
+
+                                    @media only screen and (max-width:797px){
+
+
+                                        .text-top{
+                                            margin-bottom: 9em !important;
+                                        }
+
+                                        .slider-block--{{ block.id }} .slider-caption.background {
+                                        background: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !important;
+                                        /* background-color: {{ block.settings.caption-background }}!important; */
+                                        color: {{ block.settings.caption-text }} !important;
+                                    }
+
+                                    }
+
 
                                     .slider-block--{{ block.id }} .slider-caption.background a:not(.btn){
                                         color: {{ block.settings.caption-text }} !important;
@@ -233,6 +265,24 @@
 {% endif %}
 
 <style>
+    @media screen and (max-width: 768px) {
+
+
+        .carousel-text-block .slider-caption{
+            width: 100vw !important;
+            top: auto !important;
+            bottom: -9em !important;
+
+        }
+
+        .carousel-text-block img{
+            /* height:20em !important; */
+        }
+
+    }
+    
+
+
     .slides img{
         object-fit: cover;
         /* object-position:top; */
@@ -386,7 +436,7 @@ padding:3em !important;
 
 {% schema %}
 {
-    "name":"Test",
+    "name": "Carousel Text Blocks",
     "class": "homepage-section--slideshow-wrapper",
     "max_blocks": 12,
     "settings": [
@@ -866,7 +916,7 @@ padding:3em !important;
     ],
     "presets": [
         {
-            "name": "Test",,
+            "name": "Carousel Text Blocks",
             "category": {
                 "en": "Image",
                 "de": "Bild",
