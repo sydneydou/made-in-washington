@@ -51,7 +51,7 @@
         "payment-buttons": {
           "type": "payment-buttons",
           "settings": {
-            "show_smart_checkout": true
+            "show_smart_checkout": false
           }
         },
         "shop-pay": {
