@@ -21,7 +21,7 @@
         "settings": {
           "enable": true,
           "message_text": "Shop our holiday gift guide now",
-          "message_link": "shopify:\/\/collections\/2022-featured-holiday-products",
+          "message_link": "shopify:\/\/collections\/local-gift-guide",
           "notification-bar--background-color": "#ffffff",
           "notification-bar--text-color": "#222222",
           "social-enable": false,
