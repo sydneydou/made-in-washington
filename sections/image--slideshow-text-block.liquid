@@ -352,7 +352,20 @@
 }
 
 
+@media only screen and (max-width:797px){
 
+
+.text-top{
+    margin-bottom: 9em !important;
+}
+
+.slider-block--{{ block.id }} .slider-caption.background {
+background: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !important;
+/* background-color: {{ block.settings.caption-background }}!important; */
+color: {{ block.settings.caption-text }} !important;
+}
+
+}
 
 
 @media only screen and (min-width: 798px){
@@ -370,6 +383,8 @@
 
 
     @media only screen and (max-width: 797px){
+
+        
 
 
 .slider-caption{
@@ -715,7 +730,7 @@ padding:3em !important;
                     "min": 20,
                     "max": 110,
                     "step": 1,
-                    "label":"Mobile - Slide Content Width",
+                    "label":"Slide Content Width",
                     "default": 65
                 },
                 {
