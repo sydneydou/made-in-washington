@@ -687,7 +687,8 @@ footer .mtn{
 /* desktop */
 
 
-@media only screen and (min-width: 798px){
+/* @media only screen and (min-width: 798px){ */
+    @media only screen and (min-width: 1098px){
 
     .product-description-wrapper{
         padding-top:14px;
@@ -805,7 +806,8 @@ footer .mtn{
 
 /* mobile */
 
-@media only screen and (max-width:797px){
+/* @media only screen and (max-width:797px){ */
+    @media only screen and (max-width:1097px){
 
     /* .page-title--2022-featured-holiday-products  #AjaxinateContainer{
         display: flex !important;
@@ -1253,4 +1255,111 @@ footer .mtn{
     text-align:center;
 }
 
+}
+
+
+
+
+/* tablet */
+@media only screen and (min-width:768px) and (max-width:1098px){
+
+
+.image-with-text-home .feature-row__image,.image-with-text-home .feature-row__text--inner{
+margin: 0 auto !important;
+}
+
+.rte {
+    width: 61vw !important;
+}
+
+.col-md-6{
+max-width:76% !important;
+}
+
+.grid--blog .index-blog-item--wrapper:nth-child(1), .grid--blog .index-blog-item--wrapper:nth-child(3){
+    visibility: hidden !important;
+}
+
+.blog-home{
+    margin-top:19em !important;
+}
+
+#newsletter_section_form div{
+    flex-direction: row !important;
+}
+
+#shopify-section-footer .row, .footer .sm-icons{
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.text-image-column .feature-row{
+    align-items: center !important;
+    
+}
+
+#theapplicantmanager{
+    width: 61vw;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.join-team .image-text-block-row__text-container{
+    padding-top:5.5em !important;
+    padding-bottom:5.5em !important;
+}
+
+#customer-login{
+    max-width:auto !important;
+    margin: auto !important;
+    margin-left: auto !important;
+}
+
+#create-customer form, #account form{
+    width: auto !important;
+}
+
+.left-logo {
+    left: 28% !important;
+}
+
+
+.right-logo {
+    right: 28% !important;
+}
+
+.blog-title-wrapper , .entry-content{
+    width: 23vw !important;
+
+}
+
+.article-image img {
+    width: 100% !important;
+    height: 12em !important;
+}
+
+.entry-content {
+    width: 68vw !important;
+}
+
+.article--main-body.article-image-present{
+    margin: 0 auto !important;
+}
+
+.about-sides .col-md-7{
+    flex: initial;
+    max-width: inherit;
+}
+
+.about-sides .rte{
+    width: 77vw !important;
+}
+
+.timeline-section, .bckin{
+    /* display:none; */
+}
+
+#product-box{
+    justify-content:center !important;
+}
 }
