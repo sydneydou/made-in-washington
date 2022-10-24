@@ -6,6 +6,19 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+.basket{
+    overflow: overlay !important;
+    width: 9.2px !important;
+    /* position: absolute;
+    top: 4.3em;
+    right: 7em; */
+    margin-bottom: 9px;
+}
+
+.header--supporting-text {
+    padding-left: 1.4rem;
+}
+
 .page-title--2022-featured-holiday-products .container--collection-page{
     margin-top:6em;
 }
@@ -809,21 +822,12 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
-    /* .page-title--2022-featured-holiday-products  #AjaxinateContainer{
-        display: flex !important;
-        flex-direction: column !important;
-    }
+        .basket{
+            margin-right: 27px;
+        
+        }
 
-    .gf-left #gf-tree{
-        width: 100% !important;
-    }
-
-    .gf-left #gf-tree:not(.spf-hidden)+#gf-grid {
-        width: 100% !important;
-        float: right;
-        clear: right;
-        padding-left: 0 !important;
-    } */
+  
 
     .below{
         margin-left:auto;
@@ -1362,4 +1366,44 @@ max-width:76% !important;
 #product-box{
     justify-content:center !important;
 }
+
+.image-text-block-row__text-container div{
+    display:flex !important;
+    justify-content:center !important;
+    flex-direction:column !important;
+}
+
+
+.image-text-block-row__text-container  .btn{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 3em;
+}
+
+.grid--blog{
+    flex-direction:column !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-home .article--background-image {
+    width: auto !important;
+}
+
+.home-blog-excerpt{
+    width: 50vw !important;
+}
+
+.blog-home .blog--read-more {
+    margin-bottom: 4em;
+}
+
+.index-blog-item--wrapper{
+    max-width:50% !important;
+}
+
+.blog-home .blog-title-wrapper{
+    width: 41vw !important;
+}
+
 }
