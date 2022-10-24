@@ -51,7 +51,7 @@
         "layout": "right",
         "subheading": "",
         "title": "our history",
-        "text_block": "<p>Made in Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <\/p><p><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made in Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <\/p>",
+        "text_block": "<p>Made In Washington’s story begins on America’s favorite adventure—a road trip. <br\/><br\/>Founders Gillian and Jack Mathews were traveling to a neighboring state to visit friends. While there, they dropped in on a store that was all about celebrating the state they were visiting and wondered why Washington didn’t have something similar. <\/p><p><br\/>They talked about the idea all the way back to Seattle, and in February of 1984, the Mathews realized their dream with the opening of the first Made In Washington store in Pike Place Market’s Post Alley. <br\/><br\/>That first store brought an entirely new concept to our area: a wide variety of quality products made in Washington State by local makers, artists, craftspeople, entrepreneurs, and small businesses. <\/p>",
         "text_block-con": "<p>Although the business started with only fifty items, the Made In Washington concept flourished, and soon we were working with over 200 makers around the state. <\/p><p><\/p><p>We’re one of the few places in the state able to offer a huge range of the best local products, and we simplify the search for customers because they know everything we have—both online and in stores—is thoughtfully curated. You can’t visit our stores or website without feeling inspired by the creativity and stories on display. <\/p><p><\/p><p>Today, we continue to celebrate the rich bounty of Washington State’s food, art, and lifestyle online and at our stores throughout the Puget Sound region, including a licensed retail location at SeaTac airport. <\/p><p>Whether you are shopping for family, friends, or those you work with, you’ll be proud to share a gift that’s designed, crafted, and Made In Washington.<\/p>",
         "title-two": "Our Story",
         "text_block-two": "<p>Here’s what we know for sure: Washington State is special. From the tops of our mountains to the bottoms of our seas, we love where we live.<\/p>",
@@ -71,7 +71,7 @@
         "four": "<p><strong>2004<\/strong><\/p><p>The first Limited Edition Holiday Ornament is introduced—a hand-blown glass ornament created exclusively for Made In Washington customers<\/p>",
         "five": "<p><strong>2010<\/strong><\/p><p>Design Your Own Gift Box launches<\/p>",
         "six": "<p><strong>2020<\/strong><\/p><p>Personal Shopper Service launches<\/p>",
-        "seven": "<p><strong>2022<\/strong><\/p><p>Made in Washington rebrands and relaunches their new website<\/p>",
+        "seven": "<p><strong>2022<\/strong><\/p><p>Made In Washington rebrands and launches new website<\/p>",
         "bck-color": "#557151",
         "mob-header": "Throughout the years"
       }
@@ -92,7 +92,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/jax_1_-min.png",
             "title": "Jax Kaufman Alderwood Mall Store Manager",
-            "richtext": "<p>We are surrounded by water and wildlife in Washington, and I find so much magic in kayaking with orcas and seals in the San Juan Islands. Kayaking with orcas is the most exciting experience that I’ve ever had.<br\/><br\/><\/p>"
+            "richtext": "<p>We are surrounded by water and wildlife in Washington, and I find so much magic in kayaking with orcas and seals in the San Juan Islands. Kayaking with orcas is the most exciting experience I’ve ever had.<br\/><br\/><\/p>"
           }
         },
         "1663040494fb0f3ed2-2": {
@@ -222,7 +222,7 @@
         "subheading": "",
         "title": "Join Our team",
         "font-size": "small",
-        "text": "<p>We appreciate that you love our state and are interested in learning more about potential opportunities at Made in Washington. We believe our team is our most valuable asset and the very core of our success. We offer benefits for full-time team members, including medical, dental, and vision, as well as a 401(k). Plus, our team members enjoy great discounts on Made In Washington products.  <\/p><p>Check out our current openings and apply below. <\/p>",
+        "text": "<p>We appreciate that you love our state and are interested in learning more about potential opportunities at Made In Washington. We believe our team is our most valuable asset and the very core of our success. We offer benefits for full-time team members, including medical, dental, and vision, as well as a 401(k). Plus, our team members enjoy great discounts on Made In Washington products.  <\/p><p>Check out our current openings and apply below. <\/p>",
         "button_link": "",
         "button_label": "",
         "btn-color": "#000000",
@@ -291,7 +291,7 @@
           "type": "tab_content",
           "settings": {
             "question": "What is your return policy?",
-            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">contact our Customer Service Department<\/span><\/a>, and we will resolve things promptly. Made in Washington may require returning the products with which you are dissatisfied before we substitute an acceptable item, issue a credit or give you cash back. With a receipt, you may return any item purchased online either by mail or at any of our three store locations within 60 days of purchase. Please note: Food items cannot be returned or exchanged for safety reasons. Gift cards are unable to be returned or exchanged.<\/p>"
+            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">contact our Customer Service Department<\/span><\/a>, and we will resolve things promptly. Made In Washington may require returning the products with which you are dissatisfied before we substitute an acceptable item, issue a credit or give you cash back. With a receipt, you may return any item purchased online either by mail or at any of our three store locations within 60 days of purchase. Please note: Food items cannot be returned or exchanged for safety reasons. Gift cards are unable to be returned or exchanged.<\/p>"
           }
         },
         "77520e45-aa14-4c58-854e-616b7432c71f": {
@@ -318,7 +318,7 @@
           "type": "tab_content",
           "settings": {
             "question": "What are your hours?",
-            "text": "<p>Our three stores each have different hours. Click here for store hours. Click here for our call center hours.<\/p>"
+            "text": "<p>Our three stores each have different hours. <a href=\"\/pages\/contact-us\" title=\"Contact Us\">Click here<\/a> for store hours. <a href=\"\/pages\/contact-us\" title=\"Contact Us\">Click here<\/a> for our call center hours.<\/p>"
           }
         },
         "f575e9d0-c0c5-487d-8a2e-cc79b36840e4": {
@@ -337,7 +337,7 @@
         "3bbbd96d-3e72-4a35-aede-a3254ef529f0": {
           "type": "tab_content",
           "settings": {
-            "question": "Do you have a Business Gift Program?",
+            "question": "Do you have a business gift program?",
             "text": "<p>Yes, we have a business gift program. You may contact our business gift team at 1-800-338-9903 or by <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">email<\/span><\/a>. We will be happy to discuss options, including customization, with you.<\/p>"
           }
         },
@@ -345,7 +345,7 @@
           "type": "tab_content",
           "settings": {
             "question": "Do you sell gift cards?",
-            "text": "<p>Yes, Made In Washington currently offers digital gift cards in various denominations. Click here to purchase a digital gift card.<\/p>"
+            "text": "<p>Yes, Made In Washington currently offers digital gift cards in various denominations. <a href=\"\/products\/made-in-washington-gift-card\" title=\"Made In Washington Gift Card\">Click here<\/a> to purchase a digital gift card.<\/p>"
           }
         },
         "7479e375-e04b-4179-9aa5-3071df5aeb4b": {
@@ -365,7 +365,7 @@
           "type": "tab_content",
           "settings": {
             "question": "I would like to inquire about becoming a vendor with Made In Washington.",
-            "text": "<p>We'd love to get to know you and your products! We are always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <\/p><p>Please note that during the busy holiday period, communications with our team may be delayed due to the nature of the season.<\/p>"
+            "text": "<p>We'd love to get to know you and your products! We are always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our <a href=\"\/pages\/maker-application\" title=\"Maker Application\">maker application<\/a>, and we’ll reach out if we think we’re a fit. <\/p><p>Please note that during the busy holiday period, communications with our team may be delayed due to the nature of the season.<\/p>"
           }
         },
         "94cbd0f6-6ea6-4335-8f63-17f6ebd7f5ee": {
