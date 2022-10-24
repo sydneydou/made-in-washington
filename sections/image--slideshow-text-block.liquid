@@ -75,7 +75,7 @@
                                                                                       
                                                 background:none !important;
                                             
-                                            {% endif %}  width:{{block.settings.cont-width}}%;"aria-live="polite" aria-atomic="true" class="{% if block.settings.button_text != empty %}with-btn   {% endif %}  slider-caption{% if block.settings.caption-background == "rgba(0,0,0,0)" %} pl-0 pr-0{% endif %} horizontal-align--{{ block.settings.horizontal-alignment }} vertical-align--{{ block.settings.vertical-alignment }} background{% if block.settings.mobile_image != blank or section.settings.show-slide-full-screen %} slideshow-mobile-image-content{% endif %}{% if block.settings.mobile_image == blank %} slider-dots--padding{% endif %}">
+                                            {% endif %}  width:{{block.settings.cont-width}}%;"aria-live="polite" aria-atomic="true" class="text-slide  {% if block.settings.button_text != empty %}with-btn   {% endif %}  slider-caption{% if block.settings.caption-background == "rgba(0,0,0,0)" %} pl-0 pr-0{% endif %} horizontal-align--{{ block.settings.horizontal-alignment }} vertical-align--{{ block.settings.vertical-alignment }} background{% if block.settings.mobile_image != blank or section.settings.show-slide-full-screen %} slideshow-mobile-image-content{% endif %}{% if block.settings.mobile_image == blank %} slider-dots--padding{% endif %}">
                                                
                                                 {% if block.settings.title != empty %}
                                                     {% if slide_is_link %}
@@ -148,26 +148,29 @@
 
                                     @media only screen and (max-width:768px){
                                         .slider-block--{{ block.id }} .slider-caption:not(.slideshow-mobile-image-content).background {
-                                            background-color: {{ settings.bg_color }} ;
+                                            /* background-color: {{ settings.bg_color }} ; */
+                                            background: {{ block.settings.caption-background | color_modify: 'alpha', 1.0 }} ;
                                             /* color: {{ settings.font-color }} !important; */
                                             text-align: center;
                                         }
 
-                                       
+                                        .slideshow-desktop-as-mobile-image{
+                                            /* height:24em !important; */
+                                        }
 
 
-                                                .swiper-slide .background{
-
-                                            background-color: transparent ;
-                                            color: #333333 !important;
-                                            text-align: center;
-                                            top: 8.5em !important;
-                                            width: 29em !important;
-                                            } 
 
                                             .slider-block--{{ block.id }} .with-btn{
                                             top:10.5em !important;
                                         }
+
+
+                                        .swiper-slide .text-slide{
+
+                                            width:100vw !important;
+                                            top: 31.5em !important;
+                                            
+                                            } 
 
                                         .slider-block--{{ block.id }} .slider-caption:not(.slideshow-mobile-image-content).background a {
                                             /* color: {{ settings.font-color }} !important; */
@@ -405,7 +408,7 @@ color: {{ block.settings.caption-text }} !important;
 
 {% schema %}
 {
-    "name":"Test",
+    "name":"Text Block Slideshow",
     "class": "homepage-section--slideshow-wrapper",
     "max_blocks": 12,
     "settings": [
@@ -885,7 +888,7 @@ color: {{ block.settings.caption-text }} !important;
     ],
     "presets": [
         {
-            "name": "Test",
+            "name": "Text Block Slideshow",
             "category": {
                 "en": "Image",
                 "de": "Bild",
