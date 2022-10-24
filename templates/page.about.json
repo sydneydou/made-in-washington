@@ -291,7 +291,7 @@
           "type": "tab_content",
           "settings": {
             "question": "What is your return policy?",
-            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">contact our Customer Service Department<\/span><\/a>, and we will resolve things promptly. Made in Washington may require returning the products with which you are dissatisfied before we substitute an acceptable item, issue a credit or give you cash back. With a receipt, you may return any item purchased online either by mail or at any of our three store locations within 60 days of purchase. Please note: Food items cannot be returned or exchanged for safety reasons. Gift cards are unable to be returned or exchanged.<\/p>"
+            "text": "<p>If you experience a problem with your order or are unsatisfied with our products, <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">contact our Customer Service Department<\/span><\/a>, and we will resolve things promptly. Made In Washington may require returning the products with which you are dissatisfied before we substitute an acceptable item, issue a credit or give you cash back. With a receipt, you may return any item purchased online either by mail or at any of our three store locations within 60 days of purchase. Please note: Food items cannot be returned or exchanged for safety reasons. Gift cards are unable to be returned or exchanged.<\/p>"
           }
         },
         "77520e45-aa14-4c58-854e-616b7432c71f": {
@@ -318,7 +318,7 @@
           "type": "tab_content",
           "settings": {
             "question": "What are your hours?",
-            "text": "<p>Our three stores each have different hours. Click here for store hours. Click here for our call center hours.<\/p>"
+            "text": "<p>Our three stores each have different hours. <a href=\"\/pages\/contact-us\" title=\"Contact Us\">Click here<\/a> for store hours. <a href=\"\/pages\/contact-us\" title=\"Contact Us\">Click here<\/a> for our call center hours.<\/p>"
           }
         },
         "f575e9d0-c0c5-487d-8a2e-cc79b36840e4": {
@@ -345,7 +345,7 @@
           "type": "tab_content",
           "settings": {
             "question": "Do you sell gift cards?",
-            "text": "<p>Yes, Made In Washington currently offers digital gift cards in various denominations. Click here to purchase a digital gift card.<\/p>"
+            "text": "<p>Yes, Made In Washington currently offers digital gift cards in various denominations. <a href=\"\/products\/made-in-washington-gift-card\" title=\"Made In Washington Gift Card\">Click here<\/a> to purchase a digital gift card.<\/p>"
           }
         },
         "7479e375-e04b-4179-9aa5-3071df5aeb4b": {
@@ -365,7 +365,7 @@
           "type": "tab_content",
           "settings": {
             "question": "I would like to inquire about becoming a vendor with Made In Washington.",
-            "text": "<p>We'd love to get to know you and your products! We are always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <\/p><p>Please note that during the busy holiday period, communications with our team may be delayed due to the nature of the season.<\/p>"
+            "text": "<p>We'd love to get to know you and your products! We are always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our <a href=\"\/pages\/maker-application\" title=\"Maker Application\">maker application<\/a>, and we’ll reach out if we think we’re a fit. <\/p><p>Please note that during the busy holiday period, communications with our team may be delayed due to the nature of the season.<\/p>"
           }
         },
         "94cbd0f6-6ea6-4335-8f63-17f6ebd7f5ee": {
