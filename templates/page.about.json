@@ -222,7 +222,7 @@
         "subheading": "",
         "title": "Join Our team",
         "font-size": "small",
-        "text": "<p>We appreciate that you love our state and are interested in learning more about potential opportunities at Made in Washington. We believe our team is our most valuable asset and the very core of our success. We offer benefits for full-time team members, including medical, dental, and vision, as well as a 401(k). Plus, our team members enjoy great discounts on Made In Washington products.  <\/p><p>Check out our current openings and apply below. <\/p>",
+        "text": "<p>We appreciate that you love our state and are interested in learning more about potential opportunities at Made In Washington. We believe our team is our most valuable asset and the very core of our success. We offer benefits for full-time team members, including medical, dental, and vision, as well as a 401(k). Plus, our team members enjoy great discounts on Made In Washington products.  <\/p><p>Check out our current openings and apply below. <\/p>",
         "button_link": "",
         "button_label": "",
         "btn-color": "#000000",
@@ -337,7 +337,7 @@
         "3bbbd96d-3e72-4a35-aede-a3254ef529f0": {
           "type": "tab_content",
           "settings": {
-            "question": "Do you have a Business Gift Program?",
+            "question": "Do you have a business gift program?",
             "text": "<p>Yes, we have a business gift program. You may contact our business gift team at 1-800-338-9903 or by <a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">email<\/span><\/a>. We will be happy to discuss options, including customization, with you.<\/p>"
           }
         },
