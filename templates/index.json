@@ -9,7 +9,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_1-min.png",
             "subheading": "Designed. Crafted. Made. Local.",
-            "title": "Discover the best of Washington State, all in one place.",
+            "title": "Discover the best of Washington State, all in one place",
             "text": "",
             "button_text": "",
             "link": "",
@@ -46,8 +46,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
-            "subheading": "with hand made, fragrant candles. That’s Festive AF.",
-            "title": "Light up the Holidays",
+            "subheading": "With hand made, fragrant candles. That’s Festive AF.",
+            "title": "Light up The Holidays",
             "text": "",
             "button_text": "Let's get lit",
             "link": "shopify:\/\/collections\/redesign-candles-votives",
@@ -207,7 +207,7 @@
         "text_block": "<p>At Made In Washington, we connect makers with customers and people with products to spark moments of joy. Our products celebrate the communities we serve: urban to rural, across generations and backgrounds—they’re all proudly Made In Washington.<\/p>",
         "subheading-two": "",
         "title-two": "What we offer",
-        "text_block-two": "<p>At Made In Washington, you’ll find gifts for yourself and gifts for the people you care about most. Whether you’re set on a charcuterie box, the most Seattle of coffees and teas, or supporting an up-and-coming artist, you’ll find something perfectly and uniquely Washington here<\/p>",
+        "text_block-two": "<p>At Made In Washington, you’ll find gifts for yourself and gifts for the people you care about most. Whether you’re set on a charcuterie box, the most Seattle of coffees and teas, or supporting an up-and-coming artist, you’ll find something perfectly and uniquely Washington here.<\/p>",
         "button_link": "",
         "button_label": "",
         "bottom-padding": 11
