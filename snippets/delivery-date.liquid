@@ -4,13 +4,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
 
 <div style="width:39%; clear:both;" class="delivery-container">
+    
   <p>
     
     <!-- <label for="date">Selected Desired Shipping Week:</label> -->
     <label style="font-weight:800">Selected Desired Shipping Week:</label> <span id="startDate"></span> - <span id="endDate"></span>
     <input style="display:block;"  id="date" type="text" name="attributes[Future_Ship_Date]" value="{{cart.attributes[Future_Ship_Date]}}" />
     <span style="display:block;     margin-top: 2em;" class="instructions"> Choosing a future ship date? Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs. If so, please choose a ship week on the calendar above.</span>
-  </p>
+    <script>console.log("test"{{cart.attributes[Future_Ship_Date]}})</script>  
+</p>
 </div>
 
 <script>

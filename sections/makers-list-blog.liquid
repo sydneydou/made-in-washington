@@ -53,7 +53,7 @@
                                               {% endfor %}
                                       </div>
                                       <div class="second-column secondarydiv" id="myDIV">
-                                        {% for article in items offset:27 limit:27  %}
+                                        {% for article in items offset:25 limit:27  %}
 
                                         
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' | replace: "!", ''  %}
