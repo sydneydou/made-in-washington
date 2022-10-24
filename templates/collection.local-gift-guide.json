@@ -205,6 +205,7 @@
     },
     "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20": {
       "type": "image--carousel-text-blocks",
+      "disabled": true,
       "blocks": {
         "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-0": {
           "type": "slide",
