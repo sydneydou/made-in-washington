@@ -108,7 +108,7 @@
     "c4fbe060-e01b-41d2-a8ff-96f77edacc40": {
       "type": "template--product-ingredients",
       "settings": {
-        "content_display": "collapse_except_description",
+        "content_display": "collapse_all",
         "show_tags": false,
         "show_collections": false,
         "show_type": false
