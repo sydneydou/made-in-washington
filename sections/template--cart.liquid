@@ -1,3 +1,8 @@
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script> 
+ {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }} 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
+
 <div class="container container--cart-page">
 	<div class="title-bar wrapper--page-title remove-margin-bottom">
 		<h2 class="main-heading">{{ 'cart.general.title' | t }}</h2>
@@ -162,7 +167,7 @@
 		<div class="cart-bottom-box">
 
 			
-
+			<script>{{cart | json}}</script>
 			{%- if cart.cart_level_discount_applications != blank -%}
 				<div class="cart--order-discount-wrapper custom-font">
 					{%- for discount_application in cart.cart_level_discount_applications -%}
@@ -200,12 +205,13 @@
 
 				
 					{% if settings.allow_note %}
-						<div class="col-lg-6 checkout-add-note desktop">
-							<label for="note">{{ 'cart.general.note' | t }}&hellip;</label>
-							<textarea id="note" name="note" class="form-control" name="attributes["Gift_Message"]">{{ cart.note }}</textarea>
-							&nbsp;
+						<div class="col-lg-6 checkout-add-note desktop cart__gift-message" style="    flex-direction: column;
+						display: flex;">
+							<label for="cart-gift-message">Gift Message (maximum 250 characters)</label>
+						<textarea maxlength="250" id="cart-gift-message"  aria-label="Gift Message" placeholder="Type Your Gift Message Here." name="attributes[Gift_Message]">{{ cart.attributes["Gift_Message"] }}</textarea>
 						</div>
 					{% endif %}
+
 
 
 
@@ -242,19 +248,45 @@
 					{% if settings.show_deliverydate %}
 					<div class="cart__delivery" data-collapse-container>
 						<p class="cart__subtitle" data-collapser>Need your order held to ship at a later date? <a id="select-week">Click here to select a week</a></p>
-						<div class="cart__delivery-wrap" data-collapsible>
+						<div class="cart__delivery-wrap delivery-container" data-collapsible>
 							<!-- <label>Selected Desired Shipping Week : </label> <span id="startDate"></span> - <span id="endDate"></span> -->
-							<script>console.log("cart"{{attributes}})</script>
-							{% render 'delivery-date' %}
-							<!-- <p class="cart__delivery-info">Choosing a future ship date?  Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs.  If so, please choose a ship week on the calendar above.</p> -->
-							<!-- <input class="sr-only" type="text" value="{{cart.attributes[Future_Ship_Date]}}" data-future-ship-date name="attributes[Future_Ship_Date]"> -->
+							
+
+
+
+							
+
+								<p>
+								  
+								  <!-- <label for="date">Selected Desired Shipping Week:</label> -->
+								  <label style="font-weight:800">Selected Desired Shipping Week:</label> <span id="startDate"></span> - <span id="endDate"></span>
+								  <input style="display:block;"  id="date" type="text" value="{{cart.attributes[Future_Ship_Date]}}" data-future-ship-date name="attributes[Future_Ship_Date]" />
+								  <span style="display:block;     margin-top: 2em;" class="instructions"> Choosing a future ship date? Your credit card will be charged at checkout to secure your order, but we'll be happy to hold it to ship at a later date if that best meets your needs. If so, please choose a ship week on the calendar above.</span>
+								  
+							  </p>
+							  
+
+
+						
+						
+						
+						
 						</div>
 					</div>
 					{% endif %}
 				</div>
+				
 
+				
 
 		</div>
+
+
+
+
+	
+
+
 
 	</form>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -271,7 +303,13 @@
 		display:none;
 	}
 </style>
+
+
+
+
 <script>
+
+
 
 
 $('#select-week').click(function(){
@@ -279,5 +317,59 @@ $('#select-week').click(function(){
 	$('.cart__delivery-wrap').toggle();
 
 })
+
+
+
+
+
+
+
+
+window.onload = function() {
+  
+  var startDate;
+  var endDate;
+
+
+  var selectCurrentWeek = function() {
+	  window.setTimeout(function () {
+		  $('#date').find('.ui-datepicker-current-day a').addClass('ui-state-active')
+	  }, 1);
+  }
+
+	if (window.jQuery) {
+	  let $ = window.jQuery;
+
+	  $(function() {
+		$("#date").datepicker({
+		minDate: +1,
+		maxDate: '+2M',
+		beforeShowDay: $.datepicker.noWeekends,
+		onSelect: function(dateText, inst) { 
+		  var date = $(this).datepicker('getDate');
+		  startDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay());
+		  endDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay() + 6);
+		  var dateFormat = inst.settings.dateFormat || $.datepicker._defaults.dateFormat;
+		  $('#startDate').text($.datepicker.formatDate( dateFormat, startDate, inst.settings ));
+		  $('#endDate').text($.datepicker.formatDate( dateFormat, endDate, inst.settings ));
+		  
+		  selectCurrentWeek();
+	  },
+	  beforeShowDay: function(date) {
+		  var cssClass = '';
+		  if(date >= startDate && date <= endDate)
+			  cssClass = 'ui-datepicker-current-day';
+		  return [true, cssClass];
+	  },
+	  onChangeMonthYear: function(year, month, inst) {
+		  selectCurrentWeek();
+	  }
+	  });
+	});
+  }
+}
+
+
+
 
 </script>
