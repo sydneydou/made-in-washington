@@ -40,13 +40,13 @@
       {% endif %}
         <div data-filter-type="{{filter.attribute | replace: 'option:', ''}}" data-filter-id="{{filter.id}}" class="gf-option-block {{filter.class}}{% if filter.is_collapse %} is-collapsed{% endif %}">
       <div class="gf-block-title">
-        <h3>
+        <div class="h3">
           <span>{{filter_label}}</span>
           {% if filter.help %}
           <span class="gf-tooltip-trigger" aria-hidden="true">?</span>
           <div class="gf-tooltip"><div class="gf-tooltip-content" >{{filter.help | newline_to_br}}</div></div>
           {% endif %}
-        </h3>
+        </div>
         
         {% if filter.is_selected %}
         <a class="gf-clear" onclick="removeFilter({{filter.id}})">{{ translation.filter.clear | default: "Clear"}}</a>
@@ -495,7 +495,7 @@
 <div class="globo-selected-items-wrapper">
   {% if has_filter %}
   <div class="gf-block-title hidden-xs">
-    <h3><span>{{ translation.filter.filter_by | default: "Filter by"}}</span></h3>
+    <div class="h3"><span>{{ translation.filter.filter_by | default: "Filter by"}}</span></div>
     <a onclick="clearAllFilter()" class="gf-refine-toggle hidden-xs">{{ translation.filter.clear_all | default: "Clear all"}}</a>
   </div>
   <div class="gf-block-content globo-selected-items">
