@@ -270,7 +270,7 @@
           "type": "tab_content",
           "settings": {
             "question": "How do I track my order?",
-            "text": "<p>Online customers will receive a text (if you enter a cell number) and an email (if you enter an email address) with tracking numbers once an order ships.<\/p>"
+            "text": "<p>Online customers will receive an email (if you enter an email address) with tracking numbers once an order ships.<\/p>"
           }
         },
         "c5d4ba57-61e2-42b0-837f-8028afc34245": {
