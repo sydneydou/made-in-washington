@@ -815,6 +815,9 @@ footer .mtn{
 
 }
 
+.pagination .current, .pagination a{
+    font-size:1.5em !important;
+}
 
 
 /* mobile */
