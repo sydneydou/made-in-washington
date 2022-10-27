@@ -8,7 +8,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 
 .search-results-panel{
-    display:none;
+    /* display:none; */
 }
 
 .quick-add-button{
