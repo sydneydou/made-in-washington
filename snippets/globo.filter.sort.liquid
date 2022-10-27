@@ -5,9 +5,9 @@
     {% if pagination.total > 0 %}
   <div class="gf-actions">
     <div class="gf-filter-trigger">
-      <h3 class="gf-refine-toggle-mobile" tabindex="0">
+      <div class="gf-refine-toggle-mobile" tabindex="0">
         <span onclick="globofilter.toggleCanvas()"><i class="fa fa-tasks" aria-hidden="true"></i> {{translation.filter.filter_by | default: "Filter by"}}</span>
-      </h3>
+      </div>
     </div>
 
     <span class="gf-summary">
@@ -29,7 +29,7 @@
       {% assign relevance = 'relevance,' %}
       {% endraw %}{% endif %}{% raw %}
       
-      {% assign available_sort = relevance | append: 'stock-descending,best-selling,title-ascending,title-descending,price-ascending,price-descending,created-descending,created-ascending,sale-descending,' | append: sort_by | append: ',{% endraw %}{{collection.default_sort_by}}{% raw %}' | replace: "featured", "manual" | split: "," | uniq %}
+      {% assign available_sort = relevance | append: 'best-selling,title-ascending,title-descending,price-ascending,price-descending,created-descending,created-ascending,sale-descending,' | append: sort_by | append: ',{% endraw %}{{collection.default_sort_by}}{% raw %}' | replace: "featured", "manual" | split: "," | uniq %}
       {% capture sort_by_text %}
         {% if sort_by =='best-selling' %}
           {{translation.sort.best_selling | default: "Best Selling"}}
