@@ -94,7 +94,7 @@ main section:last-child{
 }
 
 .nav>li.mega-menu .dropdown-menu .mega-menu-block>.dropdown-submenu.site-nav--active .mega-menu-block__heading{
-    border-left:white !important;
+    border-left:white solid 2px !important;
 }
 
 .dropdown-menu .h4:hover{
