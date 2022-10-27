@@ -6,6 +6,10 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+.popup-container{
+    background: rgba(53, 123, 142, 0.9) !important;
+}
+
 .basket{
     overflow: overlay !important;
     width: 9.2px !important;
