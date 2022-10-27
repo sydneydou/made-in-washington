@@ -1,7 +1,7 @@
 {{ 'section-slideshow.min.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.slider-width == 'full-width' %}
-	<section class="container-fluid homepage-slider-container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
+	<section class="slide-home container-fluid homepage-slider-container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
 {% else %}
 	<section class="container slider-section--{{ section.id }}{% if section.settings.show-slide-dots %} slider-dots--caption-padding{% endif %}" data-wetheme-section-type="image--slideshow" data-wetheme-section-id="{{ section.id }}">
 {% endif %}
@@ -159,12 +159,12 @@
                                             background-color: transparent !important;
                                             color: #333333 !important;
                                             text-align: center;
-                                            top: 8.5em !important;
+                                            
                                             width: 29em !important;
                                             } 
 
                                             .slider-block--{{ block.id }} .with-btn{
-                                            top:10.5em !important;
+                                            top:11.4em !important;
                                         }
 
                                         .slider-block--{{ block.id }} .slider-caption:not(.slideshow-mobile-image-content).background a {

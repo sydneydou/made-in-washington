@@ -1262,6 +1262,46 @@ footer .mtn{
     text-align:center;
 }
 
+
+
+
+.slide-home .slider-caption{
+    /* height: 22em;
+    bottom: -40em;
+    position: absolute; */
+    height:23em;
+    position: inherit !important;
+    margin: 0 auto !important;
+    width: 28em !important;
+    margin-left: 0 !important;
+    top: 11.5em !important;
+    flex-direction: column;
+    justify-content: center;
+    display:flex;
+
+}
+
+.slide-home .btn{
+    width: 58%;
+    margin: 0 auto !important;
+    margin-top: 2.5em !important;
+
+}
+
+.slide-home .swiper-slide{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+
+.slide-home .slides img {
+    height: 16em;
+}
+
+.slide-home .with-btn{
+    top: 10em !important;
+}
+
+
 }
 
 
