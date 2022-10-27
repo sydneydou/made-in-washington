@@ -877,6 +877,10 @@ footer .mtn{
             display:none !important;
         }
 
+        .text-block-slideshow  .slider-subheader{
+            line-height: 28px;
+        }
+
         .text-block-slideshow .slides img{
            height:19em !important;
         }
