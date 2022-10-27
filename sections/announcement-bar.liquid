@@ -49,16 +49,23 @@
         {% else %}
           <p>{{ section.settings.message_text | escape }}</p>
         {% endif %}
+
+
+
+
+        {% if section.settings.logo != blank and section.settings.logo-enable %}
+        <span  class="right-logo" style="position: absolute;
+        right: 39%;
+        top: 18px; width:1em;">
+          {% render 'responsive-image' with section.settings.logo, alt: alt, blur: false, props: props %}
+        </span>
+  {% endif %}
+
+
         </div>
       {% endif %}
 
-          {% if section.settings.logo != blank and section.settings.logo-enable %}
-              <span  class="right-logo" style="position: absolute;
-              right: 39%;
-              top: 18px; width:1em;">
-                {% render 'responsive-image' with section.settings.logo, alt: alt, blur: false, props: props %}
-              </span>
-        {% endif %}
+         
 
       {% if social_links != blank %}
         <div class="header-social-links">

@@ -16,11 +16,15 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     margin-top: 1em;
 }
 
-.bxp-bldr-body .tawk-bubble-container,.bxp-bldr-body  .tawk-min-container,.bxp-bldr-body  .tawk-button,.bxp-bldr-body .widget-visible iframe{
+.notification-bar__message p{
+    font-size:1.1em;
+}
+
+/* .bxp-bldr-body .tawk-bubble-container,.bxp-bldr-body  .tawk-min-container,.bxp-bldr-body  .tawk-button,.bxp-bldr-body .widget-visible iframe{
     height: 0px !important;;
     width: 0px !important;;
     overflow: hidden !important;
-}
+} */
 
 .basket{
     overflow: overlay !important;
