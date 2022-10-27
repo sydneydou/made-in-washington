@@ -7,7 +7,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 */
 
 .popup-container{
-    background: rgba(53, 123, 142, 0.9) !important;
+    background: rgba(53, 123, 142, 1) !important;
 } 
 
 .popup-container #newsletter_submit{
@@ -16,7 +16,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     margin-top: 1em;
 }
 
-.bxp-bldr-body .tawk-bubble-container,.bxp-bldr-body  .tawk-min-container,.bxp-bldr-body  .tawk-button{
+.bxp-bldr-body .tawk-bubble-container,.bxp-bldr-body  .tawk-min-container,.bxp-bldr-body  .tawk-button,.bxp-bldr-body .widget-visible{
     display:none !important;
     visibility: hidden !important;
 }
