@@ -13,8 +13,9 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 
 
-.quick-add-button{
+.quick-add-button, .page-title--2022-featured-holiday-products .spf-product-card button.spf-product__form-btn-addtocart{
     background: #4f704e !important;
+    box-shadow: none !important;
 }
 
 #shopify-section-header #top-search-wrapper.expanded{
@@ -1272,11 +1273,11 @@ footer .mtn{
     }
 
     .left-logo{
-        left:12% !important;
+        left:7% !important;
     }
 
     .right-logo{
-        right:12% !important;
+        right:8% !important;
     }
 
     .mobile-header--wrapper .mobile-side-column .header-link{

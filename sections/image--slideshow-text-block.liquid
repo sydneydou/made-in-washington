@@ -111,12 +111,10 @@
 
                                     <style>
 
-                                        .slidebtn{
-                                            /* margin-top:0 !important; */
-                                        }
+                                        
                                     .slider-block--{{ block.id }} .slider-caption.background {
                                         background: {{ block.settings.caption-background | color_modify: 'alpha', 0.9 }} ;
-                                        /* background-color: {{ block.settings.caption-background }}!important; */
+                                        
                                         color: {{ block.settings.caption-text }} !important;
                                     }
 
@@ -148,15 +146,13 @@
 
                                     @media only screen and (max-width:768px){
                                         .slider-block--{{ block.id }} .slider-caption:not(.slideshow-mobile-image-content).background {
-                                            /* background-color: {{ settings.bg_color }} ; */
+                                            
                                             background: {{ block.settings.caption-background | color_modify: 'alpha', 1.0 }} ;
-                                            /* color: {{ settings.font-color }} !important; */
+                                            
                                             text-align: center;
                                         }
 
-                                        .slideshow-desktop-as-mobile-image{
-                                            /* height:24em !important; */
-                                        }
+                                        
 
 
 
@@ -173,7 +169,7 @@
                                             } 
 
                                         .slider-block--{{ block.id }} .slider-caption:not(.slideshow-mobile-image-content).background a {
-                                            /* color: {{ settings.font-color }} !important; */
+                                            
                                             vertical-align: bottom;
                                         }
 
@@ -227,18 +223,12 @@
 	</div>
 </section>
 
-{% if section.blocks.size > 0 %}
-    /* <div class="slider-pagination-container slider--{{ section.id }}">
-        <div class="swiper-pagination slider--{{ section.id }} slider-control-nav">
-        </div>
-        <div class="slider-pauseplay"><a href="#" class="slider-pause" aria-label="Pause" role="button" aria-pressed="false"></a></div>
-    </div> */
-{% endif %}
+
 
 <style>
     .slides img{
         object-fit: cover;
-        /* object-position:top; */
+        
     }
 
 	.slider-section--{{ section.id }} .slider-caption h2 {
@@ -351,7 +341,7 @@
 
     .slider-caption{
     width:65%;
-    /* width:40%; */
+    
 }
 
 
@@ -361,7 +351,7 @@
 @media only screen and (min-width: 798px){
     .slider-caption{
     width:65%;
-    /* width:40%; */
+    
 }
 }
 
@@ -399,7 +389,7 @@ padding:3em !important;
 
 .slider-block--{{ block.id }} .slider-caption.background {
 background-color: {{ block.settings.caption-background | color_modify: 'alpha', 1 }} !important;
-/* background-color: {{ block.settings.caption-background }}!important; */
+
 color: {{ block.settings.caption-text }} !important;
 }
 
