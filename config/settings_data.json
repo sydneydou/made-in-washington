@@ -15,7 +15,7 @@
     "sm_tiktok_link": "https:\/\/www.tiktok.com\/@madeinwashington_",
     "sm_pinterest_link": "https:\/\/www.pinterest.com\/miwstores\/",
     "popup--enable": true,
-    "popup--test-mode": true,
+    "popup--test-mode": false,
     "pop-up-text-header-text": "Get 20% off your first order",
     "pop-up-text-description-text": "<p>Sign up for our newsletter for first dibs on new items and special offers.<\/p>",
     "popup-delay": 9,
@@ -28,10 +28,10 @@
           "enable": true,
           "message_text": "Shop our holiday gift guide now",
           "message_link": "shopify:\/\/collections\/local-gift-guide",
-          "notification-bar--background-color": "#ffffff",
-          "notification-bar--text-color": "#222222",
+          "notification-bar--background-color": "#357b8e",
+          "notification-bar--text-color": "#ffffff",
           "social-enable": false,
-          "logo": "shopify:\/\/shop_images\/small_WA_logo-min_d31b4482-e4f3-4ae0-826e-6be613e6b69a.png",
+          "logo": "shopify:\/\/shop_images\/wash.png",
           "logo-enable": true
         }
       },
