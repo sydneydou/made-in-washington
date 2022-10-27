@@ -8,6 +8,17 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 .popup-container{
     background: rgba(53, 123, 142, 0.9) !important;
+} 
+
+.popup-container #newsletter_submit{
+    margin: 0 auto;
+    width: auto !important;
+    margin-top: 1em;
+}
+
+.bxp-bldr-body .tawk-bubble-container,.bxp-bldr-body  .tawk-min-container,.bxp-bldr-body  .tawk-button{
+    display:none !important;
+    visibility: hidden !important;
 }
 
 .basket{
