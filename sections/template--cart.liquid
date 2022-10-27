@@ -344,7 +344,10 @@ window.onload = function() {
 		$("#date").datepicker({
 		minDate: +1,
 		maxDate: '+2M',
-		beforeShowDay: $.datepicker.noWeekends,
+		 beforeShowDay: function (date)
+	{
+		return [date.getDay() == 1, ''];
+	},
 		onSelect: function(dateText, inst) { 
 		  var date = $(this).datepicker('getDate');
 		  startDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() - date.getDay());
@@ -355,12 +358,10 @@ window.onload = function() {
 		  
 		  selectCurrentWeek();
 	  },
-	  beforeShowDay: function(date) {
-		  var cssClass = '';
-		  if(date >= startDate && date <= endDate)
-			  cssClass = 'ui-datepicker-current-day';
-		  return [true, cssClass];
-	  },
+	  function(date){ 
+  var day = date.getDay(); 
+  return [day == 1 ];
+},
 	  onChangeMonthYear: function(year, month, inst) {
 		  selectCurrentWeek();
 	  }
