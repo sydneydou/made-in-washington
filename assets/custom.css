@@ -866,6 +866,21 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+
+        .text-block-slideshow .swiper-slide .text-slide{
+            position: inherit !important;
+            top: 8em !important;
+            margin-left: 0 !important;
+        }
+
+        .text-block-slideshow .slider-pauseplay{
+            display:none !important;
+        }
+
+        .text-block-slideshow .slides img{
+           height:19em !important;
+        }
+
         .basket{
             margin-right: 27px;
         
