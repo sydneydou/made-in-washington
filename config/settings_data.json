@@ -15,6 +15,10 @@
     "sm_tiktok_link": "https:\/\/www.tiktok.com\/@madeinwashington_",
     "sm_pinterest_link": "https:\/\/www.pinterest.com\/miwstores\/",
     "popup--enable": true,
+    "popup--test-mode": true,
+    "pop-up-text-header-text": "Get 20% off your first order",
+    "pop-up-text-description-text": "<p>Sign up for our newsletter for first dibs on new items and special offers.<\/p>",
+    "popup-delay": 9,
     "popup--show-newsletter": true,
     "favicon": "shopify:\/\/shop_images\/MIW_favicon-min.png",
     "sections": {
