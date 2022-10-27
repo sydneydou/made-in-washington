@@ -15,6 +15,14 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     margin-bottom: 9px;
 }
 
+.gl-card-title a, .gl-list__title a{
+    color:black !important;
+}
+
+.bxp-bldr-item input[type=checkbox]:not(old):checked+label, .bxp-bldr-item input[type=radio]:not(old):checked+label, .bxp-bldr-item input[type=checkbox]:not(old):checked+span+label, .bxp-bldr-item input[type=radio]:not(old):checked+span+label{
+    border: 1px solid rgb(79 112 78) !important;
+}
+
 .header--supporting-text {
     padding-left: 1.4rem;
 }
