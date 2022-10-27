@@ -31,6 +31,12 @@
             <div class="col-md-12 col-12 homepage-featured-rich-text">
         {% endcase %}
 
+
+        {% if section.settings.text == blank and section.settings.button_label != blank and section.settings.button_link != blank%}
+              <div class="empty-div"></div>
+        {% endif %}
+
+
           {% if section.settings.text != blank %}
             <div class="rte featured-row__subtext textarea">{{ section.settings.text }}</div>
           {% endif %}
