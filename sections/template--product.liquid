@@ -170,6 +170,10 @@
 
                 {% assign titleChange = product.vendor | downcase | replace: ' ', '-' | replace: "'", '' | replace: "!", '' %}
                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
+                {%- if product.vendor =="Made In Washington"-%}
+                {% assign collectionURL =  "https://madeinwashington.com/pages/about"  %}
+                {%- endif -%}
+
 
                   <div class="row product-vendor-sku" {{ block.shopify_attributes }}>
                     {% if block.settings.show_vendor %}
