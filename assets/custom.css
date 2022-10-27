@@ -6,6 +6,14 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+
+.search-results-panel{
+    /* display:none; */
+}
+
+#shopify-section-header #top-search-wrapper.expanded{
+    /* visibility: hidden; */
+}
 .popup-container{
     background: rgba(53, 123, 142, 1) !important;
 } 
@@ -730,6 +738,11 @@ footer .mtn{
 
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
+
+        .search--result-group article{
+            width: 34em;
+            margin-left: 0;
+        }
 
     .product-description-wrapper{
         padding-top:14px;
