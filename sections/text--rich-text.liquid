@@ -17,7 +17,7 @@
         {% endif %}
       </div>
     </div>
-
+    
       <div class="homepage-indiv-section-wrapper grid--full homepage-featured-content-wrapper wow">
         <div class="row">
         {% case section.settings.width %}
@@ -32,9 +32,8 @@
         {% endcase %}
 
 
-        {% if section.settings.text == blank and section.settings.button_label != blank and section.settings.button_link != blank%}
-              <div class="empty-div"></div>
-        {% endif %}
+          
+      
 
 
           {% if section.settings.text != blank %}
@@ -51,10 +50,21 @@
 
         </div>
       </div>
+
+  
+
     </div>
   </div>
 
 </section>
+
+<style>
+  {% if section.settings.text == blank and section.settings.button_label == blank and section.settings.button_link == blank%}
+  #shopify-section-{{ section.id }} .homepage-sections-wrapper{
+    padding: 0 !important;
+  }
+  {% endif%}
+</style>
 
 {% schema %}
 {
