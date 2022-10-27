@@ -92,8 +92,9 @@ main section:last-child{
 .dropdown-submenu__linklist li a:hover{
     color:white !important;
 }
-.dropdown-menu .site-nav--active {
-    /* border-left: solid 2px white !important; */
+
+.nav>li.mega-menu .dropdown-menu .mega-menu-block>.dropdown-submenu.site-nav--active .mega-menu-block__heading{
+    border-left:white !important;
 }
 
 .dropdown-menu .h4:hover{
