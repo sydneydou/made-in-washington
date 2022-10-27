@@ -11,9 +11,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     /* display:none; */
 }
 
-.dropdown-menu .site-nav--active{
-    border-left:none !important;
-}
+
 
 .quick-add-button{
     background: #4f704e !important;
@@ -93,8 +91,12 @@ main section:last-child{
     color:white !important;
 }
 
-.nav>li.mega-menu .dropdown-menu .mega-menu-block>.dropdown-submenu.site-nav--active .mega-menu-block__heading{
+.nav>li.mega-menu .dropdown-menu .mega-menu-block>.dropdown-submenu.site-nav--active .mega-menu-block__heading, .dropdown-menu .site-nav--active{
     border-left:white solid 2px !important;
+}
+
+.dropdown .mega-menu--dropdown-wrapper .dropdown-submenu{
+    border-left:none !important;
 }
 
 .dropdown-menu .h4:hover{
