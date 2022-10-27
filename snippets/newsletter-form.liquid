@@ -13,7 +13,7 @@
                 <strong>{{ 'general.newsletter_form.thanks' | t }}</strong>
             </p>
         </div>
-
+<div>
         <div id="newsletter-wrapper{% if section %}-{{ section.id }}{% endif %}" {% if form.posted_successfully? %}class="hide"{% endif %}>
             <label for="newsletter_text" class="sr-only"></label>
             <input
@@ -41,7 +41,7 @@
                 autocapitalize="off"
                 required
             >
-
+        </div>
             <button
             style="    width: 19em;
         "

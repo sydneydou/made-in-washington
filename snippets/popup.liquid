@@ -16,7 +16,10 @@
 
 							<div class="popup--inner">
 								{% if settings.pop-up-text-header-text != empty %}
-								<h2 class="wow animated">
+								<h2 class="wow animated" style="visibility: visible;
+								animation-name: none;
+								font-size: 1.5em;
+								text-align: center;">
 									{{ settings.pop-up-text-header-text }}
 								</h2>
 								{% endif %}
