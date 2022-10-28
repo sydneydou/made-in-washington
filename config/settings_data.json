@@ -42,6 +42,7 @@
             "type": "content",
             "settings": {
               "mega-menu": "Shop",
+              "mega_image_1": "shopify:\/\/shop_images\/MIW-10-min.jpg",
               "mega_image_header_1": "",
               "mega_image_subheader_1": "",
               "mega_image_link_1": "",
