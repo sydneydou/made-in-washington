@@ -14,6 +14,9 @@
         {% endfor %}
       {% endif %}
 
+
+
+
       <li class="dropdown{% if is-mega-menu %} mega-menu{% endif %} {% if link.active %} site-nav--active{% endif %}">
         <div class="mega-menu--dropdown-wrapper">
           <a
@@ -29,11 +32,17 @@
           <ul class="dropdown-menu{% if is-mega-menu %} dropdown-menu--mega{% else %} dropdown-menu--standard{% endif %}">
             {% if is-mega-menu %}
 
+            
               <div>
 
                 {% assign block = mega-menu-block %}
 
                 <div class="mega-menu-block" data-mega-menu-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+                  <div class="firstimgdiv">
+                  {% if block.settings.firstimg %}
+            {% render 'responsive-image' with block.settings.firstimg, alt: block.settings.mega_image_1.alt, default_size: '335x500' %}
+            {% endif %}
+            </div>
                   {% assign mega = block.settings.mega-menu %}
                   {% assign mega_nav_column_count = 5 %}
                   {% assign mega_column_width = link.links.size %}
@@ -82,11 +91,10 @@
                     </li>
                   {% endfor %}
 
-                  {% if block.settings.mega_image_1 and grid_item_width== "five_columns"%}
-
+                
 
                   {% if block.settings.mega_image_1 %}
-                    <!-- <li class="dropdown-submenu {{ grid_item_width }}"> -->
+                    <li class="dropdown-submenu {{ grid_item_width }}">
                       <div class="inner mega-menu--image-wrapper">
                         <div class="mega-menu--image">
                           {% if block.settings.mega_image_link_1 %}
@@ -108,10 +116,8 @@
                           {% endif %}
                         </div>
                       </div>
-                    <!-- </li> -->
+                    </li>
                   {% endif %}
-                 
-
 
                   {% if block.settings.mega_image_2 %}
                     <li class="dropdown-submenu {{ grid_item_width }}">
