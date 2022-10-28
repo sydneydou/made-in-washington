@@ -82,8 +82,11 @@
                     </li>
                   {% endfor %}
 
+                  {% if block.settings.mega_image_1 and grid_item_width== "five_columns"%}
+
+
                   {% if block.settings.mega_image_1 %}
-                    <li class="dropdown-submenu {{ grid_item_width }}">
+                    <!-- <li class="dropdown-submenu {{ grid_item_width }}"> -->
                       <div class="inner mega-menu--image-wrapper">
                         <div class="mega-menu--image">
                           {% if block.settings.mega_image_link_1 %}
@@ -105,8 +108,10 @@
                           {% endif %}
                         </div>
                       </div>
-                    </li>
+                    <!-- </li> -->
                   {% endif %}
+                 
+
 
                   {% if block.settings.mega_image_2 %}
                     <li class="dropdown-submenu {{ grid_item_width }}">
