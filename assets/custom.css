@@ -1479,9 +1479,11 @@ max-width:76% !important;
     width: 77vw !important;
 }
 
-.timeline-section, .bckin{
-    /* display:none; */
+.feature-row__text--inner .sidesdiv{
+    width: auto !important;
 }
+
+
 
 #product-box{
     justify-content:center !important;
