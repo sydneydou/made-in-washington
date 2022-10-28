@@ -74,10 +74,17 @@
                     <!-- {%- assign color_name = color_split[0] -%} -->
 
                     {% if section.settings.text_block != blank %}
+                   
+                    {% assign prev = section.settings.text_block | truncate: 360 %}
+                    <div class="min-text">
+                      <p class="rte featured-row__subtext textarea sidesdiv ">{{ prev }}</p> 
+                    </div>
+                    <div class="full-text">
+                      <p class="rte featured-row__subtext textarea sidesdiv ">{{ section.settings.text_block }}</p> 
+                    </div>
                     
-                    {%- assign preview = section.settings.text_block | split: 1,200 -%}
-                    <div class="rte featured-row__subtext textarea sidesdiv">{{ preview }}</div>
-                      <div class="rte featured-row__subtext textarea sidesdiv">{{ section.settings.text_block }}</div>
+                    <a class="read-more-link makerlink">Read More</a>
+                    <a class="read-less-link makerlink">Minimize Text</a>
                     {% endif %}
 
                     
@@ -137,7 +144,32 @@
 .sidesdiv p{
   font-weight:500;
 }
+
+.read-less-link,  .full-text{
+  display:none;
+}
+
+.makerlink{
+  cursor:pointer;
+}
   </style>
+
+  <script>
+    $(".read-more-link").click(function(){
+      $(".full-text").show();
+      $(".min-text").hide();
+      $(".read-more-link").toggle();
+      $(".read-less-link").show();
+    })
+
+
+    $(".read-less-link").click(function(){
+      $(".full-text").hide();
+      $(".min-text").show();
+      $(".read-more-link").toggle();
+      $(".read-less-link").hide();
+      })
+  </script>
 
 {% schema %}
 {
@@ -301,7 +333,7 @@
           }
         },
         {
-            "type": "richtext",
+            "type": "text",
             "id": "text_block",
             "label": {
                 "en": "Text",
