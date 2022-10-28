@@ -22,7 +22,7 @@
           "type": "vendor-sku",
           "settings": {
             "show_vendor": true,
-            "show_sku": false
+            "show_sku": true
           }
         },
         "f75a9ea6-12c4-4739-b26c-667551140a5a": {
