@@ -200,7 +200,7 @@
                     {% endif %}
                     {% if block.settings.show_sku %}
                       <div style="margin-left: 51px;
-                      padding: 0.5em; " class="indiv-product-sku-text col-{% if block.settings.show_vendor %}6 text-right{% else %}12{% endif %}{% unless current_variant.sku %} hide{% endunless %}">{{ current_variant.sku }}</div>
+                      padding: 0.5em;display: flex;" class="indiv-product-sku-text col-{% if block.settings.show_vendor %}6 text-right{% else %}12{% endif %}{% unless current_variant.sku %} hide{% endunless %}">{{ current_variant.sku }}</div>
                     {% endif %}
                   </div>
 
