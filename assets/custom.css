@@ -915,6 +915,10 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+
+        .popup__text-wrapper--no-image{
+            padding:4em !important;
+        }
      
 
         .desk-only{
