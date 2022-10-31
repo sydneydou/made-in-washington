@@ -379,7 +379,7 @@
       "saving": "Saving"
     },
     "product": {
-      "sold_out": "Sold out",
+      "sold_out": "Out of Stock",
       "unavailable": "Unavailable",
       "make_a_selection": "Make a selection",
       "add_to_cart": "Add to cart",

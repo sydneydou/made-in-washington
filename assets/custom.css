@@ -890,15 +890,16 @@ footer .mtn{
     font-size:1.5em !important;
 }
 
+.newsletter_form button{
+    margin: 0 auto !important;
+}
 
 /* mobile */
 
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
-        .newsletter_form button{
-            margin: 0 auto !important;
-        }
+     
 
         .desk-only{
             display: none;
