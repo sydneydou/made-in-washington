@@ -1,4 +1,4 @@
-<aside id="cartSlideoutAside">
+<script class="cartFlagX"></script><aside id="cartSlideoutAside">
   <form
     action="{{ routes.cart_url }}"
     method="post"
@@ -70,7 +70,7 @@
 
           <h3 id="cart_drawer_subtotal">
             <span class="cart-total-price js-cart-total" id="cart-price">
-              <span class="money">{{ cart.total_price | money }}</span>
+              <span class="money"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
             </span>
           </h3>
         </div>

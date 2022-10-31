@@ -50,7 +50,7 @@
             "title": "Light up The Holidays",
             "text": "",
             "button_text": "Let's get lit",
-            "link": "shopify:\/\/collections\/redesign-candles-votives",
+            "link": "shopify:\/\/collections\/candles-votives",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -69,7 +69,7 @@
             "title": "A day at the spa",
             "text": "",
             "button_text": "Get Pampered",
-            "link": "shopify:\/\/collections\/redesign-bath-body",
+            "link": "shopify:\/\/collections\/bath-body",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -107,7 +107,7 @@
         "text-color": "#ffffff",
         "subheading": "Made to be used and enjoyed. Made to be shared and savored. Made In Washington.",
         "title": "Shop our best sellers",
-        "collection": "redesign-gift-baskets-sets",
+        "collection": "gift-baskets-sets",
         "product_count": 12
       }
     },
@@ -117,7 +117,7 @@
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-gift-baskets-sets",
+            "collection": "gift-baskets-sets",
             "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
@@ -125,7 +125,7 @@
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-seafood-gourment-food-chocolate",
+            "collection": "seafood-gourment-food-chocolate",
             "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
@@ -141,7 +141,7 @@
         "d7755ba4-ea65-4a06-8be1-642c53b7523a": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-home-gifts-1",
+            "collection": "all-home-gifts",
             "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min.png",
             "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
@@ -149,7 +149,7 @@
         "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-bath-body",
+            "collection": "bath-body",
             "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min.png",
             "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }

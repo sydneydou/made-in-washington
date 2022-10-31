@@ -434,7 +434,7 @@
         "166357351289793237-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-gift-baskets-sets",
+            "collection": "gift-baskets-sets",
             "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png",
             "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
@@ -442,7 +442,7 @@
         "166357351289793237-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-seafood-gourment-food-chocolate",
+            "collection": "seafood-gourment-food-chocolate",
             "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
@@ -458,7 +458,7 @@
         "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-home-gifts-1",
+            "collection": "all-home-gifts",
             "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min_01bd8410-64f8-477e-bdbf-fa30921b864e.png",
             "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
@@ -466,7 +466,7 @@
         "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-bath-body",
+            "collection": "bath-body",
             "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min_a093663f-e108-4d05-9a6b-26cb16d2462a.png",
             "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
