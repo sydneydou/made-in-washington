@@ -4,6 +4,7 @@
     "typography-body-font-size": 15,
     "navigation--capitalize": false,
     "typography-buttons-font-size": 15,
+    "cart-action": "added",
     "allow_note": true,
     "show_deliverydate": false,
     "enable_shipping_encouragement": false,
