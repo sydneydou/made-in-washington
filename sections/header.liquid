@@ -1,4 +1,4 @@
-<style>
+<script class="cartFlagX"></script><style>
   .site-header__logo-image img,
   .overlay-logo-image {
     max-width: {{ section.settings.logo_max_width }}px;
@@ -385,7 +385,7 @@
                           {% when 'quantity' %}
                               <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span></span>
                           {% when 'total' %}
-                              <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span></span>
+                              <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span></span>
                       {% endcase %}
                     {% else %}
                       <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
@@ -393,7 +393,7 @@
                           {% when 'quantity' %}
                               - <span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span>
                           {% when 'total' %}
-                              - <span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span>
+                              - <span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
                           {% endcase %}
                       </span>
                     {% endif %}
@@ -408,7 +408,7 @@
                               {% when 'quantity' %}
                                   <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span></span>
                               {% when 'total' %}
-                                  <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span></span>
+                                  <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span></span>
                           {% endcase %}
                       {% else %}
                         <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
@@ -416,7 +416,7 @@
                             {% when 'quantity' %}
                                 - <span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span>
                             {% when 'total' %}
-                                - <span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span>
+                                - <span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
                             {% endcase %}
                         </span>
                       {% endif %}
@@ -488,7 +488,7 @@
                         {% when 'quantity' %}
                             <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span></span>
                         {% when 'total' %}
-                            <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span></span>
+                            <span class="header--supporting-text"><span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span></span>
                     {% endcase %}
                 {% else %}
                   <span class="header--supporting-text">{{ 'layout.header.your_cart' | t }}
@@ -496,7 +496,7 @@
                       {% when 'quantity' %}
                           - <span class="cart-item-count-header cart-item-count-header--quantity">{{ cart.item_count }}</span>
                       {% when 'total' %}
-                          - <span class="cart-item-count-header cart-item-count-header--total js-cart-total">{{ cart.total_price | money }}</span>
+                          - <span class="cart-item-count-header cart-item-count-header--total js-cart-total"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
                       {% endcase %}
                   </span>
                 {% endif %}

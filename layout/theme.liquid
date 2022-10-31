@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-<head>
+<head>{% render 'SEO-Master' %}{% render 'structuredDataV2' %}
  <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -166,6 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					{% endif %}
 
 					{{ content_for_layout }}
+	<noscript class="endOfLayoutContentX" type="text/mark"></noscript>{% render 'treedify_script' %}
 
 					{% if template contains 'customers' %}
 						</div>

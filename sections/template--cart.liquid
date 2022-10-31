@@ -1,4 +1,4 @@
- 
+<script class="cartFlagX"></script> 
  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script> 
  {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }} 
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" defer="defer"></script>
@@ -41,7 +41,7 @@
 						</td>
 
 						<td class="cart-table-title">
-							<a class="cart-table-title__title" href="{{ item.url }}" title="View {{ item.title | escape }}">{{ item.product.title }}</a>
+							<a class="cart-table-title__title" href="{{ item.url }}" title="View {{ item.title | escape }}">{{ item.product.title }}<span class="tdf-cart-item-t"></span></a>
 
 							{% unless item.variant.title contains 'Default' %}
 								<div class="cart__meta-text">
@@ -184,7 +184,7 @@
 			<div class="cart-totals--wrapper">
 				<div id="cart-total-header">{{ 'cart.general.subtotal' | t }}</div>
 				<div id="cart-total-final-price">
-					<span class="money">{{ cart.total_price | money }}</span>
+					<span class="money"><span style="display:none" class="tdf-cart-total-flag"></span>{{ cart.total_price | money }}</span>
 				</div>
 			</div>
 
