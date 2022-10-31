@@ -883,6 +883,10 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+        .slide-menu .header-icon{
+            margin-right: 15px;
+        }
+
 
         .text-block-slideshow .swiper-slide .text-slide{
             position: inherit !important;
