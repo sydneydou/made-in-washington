@@ -107,6 +107,7 @@
     },
     "c4fbe060-e01b-41d2-a8ff-96f77edacc40": {
       "type": "template--product-ingredients",
+      "disabled": true,
       "settings": {
         "content_display": "collapse_all",
         "show_tags": false,
@@ -170,6 +171,7 @@
     },
     "product-recommendations": {
       "type": "template--product--recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like"
