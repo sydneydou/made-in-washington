@@ -107,7 +107,7 @@
         "text-color": "#ffffff",
         "subheading": "Made to be used and enjoyed. Made to be shared and savored. Made In Washington.",
         "title": "Shop our best sellers",
-        "collection": "redesign-gift-baskets-sets",
+        "collection": "gift-baskets-sets",
         "product_count": 12
       }
     },
@@ -117,7 +117,7 @@
         "collection-list-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-gift-baskets-sets",
+            "collection": "gift-baskets-sets",
             "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
           }
