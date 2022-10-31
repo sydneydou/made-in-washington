@@ -934,6 +934,27 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+        .bxp-bldr-body .tawk-mobile{
+            display:none !important;
+        }
+
+        .bxp-owl-dots{
+            
+                height: 2.3em !important;
+                overflow: hidden !important;
+        }
+
+        .bxp-box-list{
+            padding: 0 !important;
+        }
+
+        .bxp-bldr-qty-up, .bxp-bldr-qty-down{
+            width:8px !important;
+        }
+
+        .bxp-bldr-item label .bxp-bldr-item_price{
+            padding:6px !important;
+        }
 
         #tdf_discount_widget{
             margin-bottom:3em;
