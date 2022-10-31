@@ -26,7 +26,7 @@
         "width": "medium",
         "subheading": "",
         "title": "",
-        "text": "<p>{{ collection.metafields.custom.description | metafield_tag }}<\/p>",
+        "text": "<p>Share the everyday celebrations of what makes Washington unique to say thank you to your team, colleagues or clients!<\/p><p><\/p><p><a href=\"mailto:billg@madeinwashington.com\">Contact us <\/a>for help with planning your corporate gifts. <\/p>",
         "button_link": "",
         "button_label": ""
       }
