@@ -767,6 +767,10 @@ footer .mtn{
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
+        footer .image-bar__content div{
+            width: 2.7em;
+        }
+
         .product-description-wrapper{
             margin-left:0 !important;
         }
