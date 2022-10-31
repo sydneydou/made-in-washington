@@ -750,18 +750,20 @@ footer .mtn{
     font-size: 1.25rem !important;
 }
 
+.grid--blog{
+            
+    display: flex;
+    justify-content: center !important;
+  
+}
+
 /* desktop */
 
 
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
-        .grid--blog{
-            
-            display: flex;
-            justify-content: center;
-          
-        }
+       
 
         .mobile-only{
             display: none;
