@@ -20,7 +20,7 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 }
 
-.product-description-wrapper, .description-block__content{
+.product-description-wrapper,.product-description-wrapper span, .product-description-wrapper p, .description-block__content{
     font-weight: 500 !important;
 }
 
