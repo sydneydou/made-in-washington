@@ -767,9 +767,7 @@ footer .mtn{
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
-        .product-description-wrapper{
-            margin-left:0 !important;
-        }
+     
 
         .template-search .collection-filters__item{
             justify-self: end !important;
@@ -792,7 +790,7 @@ footer .mtn{
 
     .product-description-wrapper{
         padding-top:14px;
-        margin-left: 9px;
+        margin-left: 0px;
         margin-right: 9px;
     
     }
