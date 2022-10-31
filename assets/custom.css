@@ -6,7 +6,9 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
-
+.sold-out-badge, .sold-out-button{
+    background-color:#d19951 !important;
+}
 
 
 .firstimgdiv {
