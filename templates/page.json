@@ -458,7 +458,7 @@
         "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-home-gifts-1",
+            "collection": "all-home-gifts",
             "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min_01bd8410-64f8-477e-bdbf-fa30921b864e.png",
             "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
           }
