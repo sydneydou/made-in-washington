@@ -887,6 +887,10 @@ footer .mtn{
             margin-right: 15px;
         }
 
+        .basket {
+            overflow: overlay!important;
+        }
+
 
         .text-block-slideshow .swiper-slide .text-slide{
             position: inherit !important;
