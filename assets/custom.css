@@ -756,6 +756,10 @@ footer .mtn{
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
+        .mobile-only{
+            display: none;
+        }
+
         .search--result-group article{
             width: 34em;
             margin-left: 0;
@@ -882,6 +886,10 @@ footer .mtn{
 
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
+
+        .desk-only{
+            display: none;
+        }
 
         .slide-menu .header-icon{
             margin-right: 15px;
