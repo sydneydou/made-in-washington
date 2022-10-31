@@ -17,6 +17,10 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 }
 
+.product-info-wrapper .product-page--submit-action button{
+    background:#4f704e !important;
+}
+
 
 .quick-add-button, .page-title--2022-featured-holiday-products .spf-product-card button.spf-product__form-btn-addtocart{
     background: #4f704e !important;
