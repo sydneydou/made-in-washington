@@ -7,7 +7,7 @@
     "allow_note": true,
     "show_deliverydate": false,
     "enable_shipping_encouragement": false,
-    "below-title-cart-message": "Gift Messages appear on the outside of the box, printed on the shipping label. ——  Shipping Cut-Off: Orders placed after 8:00 am PT M-F ship the following Business Weekday.",
+    "below-title-cart-message": "Gift Messages appear on the outside of the box, printed on the shipping label. ——  Shipping Cut-Off: Orders placed after 1:00 pm PT M-F ship the following Business Weekday.",
     "free_shipping_amount": "",
     "hover_effect": "shadow",
     "quick_add_position": "below_product_details",
