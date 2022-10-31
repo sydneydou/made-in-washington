@@ -125,7 +125,7 @@
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "redesign-seafood-gourment-food-chocolate",
+            "collection": "seafood-gourment-food-chocolate",
             "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
