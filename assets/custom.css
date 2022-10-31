@@ -935,6 +935,14 @@ footer .mtn{
     @media only screen and (max-width:1097px){
 
 
+        #tdf_discount_widget{
+            margin-bottom:3em;
+        }
+
+        .checkout-add-note{
+            width:100vw !important;
+        }
+
         .popup__text-wrapper--no-image{
             padding:4em !important;
         }
