@@ -11,6 +11,10 @@ We highly recommend labelling changes, or App installs, so these can also be upd
     color:black !important;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 
 .firstimgdiv {
     position: absolute;

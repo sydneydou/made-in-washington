@@ -1,3 +1,4 @@
+
 {%- if section.settings.show_product_recommendations %}
     <div
         class="product-recommendations"
@@ -8,6 +9,8 @@
         data-wetheme-section-type="template--product--recommandations"
         data-wetheme-section-id="{{ section.id }}"
     >
+
+    
         <div class="container--product-page">
             {%- if recommendations.products_count > 0 -%}
                 {% unless section.settings.product_recommendations_heading == blank %}
@@ -19,6 +22,10 @@
     
                 <div class="row">
                     {%- for product in recommendations.products -%}
+                    
+                    {% if product.vendor != "Made In Washington" %}
+                    
+
                         {% assign sold_out = true %}
                         {% if product.available %}
                             {% assign sold_out = false %}
@@ -32,10 +39,12 @@
                           -%}
     
                         </div>
+                        {% endif %}
                     {%- endfor -%}
                     </div>
             {%- endif -%}
         </div>
+        
     </div>
 {%- endif -%}
 
