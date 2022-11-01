@@ -953,6 +953,10 @@ footer .mtn{
     width:102vw !important;
 }
 
+button.bxp-bldr-backward:before{
+    left: 7px !important;
+}
+
 .bxp-bldr-float-right{
     position: absolute !important;
     right: 33px !important;
