@@ -28,8 +28,9 @@ body{
     font-weight: 500 !important;
 }
 
-.product-info-wrapper .product-page--submit-action button{
+.product-info-wrapper .product-page--submit-action button, .gfqv-product-form #gfqv-btn{
     background:#4f704e !important;
+    font-family: var(--font-family-regular) !important;
 }
 
 
@@ -933,6 +934,12 @@ footer .mtn{
 
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
+
+        .popup-container .popup__text-wrapper--no-image {
+            
+            width: 85% !important;
+            margin: 0 auto;
+        }
 
 .bxp-bldr-bottom-wizard{
     width:102vw !important;
