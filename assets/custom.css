@@ -935,6 +935,14 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+        #newsletter-wrapper{
+            flex-direction: column;
+        }
+
+        .popup-container #newsletter_text{
+            margin-bottom:8px;
+        }
+
         .popup-container .popup__text-wrapper--no-image {
             
             width: 85% !important;
