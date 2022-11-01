@@ -21,26 +21,6 @@
         "button_label": ""
       }
     },
-    "166357422646fe3c36": {
-      "type": "image--image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "image": "{{ collection.image }}",
-        "subheading": "",
-        "title": "{{ collection.title }}",
-        "text": "",
-        "text-color": "#000000",
-        "font-size": "large",
-        "parallax": false,
-        "alignment": "center",
-        "text-position": "center",
-        "position-mobile": "center",
-        "hero_size": "medium",
-        "text-over-image-width": "full-width",
-        "button_link": "",
-        "button_label": ""
-      }
-    },
     "6a8eb908-0c21-482e-a532-3f501532d0e9": {
       "type": "text--image-column",
       "settings": {
@@ -122,154 +102,13 @@
         "pagination_type": "paged_navigation"
       }
     },
-    "7a898150-dbad-43f2-9dd0-17d09fde901b": {
-      "type": "image--image-with-text-block",
-      "disabled": true,
-      "settings": {
-        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
-        "text-color": "#ffffff",
-        "background-color": "#057c90",
-        "horizontal-alignment": "center",
-        "subheading": "All your local favorites in one box? The sky’s the limit.",
-        "title": "Design your own gift box",
-        "font-size": "large",
-        "text": "",
-        "button_link": "shopify:\/\/pages\/design-your-own-gift-basket",
-        "button_label": "Start Here",
-        "btn-color": "#000000",
-        "btn-background-color": "#ffffff",
-        "btn-background-hover": "#ffffff",
-        "section-height": "default",
-        "mob-pos": "below"
-      }
-    },
-    "74263384-cae3-4021-949f-4ec249b3857a": {
-      "type": "image--slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
-            "subheading": "",
-            "title": "Design your own box",
-            "text": "<p>All your local favorites in one box? The sky's the limit.<\/p>",
-            "button_text": "Start Here",
-            "link": "https:\/\/madeinwashington.com\/apps\/builder?b=jpgzhzr1ZGP4904KN3DRDHLa",
-            "cont-width": 43,
-            "cap-back": false,
-            "caption-background": "#057c90",
-            "caption-text": "#ffffff",
-            "button-text": "#333333",
-            "button-background": "#ffffff",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "middle"
-          }
-        },
-        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/chocolate_feature_banner-min.png",
-            "subheading": "",
-            "title": "Go Ahead. Indulge.",
-            "text": "<p>Something sweet to share with friends and family. <\/p><p>If sharing is your thing..<\/p>",
-            "button_text": "Shop Chocolates",
-            "link": "shopify:\/\/collections\/chocolate",
-            "cont-width": 45,
-            "cap-back": false,
-            "caption-background": "#4d724d",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "right",
-            "vertical-alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-0",
-        "template--15915512692908__74263384-cae3-4021-949f-4ec249b3857a-1665679848ae288995-1"
-      ],
-      "settings": {
-        "slider-animation": "slide",
-        "slider-width": "full-width",
-        "show-slide-full-screen": false,
-        "slider-slide-time": 5,
-        "caption-heading-size": 34,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
-        "slider-navigation--color": "#ffffff",
-        "overlay": true,
-        "header-font": "var(--font-family-regular)"
-      }
-    },
-    "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20": {
-      "type": "image--carousel-text-blocks",
-      "disabled": true,
-      "blocks": {
-        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gift_guide_banner_1-min.png",
-            "subheading": "All your local favorites in one box? The sky's the limit.",
-            "title": "Design your own box",
-            "text": "",
-            "button_text": "Start Here",
-            "link": "shopify:\/\/pages\/design-your-own-gift-basket",
-            "cont-width": 51,
-            "cap-back": false,
-            "caption-background": "#057c90",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "middle"
-          }
-        },
-        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gift_guide_banner_2-min.png",
-            "subheading": "Something sweet to share with friends and family. If sharing is your thing..",
-            "title": "Go Ahead. Indulge.",
-            "text": "",
-            "button_text": "Shop chocolates",
-            "link": "shopify:\/\/collections\/chocolate",
-            "cont-width": 65,
-            "cap-back": false,
-            "caption-background": "#4d724d",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "right",
-            "vertical-alignment": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-0",
-        "template--15915512692908__0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20-1666203172044dd262-1"
-      ],
-      "settings": {
-        "slider-animation": "fade",
-        "slider-width": "full-width",
-        "show-slide-full-screen": false,
-        "slider-slide-time": 5,
-        "caption-heading-size": 50,
-        "show-slide-dots": false,
-        "show-slide-arrows": true,
-        "slider-navigation--color": "#ffffff",
-        "overlay": true,
-        "header-font": "var(--font-family-regular)"
-      }
-    },
     "47351013-2d22-4deb-a2cb-d29d7a7530ee": {
       "type": "image--slideshow-text-block",
       "blocks": {
         "template--15915512692908__47351013-2d22-4deb-a2cb-d29d7a7530ee-1666380504da98c3f2-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gift_guide_banner_1-min.png",
+            "image": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
             "subheading": "All your local favorites in one box? The sky's the limit.",
             "title": "Design your own box",
             "text": "",
@@ -344,14 +183,10 @@
   },
   "order": [
     "bd102f3a-4122-4c0e-b2a0-bc3ad5fe268d",
-    "166357422646fe3c36",
     "6a8eb908-0c21-482e-a532-3f501532d0e9",
     "collection_header",
     "product_filtering",
     "main",
-    "7a898150-dbad-43f2-9dd0-17d09fde901b",
-    "74263384-cae3-4021-949f-4ec249b3857a",
-    "0b7dfcc3-7878-4e57-a2b8-cf54dc9a6b20",
     "47351013-2d22-4deb-a2cb-d29d7a7530ee",
     "16649469091654578d"
   ]
