@@ -938,6 +938,11 @@ footer .mtn{
     width:102vw !important;
 }
 
+.bxp-bldr-float-right{
+    position: absolute !important;
+    right: 33px !important;
+}
+
         .button.bxp-bldr-submit, button.bxp-bldr-backward, button.bxp-bldr-forward{
             min-width: 65px !important;
             /* width: fit-content !important; */
