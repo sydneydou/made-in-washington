@@ -934,6 +934,12 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
+        .button.bxp-bldr-submit, button.bxp-bldr-backward, button.bxp-bldr-forward{
+            min-width: 65px;
+            width: fit-content;
+            padding: 11px;
+        }
+
         .bxp-bldr-body .tawk-mobile{
             display:none !important;
         }
