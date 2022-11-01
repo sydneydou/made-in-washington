@@ -941,6 +941,9 @@ footer .mtn{
 .bxp-bldr-float-right{
     position: absolute !important;
     right: 33px !important;
+    flex-direction: row;
+    display: flex;
+    flex-flow: nowrap;
 }
 
         .button.bxp-bldr-submit, button.bxp-bldr-backward, button.bxp-bldr-forward{
