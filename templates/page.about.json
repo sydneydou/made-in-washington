@@ -263,7 +263,7 @@
           "type": "tab_content",
           "settings": {
             "question": "How do I place an order?",
-            "text": "<p>There are several options for placing an order:<\/p><p>Online at <a href=\"http:\/\/www.madeinwashington.com\"><span style=\"text-decoration:underline\">www.madeinwashington.com<\/span><\/a><\/p><p>By phone:<\/p><p>Call Center 1-800-338-9903<\/p><p>Pike Place Market: 206-467-0788<\/p><p>Alderwood Mall: 425-771-3212<\/p><p>Bellevue Square Mall: 425-454-6907<\/p><p><a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">By email <\/span><\/a><\/p>"
+            "text": "<p>There are several options for placing an order:<\/p><p>Online at <a href=\"https:\/\/madeinwashington.com\/\" title=\"https:\/\/madeinwashington.com\/\"><span style=\"text-decoration:underline\">www.madeinwashington.com<\/span><\/a><\/p><p>By phone:<\/p><p>Call Center 1-800-338-9903<\/p><p>Pike Place Market: 206-467-0788<\/p><p>Alderwood Mall: 425-771-3212<\/p><p>Bellevue Square Mall: 425-454-6907<\/p><p><a href=\"mailto:customerservice@madeinwashington.com\"><span style=\"text-decoration:underline\">By email <\/span><\/a><\/p>"
           }
         },
         "d93665ff-5892-4b53-91fd-3e8700ba387e": {
