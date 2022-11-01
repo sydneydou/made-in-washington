@@ -107,7 +107,7 @@
         "text-color": "#ffffff",
         "subheading": "Made to be used and enjoyed. Made to be shared and savored. Made In Washington.",
         "title": "Shop our best sellers",
-        "collection": "gift-baskets-sets",
+        "collection": "best-sellers",
         "product_count": 12
       }
     },
@@ -172,7 +172,7 @@
       ],
       "settings": {
         "subheading": "Pick a curated set, build your own box, or discover one of our state’s best-kept secrets. Every item supports Washington makers, entrepreneurs, and small businesses.",
-        "title": "Get Inspired"
+        "title": "Shop Our Collection"
       }
     },
     "image-image-with-text-block": {
