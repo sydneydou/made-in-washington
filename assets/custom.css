@@ -946,6 +946,10 @@ footer .mtn{
     flex-flow: nowrap;
 }
 
+button.bxp-bldr-backward{
+    margin-right: 5px;
+}
+
         .button.bxp-bldr-submit, button.bxp-bldr-backward, button.bxp-bldr-forward{
             min-width: 65px !important;
             /* width: fit-content !important; */
