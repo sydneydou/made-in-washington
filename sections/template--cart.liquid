@@ -11,6 +11,10 @@
 			<div class="cart-below">{{settings.below-title-cart-message}}</div>
 		{% endif %}
 
+		{% if settings.below-title-cart-message-second != blank %}
+			<div class="cart-below">{{settings.below-title-cart-message-second}}</div>
+		{% endif %}
+
 	</div>
 
 	{% if cart.item_count == 0 %}

@@ -1079,6 +1079,11 @@
         "label": "Text Below Cart Title"
       },
       {
+        "type": "textarea",
+        "id": "below-title-cart-message-second",
+        "label": "Second Line - Text Below Cart Title"
+      },
+      {
         "type": "text",
         "id": "free_shipping_message",
         "label": {
