@@ -17,7 +17,7 @@
     "sm_instagram_link": "https:\/\/www.instagram.com\/madeinwashington_\/?hl=en",
     "sm_tiktok_link": "https:\/\/www.tiktok.com\/@madeinwashington_",
     "sm_pinterest_link": "https:\/\/www.pinterest.com\/miwstores\/",
-    "popup--enable": true,
+    "popup--enable": false,
     "popup--test-mode": false,
     "pop-up-text-header-text": "Get 20% off your first order",
     "pop-up-text-description-text": "<p>Sign up for our newsletter for first dibs on new items and special offers.<\/p>",
