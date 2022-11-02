@@ -1074,7 +1074,7 @@
         "default": true
       },
       {
-        "type": "text",
+        "type": "textarea",
         "id": "below-title-cart-message",
         "label": "Text Below Cart Title"
       },
