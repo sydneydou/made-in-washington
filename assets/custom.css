@@ -779,6 +779,14 @@ footer .mtn{
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
+        .page-title--2022-featured-holiday-products-made-in-washington .mtn{
+            top: -10.5em !important;
+        }
+
+        .page-title--2022-featured-holiday-products-made-in-washington .container--collection-page{
+            margin-top:10em;
+        }
+
         footer .image-bar__content div{
             width: 2.7em;
         }
@@ -1680,6 +1688,22 @@ max-width:76% !important;
 @media only screen and (min-width: 1098px) and (max-width: 1250px){
     .slides img {
         height: 54vh !important;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1898px){
+
+    .page-title--2022-featured-holiday-products-made-in-washington .mtn{
+        top: -12.5em !important;
+    }
+
+    .page-title--2022-featured-holiday-products-made-in-washington .container--collection-page{
+        margin-top:14em;
     }
 
 }
