@@ -41,7 +41,7 @@
   <div class="spf-product-card spf-product-card__left spf-product-card__template-1{% unless product.available %} spf-soldout{% endunless %}">
     <div class="spf-product-card__inner">
       {% unless product.available %}
-            <span translatable class="spf-product__label spf-product__label-soldout">{{translation.product.sold_out | default: "Sold out"}}</span>
+            <span translatable class="spf-product__label spf-product__label-soldout">Out Of Stock</span>
                   {% elsif product_compare_at_price > product_price %}
       <span translatable class="spf-product__label spf-product__label-sale sale-text">
                 {{translation.product.sale | default: "Sale"}}
@@ -73,7 +73,7 @@
           <option data-option1="{{variant.option1 | escape}}" data-option2="{{variant.option2 | escape}}" data-option3="{{variant.option3 | escape}}" data-price="{{variant.price}}" data-compare_at_price="{{variant.compare_at_price}}" data-available="{{variant.available}}" data-image="{% if variant.image.src %}{{variant.image.src | img_url: image_size }}{% endif %}" {% if variant.id == selected_or_first_available_variant.id %} selected="selected" {% endif %} value="{{ variant.id }}">{{ variant.title }}</option>
           {% endfor %}
         </select>
-                <button translatable {% unless product.available %}disabled{% endunless %} type="submit" class="spf-product__form-btn-addtocart" data-available="{{translation.product.add_to_cart | default: "Add to cart"}}" data-soldout="{{translation.product.sold_out | default: "Sold out"}}" data-unavailable="{{translation.product.unavailable | default: "Unavailable"}}"><span>{% if product.available %}{{translation.product.add_to_cart | default: "Add to cart"}}{% else %}{{translation.product.sold_out | default: "Sold out"}}{% endif %}</span></button>
+                <button translatable {% unless product.available %}disabled{% endunless %} type="submit" class="spf-product__form-btn-addtocart" data-available="{{translation.product.add_to_cart | default: "Add to cart"}}" data-soldout="{{translation.product.sold_out | default: "Out of Stock"}}" data-unavailable="{{translation.product.unavailable | default: "Unavailable"}}"><span>{% if product.available %}{{translation.product.add_to_cart | default: "Add to cart"}}{% else %}{{translation.product.sold_out | default: "Sold out"}}{% endif %}</span></button>
               </form>
     </div>
 
