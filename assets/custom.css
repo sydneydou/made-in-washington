@@ -935,10 +935,12 @@ footer .mtn{
 /* @media only screen and (max-width:797px){ */
     @media only screen and (max-width:1097px){
 
-        .makerlink{
-            display: flex ;
-        justify-content: center ;
-        }
+       
+            .makerlink{
+                display:flex;
+            justify-content: center ;
+            }
+    
 
         #newsletter-wrapper{
             flex-direction: column;
