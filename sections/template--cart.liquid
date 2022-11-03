@@ -334,6 +334,7 @@ window.onload = function() {
   var startDate;
   var endDate;
 
+ 
 
   var selectCurrentWeek = function() {
 	  window.setTimeout(function () {
@@ -343,14 +344,24 @@ window.onload = function() {
 
 	if (window.jQuery) {
 	  let $ = window.jQuery;
-
+	//   var array = ["2022-12-05","2022-12-12","2022-12-19","2022-12-26"]
+	  var unavailableDates = ["5-12-2022","12-12-2022","19-12-2022","26-12-2022"]
 	  $(function() {
 		$("#date").datepicker({
 		minDate: +1,
 		maxDate: '+2M',
+		
 		 beforeShowDay: function (date)
 	{
-		return [date.getDay() == 1, ''];
+		let dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
+		if ($.inArray(dmy, unavailableDates) == -1 && date.getDay() == 1) {
+            return [true, ""];
+        } else {
+            return [false, "", "Unavailable"];
+        }
+
+		// return [date.getDay() == 1];
+		
 	},
 		onSelect: function(dateText, inst) { 
 		  var date = $(this).datepicker('getDate');
@@ -363,6 +374,11 @@ window.onload = function() {
 		  selectCurrentWeek();
 	  },
 	  function(date){ 
+
+		
+        // return [ array.indexOf(string) == -1 ]
+
+
   var day = date.getDay(); 
   return [day == 1 ];
 },
