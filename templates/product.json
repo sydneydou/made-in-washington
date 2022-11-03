@@ -96,7 +96,7 @@
         "cross-sells"
       ],
       "settings": {
-        "show_out_of_stock_email": true,
+        "show_out_of_stock_email": false,
         "out_of_stock_email_position": "below-details",
         "hide_out_of_stock": false,
         "thumbnail_changes_variant": false,
