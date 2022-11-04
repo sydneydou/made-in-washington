@@ -40,8 +40,7 @@
                             
                           
                               {% paginate section.settings.blog.articles  by 150 %}
-                              {% assign list = section.settings.blog.articles  | reverse %}
-                              {% assign items = list |sort %}
+                              {% assign items = section.settings.blog.articles  | reverse %}
                               
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
