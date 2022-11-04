@@ -6,6 +6,11 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+
+.ee_editable h1, h1.ee_editable{
+    font-size: var(--heading-font-size) !important;
+}
+
 .sold-out-badge, .sold-out-button{
     background-color:#d19951 !important;
     color:black !important;
