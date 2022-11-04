@@ -21,7 +21,7 @@
     "popup--test-mode": false,
     "pop-up-text-header-text": "SIGN UP AND GET 20% OFF YOUR NEXT ORDER",
     "pop-up-text-description-text": "<p>Sign up for our newsletter for first dibs on new items and special offers.<\/p>",
-    "popup-delay": 9,
+    "popup-delay": 6,
     "popup--show-newsletter": true,
     "favicon": "shopify:\/\/shop_images\/MIW_favicon-min.png",
     "sections": {
