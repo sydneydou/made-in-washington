@@ -12,6 +12,7 @@
         "image": "shopify:\/\/shop_images\/about_banner_image_1_-min.png",
         "subheading": "",
         "title": "Our Story",
+        "main-heading": false,
         "text": "<p>Inspired Locally. Made in Washington. Loved Everywhere.<\/p>",
         "text-color": "#ffffff",
         "font-size": "large",
@@ -83,7 +84,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/carla-min.png",
-            "title": "Carla Walton Pike Place Store Manager",
+            "title": "Carla Walton | Pike Place Store Manager",
             "richtext": "<p>Somewhat counter-intuitively, I love the weather in Washington. It’s never too extreme. I also appreciate the proximity to water and mountains. <br\/><br\/><br\/><\/p>"
           }
         },
@@ -91,7 +92,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/jax_1_-min.png",
-            "title": "Jax Kaufman Alderwood Mall Store Manager",
+            "title": "Jax Kaufman | Alderwood Mall Store Manager",
             "richtext": "<p>We are surrounded by water and wildlife in Washington, and I find so much magic in kayaking with orcas and seals in the San Juan Islands. Kayaking with orcas is the most exciting experience I’ve ever had.<br\/><br\/><\/p>"
           }
         },
@@ -99,7 +100,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/judy-min.png",
-            "title": "Judy Burnside Bellevue Square Store Manager",
+            "title": "Judy Burnside | Bellevue Square Store Manager",
             "richtext": "<p>One of the things I love most about Washington is the weather: beautifully temperate long summer days, perfect spring and fall days, and just enough rain.<br\/><br\/><\/p>"
           }
         },
@@ -107,7 +108,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/laurie-min.png",
-            "title": "Laurie Fleek Director of Operations and Customer Care",
+            "title": "Laurie Fleek | Director of Operations and Customer Care",
             "richtext": "<p>The best thing about living in Washington State is the ability to jump on a ferry to visit our many islands.<br\/><br\/><\/p>"
           }
         },
@@ -115,7 +116,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/haydee-min.png",
-            "title": "Haydee Allred E-Commerce & Marketing Assistant",
+            "title": "Haydee Allred | E-Commerce & Marketing Assistant",
             "richtext": "<p>I love the adventure of the changing seasons and weather events we experience in Washington, like Frozen Fog, the Pineapple Express, and long summer days!<br\/><br\/><\/p>"
           }
         },
@@ -123,7 +124,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/bill-min.png",
-            "title": "Bill Gates Vice President, Buyer",
+            "title": "Bill Gates | Vice President, Buyer",
             "richtext": "<p>For me, the best part of the Washington landscape can be found on our annual family trip to Winthrop, where my family and I enjoy hiking, boating, and swimming. <br\/><\/p>"
           }
         },
@@ -131,7 +132,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/jack_1_-min.png",
-            "title": "Jack Helgeson Operations Assistant | Business Gift Specialist",
+            "title": "Jack Helgeson | Operations Assistant | Business Gift Specialist",
             "richtext": "<p>In Washington, we have rainforests, beaches, and mountains that are all accessible within just a few hours of anywhere in the state. It’s unbeatable! <br\/><\/p>"
           }
         },
@@ -139,7 +140,7 @@
           "type": "menu",
           "settings": {
             "image": "shopify:\/\/shop_images\/kristin-min.png",
-            "title": "Kristin Frossmo President & CEO",
+            "title": "Kristin Frossmo | President & CEO",
             "richtext": "<p>I love that we’re surrounded by mountains and water in Washington. My best days are spent on getaways to Whidbey Island. <br\/><\/p>"
           }
         }
@@ -166,6 +167,7 @@
       "settings": {
         "subheading": "",
         "title": "Share your story",
+        "main-heading": false,
         "text": "<p>Here's your chance to make a great first impression<\/p>",
         "text-color": "#000000",
         "font-size": "small",
