@@ -6,9 +6,18 @@ We highly recommend labelling changes, or App installs, so these can also be upd
 
 */
 
+span.spf-product__label.spf-product__label-sale{
+    background: #057C90 !important;
+}
+
+.spf-product-card__saleprice{
+    color: #057C90 !important
+}
+
 
 .ee_editable h1, h1.ee_editable{
     font-size: var(--heading-font-size) !important;
+    font-family:var(--font-family-subheader) !important;
 }
 
 .sold-out-badge, .sold-out-button{
