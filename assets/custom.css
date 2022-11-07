@@ -48,9 +48,13 @@ body{
 }
 
 
-.quick-add-button, .page-title--2022-featured-holiday-products .spf-product-card button.spf-product__form-btn-addtocart{
+.quick-add-button, .page-title--2022-featured-holiday-products .spf-product-card button.spf-product__form-btn-addtocart, #gf-grid .spf-product-card button.spf-product__form-btn-addtocart{
     background: #4f704e !important;
     box-shadow: none !important;
+}
+
+#gf-grid .spf-product-card button.spf-product__form-btn-addtocart{
+    text-transform: uppercase;
 }
 
 #shopify-section-header #top-search-wrapper.expanded{
