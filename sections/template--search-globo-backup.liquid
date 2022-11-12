@@ -598,6 +598,8 @@
                                     </li>
 
                                     {% elsif item.object_type == 'product' %}
+
+                                    
                                     <li class="grid__item four_columns wow collection-image-anim indiv-product-wrapper {% cycle ' alpha mobile-clear tablet-clear', '', 'mobile-clear tablet-clear', ' omega' %} {% if item.featured_image %}product{% else %}page{% endif %} col-6 col-sm-6 col-md-3{% cycle ' alpha clearcolumn', '', '', ' omega' %}">
                                         {%-
                                         render 'product-grid--indiv-product',

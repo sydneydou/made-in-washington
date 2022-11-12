@@ -37,6 +37,9 @@
       <div class="row homepage-featured-products">
 
         {% for product in collection.products limit: product_limit %}
+
+      
+
           <div class="grid__item {{ grid_item_width }} zoomIn collection-image-anim{% if section.settings.rows == 1 %} no-bottom-margin{% endif %}">
 
           {% assign hide-add-to-cart = section.settings.hide_add_to_cart %}            

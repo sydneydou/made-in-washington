@@ -36,6 +36,13 @@
                 <div class="row">
 
                 {% for product in collection.products limit: section.settings.products-per-collection %}
+
+                {% assign all_tags = product.tags | join: ',' %}
+
+                {% if all_tags contains 'out of stock' %}
+                  {% assign product.available = false %}
+                {% endif %}
+                
                     <div class="grid__item {{ grid_item_width }} indiv-product-wrapper collection-image-anim wow 
                       {% case section.settings.products-per-collection %}
                         {% when 2 %}

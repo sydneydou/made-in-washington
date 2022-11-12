@@ -28,6 +28,9 @@
         id="template--collection"
     >
         {% for product in collection.products  limit: 4 %}
+
+     
+
             <li class=" slider-image col grid__item {{ grid_item_width_mobile }} {{ grid_item_width }} indiv-product-wrapper collection-image-anim">
                 {%-
                     render 'product-grid--indiv-product',

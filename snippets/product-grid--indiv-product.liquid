@@ -8,6 +8,25 @@
     {% assign image_crop = "aspect-ratio--wide" %}
 {% endif %}
 
+{% assign isAvailable = true %}
+
+{% if liquidObject.tags != null %}
+
+
+  {% assign all_tags = liquidObject.tags | join: ',' %}
+
+      {% if all_tags contains 'out of stock' %}
+        {% assign isAvailable = false %}
+
+        {% else %}
+        {% assign isAvailable = true %}
+
+      {% endif %}
+
+
+{% endif %} 
+
+
 {%- assign productPaddingClass = '' -%}
 
 {% if settings.product_padding_enable == true %}
@@ -37,6 +56,8 @@
 <article class="indiv-product {{ hoverClass }} {{ productPaddingClass }}{{ bordersClass }}{{ textCenterClass }}">
   <script type="application/json" id="product-grid-{{ liquidObject.id }}" class="product-grid-json">
     {{ liquidObject | json }}
+
+  
   </script>
 
   <div class="position-relative indiv-product__image-wrapper">
@@ -66,7 +87,7 @@
         </a>
     {% endif %}
 
-    {% if liquidObject.available %}
+    {% if liquidObject.available and isAvailable %}
       {% if liquidObject.compare_at_price_max > liquidObject.price and settings.show_sale_badge %}
         <div class="fresh-badge sale-badge">{{ 'products.general.sale' | t }}</div>
       {% endif %}
@@ -157,10 +178,10 @@
     {% unless settings.quick_add_position == 'none' %}
       {% unless hideBtns == true %}
         <div class="quick-add-wrapper{% if liquidObject.variants.size == 1 %} is-singular{% endif %}">
-          {% if liquidObject.variants.size > 1 and liquidObject.available %}
+          {% if liquidObject.variants.size > 1 and liquidObject.available and isAvailable%}
 
             <a class="btn quick-add-button-variants alt-focus w-100 my-0" tabindex="0" href="{{ liquidObject.url | within: collection }}">{{ 'collections.general.view_options' | t }}</a>
-          {% elsif liquidObject.available %}
+          {% elsif liquidObject.available and isAvailable%}
 
 
               {% form 'product', liquidObject %}
