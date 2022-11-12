@@ -341,7 +341,7 @@
 
                     <div class="col-md-12 product-page--submit-action" data-stock-email-enabled="{{ section.settings.show_out_of_stock_email }}" {{ block.shopify_attributes }}>
                       {% assign disabled = false %}
-                      {% unless current_variant.available %}
+                      {% unless current_variant.available and isAvailable %}
                         {% assign disabled = true %}
                       {% endunless %}
 
@@ -352,7 +352,7 @@
                         class="btn {% if block.settings.show_smart_checkout and product.selling_plan_groups.size == 0 %} secondary-button{% endif %}"{% if disabled %}
                         disabled{% endif %}
                       >
-                        {% if current_variant.available %}
+                        {% if current_variant.available and isAvailable%}
                           {{ 'products.product.add_to_cart' | t }}
                         {% else %}
                           {{ 'products.product.sold_out' | t }}
