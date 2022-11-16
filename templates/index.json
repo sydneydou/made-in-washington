@@ -84,9 +84,11 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "subheading": "",
-            "title": "Thank You!",
-            "text": "<p>For Voting Made in Washington <\/p>",
+            "image": "shopify:\/\/shop_images\/best_northwest_gift_shop_banner_9f18bfc9-1f0d-4d14-8bed-4fd433224bb0.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mobile_award_banner.jpg",
+            "subheading": "Thank you for voting for us!",
+            "title": "Voted Best Northwest Gift Store",
+            "text": "",
             "button_text": "",
             "link": "",
             "cont-width": 65,
@@ -96,7 +98,7 @@
             "button-text": "#ffffff",
             "button-background": "#000000",
             "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
+            "vertical-alignment": "bottom"
           }
         }
       },
