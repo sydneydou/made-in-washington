@@ -115,8 +115,8 @@
             "caption-text": "#222222",
             "button-text": "#ffffff",
             "button-background": "#333333",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
+            "horizontal-alignment": "right",
+            "vertical-alignment": "bottom"
           }
         }
       },
