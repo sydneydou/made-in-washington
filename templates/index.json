@@ -125,7 +125,6 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Black-Friday-Holiday-Special-2022a_e7362898-92d9-47a8-95b0-cfe326518422.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Black-Friday-Holiday-Special-2022-mobile.jpg",
             "subheading": "",
             "title": "Black Friday Special",
             "text": "<p><strong>Buy Party In A Box Get A FREE box of Chocolate Truffles<\/strong><\/p>",
@@ -138,7 +137,7 @@
             "button-text": "#ffffff",
             "button-background": "#000000",
             "horizontal-alignment": "center",
-            "vertical-alignment": "middle"
+            "vertical-alignment": "top"
           }
         }
       },
