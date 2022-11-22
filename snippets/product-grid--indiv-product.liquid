@@ -141,7 +141,7 @@
           {% when 'product-card-vendor' %}
           {% assign titleChange = liquidObject.vendor | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
           {% assign collectionURL =  "https://madeinwashington.com/collections/" | append: titleChange  %}
-          <a href="{{ collectionURL }}" class="indiv-product__link"{{ block.shopify_attributes }}>
+          <a style="    padding-bottom: 6px;" href="{{ collectionURL }}" class="indiv-product__link"{{ block.shopify_attributes }}>
 
             <span style="    font-family: 'zen-maru-gothic';
             font-size: .8em;">{{ liquidObject.vendor }}</span>
