@@ -139,10 +139,18 @@
           {% case block.type %}
 
           {% when 'product-card-vendor' %}
+          {% assign titleChange = liquidObject.vendor | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
+          {% assign collectionURL =  "https://madeinwashington.com/collections/" | append: titleChange  %}
+          <a href="{{ collectionURL }}" class="indiv-product__link"{{ block.shopify_attributes }}>
 
-            <div class="indiv-product-vendor-text" {{ block.shopify_attributes }}>{{ liquidObject.vendor | link_to_vendor }}</div>
+            <span class="indiv-product-title-text">{{ liquidObject.vendor }}</span>
+          </a>
+
+            <!-- <div class="indiv-product-vendor-text" {{ block.shopify_attributes }}>{{ liquidObject.vendor | link_to_vendor }}</div> -->
 
           {% when 'product-card-title' %}
+         
+        
             <a href="{{ liquidObject.url | within: collection }}" class="indiv-product__link"{{ block.shopify_attributes }}>
 
               <span class="indiv-product-title-text">{{ liquidObject.title }}</span>
