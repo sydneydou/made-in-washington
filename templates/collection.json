@@ -73,6 +73,11 @@
     "main": {
       "type": "template--collection",
       "blocks": {
+        "74105a9e-721a-4e65-802b-ac6bb6870bf3": {
+          "type": "product-card-vendor",
+          "settings": {
+          }
+        },
         "product_title": {
           "type": "product-card-title",
           "settings": {
@@ -85,6 +90,7 @@
         }
       },
       "block_order": [
+        "74105a9e-721a-4e65-802b-ac6bb6870bf3",
         "product_title",
         "product_price"
       ],
