@@ -164,6 +164,17 @@
         "header-font": "var(--font-family-regular)"
       }
     },
+    "e193b235-baff-49b5-ae6d-5c2ff36aa190": {
+      "type": "collection--collection-slider",
+      "settings": {
+        "background-color": "#357b8e",
+        "text-color": "#ffffff",
+        "subheading": "See What's New from Our Washington Makers",
+        "title": "Shop Our New Arrivals",
+        "collection": "new-arrivals",
+        "product_count": 12
+      }
+    },
     "16632269343ccbe2e8": {
       "type": "collection--collection-slider",
       "settings": {
@@ -414,6 +425,7 @@
   },
   "order": [
     "166270518089e3ae56",
+    "e193b235-baff-49b5-ae6d-5c2ff36aa190",
     "16632269343ccbe2e8",
     "collection-list",
     "image-image-with-text-block",
