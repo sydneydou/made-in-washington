@@ -94,7 +94,7 @@
                                         {% endfor %}
                                       </div>
 
-                                       <script>console.log({{locations | json}})</script>
+                                       <script>console.log({{ locations | uniq | join: ", " |json}})</script>
                               {% endpaginate %}
                                
 
