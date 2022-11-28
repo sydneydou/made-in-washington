@@ -43,9 +43,11 @@
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
                               {% assign locations = "" | split: "," %}
+                             
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
-                                              {% assign locations = locations | push: article.tags[0] %}
+                                                 {% assign tag = article.tags[0] %} 
+                                              {% assign locations = locations | push: tag %}
                                               
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
