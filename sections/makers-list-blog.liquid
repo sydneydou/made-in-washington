@@ -46,7 +46,7 @@
                 
                    <script>console.log({{locations|json}})</script>
                                        
-                          {% if locations != blank %}
+                          {% if locations == blank %}
                             <select style="width:10em;">
                               {% for i in locations %}
                                       
