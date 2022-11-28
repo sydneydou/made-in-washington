@@ -48,7 +48,7 @@
                                               {% for article in items limit:27  %}
                                                  {% assign tag = article.tags[0] %} 
                                               {% assign locations = locations | push: tag %}
-                                              <script>console.log({{tag | json}})</script>
+                                              <script>console.log({{items | json}})</script>
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
