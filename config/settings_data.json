@@ -28,14 +28,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": true,
-          "message_text": "Shop our holiday gift guide now",
-          "message_link": "shopify:\/\/collections\/local-gift-guide",
+          "enable": false,
+          "message_text": "FREE SHIPPING IN THE CONTINENTAL U.S. TODAY ONLY – USE CODE SHIPFREE22",
+          "message_link": "",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
           "logo": "shopify:\/\/shop_images\/wash.png",
-          "logo-enable": true
+          "logo-enable": false
         }
       },
       "header": {
