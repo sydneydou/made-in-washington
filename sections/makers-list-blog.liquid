@@ -65,14 +65,6 @@
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
 
-
-                                 {% assign with_filter = items | where: "tags", "Seattle" %}
-                           <script>console.log({{items |json}})</script>
-                            
-
-                         
-                                
-                      
                              
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
