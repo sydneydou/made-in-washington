@@ -36,16 +36,24 @@
                       {% endif %}
 
                       
-                      {% assign locations = "" | split: "," %}
+                       {% assign locations = "" | split: "," %}
                       {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
                       {% for article in items  %}
                           {% assign locations = locations | concat: article.tags %}
                       {% endfor %}
                     {% assign locations = locations | uniq | sort %}
-                                       <script>console.log({{ locations |json}})</script>
+                    <script>console.log({{ locations |json}})</script>
                                        
-                        
+                          {% if locations %}
+                            <select>
+                              {% for i in locations %}
+                                      
+                                          <option value="{{ i }}">{{ i }}</option>
+                                      
+                              {% endfor %}
+                            </select>
+                          {% endif %}
                           
                         <div class="lists">
 
