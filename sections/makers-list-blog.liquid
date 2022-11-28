@@ -37,6 +37,8 @@
 
                       
                       {% assign locations = "" | split: "," %}
+                      {% assign list = section.settings.blog.articles  | reverse %}
+                              {% assign items = list |sort:'title' %}
                       {% for article in items  %}
                           {% assign locations = locations | concat: article.tags %}
                       {% endfor %}
