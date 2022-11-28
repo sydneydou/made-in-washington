@@ -56,12 +56,12 @@
                                               
                                               
                                               {% endfor %}
-                                <script>console.log({{locations | json}})</script>
+                               
                                       </div>
                                       <div class="second-column secondarydiv" id="myDIV">
                                         {% for article in items offset:27 limit:27  %}
 
-                                        
+                                        {% assign locations = locations | concat: article.tags %}
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' | replace: "&", '' | replace: "--", '-' |  replace: "!", ''  %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
@@ -71,7 +71,8 @@
                                       </div>
                                       <div class="third-column secondarydiv" id="myDIV2">
                                         {% for article in items offset:54 limit:27  %}
-
+                                          
+                                          {% assign locations = locations | concat: article.tags %}
                                      
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
@@ -82,7 +83,8 @@
                                       </div>
                                       <div class="fourth-column secondarydiv" id="myDIV3">
                                         {% for article in items offset:81 limit:27  %}
-
+                                          
+                                                  {% assign locations = locations | concat: article.tags %}
                                         
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "-&", '' | replace: "--", '-' |  replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
@@ -91,6 +93,8 @@
                                         
                                         {% endfor %}
                                       </div>
+
+                                       <script>console.log({{locations | json}})</script>
                               {% endpaginate %}
                                
 
