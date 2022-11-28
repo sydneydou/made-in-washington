@@ -46,7 +46,7 @@
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
                                               {% assign locations = locations | push: article.tags[0] %}
-                                              <script>console.log({{locations | json}})</script>
+                                              
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
@@ -54,6 +54,7 @@
                                               
                                               
                                               {% endfor %}
+                                <script>console.log({{locations | json}})</script>
                                       </div>
                                       <div class="second-column secondarydiv" id="myDIV">
                                         {% for article in items offset:27 limit:27  %}
