@@ -46,7 +46,7 @@
                 
                    <script>console.log({{locations|json}})</script>
                                        
-                          {% if locations == blank %}
+                          {% if locations != blank %}
                             <select style="width:10em;">
                               {% for i in locations %}
                                       
@@ -77,14 +77,13 @@
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
                                                
-                                                {% if article.tags contains 'Seattle'   %}
                                               
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                                     <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                               
-       {% endif  %}
+     
                                                   
                                               {% endfor %}
                                
