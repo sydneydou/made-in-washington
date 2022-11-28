@@ -35,7 +35,7 @@
                         <h3 onclick="myFunction()" class="mobile view-all-link" id="list-link">View Full List </h3>
                       {% endif %}
 
-                      
+                          {% assign filterval = "" %}
                        {% assign locations = "" | split: "," %}
                       {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
@@ -43,6 +43,7 @@
                           {% assign locations = locations | concat: article.tags %}
                       {% endfor %}
                     {% assign locations = locations | uniq | sort %}
+                
                    <script>console.log({{locations|json}})</script>
                                        
                           {% if locations == blank %}
@@ -57,12 +58,19 @@
                           
                         <div class="lists">
 
+
+                           {% assign with_filter = products | where: "tags", "Seattle" %}
+                           <script>console.log({{with_filter |json}})</script>
                             
                           
                               {% paginate section.settings.blog.articles  by 150 %}
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
-                              
+
+
+                         
+                                
+                              {% assign filtered = list |sort:'title' %}
                              
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
