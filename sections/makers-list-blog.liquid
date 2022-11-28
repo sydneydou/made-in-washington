@@ -35,6 +35,17 @@
                         <h3 onclick="myFunction()" class="mobile view-all-link" id="list-link">View Full List </h3>
                       {% endif %}
 
+
+                          {% if locations %}
+                            <select>
+                              {% for i in locations %}
+                                      
+                                          <option value="{{ i }}">{{ i }}</option>
+                                      
+                              {% endfor %}
+                            </select>
+                          {% endif %}
+                          
                         <div class="lists">
 
                             
