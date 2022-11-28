@@ -93,7 +93,7 @@
                                         
                                         {% endfor %}
                                       </div>
-                                   {% assign locations = locations | uniq %}
+                                   {% assign locations = locations | uniq | sort %}
                                        <script>console.log({{ locations |json}})</script>
                               {% endpaginate %}
                                
