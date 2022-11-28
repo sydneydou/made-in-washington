@@ -46,7 +46,7 @@
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
                                               {% assign tags = tags | push: article.tag[0] %}
-                                              <script>console.log({{tags | json}})</script>
+                                              <script>console.log({{article.tag | json}})</script>
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
