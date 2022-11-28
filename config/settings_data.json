@@ -30,7 +30,7 @@
         "settings": {
           "enable": true,
           "message_text": "FREE SHIPPING IN THE CONTINENTAL U.S. TODAY ONLY – USE CODE SHIPFREE22",
-          "message_link": "",
+          "message_link": "https:\/\/madeinwashington.com\/cart",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
