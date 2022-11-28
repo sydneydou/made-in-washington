@@ -42,7 +42,8 @@
                       {% endfor %}
                     {% assign locations = locations | uniq | sort %}
                                        <script>console.log({{ locations |json}})</script>
-                          {% if locations %}
+                                       
+<!--                           {% if locations %}
                             <select>
                               {% for i in locations %}
                                       
@@ -50,7 +51,7 @@
                                       
                               {% endfor %}
                             </select>
-                          {% endif %}
+                          {% endif %} -->
                           
                         <div class="lists">
 
