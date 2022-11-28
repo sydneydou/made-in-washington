@@ -35,7 +35,13 @@
                         <h3 onclick="myFunction()" class="mobile view-all-link" id="list-link">View Full List </h3>
                       {% endif %}
 
-
+                      
+                      {% assign locations = "" | split: "," %}
+                      {% for article in items  %}
+                          {% assign locations = locations | concat: article.tags %}
+                      {% endfor %}
+                    {% assign locations = locations | uniq | sort %}
+                                       <script>console.log({{ locations |json}})</script>
                           {% if locations %}
                             <select>
                               {% for i in locations %}
@@ -53,12 +59,12 @@
                               {% paginate section.settings.blog.articles  by 150 %}
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
-                              {% assign locations = "" | split: "," %}
+                              
                              
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
                                                  {% assign tag = article.tags[0] %} 
-                                              {% assign locations = locations | concat: article.tags %}
+                                              
                                               
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
@@ -72,7 +78,7 @@
                                       <div class="second-column secondarydiv" id="myDIV">
                                         {% for article in items offset:27 limit:27  %}
 
-                                        {% assign locations = locations | concat: article.tags %}
+                                        
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' | replace: "&", '' | replace: "--", '-' |  replace: "!", ''  %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                               <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
@@ -83,7 +89,7 @@
                                       <div class="third-column secondarydiv" id="myDIV2">
                                         {% for article in items offset:54 limit:27  %}
                                           
-                                          {% assign locations = locations | concat: article.tags %}
+                                          
                                      
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
@@ -95,7 +101,7 @@
                                       <div class="fourth-column secondarydiv" id="myDIV3">
                                         {% for article in items offset:81 limit:27  %}
                                           
-                                                  {% assign locations = locations | concat: article.tags %}
+                                                  
                                         
                                                 {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", ''  | replace: "-&", '' | replace: "--", '-' |  replace: "!", '' %}
                                                 {% assign collectionURL =  "/collections/" | append: titleChange  %}
@@ -104,8 +110,7 @@
                                         
                                         {% endfor %}
                                       </div>
-                                   {% assign locations = locations | uniq | sort %}
-                                       <script>console.log({{ locations |json}})</script>
+                               
                               {% endpaginate %}
                                
 
