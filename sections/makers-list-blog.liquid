@@ -59,18 +59,20 @@
                         <div class="lists">
 
 
-                           {% assign with_filter = products | where: "tags", "Seattle" %}
-                           <script>console.log({{with_filter |json}})</script>
-                            
+                          
                           
                               {% paginate section.settings.blog.articles  by 150 %}
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
 
 
+                                 {% assign with_filter = items | where: "tags", "Seattle" %}
+                           <script>console.log({{with_filter |json}})</script>
+                            
+
                          
                                 
-                              {% assign filtered = list |sort:'title' %}
+                      
                              
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
