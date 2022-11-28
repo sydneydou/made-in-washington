@@ -43,9 +43,9 @@
                           {% assign locations = locations | concat: article.tags %}
                       {% endfor %}
                     {% assign locations = locations | uniq | sort %}
-                    <script>console.log({{ locations |json}})</script>
+                   
                                        
-                          {% if locations %}
+                          {% if locations == blank%}
                             <select style="width:10em;">
                               {% for i in locations %}
                                       
