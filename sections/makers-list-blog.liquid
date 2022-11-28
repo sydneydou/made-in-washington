@@ -42,11 +42,11 @@
                               {% paginate section.settings.blog.articles  by 150 %}
                               {% assign list = section.settings.blog.articles  | reverse %}
                               {% assign items = list |sort:'title' %}
-                              
+                              {% assign tags = "" | split: "," %}
                                     <div class="first-column">
                                               {% for article in items limit:27  %}
-
-                                              <script>console.log({{article | json}})</script>
+                                              {% assign tags = tags | push: article.tag %}
+                                              <script>console.log({{tags | json}})</script>
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
