@@ -4,7 +4,7 @@
     "166357422646fe3c36": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "shopify:\/\/shop_images\/Local-Artisan-Nuts-Rotator-2048x1365.jpg",
         "subheading": "",
         "title": "{{ collection.title }}",
         "main-heading": true,
