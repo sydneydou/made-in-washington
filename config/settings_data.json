@@ -8,7 +8,7 @@
     "allow_note": true,
     "show_deliverydate": false,
     "enable_shipping_encouragement": false,
-    "below-title-cart-message": "<b>CYBER MONDAY SALE: Use code ShipFree22 for free ground shipping on all products in the Continental U.S.\n<br>\nOffer only valid from 9:00PM on 11\/27\/2022 - 11:59PM on on 11\/28\/2022<\/b>\n<br>\n<br>\n\nIn order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
+    "below-title-cart-message": "In order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
     "below-title-cart-message-second": "Gift Messages appear on the outside of the box, printed on the shipping label. <br>\nShipping Cut-Off: Orders placed after 1:00 pm PT M-F ship the following Business Weekday.",
     "free_shipping_amount": "",
     "hover_effect": "shadow",
