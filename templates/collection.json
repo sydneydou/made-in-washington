@@ -3,8 +3,8 @@
   "sections": {
     "166357422646fe3c36": {
       "type": "image--image-with-text-overlay",
-      "disabled": true,
       "settings": {
+        "image": "{{ collection.image }}",
         "subheading": "",
         "title": "{{ collection.title }}",
         "main-heading": true,
