@@ -4,7 +4,6 @@
     "166357422646fe3c36": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/makers_banner-min.png",
         "subheading": "",
         "title": "{{ collection.title }}",
         "main-heading": true,
