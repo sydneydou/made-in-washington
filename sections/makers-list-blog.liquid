@@ -46,8 +46,8 @@
                 
                    <script>console.log({{locations|json}})</script>
                                        
-                          {% if locations == blank %}
-                            <select onchange="dif()" style="width:10em;" id="locationFinder">
+                          {% if locations != blank %}
+                            <select onchange="val()" style="width:10em;" id="locationFinder">
                               {% for i in locations %}
                                       
                                           <option value="{{ i }}">{{ i }}</option>
@@ -133,19 +133,17 @@
     
   </section>
 
+
+  <script>
+function val() {
+    d = document.getElementById("locationFinder").value;
+    console.log(d);
+}
+</script>
+
+
   <script>
 
-
-
-
-    function dif() {
-var e = document.getElementById("list-link");
-var value = e.value;
-var text = e.options[e.selectedIndex].text;
-
-console.log(text)
-      
-    }
 
 
 
