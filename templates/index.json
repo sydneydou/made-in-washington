@@ -17,8 +17,8 @@
             "cap-back": true,
             "caption-background": "#e3e3e0",
             "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
+            "button-text": "#000",
+            "button-background": "#ffffff",
             "horizontal-alignment": "center",
             "vertical-alignment": "bottom"
           }
