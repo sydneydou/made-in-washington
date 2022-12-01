@@ -123,6 +123,7 @@
         },
         "ed336d50-cb02-4e94-b9ad-a044edc6f793": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/best_northwest_gift_shop_banner_9f18bfc9-1f0d-4d14-8bed-4fd433224bb0.jpg",
             "mobile_image": "shopify:\/\/shop_images\/mobile_award_banner.jpg",
