@@ -46,7 +46,7 @@
                 
                    <script>console.log({{locations|json}})</script>
                                        
-                          {% if locations == blank %}
+                          {% if locations != blank %}
                             <select onchange="dif()" style="width:10em;" id="locationFinder">
                               {% for i in locations %}
                                       
