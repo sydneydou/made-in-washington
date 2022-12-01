@@ -25,9 +25,8 @@
         },
         "45b98eb0-8863-42cc-8e2b-3507f1b7af86": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Murder-Hornet-Hot-Sauce-Header-2000x900v2.jpg",
+            "image": "shopify:\/\/shop_images\/Murder-Hornet-Hot-Sauce-Header-2000x900v4.jpg",
             "subheading": "Bold & Balanced",
             "title": "Top Shelf Hot Sauces",
             "text": "",
@@ -36,11 +35,11 @@
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "#e3e3e0",
-            "caption-text": "#ffffff",
-            "button-text": "#000000",
-            "button-background": "#ffffff",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#057c8f",
             "horizontal-alignment": "center",
-            "vertical-alignment": "bottom"
+            "vertical-alignment": "top"
           }
         },
         "ea7ea3e2-88dd-4d1c-a296-b8cd71c9efdd": {
