@@ -70,12 +70,13 @@
                                               {% for article in items limit:27  %}
                                                
                                                {% if article.tags contains 'Seattle' %}
+                                                 {% endif %}
                                               
                                                       {% assign titleChange = article.title | downcase | replace: ' ', '-' | replace: "'", '' |  replace: "&", '' | replace: "--", '-' | replace: "!", '' %}
                                                       {% assign collectionURL =  "/collections/" | append: titleChange  %}
                                                     <h3 style="    text-align: center;" class="type-subheading type-subheading--1"><a href={{ collectionURL }}>{{ article.title }}</a></h3>
                                               
-                                             {% endif %}
+                                             
                                                   
                                               {% endfor %}
                                
