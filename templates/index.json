@@ -143,22 +143,21 @@
         },
         "45b98eb0-8863-42cc-8e2b-3507f1b7af86": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Murder-Hornet-Hot-Sauce-Header-2000x900.jpg",
+            "image": "shopify:\/\/shop_images\/Murder-Hornet-Hot-Sauce-Header-2000x900v2.jpg",
             "subheading": "Bold & Balanced",
             "title": "Top Shelf Hot Sauces",
             "text": "",
-            "button_text": "",
+            "button_text": "Shop Now",
             "link": "https:\/\/madeinwashington.com\/collections\/hot-sauce-mustard-dip",
             "cont-width": 65,
-            "cap-back": false,
+            "cap-back": true,
             "caption-background": "#e3e3e0",
-            "caption-text": "#333333",
+            "caption-text": "#ffffff",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "bottom"
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
           }
         }
       },
