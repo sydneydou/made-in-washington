@@ -101,6 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% assign future_ship = checkout.attributes.Future_Ship_Date %}
     {% assign gift_message = checkout.attributes.Gift_Message %}
     <script>
+      console.log(checkout.attributes)
       $(() => {
         let futureShipHTML = '';
         let giftMessagHTML = '';
