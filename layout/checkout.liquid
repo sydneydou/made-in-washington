@@ -101,7 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% assign future_ship = checkout.attributes.Future_Ship_Date %}
     {% assign gift_message = checkout.attributes.Gift_Message %}
     <script>
-      console.log({{gift_message | json}})
+      
       $(() => {
         let futureShipHTML = '';
         let giftMessagHTML = '';
@@ -110,6 +110,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           futureShipHTML = '<div class="checkout--attribute"><strong>Your Order Will Ship The Week Of</strong>: <p>{{future_ship}}</p></div>';
         {% endif %}
         {% if gift_message != blank %}
+          console.log({{gift_message | json}})
            $('.order-summary__section--total-lines').after('<div class="checkout-gift-message"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>');
          // giftMessagHTML = '<div class="checkout--attribute"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>'
         {% endif %}
