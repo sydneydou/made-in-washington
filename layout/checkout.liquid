@@ -2,6 +2,7 @@
 <html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
   <head>
  <!-- Google Tag Manager -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -101,17 +102,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% assign future_ship = checkout.attributes.Future_Ship_Date %}
     {% assign gift_message = checkout.attributes.Gift_Message %}
     <script>
-      
+      console.log({{gift_message | json}})
       $(() => {
         let futureShipHTML = '';
         let giftMessagHTML = '';
-        console.log({{gift_message | json}}, "firsttest")
         {% if future_ship != blank %}
           // $('.order-summary__section--total-lines').after('<div class="checkout-gift-message"><strong>Your Order Will Ship The Week Of</strong>: <p>{{future_ship}}</p></div>');
           futureShipHTML = '<div class="checkout--attribute"><strong>Your Order Will Ship The Week Of</strong>: <p>{{future_ship}}</p></div>';
         {% endif %}
         {% if gift_message != blank %}
-          
            $('.order-summary__section--total-lines').after('<div class="checkout-gift-message"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>');
          // giftMessagHTML = '<div class="checkout--attribute"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>'
         {% endif %}
