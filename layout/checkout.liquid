@@ -105,12 +105,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       $(() => {
         let futureShipHTML = '';
         let giftMessagHTML = '';
+        console.log({{gift_message | json}}, "firsttest")
         {% if future_ship != blank %}
           // $('.order-summary__section--total-lines').after('<div class="checkout-gift-message"><strong>Your Order Will Ship The Week Of</strong>: <p>{{future_ship}}</p></div>');
           futureShipHTML = '<div class="checkout--attribute"><strong>Your Order Will Ship The Week Of</strong>: <p>{{future_ship}}</p></div>';
         {% endif %}
         {% if gift_message != blank %}
-          console.log({{gift_message | json}})
+          console.log({{gift_message | json}}, "test")
            $('.order-summary__section--total-lines').after('<div class="checkout-gift-message"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>');
          // giftMessagHTML = '<div class="checkout--attribute"><strong>Your Gift Message</strong>: <p>{{gift_message}}</p></div>'
         {% endif %}
