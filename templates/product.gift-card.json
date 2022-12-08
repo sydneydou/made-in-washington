@@ -32,6 +32,7 @@
         },
         "product-price": {
           "type": "product-price",
+          "disabled": true,
           "settings": {
             "show_discount": "value",
             "tax_included": false,
