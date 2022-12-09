@@ -1729,4 +1729,12 @@ max-width:76% !important;
         margin-top:14em;
     }
 
+
+#customer_detail{
+      display: flex;
+    flex-direction: column;
+}
+
+  
+
 }
