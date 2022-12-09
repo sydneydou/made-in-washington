@@ -441,7 +441,7 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "shipping_address_title": "Shipping Address. NOTE: WE DO NOT CURRENTLY SHIP TO P.O BOXES"
+        "shipping_address_title": "Shipping Address            NOTE: WE DO NOT CURRENTLY SHIP TO P.O BOXES.  "
       }
     }
   }
