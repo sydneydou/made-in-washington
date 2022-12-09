@@ -797,6 +797,12 @@ footer .mtn{
 /* @media only screen and (min-width: 798px){ */
     @media only screen and (min-width: 1098px){
 
+      
+#customer_detail{
+      display: flex;
+    flex-direction: column;
+}
+
         .page-title--2022-featured-holiday-products-made-in-washington .mtn{
             top: -10.5em !important;
         }
@@ -1730,10 +1736,6 @@ max-width:76% !important;
     }
 
 
-#customer_detail{
-      display: flex;
-    flex-direction: column;
-}
 
   
 
