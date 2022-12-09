@@ -437,5 +437,12 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "shipping_address_title": "Shipping Address. NOTE: WE DO NOT CURRENTLY SHIP TO P.O BOXES"
+      }
+    }
   }
 }
