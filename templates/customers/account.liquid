@@ -36,16 +36,23 @@
               <th class="payment_status">{{ 'customer.orders.payment_status' | t }}</th>
               <th class="fulfillment_status">{{ 'customer.orders.fulfillment_status' | t }}</th>
               <th class="total">{{ 'customer.orders.total' | t }}</th>
+              <th></th>
             </tr>
           </thead>
           <tbody>
             {% for order in customer.orders %}
+                {% capture link %}
+                      {%- for line_item in order.line_items -%}
+                      {{ line_item.variant_id }}:{{ line_item.quantity }}
+                    {%- unless forloop.last -%},{%- endunless -%} {%- endfor -%}
+                {% endcapture %}
             <tr class="{% cycle 'odd', 'even' %} {% if order.canceled %}canceled_order{% endif %}">
               <td class="order_number__value">{{ order.name | link_to: order.customer_url }}</td>
               <td><span class="note">{{ order.created_at | date: format: 'long' }}</span></td>
               <td><span class="status_{{ order.financial_status_label }}">{{ order.financial_status_label }}</span></td>
               <td><span class="status_{{ order.fulfillment_status_label }}">{{ order.fulfillment_status_label }}</span></td>
               <td><span class="total money">{{ order.total_price | money }}</span></td>
+              <td class="account__row-order"><a style="text-transform: none;" href="https://madeinwashington.myshopify.com/cart/{{link}}">Duplicate Order</a></td>
             </tr>
             {% endfor %}
           </tbody>
