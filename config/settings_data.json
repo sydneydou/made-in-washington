@@ -30,7 +30,7 @@
         "settings": {
           "enable": true,
           "message_text": "FREE SHIPPING WEEKEND – Use Code HollyJolly",
-          "message_link": "shopify:\/\/collections\/local-gift-guide",
+          "message_link": "https:\/\/madeinwashington.com\/cart",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
