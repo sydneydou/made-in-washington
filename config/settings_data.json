@@ -28,14 +28,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": false,
-          "message_text": "FREE SHIPPING WEEKEND – Use Code HollyJolly",
-          "message_link": "https:\/\/madeinwashington.com\/cart",
+          "enable": true,
+          "message_text": "Shop Our Holiday Gift Guide Here",
+          "message_link": "https:\/\/madeinwashington.com\/collections\/local-gift-guide",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
           "logo": "shopify:\/\/shop_images\/wash.png",
-          "logo-enable": false
+          "logo-enable": true
         }
       },
       "header": {
