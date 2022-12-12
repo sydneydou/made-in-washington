@@ -28,7 +28,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": true,
+          "enable": false,
           "message_text": "FREE SHIPPING WEEKEND – Use Code HollyJolly",
           "message_link": "https:\/\/madeinwashington.com\/cart",
           "notification-bar--background-color": "#357b8e",
