@@ -18,7 +18,7 @@
 	</div>
 
 	{% if cart.item_count == 0 %}
-		<div class="empty-cart">{{ 'cart.general.empty' | t }}, <a href="{{ routes.all_products_collection_url }}">{{ 'cart.general.continue_browsing_html' | t }}</a></div>
+		<div class="empty-cart">{{ 'cart.general.empty' | t }}, <a href="/">{{ 'cart.general.continue_browsing_html' | t }}</a></div>
 	{% else %}
 
 	<div class="cart-error-box"></div>
