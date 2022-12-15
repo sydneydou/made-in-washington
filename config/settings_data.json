@@ -29,13 +29,13 @@
         "type": "announcement-bar",
         "settings": {
           "enable": true,
-          "message_text": "Shop Our Holiday Gift Guide Here",
-          "message_link": "https:\/\/madeinwashington.com\/collections\/local-gift-guide",
+          "message_text": "Ground Shipping Deadline is Friday 12\/16 at 9:00 am",
+          "message_link": "https:\/\/madeinwashington.com\/cart",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
           "logo": "shopify:\/\/shop_images\/wash.png",
-          "logo-enable": true
+          "logo-enable": false
         }
       },
       "header": {
