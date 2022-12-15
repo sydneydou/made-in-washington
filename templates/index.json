@@ -6,6 +6,7 @@
       "blocks": {
         "45b98eb0-8863-42cc-8e2b-3507f1b7af86": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Murder-Hornet-Hot-Sauce-Header-2000x900v4.jpg",
             "subheading": "Bold & Balanced",
