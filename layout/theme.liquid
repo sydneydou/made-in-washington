@@ -237,6 +237,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 {% include 'globo.filter.action' %}
+
+
+{% if window.location.href="https://madeinwashington.com/collections/vendors?q=Made+In+Washington" %}
+<script>window.location.href="https://madeinwashington.com/pages/about"</script>
+{% endif %}
+  
 	</body>
 
 </html>
