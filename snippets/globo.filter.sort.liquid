@@ -63,6 +63,22 @@
           {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Reviews Rating_count ascending{% endif %}
         {% elsif sort_by == 'mf-reviews-rating_count-descending' %}
           {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Reviews Rating_count descending{% endif %}
+                {% elsif sort_by == 'mf-shopify--discovery--product_search_boost-queries-ascending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_search_boost Queries ascending{% endif %}
+        {% elsif sort_by == 'mf-shopify--discovery--product_search_boost-queries-descending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_search_boost Queries descending{% endif %}
+                {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-related_products-ascending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Related_products ascending{% endif %}
+        {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-related_products-descending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Related_products descending{% endif %}
+                {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-related_products_display-ascending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Related_products_display ascending{% endif %}
+        {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-related_products_display-descending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Related_products_display descending{% endif %}
+                {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-complementary_products-ascending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Complementary_products ascending{% endif %}
+        {% elsif sort_by == 'mf-shopify--discovery--product_recommendation-complementary_products-descending' %}
+          {% if translation.sort[sort_by] %}{{translation.sort[sort_by]}}{% else %}Shopify--discovery--product_recommendation Complementary_products descending{% endif %}
                 {% endif %}
       {% endcapture %}
       {% comment %}
@@ -124,6 +140,38 @@
             {% elsif sort == 'mf-reviews-rating_count-descending' %}
               <span data-sort="mf-reviews-rating_count-descending" onclick="changeSortBy('mf-reviews-rating_count-descending');">
                 {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Reviews Rating_count descending{% endif %}
+              </span>
+                        {% elsif sort == 'mf-shopify--discovery--product_search_boost-queries-ascending' %}
+              <span data-sort="mf-shopify--discovery--product_search_boost-queries-ascending" onclick="changeSortBy('mf-shopify--discovery--product_search_boost-queries-ascending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_search_boost Queries ascending{% endif %}
+              </span>
+            {% elsif sort == 'mf-shopify--discovery--product_search_boost-queries-descending' %}
+              <span data-sort="mf-shopify--discovery--product_search_boost-queries-descending" onclick="changeSortBy('mf-shopify--discovery--product_search_boost-queries-descending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_search_boost Queries descending{% endif %}
+              </span>
+                        {% elsif sort == 'mf-shopify--discovery--product_recommendation-related_products-ascending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-related_products-ascending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-related_products-ascending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Related_products ascending{% endif %}
+              </span>
+            {% elsif sort == 'mf-shopify--discovery--product_recommendation-related_products-descending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-related_products-descending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-related_products-descending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Related_products descending{% endif %}
+              </span>
+                        {% elsif sort == 'mf-shopify--discovery--product_recommendation-related_products_display-ascending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-related_products_display-ascending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-related_products_display-ascending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Related_products_display ascending{% endif %}
+              </span>
+            {% elsif sort == 'mf-shopify--discovery--product_recommendation-related_products_display-descending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-related_products_display-descending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-related_products_display-descending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Related_products_display descending{% endif %}
+              </span>
+                        {% elsif sort == 'mf-shopify--discovery--product_recommendation-complementary_products-ascending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-complementary_products-ascending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-complementary_products-ascending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Complementary_products ascending{% endif %}
+              </span>
+            {% elsif sort == 'mf-shopify--discovery--product_recommendation-complementary_products-descending' %}
+              <span data-sort="mf-shopify--discovery--product_recommendation-complementary_products-descending" onclick="changeSortBy('mf-shopify--discovery--product_recommendation-complementary_products-descending');">
+                {% if translation.sort[sort] %}{{translation.sort[sort]}}{% else %}Shopify--discovery--product_recommendation Complementary_products descending{% endif %}
               </span>
                         {% endif %}
           {% endfor %}

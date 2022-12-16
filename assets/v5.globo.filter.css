@@ -1986,14 +1986,14 @@ h3.spf-heading {
   visibility: visible
 }
 
-#gf-products .product h3 {
+#gf-products .product:not(.globo--thb-listing) h3 {
   padding: 0 20px 0 0;
   margin: 0 0 7px;
   font-size: 14px;
   line-height: 1.2
 }
 
-#gf-products .product h3 a {
+#gf-products .product:not(.globo--thb-listing) h3 a {
   color: #000;
   transition: none;
   font-size: 14px;
@@ -6139,6 +6139,18 @@ span.spf-product__label.spf-product__label.spf-product__label-soldout{
 .spf-has-filter.theme-store-id-688.gf-left .gf-block-title .h3, 
 .spf-has-filter.theme-store-id-688.gf-offcanvas .gf-block-title .h3 {
   line-height: 1.4;
+}
+
+.spf-has-filter.theme-store-id-304 .gf-clear,
+.spf-has-filter.theme-store-id-601 .gf-clear {
+  white-space: nowrap;
+}
+
+.spf-has-filter.theme-store-id-304 .gf-block-title h3,
+.spf-has-filter.theme-store-id-304 .gf-block-title .h3 {
+  line-height: 1.4;
+  border: 0;
+  padding: 0;
 }
 
 /*** Filter style Select ***/
