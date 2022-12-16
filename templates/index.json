@@ -123,12 +123,11 @@
         },
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/El-Fuego-Hot-Sauce-Header-2000x900.jpg",
             "subheading": "",
-            "title": "It's Getting Hot In Here",
-            "text": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "title": "Make It Spicy & Flavorful",
+            "text": "<p>*<\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
             "button_text": "SHOP",
             "link": "",
             "cont-width": 65,
