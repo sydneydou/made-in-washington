@@ -88,7 +88,7 @@
       term: {{ search.terms | escape | json }},
       limit: 12,
       products_count: {{collection.products_count | default: 0}},
-      excludeTags: null
+      excludeTags: ["out of stock"]
     },
     customer: {% if customer %}{id: {{customer.id}}, tags: {{customer.tags | json}}}{% else %}false{% endif %},
     selector: {
