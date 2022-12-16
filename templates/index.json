@@ -42,6 +42,25 @@
             "vertical-alignment": "bottom"
           }
         },
+        "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/El-Fuego-Hot-Sauce-Header-2000x900.jpg",
+            "subheading": "",
+            "title": "It's Getting Hot In Here",
+            "text": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "button_text": "SHOP NOW",
+            "link": "https:\/\/madeinwashington.com\/collections\/hot-sauce-mustard-dip",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#333333",
+            "button-text": "#ffffff",
+            "button-background": "#057c8f",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
         "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5": {
           "type": "slide",
           "settings": {
@@ -120,35 +139,16 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
-        },
-        "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/El-Fuego-Hot-Sauce-Header-2000x900.jpg",
-            "subheading": "",
-            "title": "Make It Spicy & Flavorful",
-            "text": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
-            "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/hot-sauce-mustard-dip",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#333333",
-            "button-text": "#ffffff",
-            "button-background": "#057c8f",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
-          }
         }
       },
       "block_order": [
         "1662705180984bcaa0-1",
         "ab19141d-18d8-4ccd-bbf5-10a844980623",
+        "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0",
-        "f4c93a8b-0a1f-47f9-9991-7b786f5b753d"
+        "1662705180984bcaa0-0"
       ],
       "settings": {
         "slider-animation": "fade",
