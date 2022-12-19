@@ -28,7 +28,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": true,
+          "enable": false,
           "message_text": "SHIPPING SPECIAL:  GET IT THERE BY CHRISTMAS ONLY $9.99  Ends Today (12\/19) AT 1:00 pm PT",
           "message_link": "https:\/\/madeinwashington.com\/cart",
           "notification-bar--background-color": "#357b8e",
