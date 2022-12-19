@@ -8,7 +8,7 @@
     "allow_note": true,
     "show_deliverydate": false,
     "enable_shipping_encouragement": false,
-    "below-title-cart-message": "<b>Shipping Special: <font color=\"red\"> Get It There By Christmas only $9.99. <\/font><\/b>  Orders placed by Wed. 12\/21 at 9:00 am  will arrive in time for Christmas. Please select the \"Get It There By Christmas\" shipping option in the checkout process.<br><br>\n\n<b>Ground Shipping Deadline:   <\/b> Our Ground Shipping deadline has passed. <br><br>\n\n<b> Sorry, our carrier (UPS) cannot ship to P.O. Boxes. <\/b> <br><br>\n\n\nIn order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
+    "below-title-cart-message": "<b>Shipping Special: <font color=\"red\"> Get It There By Christmas only $9.99. <\/font><\/b>  Choose this shipping option for your orders to arrive by Christmas. Hurry, ends soon. Please select the \"Get It There By Christmas\" shipping option in the checkout process.<br><br>\n\n<b>Ground Shipping Deadline:   <\/b> Our Ground Shipping deadline has passed. <br><br>\n\n<b> Sorry, our carrier (UPS) cannot ship to P.O. Boxes. <\/b> <br><br>\n\n\nIn order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
     "below-title-cart-message-second": "Gift Messages appear on the outside of the box, printed on the shipping label. <br>\nShipping Cut-Off: Orders placed after 1:00 pm PT M-F ship the following Business Weekday.",
     "free_shipping_amount": "",
     "hover_effect": "shadow",
