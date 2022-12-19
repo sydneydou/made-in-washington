@@ -28,14 +28,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": false,
-          "message_text": "SHIPPING SPECIAL:  GET IT THERE BY CHRISTMAS ONLY $9.99  Ends Today (12\/19) AT 1:00 pm PT",
-          "message_link": "https:\/\/madeinwashington.com\/cart",
+          "enable": true,
+          "message_text": "SHOP OUR HOLIDAY GIFT GUIDE",
+          "message_link": "https:\/\/madeinwashington.com\/collections\/local-gift-guide",
           "notification-bar--background-color": "#357b8e",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
           "logo": "shopify:\/\/shop_images\/wash.png",
-          "logo-enable": false
+          "logo-enable": true
         }
       },
       "header": {
