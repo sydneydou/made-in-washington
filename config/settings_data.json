@@ -8,7 +8,7 @@
     "allow_note": true,
     "show_deliverydate": false,
     "enable_shipping_encouragement": false,
-    "below-title-cart-message": "<b>12\/19 Shipping Update: <\/b> Our Christmas delivery deadlines have passed. We are continuing to ship packages but due to changing weather conditions, UPS trucks may not be making scheduled pick-ups or deliveries.<br><br>\n\n<b> Sorry, our carrier (UPS) cannot ship to P.O. Boxes. <\/b> <br><br>\n\n\nIn order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
+    "below-title-cart-message": "<b>12\/19 Shipping Update: <\/b> Our Christmas delivery deadlines have passed. We are continuing to ship packages but due to changing <b>winter weather conditions<\/b>, UPS trucks may not be making scheduled pick-ups or deliveries.<br><br>\n\n<b> Sorry, our carrier (UPS) cannot ship to P.O. Boxes. <\/b> <br><br>\n\n\nIn order to ensure delivery of your packages during the busy holiday season, we are not holding packages for future delivery dates. Our future shipping calendar returns in January.",
     "below-title-cart-message-second": "Gift Messages appear on the outside of the box, printed on the shipping label. <br>\nShipping Cut-Off: Orders placed after 1:00 pm PT M-F ship the following Business Weekday.",
     "free_shipping_amount": "",
     "hover_effect": "shadow",
