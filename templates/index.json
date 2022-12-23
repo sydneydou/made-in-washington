@@ -149,7 +149,7 @@
             "title": "Shop Our Clearance Sale",
             "text": "",
             "button_text": "Shop Now",
-            "link": "",
+            "link": "shopify:\/\/collections\/clearance-sale",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
