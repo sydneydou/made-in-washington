@@ -28,7 +28,7 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "enable": true,
+          "enable": false,
           "message_text": "SHOP OUR HOLIDAY GIFT GUIDE",
           "message_link": "https:\/\/madeinwashington.com\/collections\/local-gift-guide",
           "notification-bar--background-color": "#357b8e",
