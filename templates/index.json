@@ -4,6 +4,25 @@
     "166270518089e3ae56": {
       "type": "image--slideshow",
       "blocks": {
+        "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-New-Entertaining.jpg",
+            "subheading": "With Gourmet Locally Made Treats!",
+            "title": "Prep Your Charcuterie Spread",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "link": "https:\/\/madeinwashington.com\/collections\/seafood-gourment-food-chocolate",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#8b8989",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "middle"
+          }
+        },
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
           "type": "slide",
           "settings": {
@@ -101,34 +120,15 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
-        },
-        "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/New-New-Entertaining.jpg",
-            "subheading": "With Gourmet Locally Made Treats!",
-            "title": "Prep Your Charcuterie Spread",
-            "text": "",
-            "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/seafood-gourment-food-chocolate",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
-            "button-text": "#ffffff",
-            "button-background": "#8b8989",
-            "horizontal-alignment": "right",
-            "vertical-alignment": "middle"
-          }
         }
       },
       "block_order": [
+        "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ab19141d-18d8-4ccd-bbf5-10a844980623",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0",
-        "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca"
+        "1662705180984bcaa0-0"
       ],
       "settings": {
         "slider-animation": "fade",
