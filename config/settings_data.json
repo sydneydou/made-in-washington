@@ -31,7 +31,7 @@
           "enable": true,
           "message_text": "SHOP OUR CLEARANCE SALE",
           "message_link": "shopify:\/\/collections\/clearance-sale",
-          "notification-bar--background-color": "#c40a0c",
+          "notification-bar--background-color": "#b1292f",
           "notification-bar--text-color": "#ffffff",
           "social-enable": false,
           "logo": "shopify:\/\/shop_images\/wash.png",
