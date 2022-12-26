@@ -4,23 +4,23 @@
     "166270518089e3ae56": {
       "type": "image--slideshow",
       "blocks": {
-        "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5": {
+        "a5fc9827-38a3-40d6-9c7d-88f9015056f4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_3_1_-min.png",
-            "subheading": "With hand made, fragrant candles. That’s Festive AF.",
-            "title": "Light up The Holidays",
+            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner.jpg",
+            "subheading": "UP To 50% Off!",
+            "title": "Shop Our Clearance Sale",
             "text": "",
-            "button_text": "Let's get lit",
-            "link": "shopify:\/\/collections\/candles-votives",
+            "button_text": "Shop Now",
+            "link": "shopify:\/\/collections\/clearance-sale",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
+            "caption-text": "#ffffff",
+            "button-text": "#a00c0e",
+            "button-background": "#ffffff",
             "horizontal-alignment": "center",
-            "vertical-alignment": "top"
+            "vertical-alignment": "middle"
           }
         },
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
@@ -57,25 +57,6 @@
             "caption-text": "#222222",
             "button-text": "#ffffff",
             "button-background": "#333333",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
-          }
-        },
-        "1662705180984bcaa0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner_2_1_-min_842f63dc-7620-47e4-83df-e586da739bbe.png",
-            "subheading": "One for everyone on your list.",
-            "title": "Twelve ways to celebrate",
-            "text": "",
-            "button_text": "Shop Now",
-            "link": "shopify:\/\/collections\/redesign-ornaments",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
-            "button-text": "#ffffff",
-            "button-background": "#057c90",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
@@ -139,37 +120,15 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
-        },
-        "a5fc9827-38a3-40d6-9c7d-88f9015056f4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner.jpg",
-            "subheading": "UP To 50% Off!",
-            "title": "Shop Our Clearance Sale",
-            "text": "",
-            "button_text": "Shop Now",
-            "link": "shopify:\/\/collections\/clearance-sale",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#ffffff",
-            "button-text": "#333333",
-            "button-background": "#ffffff",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "middle"
-          }
         }
       },
       "block_order": [
-        "9beab3a1-e88f-4f6e-ad51-83826e7bb8a5",
+        "a5fc9827-38a3-40d6-9c7d-88f9015056f4",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
-        "1662705180984bcaa0-1",
         "ab19141d-18d8-4ccd-bbf5-10a844980623",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0",
-        "a5fc9827-38a3-40d6-9c7d-88f9015056f4"
+        "1662705180984bcaa0-0"
       ],
       "settings": {
         "slider-animation": "fade",
