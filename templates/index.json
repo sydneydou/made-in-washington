@@ -6,6 +6,7 @@
       "blocks": {
         "a5fc9827-38a3-40d6-9c7d-88f9015056f4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner.jpg",
             "subheading": "UP To 50% Off!",
