@@ -18,7 +18,7 @@
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#BEBEBE",
             "button-text": "#000000",
-            "button-background": "#adadad",
+            "button-background": "#999999",
             "horizontal-alignment": "right",
             "vertical-alignment": "middle"
           }
