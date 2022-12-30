@@ -16,7 +16,7 @@
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#BEBEBE",
+            "caption-text": "#999999",
             "button-text": "#000000",
             "button-background": "#999999",
             "horizontal-alignment": "right",
