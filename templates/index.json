@@ -7,7 +7,7 @@
         "e6e4be3e-45e9-41da-8106-9a461cf0aa44": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner-3.jpg",
+            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner-4.jpg",
             "subheading": "Up To 50% Off",
             "title": "CLEARANCE SALE",
             "text": "",
@@ -15,10 +15,10 @@
             "link": "shopify:\/\/collections\/clearance-sale",
             "cont-width": 65,
             "cap-back": true,
-            "caption-background": "#F3F3F3",
-            "caption-text": "#000",
-            "button-text": "#fff",
-            "button-background": "#000",
+            "caption-background": "#f3f3f3",
+            "caption-text": "#000000",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
             "horizontal-alignment": "center",
             "vertical-alignment": "middle"
           }
