@@ -14,11 +14,11 @@
             "button_text": "SHOP",
             "link": "shopify:\/\/collections\/clearance-sale",
             "cont-width": 65,
-            "cap-back": true,
+            "cap-back": false,
             "caption-background": "#F3F3F3",
             "caption-text": "#222",
-            "button-text": "#222",
-            "button-background": "#ebebeb",
+            "button-text": "#fff",
+            "button-background": "#000",
             "horizontal-alignment": "center",
             "vertical-alignment": "middle"
           }
