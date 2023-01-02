@@ -4,6 +4,25 @@
     "166270518089e3ae56": {
       "type": "image--slideshow",
       "blocks": {
+        "e6e4be3e-45e9-41da-8106-9a461cf0aa44": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner-2.jpg",
+            "subheading": "Up To 50% Off",
+            "title": "CLEARANCE SALE",
+            "text": "",
+            "button_text": "SHOP",
+            "link": "shopify:\/\/collections\/clearance-sale",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "#ffffff",
+            "caption-text": "#ebebeb",
+            "button-text": "#222",
+            "button-background": "#ebebeb",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "middle"
+          }
+        },
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca": {
           "type": "slide",
           "settings": {
@@ -63,6 +82,7 @@
         },
         "ab19141d-18d8-4ccd-bbf5-10a844980623": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DeCicio-Artisan-Glass-2000x900.jpg",
             "subheading": "For your favorite cup of cheer.",
@@ -120,35 +140,16 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
-        },
-        "e6e4be3e-45e9-41da-8106-9a461cf0aa44": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner-2.jpg",
-            "subheading": "Up To 50% Off",
-            "title": "CLEARANCE SALE",
-            "text": "",
-            "button_text": "SHOP",
-            "link": "shopify:\/\/collections\/clearance-sale",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "#ffffff",
-            "caption-text": "#ebebeb",
-            "button-text": "#222",
-            "button-background": "#ebebeb",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "middle"
-          }
         }
       },
       "block_order": [
+        "e6e4be3e-45e9-41da-8106-9a461cf0aa44",
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ab19141d-18d8-4ccd-bbf5-10a844980623",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0",
-        "e6e4be3e-45e9-41da-8106-9a461cf0aa44"
+        "1662705180984bcaa0-0"
       ],
       "settings": {
         "slider-animation": "fade",
