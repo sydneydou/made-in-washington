@@ -128,14 +128,14 @@
             "subheading": "Up To 50% Off",
             "title": "CLEARANCE SALE",
             "text": "",
-            "button_text": "",
-            "link": "",
+            "button_text": "SHOP",
+            "link": "shopify:\/\/collections\/clearance-sale",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "#ffffff",
             "caption-text": "#ebebeb",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
+            "button-text": "#222",
+            "button-background": "#ebebeb",
             "horizontal-alignment": "center",
             "vertical-alignment": "middle"
           }
