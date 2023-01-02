@@ -136,7 +136,7 @@
             "caption-text": "#222",
             "button-text": "#ffffff",
             "button-background": "#000000",
-            "horizontal-alignment": "left",
+            "horizontal-alignment": "center",
             "vertical-alignment": "middle"
           }
         }
