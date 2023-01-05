@@ -140,6 +140,25 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
+        },
+        "370e3c33-984f-4627-a277-b40f44ba8661": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
+            "subheading": "Steep Something Notable",
+            "title": "Fall In Love At First Sip",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "link": "https:\/\/madeinwashington.com\/collections\/tea-hot-chocolate",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#222",
+            "button-text": "#ffffff",
+            "button-background": "#057c8f",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
         }
       },
       "block_order": [
@@ -149,7 +168,8 @@
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ab19141d-18d8-4ccd-bbf5-10a844980623",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0"
+        "1662705180984bcaa0-0",
+        "370e3c33-984f-4627-a277-b40f44ba8661"
       ],
       "settings": {
         "slider-animation": "fade",
