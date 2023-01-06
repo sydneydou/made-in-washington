@@ -140,6 +140,26 @@
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
+        },
+        "f26fefcd-27c9-49d8-be80-0ce418ea6db1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-2000x900.jpg",
+            "subheading": "Add some local pizzazz",
+            "title": "Kitchen Refresh",
+            "text": "",
+            "button_text": "Get Inspired",
+            "link": "",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#000",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "top"
+          }
         }
       },
       "block_order": [
@@ -149,7 +169,8 @@
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
-        "1662705180984bcaa0-0"
+        "1662705180984bcaa0-0",
+        "f26fefcd-27c9-49d8-be80-0ce418ea6db1"
       ],
       "settings": {
         "slider-animation": "fade",
