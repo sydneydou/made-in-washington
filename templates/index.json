@@ -82,42 +82,21 @@
         },
         "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_4_1_-min.png",
-            "subheading": "But really the spa is brought to you, and can last way longer than a day.",
-            "title": "A day at the spa",
+            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-2000x900.jpg",
+            "subheading": "Add Some Local Pizzaz",
+            "title": "Kitchen Refresh",
             "text": "",
-            "button_text": "Get Pampered",
+            "button_text": "Get Inspired",
             "link": "shopify:\/\/collections\/bath-body",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
+            "caption-text": "#333333",
             "button-text": "#ffffff",
             "button-background": "#333333",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
-          }
-        },
-        "ab19141d-18d8-4ccd-bbf5-10a844980623": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DeCicio-Artisan-Glass-2000x900.jpg",
-            "subheading": "For your favorite cup of cheer.",
-            "title": "DeCicio Handblown Glassware",
-            "text": "",
-            "button_text": "Shop Now",
-            "link": "https:\/\/madeinwashington.com\/collections\/blown-fused-glass?filter.v.price.gte=&filter.v.price.lte=&filter.p.vendor=DeCicio+Glass&sort_by=manual",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
-            "button-text": "#ffffff",
-            "button-background": "#333333",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "bottom"
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
           }
         },
         "ed336d50-cb02-4e94-b9ad-a044edc6f793": {
@@ -168,7 +147,6 @@
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "b341bf17-67d9-4c53-8205-b33dbd3fe224",
-        "ab19141d-18d8-4ccd-bbf5-10a844980623",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
         "1662705180984bcaa0-0"
       ],
