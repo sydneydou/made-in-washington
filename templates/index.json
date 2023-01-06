@@ -82,7 +82,6 @@
         },
         "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-2000x900.jpg",
             "subheading": "Add Some Local Pizzaz",
@@ -96,7 +95,7 @@
             "caption-text": "#333333",
             "button-text": "#ffffff",
             "button-background": "#333333",
-            "horizontal-alignment": "left",
+            "horizontal-alignment": "right",
             "vertical-alignment": "middle"
           }
         },
