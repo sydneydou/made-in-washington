@@ -163,11 +163,12 @@
         },
         "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
-            "subheading": "Update The Heart & Soul Of Home",
-            "title": "Kitchen Refresh",
-            "text": "",
+            "subheading": "Kitchen Refresh",
+            "title": "A Fresh New Start",
+            "text": "<p>Update The Heart & Soul Of Home<\/p>",
             "button_text": "Get inspired",
             "link": "",
             "cont-width": 65,
