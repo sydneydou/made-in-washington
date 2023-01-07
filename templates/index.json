@@ -163,6 +163,7 @@
         },
         "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
             "subheading": "Kitchen Refresh",
