@@ -4,21 +4,21 @@
     "166270518089e3ae56": {
       "type": "image--slideshow",
       "blocks": {
-        "370e3c33-984f-4627-a277-b40f44ba8661": {
+        "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
-            "subheading": "Steep Something Notable",
-            "title": "Fall In Love At First Sip",
+            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
+            "subheading": "Kitchen Refresh",
+            "title": "A Fresh New Start",
             "text": "",
-            "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/tea-hot-chocolate",
+            "button_text": "Get inspired",
+            "link": "",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#222222",
             "button-text": "#ffffff",
-            "button-background": "#057c8f",
+            "button-background": "#000000",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
           }
@@ -42,6 +42,25 @@
             "vertical-alignment": "middle"
           }
         },
+        "370e3c33-984f-4627-a277-b40f44ba8661": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
+            "subheading": "Steep Something Notable",
+            "title": "Fall In Love At First Sip",
+            "text": "",
+            "button_text": "SHOP NOW",
+            "link": "https:\/\/madeinwashington.com\/collections\/tea-hot-chocolate",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#222222",
+            "button-text": "#ffffff",
+            "button-background": "#057c8f",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca": {
           "type": "slide",
           "settings": {
@@ -63,6 +82,7 @@
         },
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/El-Fuego-Hot-Sauce-Header-2000x900-v2.jpg",
             "subheading": "Top Shelf Hot Sauces",
@@ -78,26 +98,6 @@
             "button-background": "#057c8f",
             "horizontal-alignment": "center",
             "vertical-alignment": "top"
-          }
-        },
-        "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-a-2000x900.jpg",
-            "subheading": "Add Some Local Pizzaz",
-            "title": "Kitchen Refresh",
-            "text": "",
-            "button_text": "Get Inspired",
-            "link": "shopify:\/\/collections\/all-home-gifts",
-            "cont-width": 65,
-            "cap-back": false,
-            "caption-background": "#ffffff",
-            "caption-text": "#333333",
-            "button-text": "#ffffff",
-            "button-background": "#dda956",
-            "horizontal-alignment": "right",
-            "vertical-alignment": "bottom"
           }
         },
         "ed336d50-cb02-4e94-b9ad-a044edc6f793": {
@@ -161,37 +161,37 @@
             "vertical-alignment": "top"
           }
         },
-        "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
-            "subheading": "Kitchen Refresh",
-            "title": "A Fresh New Start",
+            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-a-2000x900.jpg",
+            "subheading": "Add Some Local Pizzaz",
+            "title": "Kitchen Refresh",
             "text": "",
-            "button_text": "Get inspired",
-            "link": "",
+            "button_text": "Get Inspired",
+            "link": "shopify:\/\/collections\/all-home-gifts",
             "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
+            "cap-back": false,
+            "caption-background": "#ffffff",
+            "caption-text": "#333333",
             "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
+            "button-background": "#dda956",
+            "horizontal-alignment": "right",
+            "vertical-alignment": "bottom"
           }
         }
       },
       "block_order": [
-        "370e3c33-984f-4627-a277-b40f44ba8661",
+        "a129c6ca-a0ef-41a8-882d-cba2a18563c6",
         "e6e4be3e-45e9-41da-8106-9a461cf0aa44",
+        "370e3c33-984f-4627-a277-b40f44ba8661",
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
-        "b341bf17-67d9-4c53-8205-b33dbd3fe224",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
         "1662705180984bcaa0-0",
         "f26fefcd-27c9-49d8-be80-0ce418ea6db1",
-        "a129c6ca-a0ef-41a8-882d-cba2a18563c6"
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224"
       ],
       "settings": {
         "slider-animation": "fade",
