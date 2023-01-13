@@ -27,9 +27,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
-            "subheading": "Steep Something Notable",
-            "title": "Fall In Love At First Sip",
-            "text": "<p><strong>MAKER OF THE MONTH - APOLIS CRAFT TEA<\/strong><\/p>",
+            "subheading": "APOLIS CRAFT TEA",
+            "title": "MAKER OF THE MONTH",
+            "text": "<p>Fall In Love At First Sip, Steep Something Notable<\/p>",
             "button_text": "SHOP NOW",
             "link": "https:\/\/madeinwashington.com\/collections\/tea-hot-chocolate",
             "cont-width": 65,
@@ -180,6 +180,25 @@
             "horizontal-alignment": "right",
             "vertical-alignment": "bottom"
           }
+        },
+        "03a8232c-02bb-43ed-82a2-8149a7a8e560": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
+            "subheading": "L'AVANT Collective",
+            "title": "Start Cleaning Greener",
+            "text": "<p>Plant-Based Clean<\/p>",
+            "button_text": "Try A Greener Choice",
+            "link": "https:\/\/madeinwashington.com\/collections\/lavant-collective#CollectionFiltersForm",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#c2d3c4",
+            "button-text": "#222222",
+            "button-background": "#c2d3c4",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
+          }
         }
       },
       "block_order": [
@@ -191,7 +210,8 @@
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
         "1662705180984bcaa0-0",
         "f26fefcd-27c9-49d8-be80-0ce418ea6db1",
-        "b341bf17-67d9-4c53-8205-b33dbd3fe224"
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224",
+        "03a8232c-02bb-43ed-82a2-8149a7a8e560"
       ],
       "settings": {
         "slider-animation": "fade",
