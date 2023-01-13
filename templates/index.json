@@ -194,7 +194,7 @@
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#dda956",
-            "button-text": "#ffffff",
+            "button-text": "#333333",
             "button-background": "#dda956",
             "horizontal-alignment": "left",
             "vertical-alignment": "middle"
