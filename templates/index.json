@@ -4,23 +4,23 @@
     "166270518089e3ae56": {
       "type": "image--slideshow",
       "blocks": {
-        "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
+        "03a8232c-02bb-43ed-82a2-8149a7a8e560": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
-            "subheading": "Kitchen Refresh",
-            "title": "A Fresh New Start",
-            "text": "",
-            "button_text": "Get inspired",
-            "link": "shopify:\/\/collections\/all-home-gifts",
+            "image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
+            "subheading": "L'AVANT Collective",
+            "title": "Start Cleaning Greener",
+            "text": "<p>Plant-Based Clean<\/p>",
+            "button_text": "Try A Greener Choice",
+            "link": "https:\/\/madeinwashington.com\/collections\/lavant-collective#CollectionFiltersForm",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#222222",
-            "button-text": "#ffffff",
-            "button-background": "#000000",
-            "horizontal-alignment": "center",
-            "vertical-alignment": "top"
+            "caption-text": "#dda956",
+            "button-text": "#333333",
+            "button-background": "#dda956",
+            "horizontal-alignment": "left",
+            "vertical-alignment": "middle"
           }
         },
         "370e3c33-984f-4627-a277-b40f44ba8661": {
@@ -61,8 +61,28 @@
             "vertical-alignment": "middle"
           }
         },
+        "a129c6ca-a0ef-41a8-882d-cba2a18563c6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
+            "subheading": "Kitchen Refresh",
+            "title": "A Fresh New Start",
+            "text": "",
+            "button_text": "Get inspired",
+            "link": "shopify:\/\/collections\/all-home-gifts",
+            "cont-width": 65,
+            "cap-back": true,
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#222222",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
+          }
+        },
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/New-New-Entertaining.jpg",
             "subheading": "With Gourmet Locally Made Treats!",
@@ -180,38 +200,19 @@
             "horizontal-alignment": "right",
             "vertical-alignment": "bottom"
           }
-        },
-        "03a8232c-02bb-43ed-82a2-8149a7a8e560": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
-            "subheading": "L'AVANT Collective",
-            "title": "Start Cleaning Greener",
-            "text": "<p>Plant-Based Clean<\/p>",
-            "button_text": "Try A Greener Choice",
-            "link": "https:\/\/madeinwashington.com\/collections\/lavant-collective#CollectionFiltersForm",
-            "cont-width": 65,
-            "cap-back": true,
-            "caption-background": "rgba(0,0,0,0)",
-            "caption-text": "#dda956",
-            "button-text": "#333333",
-            "button-background": "#dda956",
-            "horizontal-alignment": "left",
-            "vertical-alignment": "middle"
-          }
         }
       },
       "block_order": [
-        "a129c6ca-a0ef-41a8-882d-cba2a18563c6",
+        "03a8232c-02bb-43ed-82a2-8149a7a8e560",
         "370e3c33-984f-4627-a277-b40f44ba8661",
         "e6e4be3e-45e9-41da-8106-9a461cf0aa44",
+        "a129c6ca-a0ef-41a8-882d-cba2a18563c6",
         "5e7e5ffa-9933-4272-a92c-8b22ae83f6ca",
         "f4c93a8b-0a1f-47f9-9991-7b786f5b753d",
         "ed336d50-cb02-4e94-b9ad-a044edc6f793",
         "1662705180984bcaa0-0",
         "f26fefcd-27c9-49d8-be80-0ce418ea6db1",
-        "b341bf17-67d9-4c53-8205-b33dbd3fe224",
-        "03a8232c-02bb-43ed-82a2-8149a7a8e560"
+        "b341bf17-67d9-4c53-8205-b33dbd3fe224"
       ],
       "settings": {
         "slider-animation": "fade",
