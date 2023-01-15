@@ -176,8 +176,8 @@
             "caption-text": "#333333",
             "button-text": "#ffffff",
             "button-background": "#333333",
-            "horizontal-alignment": "right",
-            "vertical-alignment": "middle"
+            "horizontal-alignment": "center",
+            "vertical-alignment": "top"
           }
         },
         "b341bf17-67d9-4c53-8205-b33dbd3fe224": {
