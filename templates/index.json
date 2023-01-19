@@ -65,6 +65,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
             "subheading": "L'AVANT Collective",
             "title": "Start Cleaning Greener",
             "text": "<p>Plant-Based Clean<\/p>",
@@ -74,8 +75,8 @@
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
             "caption-text": "#ffffff",
-            "button-text": "#333333",
-            "button-background": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#4e714e",
             "horizontal-alignment": "left",
             "vertical-alignment": "middle"
           }
