@@ -8,7 +8,7 @@
 {%- assign primary_locale = 'null' -%}
 {%- for locale in shop.published_locales -%}{%- if locale.primary -%}{%- assign primary_locale = locale.iso_code | json -%}{%- endif -%}{%- endfor -%}
 <style>.spf-filter-loading #gf-products > *:not(.spf-product--skeleton), .spf-filter-loading [data-globo-filter-items] > *:not(.spf-product--skeleton){visibility: hidden; opacity: 0}</style>
-<link rel="preconnect" href="https://filter-v7.globosoftware.net" />
+<link rel="preconnect" href="https://filter-v2.globosoftware.net" />
 <script>
   document.getElementsByTagName('html')[0].classList.add('spf-filter-loading');
   window.addEventListener("globoFilterRenderCompleted",function(e){document.getElementsByTagName('html')[0].classList.remove('spf-filter-loading')})
@@ -30,9 +30,9 @@
   var globo_filters_json = {"default":0,"290238955692":14572}
   var GloboFilterConfig = {
     api: {
-      filterUrl: "https://filter-v7.globosoftware.net/filter",
-      searchUrl: "https://filter-v7.globosoftware.net/search",
-      url: "https://filter-v7.globosoftware.net",
+      filterUrl: "https://filter-v2.globosoftware.net/filter",
+      searchUrl: "https://filter-v2.globosoftware.net/search",
+      url: "https://filter-v2.globosoftware.net",
     },
     shop: {
       name: "{{ shop.name | escape }}",
