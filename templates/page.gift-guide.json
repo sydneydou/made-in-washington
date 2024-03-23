@@ -59,7 +59,7 @@
         "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bath-body",
+            "collection": "spa-skincare",
             "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
           }
         }
@@ -111,10 +111,8 @@
       "type": "apps",
       "blocks": {
         "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
