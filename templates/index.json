@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "wrapper": "div.index-sections",
   "sections": {
@@ -243,7 +252,7 @@
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "seafood-gourment-food-chocolate",
+            "collection": "seafood-gourmet-food-chocolate",
             "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
             "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
           }
