@@ -1,24 +1,23 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "template--page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "166357223161cba705": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/header_banner-min.png",
+        "image": "shopify://shop_images/header_banner-min.png",
         "subheading": "Stuff your stocking with Washington pride",
         "title": "local gift guide",
         "text": "",
@@ -41,35 +40,35 @@
           "type": "featured_collection",
           "settings": {
             "collection": "gift-baskets-sets",
-            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
+            "hover": "shopify://shop_images/gift_and_business_hover_1.png"
           }
         },
         "166357351289793237-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "seafood-gourmet-food-chocolate",
-            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
+            "collection": "smoked-salmon-gourmet-food-chocolate",
+            "hover": "shopify://shop_images/gourmet_foods_hover_2.png"
           }
         },
         "166357351289793237-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-beverages",
-            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
+            "hover": "shopify://shop_images/beverages_hover_1.png"
           }
         },
         "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
           "type": "featured_collection",
           "settings": {
             "collection": "all-home-gifts",
-            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
+            "hover": "shopify://shop_images/home_and_gifts_hover_1.png"
           }
         },
         "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
           "type": "featured_collection",
           "settings": {
             "collection": "spa-skincare",
-            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
+            "hover": "shopify://shop_images/bath_and_body_hover_1.png"
           }
         }
       },
@@ -88,7 +87,7 @@
     "1664778935c5ae759d": {
       "type": "image--image-with-text-block",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+        "background_image": "shopify://shop_images/design_your_own_box_banner-min.png",
         "text-color": "#ffffff",
         "background-color": "#357b8e",
         "horizontal-alignment": "center",
@@ -96,7 +95,7 @@
         "title": "design your own box",
         "font-size": "large",
         "text": "",
-        "button_link": "shopify:\/\/pages\/design-your-own-gift-basket",
+        "button_link": "shopify://pages/design-your-own-gift-basket",
         "button_label": "Start Here",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
@@ -106,7 +105,7 @@
     "1663573610743b54a4": {
       "type": "image--image-with-newsletter",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "background_image": "shopify://shop_images/newsletter_sign_up-min.png",
         "credit": "Waptus Lake, Washington Photo Credit: Becca Harpain, Unsplash",
         "text-color": "#000000",
         "background-color": "#ffffff",
@@ -120,7 +119,7 @@
       "type": "apps",
       "blocks": {
         "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "html_area": ""
           }

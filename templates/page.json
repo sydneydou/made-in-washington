@@ -1,29 +1,28 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "template--page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "166357223161cba705": {
       "type": "image--image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/makers_banner-new.png",
-        "mob-image": "shopify:\/\/shop_images\/mobile_makers_banner-min.png",
+        "image": "shopify://shop_images/makers_banner-new.png",
+        "mob-image": "shopify://shop_images/mobile_makers_banner-min.png",
         "subheading": "",
         "title": "MEET OUR MAKERS",
         "main-heading": false,
-        "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. <\/p>",
+        "text": "<p>Our makers’ stories bring their products to life. We showcase regional designers, crafters, artists, small businesses, and entrepreneurs who are building their dreams in Washington State. </p>",
         "text-color": "#000000",
         "font-size": "large",
         "parallax": false,
@@ -46,11 +45,11 @@
         "marg-bot": 0,
         "img_width": 95,
         "img_width_mobile": 90,
-        "image": "shopify:\/\/shop_images\/makers_map-min.png",
+        "image": "shopify://shop_images/makers_map-min.png",
         "layout": "bottom",
         "heading-font": "default",
         "title": "our makers",
-        "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. <\/p>",
+        "text_block": "<p>Smoked salmon. Coffee beans. Hand-warmer mugs. Every maker who partners with Made In Washington has a story that shines through their products. We are committed to helping them tell it. </p>",
         "button_link": "",
         "button_label": "",
         "btn-text-color": "#000000",
@@ -65,7 +64,7 @@
       "settings": {
         "text-color": "#ffffff",
         "background-color": "#3a271d",
-        "image": "shopify:\/\/shop_images\/makers_background-min.png",
+        "image": "shopify://shop_images/makers_background-min.png",
         "subheading": "",
         "title": "Browse our makers",
         "blog": "maker",
@@ -433,7 +432,7 @@
       "settings": {
         "text-color": "#ffffff",
         "background-color": "#38291d",
-        "image": "shopify:\/\/shop_images\/makers_background-min.png",
+        "image": "shopify://shop_images/makers_background-min.png",
         "subheading": "",
         "title": "browse our makers"
       }
@@ -445,40 +444,40 @@
           "type": "featured_collection",
           "settings": {
             "collection": "gift-baskets-sets",
-            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png",
-            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
+            "reg": "shopify://shop_images/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png",
+            "hover": "shopify://shop_images/gift_and_business_hover_1.png"
           }
         },
         "166357351289793237-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "seafood-gourmet-food-chocolate",
-            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png",
-            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
+            "collection": "smoked-salmon-gourmet-food-chocolate",
+            "reg": "shopify://shop_images/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png",
+            "hover": "shopify://shop_images/gourmet_foods_hover_2.png"
           }
         },
         "166357351289793237-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-beverages",
-            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png",
-            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
+            "reg": "shopify://shop_images/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png",
+            "hover": "shopify://shop_images/beverages_hover_1.png"
           }
         },
         "be128fe2-223b-4c65-8bd2-5dfc9b7994a1": {
           "type": "featured_collection",
           "settings": {
             "collection": "all-home-gifts",
-            "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min_01bd8410-64f8-477e-bdbf-fa30921b864e.png",
-            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
+            "reg": "shopify://shop_images/Home_and_Gifts_1_-min_01bd8410-64f8-477e-bdbf-fa30921b864e.png",
+            "hover": "shopify://shop_images/home_and_gifts_hover_1.png"
           }
         },
         "27fa98cc-0ec1-4c1c-acaa-b2c4ab41b40b": {
           "type": "featured_collection",
           "settings": {
             "collection": "spa-skincare",
-            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min_a093663f-e108-4d05-9a6b-26cb16d2462a.png",
-            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
+            "reg": "shopify://shop_images/Bath_and_Body_1_-min_a093663f-e108-4d05-9a6b-26cb16d2462a.png",
+            "hover": "shopify://shop_images/bath_and_body_hover_1.png"
           }
         }
       },
@@ -497,8 +496,8 @@
     "166357353859bf306f": {
       "type": "image--image-with-text-block",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/MIW_Digital-61.jpg",
-        "mob-image": "shopify:\/\/shop_images\/MIW_Digital-61.jpg",
+        "background_image": "shopify://shop_images/MIW_Digital-61.jpg",
+        "mob-image": "shopify://shop_images/MIW_Digital-61.jpg",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
@@ -506,7 +505,7 @@
         "title": "Maker of the month",
         "font-size": "small",
         "text": "",
-        "button_link": "https:\/\/madeinwashington.com\/collections\/apolis-craft-tea",
+        "button_link": "https://madeinwashington.com/collections/apolis-craft-tea",
         "button_label": "Meet the maker",
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
@@ -518,7 +517,7 @@
     "1663734254b6665bd3": {
       "type": "text--image-column",
       "settings": {
-        "mtn": "shopify:\/\/shop_images\/blue_background-min.png",
+        "mtn": "shopify://shop_images/blue_background-min.png",
         "background-color": "#057c90",
         "text-color": "#ffffff",
         "image-width": "extra-small",
@@ -526,12 +525,12 @@
         "marg-bot": 0,
         "img_width": 90,
         "img_width_mobile": 30,
-        "image": "shopify:\/\/shop_images\/WA_state_outline-min.png",
+        "image": "shopify://shop_images/WA_state_outline-min.png",
         "layout": "top",
         "heading-font": "default",
         "title": "Partner with us",
-        "text_block": "<p>Do you sing Washington’s praises from the mountain tops? Do you make products that showcase your local pride? We want to know you! <br\/><br\/>We’re always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <br\/><\/p>",
-        "button_link": "shopify:\/\/pages\/maker-application",
+        "text_block": "<p>Do you sing Washington’s praises from the mountain tops? Do you make products that showcase your local pride? We want to know you! <br/><br/>We’re always looking for great partners whose wares we can match with our Washington-loving customers. Fill out our maker application, and we’ll reach out if we think we’re a fit. <br/></p>",
+        "button_link": "shopify://pages/maker-application",
         "button_label": "Apply here",
         "btn-text-color": "#000000",
         "btn-background-color": "#ffffff",
@@ -543,7 +542,7 @@
     "1663573610743b54a4": {
       "type": "image--image-with-newsletter",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "background_image": "shopify://shop_images/newsletter_sign_up-min.png",
         "credit": "Waptus Lake, Washington",
         "credit-below": "Photo Credit: Becca Harpain, Unsplash",
         "text-color": "#000000",
@@ -558,7 +557,7 @@
       "type": "apps",
       "blocks": {
         "e0cfdd31-9a8c-4cb9-891a-a78aec8a6ed7": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "html_area": ""
           }

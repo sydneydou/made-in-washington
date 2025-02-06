@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "404",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "c3ec9b95-1c6d-46fa-aa32-37dea42d023d": {
       "type": "collection--collection-slider",
@@ -34,21 +33,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "gift-baskets-sets",
-            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png"
+            "reg": "shopify://shop_images/Gift_Baskets_and_Business_Gifts_1_-min_8ac0f6ed-d1c4-439d-9ebd-a116ec3947b7.png"
           }
         },
         "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "seafood-gourmet-food-chocolate",
-            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png"
+            "collection": "smoked-salmon-gourmet-food-chocolate",
+            "reg": "shopify://shop_images/Seafood_Chocolate_and_Gourmet_Food_1_-min_d5546185-9fd2-4fb0-aee9-89ddfafe9011.png"
           }
         },
         "template--15844122689708__044ea660-bf59-4a84-9865-d9d4e955a36d-1666381944f5e1cd2b-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-beverages",
-            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png"
+            "reg": "shopify://shop_images/Coffee_and_Beverages_1_-min_47a01439-8ed7-4895-a328-1abefb89c749.png"
           }
         },
         "5bb74e1e-3c0e-43a3-8c4d-d5a41a43b423": {
@@ -61,7 +60,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "spa-skincare",
-            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min.png"
+            "reg": "shopify://shop_images/Bath_and_Body_1_-min.png"
           }
         }
       },

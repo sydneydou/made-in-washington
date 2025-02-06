@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.index-sections",
   "sections": {
@@ -16,12 +16,12 @@
         "f26fefcd-27c9-49d8-be80-0ce418ea6db1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Renew-Your-Home-v3-2000x900.jpg",
+            "image": "shopify://shop_images/Renew-Your-Home-v3-2000x900.jpg",
             "subheading": "It's A Great Time For A Fresh Start",
             "title": "Renew Your Home",
             "text": "",
             "button_text": "Shop Now",
-            "link": "shopify:\/\/collections\/renew-your-home",
+            "link": "shopify://collections/renew-your-home",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -35,12 +35,12 @@
         "370e3c33-984f-4627-a277-b40f44ba8661": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
+            "image": "shopify://shop_images/Apolis-Tea-Rotator-2000x900_926cf394-1589-4ed3-9408-1f008766de7d.jpg",
             "subheading": "APOLIS CRAFT TEA",
             "title": "MAKER OF THE MONTH",
-            "text": "<p>Fall In Love At First Sip, Steep Something Notable<\/p>",
+            "text": "<p>Fall In Love At First Sip, Steep Something Notable</p>",
             "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/tea-hot-chocolate",
+            "link": "https://madeinwashington.com/collections/tea-hot-chocolate",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -54,12 +54,12 @@
         "e6e4be3e-45e9-41da-8106-9a461cf0aa44": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shop-Our-Clearance-Sale-Red-Banner-4.jpg",
+            "image": "shopify://shop_images/Shop-Our-Clearance-Sale-Red-Banner-4.jpg",
             "subheading": "Up To 50% Off",
             "title": "CLEARANCE SALE",
             "text": "",
             "button_text": "SHOP NOW",
-            "link": "shopify:\/\/collections\/clearance-sale",
+            "link": "shopify://collections/clearance-sale",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "#f3f3f3",
@@ -73,13 +73,13 @@
         "03a8232c-02bb-43ed-82a2-8149a7a8e560": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/LAVANT-Collective-Rotator-2000x900.jpg",
+            "image": "shopify://shop_images/LAVANT-Collective-Rotator-2000x900.jpg",
+            "mobile_image": "shopify://shop_images/LAVANT-Collective-Rotator-2000x900.jpg",
             "subheading": "L'AVANT Collective",
             "title": "Start Cleaning Greener",
-            "text": "<p>Plant-Based Clean<\/p>",
+            "text": "<p>Plant-Based Clean</p>",
             "button_text": "Try A Greener Choice",
-            "link": "https:\/\/madeinwashington.com\/collections\/lavant-collective#CollectionFiltersForm",
+            "link": "https://madeinwashington.com/collections/lavant-collective#CollectionFiltersForm",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -94,12 +94,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
+            "image": "shopify://shop_images/Kitchen-Refresh-Rotstor-b-2000x900.jpg",
             "subheading": "Kitchen Refresh",
             "title": "A Fresh New Start",
             "text": "",
             "button_text": "Get inspired",
-            "link": "shopify:\/\/collections\/all-home-gifts",
+            "link": "shopify://collections/all-home-gifts",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -114,12 +114,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/New-New-Entertaining.jpg",
+            "image": "shopify://shop_images/New-New-Entertaining.jpg",
             "subheading": "With Gourmet Locally Made Treats!",
             "title": "Prep Your Charcuterie Spread",
             "text": "",
             "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/seafood-gourment-food-chocolate",
+            "link": "https://madeinwashington.com/collections/seafood-gourment-food-chocolate",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -134,12 +134,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/El-Fuego-Hot-Sauce-Header-2000x900-v2.jpg",
+            "image": "shopify://shop_images/El-Fuego-Hot-Sauce-Header-2000x900-v2.jpg",
             "subheading": "Top Shelf Hot Sauces",
             "title": "It's getting hot in here",
-            "text": "<p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
+            "text": "<p></p><p></p><p></p><p></p><p></p>",
             "button_text": "SHOP NOW",
-            "link": "https:\/\/madeinwashington.com\/collections\/hot-sauce-mustard-dip",
+            "link": "https://madeinwashington.com/collections/hot-sauce-mustard-dip",
             "cont-width": 65,
             "cap-back": true,
             "caption-background": "rgba(0,0,0,0)",
@@ -154,8 +154,8 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/best_northwest_gift_shop_banner_9f18bfc9-1f0d-4d14-8bed-4fd433224bb0.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/mobile_award_banner.jpg",
+            "image": "shopify://shop_images/best_northwest_gift_shop_banner_9f18bfc9-1f0d-4d14-8bed-4fd433224bb0.jpg",
+            "mobile_image": "shopify://shop_images/mobile_award_banner.jpg",
             "subheading": "Thank you for voting for us!",
             "title": "Voted Best Northwest Gift Store",
             "text": "",
@@ -175,7 +175,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_1-min.png",
+            "image": "shopify://shop_images/banner_1-min.png",
             "subheading": "Designed. Crafted. Made. Local.",
             "title": "Discover the best of Washington State, all in one place",
             "text": "",
@@ -245,40 +245,40 @@
           "type": "featured_collection",
           "settings": {
             "collection": "gift-baskets-sets",
-            "reg": "shopify:\/\/shop_images\/Gift_Baskets_and_Business_Gifts_1_-min.png",
-            "hover": "shopify:\/\/shop_images\/gift_and_business_hover_1.png"
+            "reg": "shopify://shop_images/Gift_Baskets_and_Business_Gifts_1_-min.png",
+            "hover": "shopify://shop_images/gift_and_business_hover_1.png"
           }
         },
         "collection-list-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "seafood-gourmet-food-chocolate",
-            "reg": "shopify:\/\/shop_images\/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
-            "hover": "shopify:\/\/shop_images\/gourmet_foods_hover_2.png"
+            "collection": "smoked-salmon-gourmet-food-chocolate",
+            "reg": "shopify://shop_images/Seafood_Chocolate_and_Gourmet_Food_1_-min.png",
+            "hover": "shopify://shop_images/gourmet_foods_hover_2.png"
           }
         },
         "collection-list-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-beverages",
-            "reg": "shopify:\/\/shop_images\/Coffee_and_Beverages_1_-min.png",
-            "hover": "shopify:\/\/shop_images\/beverages_hover_1.png"
+            "reg": "shopify://shop_images/Coffee_and_Beverages_1_-min.png",
+            "hover": "shopify://shop_images/beverages_hover_1.png"
           }
         },
         "d7755ba4-ea65-4a06-8be1-642c53b7523a": {
           "type": "featured_collection",
           "settings": {
             "collection": "all-home-gifts",
-            "reg": "shopify:\/\/shop_images\/Home_and_Gifts_1_-min.png",
-            "hover": "shopify:\/\/shop_images\/home_and_gifts_hover_1.png"
+            "reg": "shopify://shop_images/Home_and_Gifts_1_-min.png",
+            "hover": "shopify://shop_images/home_and_gifts_hover_1.png"
           }
         },
         "b2d56e17-8361-46a0-b9fc-73dfa1d35e7c": {
           "type": "featured_collection",
           "settings": {
             "collection": "spa-skincare",
-            "reg": "shopify:\/\/shop_images\/Bath_and_Body_1_-min.png",
-            "hover": "shopify:\/\/shop_images\/bath_and_body_hover_1.png"
+            "reg": "shopify://shop_images/Bath_and_Body_1_-min.png",
+            "hover": "shopify://shop_images/bath_and_body_hover_1.png"
           }
         },
         "109d854f-e162-4b40-b595-a993a90a399e": {
@@ -305,7 +305,7 @@
     "image-image-with-text-block": {
       "type": "image--image-with-text-block",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/design_your_own_box_banner-min.png",
+        "background_image": "shopify://shop_images/design_your_own_box_banner-min.png",
         "text-color": "#ffffff",
         "background-color": "#357b8e",
         "horizontal-alignment": "center",
@@ -313,7 +313,7 @@
         "title": "Design Your Own Box",
         "font-size": "large",
         "text": "",
-        "button_link": "https:\/\/madeinwashington.com\/apps\/builder?b=N0D9uVNZ3e9Jz343jPQvDqdN",
+        "button_link": "https://madeinwashington.com/apps/builder?b=N0D9uVNZ3e9Jz343jPQvDqdN",
         "button_label": "Start Here",
         "btn-color": "#000000",
         "btn-background-color": "#ffffff",
@@ -326,15 +326,15 @@
       "type": "text--image-with-text",
       "settings": {
         "image-width": "extra-large",
-        "image": "shopify:\/\/shop_images\/MIW-Group-3_1_-min.png",
-        "image-logo": "shopify:\/\/shop_images\/tree_icon_1.png",
+        "image": "shopify://shop_images/MIW-Group-3_1_-min.png",
+        "image-logo": "shopify://shop_images/tree_icon_1.png",
         "layout": "right",
         "subheading": "",
         "title": "Who we are",
-        "text_block": "<p>At Made In Washington, we connect makers with customers and people with products to spark moments of joy. Our products celebrate the communities we serve: urban to rural, across generations and backgrounds—they’re all proudly Made In Washington.<\/p>",
+        "text_block": "<p>At Made In Washington, we connect makers with customers and people with products to spark moments of joy. Our products celebrate the communities we serve: urban to rural, across generations and backgrounds—they’re all proudly Made In Washington.</p>",
         "subheading-two": "",
         "title-two": "What we offer",
-        "text_block-two": "<p>At Made In Washington, you’ll find gifts for yourself and gifts for the people you care about most. Whether you’re set on a charcuterie box, the most Seattle of coffees and teas, or supporting an up-and-coming artist, you’ll find something perfectly and uniquely Washington here.<\/p>",
+        "text_block-two": "<p>At Made In Washington, you’ll find gifts for yourself and gifts for the people you care about most. Whether you’re set on a charcuterie box, the most Seattle of coffees and teas, or supporting an up-and-coming artist, you’ll find something perfectly and uniquely Washington here.</p>",
         "button_link": "",
         "button_label": "",
         "bottom-padding": 11
@@ -343,7 +343,7 @@
     "166271019590518e08": {
       "type": "image--image-with-text-block",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/makers_banner-min.png",
+        "background_image": "shopify://shop_images/makers_banner-min.png",
         "text-color": "#000000",
         "background-color": "#ffffff",
         "horizontal-alignment": "center",
@@ -351,7 +351,7 @@
         "title": "Meet our makers",
         "font-size": "small",
         "text": "",
-        "button_link": "shopify:\/\/pages\/makers",
+        "button_link": "shopify://pages/makers",
         "button_label": "Read their stories",
         "btn-color": "#ffffff",
         "btn-background-color": "#d09951",
@@ -366,7 +366,7 @@
         "image--logo-list-0": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Inspiring_Discovery-min.png",
+            "image": "shopify://shop_images/Inspiring_Discovery-min.png",
             "link": "",
             "logo-title": "Inspiring Discovery",
             "logo-body": "By curating the best local partners and products, we’re a go-to source for both new and forever favorites."
@@ -375,7 +375,7 @@
         "image--logo-list-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Community_Connections-min.png",
+            "image": "shopify://shop_images/Community_Connections-min.png",
             "link": "",
             "logo-title": "Community Connections",
             "logo-body": "Deep-rooted relationships with our customers, employees, partners, and local communities are at our core."
@@ -384,7 +384,7 @@
         "image--logo-list-2": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Local_Pride-min.png",
+            "image": "shopify://shop_images/Local_Pride-min.png",
             "link": "",
             "logo-title": "Local Pride",
             "logo-body": "We want everyone to experience the variety and uniqueness Washington State offers."
@@ -400,7 +400,7 @@
         "width": 110,
         "subheading": "",
         "title": "What we value",
-        "button_link": "shopify:\/\/pages\/about",
+        "button_link": "shopify://pages/about",
         "button_label": "Read our story",
         "btn-color": "#ffffff",
         "btn-background-color": "#3a271d",
@@ -423,7 +423,7 @@
         "5409a50b-8685-408c-8919-b954cf2de8fb"
       ],
       "settings": {
-        "mtn": "shopify:\/\/shop_images\/blog_preview_background-min.png",
+        "mtn": "shopify://shop_images/blog_preview_background-min.png",
         "subheading": "",
         "title": "On the blog",
         "text-color": "#ffffff",
@@ -437,14 +437,14 @@
     "16635711307b17662c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events<\/h2><p>Check out our store pop-ups, tastings, and maker meet and greets!<\/p><\/div>\n\n<script src=\"https:\/\/www.theshopcalendar.com\/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"><\/div>",
+        "custom_liquid": "<div class=\"event-title title-bar\" style='text-align:center;'><h2 class=\"wow animated\">Upcoming Events</h2><p>Check out our store pop-ups, tastings, and maker meet and greets!</p></div>\n\n<script src=\"https://www.theshopcalendar.com/widget.js\" class=\"calendar-widget\" data-calendar-uuid=\"a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"></script>\n<div id=\"theshopcalendar-widget-a0fdae00-3bc1-4dd4-961c-3b2a3d3eca0b\"></div>",
         "id": ""
       }
     },
     "166322339220be3565": {
       "type": "image--image-with-newsletter",
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/newsletter_sign_up-min.png",
+        "background_image": "shopify://shop_images/newsletter_sign_up-min.png",
         "credit": "Waptus Lake, Washington",
         "credit-below": "Photo Credit: Becca Harpain, Unsplash",
         "text-color": "#000000",
@@ -459,7 +459,7 @@
       "type": "apps",
       "blocks": {
         "bfd069b0-8932-4276-b62d-e53b67b93f8b": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "html_area": ""
           }
