@@ -55,7 +55,7 @@
 
 					</section>
 
-					{% render 'social-sharing' with settings: section.settings %}
+					{% render 'social-sharing' with settings, settings: section.settings %}
 
 					{% if blog.previous_article or blog.next_article %}
 						<div id="paginate">
@@ -301,3 +301,13 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'social-sharing' with settings: section.settings %}"
+  to: "{% render 'social-sharing' with settings, settings: section.settings %}"
+  position: 1818..1889
+{% endcomment %}

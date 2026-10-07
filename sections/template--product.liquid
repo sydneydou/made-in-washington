@@ -373,7 +373,7 @@
 
                   {% when 'social-sharing' %}
 
-                    {% render 'social-sharing' with settings: block.settings, block_attributes: block.shopify_attributes %}
+                    {% render 'social-sharing' with settings, settings: block.settings, block_attributes: block.shopify_attributes %}
 
                   {% when 'local-pickup' %}
 
@@ -389,7 +389,7 @@
 
                   {% when 'cross-sells' %}
 
-                    <div {{ block.shopify_attributes }}>{% render 'cross-sells' with block_settings: block.settings %}</div>
+                    <div {{ block.shopify_attributes }}>{% render 'cross-sells' with block_settings, block_settings: block.settings %}</div>
 
                 {% when 'image-offer' %}
 
@@ -1331,4 +1331,19 @@
 
     ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'social-sharing' with settings: block.settings, block_attributes:
+    block.shopify_attributes %}"
+  to: "{% render 'social-sharing' with settings, settings: block.settings, block_attributes:
+    block.shopify_attributes %}"
+  position: 18937..19050
+- from: "{% render 'cross-sells' with block_settings: block.settings %}"
+  to: "{% render 'cross-sells' with block_settings, block_settings: block.settings
+    %}"
+  position: 19620..19698
+{%- endcomment -%}

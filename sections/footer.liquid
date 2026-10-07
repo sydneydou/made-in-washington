@@ -176,7 +176,7 @@
 			<div class="footer-bottom__row">
                 <div>
                     <div class="footer-bottom__localization-forms {% unless section.settings.show_methods_of_payment %} payment-methods-disabled{% endunless %}">
-                        {% render 'localization-form' with show_currency_selector: section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector %}
+                        {% render 'localization-form' with show_currency_selector, show_currency_selector: section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector %}
                     </div>
 
                     {% if section.settings.show_methods_of_payment %}
@@ -661,3 +661,16 @@
       }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'localization-form' with show_currency_selector: section.settings.show_currency_selector,
+    show_locale_selector: section.settings.show_locale_selector %}"
+  to: "{% render 'localization-form' with show_currency_selector, show_currency_selector:
+    section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector
+    %}"
+  position: 9900..10086
+{% endcomment %}

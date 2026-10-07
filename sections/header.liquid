@@ -285,7 +285,7 @@
 
 
 {% capture locale %}
-  {% render 'localization-form' with show_currency_selector: section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector %}
+  {% render 'localization-form' with show_currency_selector, show_currency_selector: section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector %}
 {% endcapture %}
 
 {% capture locale_alternative %}
@@ -558,7 +558,7 @@
           {% else %}
             {% if expanded_search_display == 'top' %}
               {% assign class = 'search-expanded--top-links' %}
-              {% render 'search-bar' with section: section, class: class %}
+              {% render 'search-bar' with section, section: section, class: class %}
             {% endif %}
           {% endif %}
         </div>
@@ -570,7 +570,7 @@
   </header>
 
   {% if section.settings.search-expand == false %}
-    {% render 'search-bar' with section: section %}
+    {% render 'search-bar' with section, section: section %}
   {% endif %}
 
   </div>
@@ -588,7 +588,7 @@
     </div>
 
     {% if expanded_search_display == 'bottom' %}
-      {% render 'search-bar' with section: section %}
+      {% render 'search-bar' with section, section: section %}
     {% endif %}
 
   </div>
@@ -1244,3 +1244,25 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'localization-form' with show_currency_selector: section.settings.show_currency_selector,
+    show_locale_selector: section.settings.show_locale_selector %}"
+  to: "{% render 'localization-form' with show_currency_selector, show_currency_selector:
+    section.settings.show_currency_selector, show_locale_selector: section.settings.show_locale_selector
+    %}"
+  position: 12730..12916
+- from: "{% render 'search-bar' with section: section, class: class %}"
+  to: "{% render 'search-bar' with section, section: section, class: class %}"
+  position: 26790..26860
+- from: "{% render 'search-bar' with section: section %}"
+  to: "{% render 'search-bar' with section, section: section %}"
+  position: 27016..27072
+- from: "{% render 'search-bar' with section: section %}"
+  to: "{% render 'search-bar' with section, section: section %}"
+  position: 27861..27917
+{% endcomment %}

@@ -86,7 +86,7 @@
                     <div class="text-advert-section__icon-wrapper text-adverts__icon-size--large">
                         {% assign icon = block.settings.icon %}
                         {% assign iconColor = block.settings.icon-color %}
-                        {% render 'icons', icon: icon, iconColor:  %}
+                        {% render 'icons', icon: icon %}
                     </div>
                 {% endif %}
 
@@ -619,3 +619,13 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'icons', icon: icon, iconColor:  %}"
+  to: "{% render 'icons', icon: icon %}"
+  position: 3327..3359
+{% endcomment %}

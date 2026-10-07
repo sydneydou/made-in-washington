@@ -40,7 +40,7 @@
                 {% assign all_tags = product.tags | join: ',' %}
 
                 {% if all_tags contains 'out of stock' %}
-                  {% assign product.available = false %}
+                  {% assign renamed_variable_product_2e_available = false %}
                 {% endif %}
                 
                     <div class="grid__item {{ grid_item_width }} indiv-product-wrapper collection-image-anim wow 
@@ -127,3 +127,13 @@
     ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% assign product.available = false %}"
+  to: "{% assign renamed_variable_product_2e_available = false %}"
+  position: 2018..2076
+{% endcomment %}
